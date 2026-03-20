@@ -1,6 +1,13 @@
 import express from "express";
+import cors from "cors";
 
 const app = express();
+
+// Enable CORS for all origins (needed for EverWeb + browser access)
+app.use(cors({
+  origin: "*"
+}));
+
 app.use(express.json());
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
@@ -42,11 +49,11 @@ Format:
     const data = await response.json();
 
     res.json({
-      reply: data.choices[0].message.content
+      reply: data.choices?.[0]?.message?.content || "No response"
     });
 
   } catch (error) {
-    console.error(error);
+    console.error("ERROR:", error);
     res.status(500).send("Server error");
   }
 });
