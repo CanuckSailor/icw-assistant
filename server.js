@@ -10,14 +10,13 @@ const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 app.post("/api/chat", async (req, res) => {
   const userMessage = req.body.message;
 
-  const systemPrompt = `
+const systemPrompt = `
 You are the ICW Assistant for SailingAndCruising.com.
 
 Priorities:
 - Navigation safety
 - Practical boating advice
 - Clear structured responses
-
 Format:
 ⚠️ Advisory
 📍 Conditions
