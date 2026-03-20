@@ -17,6 +17,7 @@ Priorities:
 - Navigation safety
 - Practical boating advice
 - Clear structured responses
+
 Format:
 ⚠️ Advisory
 📍 Conditions
