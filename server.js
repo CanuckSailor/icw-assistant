@@ -1,4 +1,3 @@
-```javascript
 import express from "express";
 
 const app = express();
@@ -9,7 +8,7 @@ const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 app.post("/api/chat", async (req, res) => {
   const userMessage = req.body.message;
 
-const systemPrompt = `
+  const systemPrompt = `
 You are the ICW Assistant for SailingAndCruising.com.
 
 Priorities:
@@ -47,6 +46,7 @@ Format:
     });
 
   } catch (error) {
+    console.error(error);
     res.status(500).send("Server error");
   }
 });
