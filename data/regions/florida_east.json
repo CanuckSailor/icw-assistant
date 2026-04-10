@@ -11,14 +11,14 @@
     },
     "status": {
       "active": true,
-      "last_curated": "2026-04-07",
+      "last_curated": "2026-04-10",
       "confidence": 0.91
     },
     "source": {
       "type": "curated_core",
-      "name": "St. Augustine Municipal Marina / Waterway Guide",
-      "source_url": "https://www.waterwayguide.com/marina/st-augustine-municipal-marina",
-      "source_date": "2026-04-07"
+      "name": "City of St. Augustine Municipal Marina",
+      "source_url": "https://www.citystaug.com/338/Rates",
+      "source_date": "2026-04-10"
     },
     "depth": {
       "approach_ft_mlw": 20.0,
@@ -41,14 +41,14 @@
     "pricing": {
       "currency": "USD",
       "standard": {
-        "dockage_rate": null,
-        "rate_basis": "daily transient dockage available; official rate sheet uses vessel size tiers",
-        "electric_rate": null,
-        "electric_rate_basis": null,
-        "water_rate": null,
-        "water_rate_basis": null,
-        "pumpout_rate": 5,
-        "notes": "Hourly dockage is available at $5 per hour up to 4 hours when space is available; dinghy dockage permits are $15/day."
+        "dockage_rate": 2.5,
+        "rate_basis": "per ft per day transient dockage (20 ft minimum)",
+        "electric_rate": 7.0,
+        "electric_rate_basis": "30A transient electric per day, per cord",
+        "water_rate": 5.0,
+        "water_rate_basis": "flat fill-up charge",
+        "pumpout_rate": 5.0,
+        "notes": "Official city rates also show monthly transient dockage at $20/ft for up to 29 ft, $25/ft for 30-49 ft, $30/ft for 50-99 ft, $37.50/ft for 100-149 ft, and $42.50/ft for 150-200 ft. Transient electric is $7/day for 30A, $12/day for 50A, and $40/day for 100A. Hourly dockage is $5/hr up to 4 hours when space is available; dinghy dockage permits are $15/day."
       },
       "special_offers": []
     },
@@ -97,6 +97,12 @@
     ],
     "expert_notes": {
       "plain": "This is the downtown convenience play, not the cheapest play. Strong overall stop if you want services, dinghy access, and immediate access to town."
+    },
+    "contact": {
+      "phone": "+1 (904) 825-1026",
+      "email": "marina@citystaug.com",
+      "website": "https://www.citystaug.com/1130/Municipal-Marina",
+      "vhf": "16/71"
     }
   },
   {
@@ -310,14 +316,14 @@
     },
     "status": {
       "active": true,
-      "last_curated": "2026-04-07",
+      "last_curated": "2026-04-10",
       "confidence": 0.88
     },
     "source": {
       "type": "curated_core",
-      "name": "Camachee Cove Yacht Harbor / Waterway Guide",
-      "source_url": "https://www.waterwayguide.com/marina/windward-at-camachee-cove-yacht-harbor",
-      "source_date": "2026-04-07"
+      "name": "Camachee Cove Yacht Harbor official site",
+      "source_url": "https://camacheeisland.com/",
+      "source_date": "2026-04-10"
     },
     "depth": {
       "approach_ft_mlw": 6.0,
@@ -328,13 +334,14 @@
       "transient_slips": true,
       "overnight_allowed": true,
       "fuel": true,
-      "pumpout": null,
-      "water": null,
-      "shore_power": null,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
       "restrooms": true,
       "showers": true,
-      "laundry": null,
-      "repairs": true
+      "laundry": true,
+      "repairs": true,
+      "wifi": true
     },
     "pricing": {
       "currency": "USD",
@@ -346,7 +353,7 @@
         "water_rate": null,
         "water_rate_basis": null,
         "pumpout_rate": null,
-        "notes": "Transient slips available; verify current rates directly."
+        "notes": "Official site confirms transient, seasonal, and long-term slips, but does not publish a public rate card online. Check Dockwa or call directly for current transient pricing."
       },
       "special_offers": []
     },
@@ -395,6 +402,12 @@
     ],
     "expert_notes": {
       "plain": "This is the protected, calmer St. Augustine marina option rather than the budget option."
+    },
+    "contact": {
+      "phone": "+1 (904) 829-5676",
+      "email": "CCYHoffice@mywindward.com",
+      "website": "https://camacheeisland.com/",
+      "vhf": "68"
     }
   },
   {
@@ -409,14 +422,14 @@
     },
     "status": {
       "active": true,
-      "last_curated": "2026-04-07",
+      "last_curated": "2026-04-10",
       "confidence": 0.86
     },
     "source": {
       "type": "curated_core",
-      "name": "English Landing Marina",
-      "source_url": "https://englishlandingmarina.com/",
-      "source_date": "2026-04-07"
+      "name": "English Landing Marina official site",
+      "source_url": "https://englishlandingmarina.com/slip-fees/",
+      "source_date": "2026-04-10"
     },
     "depth": {
       "approach_ft_mlw": null,
@@ -426,26 +439,27 @@
     "access": {
       "transient_slips": true,
       "overnight_allowed": true,
-      "fuel": null,
-      "pumpout": null,
-      "water": null,
-      "shore_power": null,
-      "restrooms": null,
-      "showers": null,
-      "laundry": null,
-      "repairs": null
+      "fuel": false,
+      "pumpout": false,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "repairs": null,
+      "wifi": true
     },
     "pricing": {
       "currency": "USD",
       "standard": {
-        "dockage_rate": null,
-        "rate_basis": null,
-        "electric_rate": null,
-        "electric_rate_basis": null,
-        "water_rate": null,
-        "water_rate_basis": null,
+        "dockage_rate": 13.0,
+        "rate_basis": "per ft per month",
+        "electric_rate": 25.0,
+        "electric_rate_basis": "base monthly utility fee before 30A/50A add-ons",
+        "water_rate": 0.0,
+        "water_rate_basis": "included with slip",
         "pumpout_rate": null,
-        "notes": "Transient slips available; verify current rates directly."
+        "notes": "Official slip-fee page shows $13/ft monthly for monohulls, with a 45 ft minimum on standard slips ($585 base/month) and a 30 ft minimum on the back dock ($390 base/month). Base utility/Wi-Fi fee is $25/month, with 30A at $60/month and 50A at $75/month. Fuel and pumpout are available nearby rather than directly at the marina."
       },
       "special_offers": []
     },
@@ -493,7 +507,13 @@
       }
     ],
     "expert_notes": {
-      "plain": "Good provisioning-oriented stop with a more practical, less touristy feel than downtown."
+      "plain": "Good provisioning-oriented St. Augustine stop with a more practical feel than downtown. Official site pricing is monthly-oriented, and fuel/pumpout are nearby rather than directly on-site."
+    },
+    "contact": {
+      "phone": "+1 (904) 824-6150",
+      "email": null,
+      "website": "https://englishlandingmarina.com/",
+      "vhf": null
     }
   },
   {
@@ -508,14 +528,14 @@
     },
     "status": {
       "active": true,
-      "last_curated": "2026-04-07",
+      "last_curated": "2026-04-10",
       "confidence": 0.9
     },
     "source": {
       "type": "curated_core",
       "name": "Sunset Bay Marina & Anchorage",
       "source_url": "https://www.integramarinas.com/marinas/sunset-bay-marina-and-anchorage/",
-      "source_date": "2026-04-07"
+      "source_date": "2026-04-10"
     },
     "depth": {
       "approach_ft_mlw": null,
@@ -546,7 +566,7 @@
         "water_rate": null,
         "water_rate_basis": null,
         "pumpout_rate": null,
-        "notes": "198 slips and 69 moorings; verify current transient and mooring rates directly."
+        "notes": "Official site confirms slips, moorings, fuel, and services but does not publish a public transient rate card online. Verify current transient and mooring pricing directly. Pumpout is reported at $5 and water is reported free in current marina-site review content."
       },
       "special_offers": []
     },
@@ -609,14 +629,14 @@
     },
     "status": {
       "active": true,
-      "last_curated": "2026-04-07",
+      "last_curated": "2026-04-10",
       "confidence": 0.86
     },
     "source": {
       "type": "curated_core",
       "name": "Safe Harbor Harborage Yacht Club",
       "source_url": "https://shmarinas.com/locations/safe-harbor-harborage-yacht-club/",
-      "source_date": "2026-04-07"
+      "source_date": "2026-04-10"
     },
     "depth": {
       "approach_ft_mlw": null,
@@ -646,7 +666,7 @@
         "water_rate": null,
         "water_rate_basis": null,
         "pumpout_rate": null,
-        "notes": "Transient slips available; verify current rates directly."
+        "notes": "Official site confirms transient slips and amenities but does not publish a public transient rate card online. Verify current transient pricing directly."
       },
       "special_offers": []
     },
@@ -709,14 +729,14 @@
     },
     "status": {
       "active": true,
-      "last_curated": "2026-04-07",
+      "last_curated": "2026-04-10",
       "confidence": 0.9
     },
     "source": {
       "type": "curated_core",
-      "name": "City of Fort Pierce",
-      "source_url": "https://www.cityoffortpierce.com/1015/City-Marina",
-      "source_date": "2026-04-07"
+      "name": "City of Fort Pierce dockage rates",
+      "source_url": "https://www.cityoffortpierce.com/775/Dockage-Rates",
+      "source_date": "2026-04-10"
     },
     "depth": {
       "approach_ft_mlw": null,
@@ -740,13 +760,13 @@
       "currency": "USD",
       "standard": {
         "dockage_rate": 3.5,
-        "rate_basis": "per ft per day",
-        "electric_rate": null,
-        "electric_rate_basis": null,
+        "rate_basis": "per ft per day for vessels 25-67 ft",
+        "electric_rate": 6.0,
+        "electric_rate_basis": "30A nightly per cord",
         "water_rate": null,
         "water_rate_basis": null,
         "pumpout_rate": null,
-        "notes": "Weeks 1-2 at $2.00/ft/day; weeks 3-16 at $1.25/ft/day; 5-11 months at $23.75/ft."
+        "notes": "Official rates effective Sept. 1, 2025: 25-67 ft transient daily is $3.50/ft/day, 1st-2nd week $2.00/ft/day, 3rd-16th week $1.25/ft/day, and 5-11 months $23.75/ft/month. Vessels 68 ft+ or catamarans 19 ft beam+ are $3.90/ft/day and $2.35/ft weekly. Transient electric is $6/night for 30A and $20/night for 50A."
       },
       "special_offers": []
     },
@@ -795,6 +815,12 @@
     ],
     "expert_notes": {
       "plain": "A strong municipal-marina style stop with real services, published rates, and better budget transparency than many private marinas."
+    },
+    "contact": {
+      "phone": "+1 (772) 467-3629",
+      "email": "shipstore@cityoffortpierce.com",
+      "website": "https://www.cityoffortpierce.com/1182/City-Marina",
+      "vhf": "16"
     }
   },
   {
@@ -809,14 +835,14 @@
     },
     "status": {
       "active": true,
-      "last_curated": "2026-04-07",
+      "last_curated": "2026-04-10",
       "confidence": 0.9
     },
     "source": {
       "type": "curated_core",
-      "name": "City of Vero Beach / Waterway Guide",
+      "name": "City of Vero Beach Marina reservations and rates",
       "source_url": "https://www.covb.org/244/Reservations-Rates",
-      "source_date": "2026-04-07"
+      "source_date": "2026-04-10"
     },
     "depth": {
       "approach_ft_mlw": null,
@@ -839,14 +865,14 @@
     "pricing": {
       "currency": "USD",
       "standard": {
-        "dockage_rate": 30,
-        "rate_basis": "per ft per month transient slip",
-        "electric_rate": null,
-        "electric_rate_basis": null,
-        "water_rate": null,
-        "water_rate_basis": null,
-        "pumpout_rate": null,
-        "notes": "Transient daily mooring rate is $23.36. Waterway Guide lists 10 transient slips."
+        "dockage_rate": 2.5,
+        "rate_basis": "per ft per day transient slip",
+        "electric_rate": 7.0,
+        "electric_rate_basis": "30A transient electric per day",
+        "water_rate": 5.0,
+        "water_rate_basis": "flat fill-up charge",
+        "pumpout_rate": 5.0,
+        "notes": "Official Vero rates show Main Marina transient slips at $2.50/ft/day, $2.00/ft/day weekly (7-night minimum), and $18.00/ft/month; South Complex monthly transient is $22.00/ft/month. Vessels over 100 ft are $4.50/ft/day. Moorings are $23.36/day; extended-stay monthly mooring is $370.56 plus a $50 facilities fee. Transient electric is $7/day for 30A, $12/day for 50A, and $40/day for 100A."
       },
       "special_offers": []
     },
@@ -895,6 +921,12 @@
     ],
     "expert_notes": {
       "plain": "This is a strong managed-city-marina option with both mooring and transient capability, and better published rate transparency than many private marinas."
+    },
+    "contact": {
+      "phone": "+1 (772) 567-2144",
+      "email": null,
+      "website": "https://www.covb.org/244/Reservations-Rates",
+      "vhf": "16/66A"
     }
   },
   {
@@ -909,14 +941,14 @@
     },
     "status": {
       "active": true,
-      "last_curated": "2026-04-07",
+      "last_curated": "2026-04-10",
       "confidence": 0.9
     },
     "source": {
       "type": "curated_core",
-      "name": "Waterway Guide / Safe Harbor",
-      "source_url": "https://www.waterwayguide.com/marina/safe-harbor-new-port-cove",
-      "source_date": "2026-04-07"
+      "name": "Safe Harbor New Port Cove official site",
+      "source_url": "https://shmarinas.com/locations/safe-harbor-new-port-cove/",
+      "source_date": "2026-04-10"
     },
     "depth": {
       "approach_ft_mlw": 5.0,
@@ -940,14 +972,14 @@
     "pricing": {
       "currency": "USD",
       "standard": {
-        "dockage_rate": 4.0,
-        "rate_basis": "per ft per day",
+        "dockage_rate": null,
+        "rate_basis": "official site does not publish transient rates online",
         "electric_rate": null,
         "electric_rate_basis": null,
         "water_rate": 0,
         "water_rate_basis": "free",
         "pumpout_rate": 30.0,
-        "notes": "Please call for pricing; marina leases by slip size rather than vessel size. Current transient rates should be confirmed directly."
+        "notes": "Official site confirms amenities and access but does not publish a public transient rate card online. Verify current transient pricing directly with the marina."
       },
       "special_offers": []
     },
@@ -1027,14 +1059,14 @@
     },
     "status": {
       "active": true,
-      "last_curated": "2026-04-07",
+      "last_curated": "2026-04-10",
       "confidence": 0.9
     },
     "source": {
       "type": "curated_core",
-      "name": "Waterway Guide",
-      "source_url": "https://www.waterwayguide.com/marina/sailfish-resort-and-marina",
-      "source_date": "2026-04-07"
+      "name": "Sailfish Marina official site",
+      "source_url": "https://sailfishmarina.com/dockage/",
+      "source_date": "2026-04-10"
     },
     "depth": {
       "approach_ft_mlw": null,
@@ -1064,7 +1096,7 @@
         "water_rate": null,
         "water_rate_basis": null,
         "pumpout_rate": null,
-        "notes": "Current transient pricing should be confirmed directly."
+        "notes": "Official dockage page confirms daily and yearly dockage with taxes additional, but a public transient rate card was not extractable from the site text at this review. Verify current transient pricing directly with the marina."
       },
       "special_offers": []
     },
@@ -1082,7 +1114,7 @@
     "contact": {
       "phone": "+1 (561) 844-1724",
       "email": "[email protected]",
-      "website": "http://sailfishmarina.com",
+      "website": "https://sailfishmarina.com/dockage/",
       "vhf": "68"
     },
     "shore_access": {
@@ -1144,14 +1176,14 @@
     },
     "status": {
       "active": true,
-      "last_curated": "2026-04-07",
+      "last_curated": "2026-04-10",
       "confidence": 0.92
     },
     "source": {
       "type": "curated_core",
-      "name": "Waterway Guide / Marina Village Palm Beach",
-      "source_url": "https://www.waterwayguide.com/featured-marina/riviera-beach-municipal-marina",
-      "source_date": "2026-04-07"
+      "name": "Riviera Beach Marina Village official rates page",
+      "source_url": "https://marinavillagepalmbeach.com/riviera-beach-marina-lease-rates.html",
+      "source_date": "2026-04-10"
     },
     "depth": {
       "approach_ft_mlw": 8.0,
@@ -1177,14 +1209,14 @@
     "pricing": {
       "currency": "USD",
       "standard": {
-        "dockage_rate": null,
-        "rate_basis": "see marina website for current transient rates",
-        "electric_rate": null,
-        "electric_rate_basis": null,
-        "water_rate": null,
-        "water_rate_basis": null,
+        "dockage_rate": 4.0,
+        "rate_basis": "per ft per day transient slip",
+        "electric_rate": 20.0,
+        "electric_rate_basis": "30A transient utility charge per day, per cord",
+        "water_rate": 0.0,
+        "water_rate_basis": "included for transients",
         "pumpout_rate": null,
-        "notes": "Dockage available for long-term, monthly, or transient use; call ahead for current pricing."
+        "notes": "Official short-term rates show transient slip dockage at $4.00/ft/day and transient face-dock dockage at $5.00/ft/day. Transient utilities are 30A $20/day, 50A $30/day, and 100A $50/day; 480V 3-phase is $200/day. Utilities for transients include water, sewer, and electric. There is a 50 ft minimum on all face-dock slips."
       },
       "special_offers": []
     },
@@ -1251,6 +1283,11 @@
         "type": "draft_limit",
         "severity": 0.68,
         "text": "Reported dockside depth is only 7 feet, so deeper-draft boats should confirm current conditions carefully."
+      },
+      {
+        "type": "face_dock_minimum",
+        "severity": 0.62,
+        "text": "Official rates state a 50 ft minimum on all face-dock slips."
       }
     ],
     "expert_notes": {
@@ -1269,14 +1306,14 @@
     },
     "status": {
       "active": true,
-      "last_curated": "2026-04-07",
+      "last_curated": "2026-04-10",
       "confidence": 0.91
     },
     "source": {
       "type": "curated_core",
-      "name": "Waterway Guide / Safe Harbor",
-      "source_url": "https://www.waterwayguide.com/marina/rybovich-marina",
-      "source_date": "2026-04-07"
+      "name": "Safe Harbor Rybovich official site",
+      "source_url": "https://shmarinas.com/locations/safe-harbor-rybovich/",
+      "source_date": "2026-04-10"
     },
     "depth": {
       "approach_ft_mlw": 18.0,
@@ -1305,13 +1342,13 @@
       "currency": "USD",
       "standard": {
         "dockage_rate": null,
-        "rate_basis": "contact marina for current information",
+        "rate_basis": "official site does not publish transient rates online",
         "electric_rate": null,
         "electric_rate_basis": null,
         "water_rate": null,
         "water_rate_basis": null,
         "pumpout_rate": null,
-        "notes": "Current transient rates should be confirmed directly."
+        "notes": "Official site confirms transient slips, vessel service, and berths for yachts up to 100 meters, but does not publish a public transient rate card online. Verify current pricing directly."
       },
       "special_offers": []
     },
@@ -1391,14 +1428,14 @@
     },
     "status": {
       "active": true,
-      "last_curated": "2026-04-07",
+      "last_curated": "2026-04-10",
       "confidence": 0.93
     },
     "source": {
       "type": "curated_core",
-      "name": "Waterway Guide / Town of Palm Beach Marina",
-      "source_url": "https://www.waterwayguide.com/marina/town-of-palm-beach-marina",
-      "source_date": "2026-04-07"
+      "name": "Town of Palm Beach Marina official dockage page",
+      "source_url": "https://www.townofpalmbeachmarina.com/dockage/dockage",
+      "source_date": "2026-04-10"
     },
     "depth": {
       "approach_ft_mlw": 9.0,
@@ -1417,19 +1454,19 @@
       "laundry": false,
       "wifi": true,
       "security": true,
-      "liveaboard_allowed": true
+      "liveaboard_allowed": false
     },
     "pricing": {
       "currency": "USD",
       "standard": {
         "dockage_rate": null,
-        "rate_basis": "contact facility or official dockage page for current pricing",
+        "rate_basis": "daily transient dockage is published by slip size; official inventory starts at 60 ft",
         "electric_rate": null,
-        "electric_rate_basis": null,
-        "water_rate": null,
-        "water_rate_basis": null,
-        "pumpout_rate": null,
-        "notes": "Call ahead to confirm current pricing and availability."
+        "electric_rate_basis": "high-capacity shore power available; confirm exact connection pricing and assignment directly",
+        "water_rate": 0.0,
+        "water_rate_basis": "available at slip",
+        "pumpout_rate": 0.0,
+        "notes": "Official dockage page publishes daily and monthly rates by slip size rather than by foot. Winter daily totals currently begin at $396 for a 60 ft slip, $429 for 65 ft, $608 for 80 ft, $646 for 85 ft, and extend up to $2,380 for 200 ft. Summer daily totals begin at $180 for a 60 ft slip and $195 for 65 ft. Official marina materials state the facility welcomes vessels from 60 to 294/295 ft, making it a large-yacht oriented choice rather than an average 25-50 ft cruiser default."
       },
       "special_offers": []
     },
@@ -1441,8 +1478,8 @@
     },
     "contact": {
       "phone": "+1 (561) 838-5463",
-      "email": "[email protected]",
-      "website": "https://www.townofpalmbeachmarina.com",
+      "email": "dockmaster@townofpalmbeach.com",
+      "website": "https://www.townofpalmbeachmarina.com/dockage/dockage",
       "vhf": "68"
     },
     "shore_access": {
@@ -1467,17 +1504,17 @@
       "dock_handling_difficulty_score": 0.36
     },
     "quality": {
-      "baseline_score": 0.9,
+      "baseline_score": 0.72,
       "use_cases": {
-        "overnight_stop": 0.88,
+        "overnight_stop": 0.52,
         "fuel_stop": 0.0,
         "provisioning": 0.78,
         "weather_wait": 0.74,
         "quiet_night": 0.6,
-        "easy_in_easy_out": 0.76,
-        "budget_stop": 0.18
+        "easy_in_easy_out": 0.5,
+        "budget_stop": 0.05
       },
-      "value_score": 0.22,
+      "value_score": 0.08,
       "convenience_score": 0.94,
       "quiet_score": 0.6
     },
@@ -1486,10 +1523,20 @@
         "type": "premium_pricing",
         "severity": 0.3,
         "text": "This is a premier Palm Beach marina, so pricing should be expected to reflect that."
+      },
+      {
+        "type": "minimum_slip_size",
+        "severity": 0.9,
+        "text": "Official marina materials state the facility welcomes vessels from 60 feet upward, so it is not a natural fit for the average 25-50 foot cruising boat."
+      },
+      {
+        "type": "superyacht_orientation",
+        "severity": 0.82,
+        "text": "This is a high-end superyacht-oriented marina, so availability, pricing, and vessel fit should be evaluated with that in mind."
       }
     ],
     "expert_notes": {
-      "plain": "A strong Palm Beach choice when location and quality matter more than cost. Excellent walkability and serious transient capability."
+      "plain": "This is Palm Beach's polished superyacht marina, not the average-cruiser default. It makes sense when prestige, walkability, and larger-yacht capability matter more than cost or small-boat fit."
     }
   },
   {
@@ -1504,14 +1551,14 @@
     },
     "status": {
       "active": true,
-      "last_curated": "2026-04-07",
+      "last_curated": "2026-04-10",
       "confidence": 0.92
     },
     "source": {
       "type": "curated_core",
-      "name": "Waterway Guide / Palm Harbor Marina",
-      "source_url": "https://www.waterwayguide.com/marina/palm-harbor-marina-fl",
-      "source_date": "2026-04-07"
+      "name": "Palm Harbor Marina official site",
+      "source_url": "https://palmharbor-marina.com/frequently-asked-questions-faq",
+      "source_date": "2026-04-10"
     },
     "depth": {
       "approach_ft_mlw": 10.0,
@@ -1535,13 +1582,13 @@
       "currency": "USD",
       "standard": {
         "dockage_rate": null,
-        "rate_basis": "contact marina for current transient pricing",
+        "rate_basis": "official site does not publish a public transient rate card online",
         "electric_rate": null,
-        "electric_rate_basis": null,
+        "electric_rate_basis": "30A, 50A, 100A, and 200A available; confirm current pricing directly",
         "water_rate": null,
         "water_rate_basis": null,
         "pumpout_rate": null,
-        "notes": "Transient overnight and transient monthly slips are available; current pricing should be confirmed directly."
+        "notes": "Official site states rates vary by vessel length, dockage type, and season, but does not publish a public transient rate card online. The marina advertises slips for yachts from 50 to 300 feet, so smaller typical cruising boats should confirm fit and availability directly."
       },
       "special_offers": []
     },
@@ -1558,8 +1605,8 @@
     },
     "contact": {
       "phone": "+1 (561) 655-4757",
-      "email": "[email protected]",
-      "website": "http://www.palmharbor-marina.com",
+      "email": "charles@palmharbor-marina.com",
+      "website": "https://palmharbor-marina.com/",
       "vhf": "68"
     },
     "shore_access": {
@@ -1584,17 +1631,17 @@
       "dock_handling_difficulty_score": 0.34
     },
     "quality": {
-      "baseline_score": 0.9,
+      "baseline_score": 0.78,
       "use_cases": {
-        "overnight_stop": 0.88,
+        "overnight_stop": 0.7,
         "fuel_stop": 0.86,
         "provisioning": 0.74,
         "weather_wait": 0.74,
         "quiet_night": 0.58,
         "easy_in_easy_out": 0.8,
-        "budget_stop": 0.22
+        "budget_stop": 0.12
       },
-      "value_score": 0.26,
+      "value_score": 0.18,
       "convenience_score": 0.9,
       "quiet_score": 0.58
     },
@@ -1603,10 +1650,20 @@
         "type": "pricing_unknown",
         "severity": 0.28,
         "text": "Current transient rates should be confirmed directly."
+      },
+      {
+        "type": "minimum_slip_size",
+        "severity": 0.78,
+        "text": "Official site advertises slips for yachts from 50 to 300 feet, so this is not the most natural fit for smaller cruising boats."
+      },
+      {
+        "type": "premium_marina",
+        "severity": 0.55,
+        "text": "Palm Harbor is a premium downtown marina rather than a budget stop."
       }
     ],
     "expert_notes": {
-      "plain": "A very useful West Palm transient marina with real contactability, fuel, and downtown access. Strong choice when you want a proper marina rather than the public docks."
+      "plain": "Palm Harbor is a useful West Palm transient and fuel option, but it is also a premium yacht-oriented marina with slips marketed from 50 feet upward."
     }
   },
   {
@@ -1904,7 +1961,7 @@
     },
     "source": {
       "type": "curated_core",
-      "name": "Windward at Amelia Island Marina / CruisersNet / Dockwa",
+      "name": "Windward at Amelia Island Marina Dockwa listing",
       "source_url": "https://dockwa.com/explore/destination/2gc8my-windward-at-amelia-island-marina",
       "source_date": "2026-04-10"
     },
@@ -1941,7 +1998,7 @@
         "water_rate": null,
         "water_rate_basis": null,
         "pumpout_rate": null,
-        "notes": "Approach is shallow enough that tide and current conditions should be checked before committing."
+        "notes": "Dockwa booking page confirms transient dockage availability, booking windows, and check-in/check-out timing, but public pricing is quote-based rather than posted as a fixed online rate. Verify current transient pricing directly or through Dockwa."
       },
       "special_offers": []
     },
@@ -2058,7 +2115,7 @@
         "water_rate": null,
         "water_rate_basis": null,
         "pumpout_rate": null,
-        "notes": "Transient space is more limited than at some larger nearby stops, so call ahead."
+        "notes": "Current transient pricing should be confirmed directly. This remains a shallow-access, tide-sensitive stop where conditions matter more than bargain-shopping."
       },
       "special_offers": []
     },
