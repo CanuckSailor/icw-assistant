@@ -1,0 +1,324 @@
+[
+  {
+    "id": "anchorage_portsmouth_hospital_point",
+    "name": "Portsmouth - Hospital Point",
+    "type": "anchorage",
+    "geo": {
+      "lat": 36.843333,
+      "lon": -76.300000,
+      "icw_mile": 0.2,
+      "segment": "Portsmouth / Elizabeth River"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/anchorage/2-255/hospital-point",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "typical_ft_mlw": 8.5,
+      "shallow_spots_ft_mlw": 8.0,
+      "deep_spots_ft_mlw": 9.0,
+      "max_recommended_draft_ft": 6.5
+    },
+    "holding": {
+      "bottom_type": ["mud"],
+      "holding_quality_score": 0.64
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": true,
+      "shore_access_easy": true
+    },
+    "protection": {
+      "wind": {
+        "N": 0.58,
+        "E": 0.26,
+        "S": 0.62,
+        "W": 0.66
+      },
+      "wake_exposure_score": 0.66,
+      "current_exposure_score": 0.48
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.28
+    },
+    "quality": {
+      "baseline_score": 0.62,
+      "use_cases": {
+        "overnight_stop": 0.62,
+        "fuel_stop": 0.0,
+        "provisioning": 0.06,
+        "weather_wait": 0.34,
+        "quiet_night": 0.28,
+        "easy_in_easy_out": 0.62,
+        "budget_stop": 0.98
+      },
+      "value_score": 0.99,
+      "convenience_score": 0.28,
+      "quiet_score": 0.28
+    },
+    "cautions": [
+      {
+        "type": "river_wakes",
+        "severity": 0.88,
+        "text": "This anchorage is open to river wakes from the east."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A practical MM Zero anchorage if you need one, but not a calm, protected beauty spot."
+    }
+  },
+  {
+    "id": "anchorage_willoughby_bay",
+    "name": "Willoughby Bay",
+    "type": "anchorage",
+    "geo": {
+      "lat": 36.962783,
+      "lon": -76.289717,
+      "icw_mile": null,
+      "segment": "Hampton Roads / Willoughby"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.86
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/anchorage/2-215/willoughby-bay",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "typical_ft_mlw": 10.0,
+      "shallow_spots_ft_mlw": 7.0,
+      "deep_spots_ft_mlw": 13.0,
+      "max_recommended_draft_ft": 7.5
+    },
+    "holding": {
+      "bottom_type": ["sand"],
+      "holding_quality_score": 0.82
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": false,
+      "shore_access_easy": false
+    },
+    "protection": {
+      "wind": {
+        "N": 0.68,
+        "E": 0.62,
+        "S": 0.26,
+        "W": 0.24
+      },
+      "wake_exposure_score": 0.42,
+      "current_exposure_score": 0.58
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.12
+    },
+    "quality": {
+      "baseline_score": 0.64,
+      "use_cases": {
+        "overnight_stop": 0.64,
+        "fuel_stop": 0.0,
+        "provisioning": 0.0,
+        "weather_wait": 0.34,
+        "quiet_night": 0.36,
+        "easy_in_easy_out": 0.56,
+        "budget_stop": 0.98
+      },
+      "value_score": 0.99,
+      "convenience_score": 0.12,
+      "quiet_score": 0.36
+    },
+    "cautions": [
+      {
+        "type": "construction_and_debris",
+        "severity": 0.92,
+        "text": "Construction, debris, marked pilings, and an unmarked telephone cable have all been reported here."
+      },
+      {
+        "type": "southwest_exposure",
+        "severity": 0.58,
+        "text": "This anchorage is open south through west."
+      }
+    ],
+    "expert_notes": {
+      "plain": "Useable, but this is an anchor-with-care location because of hazards and exposure."
+    }
+  },
+  {
+    "id": "anchorage_chickahominy_river",
+    "name": "Chickahominy River",
+    "type": "anchorage",
+    "geo": {
+      "lat": 37.261617,
+      "lon": -76.877000,
+      "icw_mile": null,
+      "segment": "Off James River"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.8
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/anchorage/2-2050/chickahominy-river",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "typical_ft_mlw": 10.0,
+      "shallow_spots_ft_mlw": 10.0,
+      "deep_spots_ft_mlw": 10.0,
+      "max_recommended_draft_ft": 7.5
+    },
+    "holding": {
+      "bottom_type": ["unknown"],
+      "holding_quality_score": 0.7
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": false,
+      "shore_access_easy": false
+    },
+    "protection": {
+      "wind": {
+        "N": 0.68,
+        "E": 0.62,
+        "S": 0.68,
+        "W": 0.72
+      },
+      "wake_exposure_score": 0.42,
+      "current_exposure_score": 0.2
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.02
+    },
+    "quality": {
+      "baseline_score": 0.66,
+      "use_cases": {
+        "overnight_stop": 0.68,
+        "fuel_stop": 0.0,
+        "provisioning": 0.0,
+        "weather_wait": 0.56,
+        "quiet_night": 0.56,
+        "easy_in_easy_out": 0.52,
+        "budget_stop": 0.98
+      },
+      "value_score": 0.99,
+      "convenience_score": 0.04,
+      "quiet_score": 0.56
+    },
+    "cautions": [
+      {
+        "type": "recreational_wake",
+        "severity": 0.44,
+        "text": "Expect wakes from skiers and small fishing boats."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A workable James-side anchorage if you need one, but not a polished ICW stop with shoreside utility."
+    }
+  },
+  {
+    "id": "anchorage_broad_bay_lynnhaven_inlet",
+    "name": "Broad Bay - Lynnhaven Inlet",
+    "type": "anchorage",
+    "geo": {
+      "lat": 36.901383,
+      "lon": -76.032500,
+      "icw_mile": 191.8,
+      "segment": "Virginia Beach / Chesapeake Bay"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.78
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/anchorage/2-209/broad-bay-lynnhaven-inlet",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "typical_ft_mlw": 7.5,
+      "shallow_spots_ft_mlw": 7.0,
+      "deep_spots_ft_mlw": 8.0,
+      "max_recommended_draft_ft": 6.0
+    },
+    "holding": {
+      "bottom_type": ["mud"],
+      "holding_quality_score": 0.76
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": false,
+      "shore_access_easy": false
+    },
+    "protection": {
+      "wind": {
+        "N": 0.34,
+        "E": 0.62,
+        "S": 0.66,
+        "W": 0.6
+      },
+      "wake_exposure_score": 0.34,
+      "current_exposure_score": 0.18
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.04
+    },
+    "quality": {
+      "baseline_score": 0.64,
+      "use_cases": {
+        "overnight_stop": 0.64,
+        "fuel_stop": 0.0,
+        "provisioning": 0.0,
+        "weather_wait": 0.4,
+        "quiet_night": 0.54,
+        "easy_in_easy_out": 0.5,
+        "budget_stop": 0.98
+      },
+      "value_score": 0.99,
+      "convenience_score": 0.06,
+      "quiet_score": 0.54
+    },
+    "cautions": [
+      {
+        "type": "bridge_constraint",
+        "severity": 0.72,
+        "text": "A 39-foot bridge is a limiting factor here."
+      },
+      {
+        "type": "northwest_exposure",
+        "severity": 0.46,
+        "text": "This anchorage is somewhat exposed to the northwest."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A niche Virginia Beach anchorage more useful for the right boat and air draft than as a general default stop."
+    }
+  }
+]

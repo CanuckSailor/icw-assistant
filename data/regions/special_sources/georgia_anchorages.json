@@ -1,0 +1,345 @@
+[
+  {
+    "id": "anchorage_jekyll_sound_umbrella_creek",
+    "name": "Jekyll Sound - Umbrella Creek",
+    "type": "anchorage",
+    "geo": {
+      "lat": 31.011383,
+      "lon": -81.46805,
+      "icw_mile": 685.9,
+      "segment": "Jekyll Sound / Jekyll Island"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.89
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/anchorage/2-430/jekyll-sound-umbrella-creek",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "typical_ft_mlw": 12.5,
+      "shallow_spots_ft_mlw": 10.0,
+      "deep_spots_ft_mlw": 15.0,
+      "max_recommended_draft_ft": 8.0
+    },
+    "holding": {
+      "bottom_type": ["sand"],
+      "holding_quality_score": 0.92
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": false,
+      "shore_access_easy": false
+    },
+    "protection": {
+      "wind": {
+        "N": 0.3,
+        "E": 0.22,
+        "S": 0.48,
+        "W": 0.5
+      },
+      "wake_exposure_score": 0.6,
+      "current_exposure_score": 0.42
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.05
+    },
+    "quality": {
+      "baseline_score": 0.72,
+      "use_cases": {
+        "overnight_stop": 0.74,
+        "fuel_stop": 0.0,
+        "provisioning": 0.0,
+        "weather_wait": 0.46,
+        "quiet_night": 0.62,
+        "easy_in_easy_out": 0.7,
+        "budget_stop": 0.96
+      },
+      "value_score": 0.98,
+      "convenience_score": 0.08,
+      "quiet_score": 0.62
+    },
+    "cautions": [
+      {
+        "type": "georgia_anchor_law",
+        "severity": 0.9,
+        "text": "Georgia anchoring setback restrictions should be respected here."
+      },
+      {
+        "type": "northeast_exposure",
+        "severity": 0.62,
+        "text": "This anchorage is exposed in northeast conditions."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A legitimate Jekyll-area anchorage with good sand holding, but not a place to ignore weather direction or Georgia anchoring setbacks."
+    }
+  },
+  {
+    "id": "anchorage_crescent_river_r156",
+    "name": "Crescent River R156",
+    "type": "anchorage",
+    "geo": {
+      "lat": 31.488083,
+      "lon": -81.32485,
+      "icw_mile": 644.0,
+      "segment": "Crescent River"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/anchorage/2-2927/crescent-river-r156",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "typical_ft_mlw": 11.0,
+      "shallow_spots_ft_mlw": 11.0,
+      "deep_spots_ft_mlw": 11.0,
+      "max_recommended_draft_ft": 8.5
+    },
+    "holding": {
+      "bottom_type": ["mud", "sand"],
+      "holding_quality_score": 0.94
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": true,
+      "shore_access_easy": true
+    },
+    "protection": {
+      "wind": {
+        "N": 0.48,
+        "E": 0.38,
+        "S": 0.54,
+        "W": 0.56
+      },
+      "wake_exposure_score": 0.34,
+      "current_exposure_score": 0.28
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.14
+    },
+    "quality": {
+      "baseline_score": 0.84,
+      "use_cases": {
+        "overnight_stop": 0.86,
+        "fuel_stop": 0.0,
+        "provisioning": 0.02,
+        "weather_wait": 0.62,
+        "quiet_night": 0.8,
+        "easy_in_easy_out": 0.74,
+        "budget_stop": 0.98
+      },
+      "value_score": 0.99,
+      "convenience_score": 0.16,
+      "quiet_score": 0.8
+    },
+    "cautions": [
+      {
+        "type": "georgia_anchor_law",
+        "severity": 0.9,
+        "text": "Georgia anchoring setback restrictions should be respected here."
+      }
+    ],
+    "expert_notes": {
+      "plain": "One of the stronger Georgia anchorage answers because the holding is excellent and the setting is practical for an overnight stop."
+    }
+  },
+  {
+    "id": "anchorage_kilkenny_creek",
+    "name": "Kilkenny Creek",
+    "type": "anchorage",
+    "geo": {
+      "lat": 31.78305,
+      "lon": -81.193333,
+      "icw_mile": 614.0,
+      "segment": "Bear River / Kilkenny"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.88
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/anchorage/2-410/kilkenny-creek",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "typical_ft_mlw": 12.5,
+      "shallow_spots_ft_mlw": 10.0,
+      "deep_spots_ft_mlw": 15.0,
+      "max_recommended_draft_ft": 9.0
+    },
+    "holding": {
+      "bottom_type": ["mud"],
+      "holding_quality_score": 0.9
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": false,
+      "shore_access_easy": false
+    },
+    "protection": {
+      "wind": {
+        "N": 0.46,
+        "E": 0.34,
+        "S": 0.5,
+        "W": 0.54
+      },
+      "wake_exposure_score": 0.38,
+      "current_exposure_score": 0.32
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.08
+    },
+    "quality": {
+      "baseline_score": 0.78,
+      "use_cases": {
+        "overnight_stop": 0.8,
+        "fuel_stop": 0.0,
+        "provisioning": 0.0,
+        "weather_wait": 0.58,
+        "quiet_night": 0.72,
+        "easy_in_easy_out": 0.7,
+        "budget_stop": 0.98
+      },
+      "value_score": 0.99,
+      "convenience_score": 0.08,
+      "quiet_score": 0.72
+    },
+    "cautions": [
+      {
+        "type": "georgia_anchor_law",
+        "severity": 0.9,
+        "text": "Georgia anchoring setback restrictions should be respected here."
+      },
+      {
+        "type": "wave_exposure",
+        "severity": 0.46,
+        "text": "This anchorage is not especially wave protected."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A practical Georgia creek anchorage with excellent mud holding, but not a place to overstate protection."
+    }
+  },
+  {
+    "id": "anchorage_duplin_river",
+    "name": "Duplin River",
+    "type": "anchorage",
+    "geo": {
+      "lat": 31.419467,
+      "lon": -81.296333,
+      "icw_mile": 649.0,
+      "segment": "Doboy Sound / Sapelo"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.92
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide + Sail to the Sun local knowledge",
+      "source_url": "https://www.waterwayguide.com/anchorage/2-418/duplin-river",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "typical_ft_mlw": 14.5,
+      "shallow_spots_ft_mlw": 12.0,
+      "deep_spots_ft_mlw": 17.0,
+      "max_recommended_draft_ft": 10.0
+    },
+    "holding": {
+      "bottom_type": ["sand"],
+      "holding_quality_score": 0.9
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": true,
+      "shore_access_easy": true
+    },
+    "protection": {
+      "wind": {
+        "N": 0.12,
+        "E": 0.42,
+        "S": 0.38,
+        "W": 0.62
+      },
+      "wake_exposure_score": 0.36,
+      "current_exposure_score": 0.82
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.18
+    },
+    "quality": {
+      "baseline_score": 0.78,
+      "use_cases": {
+        "overnight_stop": 0.72,
+        "fuel_stop": 0.0,
+        "provisioning": 0.02,
+        "weather_wait": 0.4,
+        "quiet_night": 0.68,
+        "easy_in_easy_out": 0.56,
+        "budget_stop": 0.98
+      },
+      "value_score": 0.99,
+      "convenience_score": 0.18,
+      "quiet_score": 0.68
+    },
+    "local_knowledge": {
+      "source_type": "editorial_override",
+      "source_name": "Sail to the Sun Expert Opinion",
+      "basis": "experienced cruiser/local operational knowledge",
+      "confidence": 0.95
+    },
+    "cautions": [
+      {
+        "type": "georgia_anchor_law",
+        "severity": 0.9,
+        "text": "Georgia anchoring setback restrictions should be respected here."
+      },
+      {
+        "type": "north_wind_exposure",
+        "severity": 0.95,
+        "text": "Not recommended in strong north winds because this anchorage is wide open to the north."
+      },
+      {
+        "type": "strong_current",
+        "severity": 0.92,
+        "text": "Currents here can be very strong."
+      },
+      {
+        "type": "ferry_dock_clearance",
+        "severity": 0.9,
+        "text": "Anchor at least 150 yards past the ferry dock."
+      }
+    ],
+    "expert_notes": {
+      "plain": "Sail to the Sun Expert Opinion: Avoid this anchorage in strong north winds because it is wide open to the north. Currents can be very strong here. Anchor at least 150 yards past the ferry dock."
+    }
+  }
+]

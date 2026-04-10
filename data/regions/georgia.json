@@ -1,0 +1,1571 @@
+[
+  {
+    "id": "marina_brunswick_landing_marina",
+    "name": "Brunswick Landing Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 31.1497,
+      "lon": -81.4966,
+      "icw_mile": 683.7,
+      "segment": "Brunswick"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-09",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Brunswick Landing Marina / Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/marina/brunswick-landing-marina",
+      "source_date": "2026-04-06"
+    },
+    "depth": {
+      "approach_ft_mlw": 36.0,
+      "dockside_ft_mlw": 12.0,
+      "max_recommended_draft_ft": 10.5
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "repairs": true,
+      "liveaboard_allowed": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Transient pricing should be confirmed directly. Downtown restaurant discount program is advertised by the marina."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.82
+    },
+    "protection": {
+      "wind": {
+        "N": 0.82,
+        "E": 0.72,
+        "S": 0.8,
+        "W": 0.84
+      },
+      "wake_exposure_score": 0.2,
+      "current_exposure_score": 0.3
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 240,
+      "dock_handling_difficulty_score": 0.28
+    },
+    "quality": {
+      "baseline_score": 0.9,
+      "use_cases": {
+        "overnight_stop": 0.9,
+        "fuel_stop": 0.84,
+        "provisioning": 0.34,
+        "weather_wait": 0.84,
+        "quiet_night": 0.76,
+        "easy_in_easy_out": 0.72,
+        "budget_stop": 0.48
+      },
+      "value_score": 0.52,
+      "convenience_score": 0.78,
+      "quiet_score": 0.76
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.35,
+        "text": "Current transient rates should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A very practical Georgia stop with strong protection and real services. More of a dependable working marina stop than a resort-style stop."
+    },
+    "contact": {
+      "phone": "+1 (912) 262-9264",
+      "email": "info@brunswicklandingmarina.com",
+      "website": "https://brunswicklandingmarina.com/",
+      "vhf": "71"
+    }
+  },
+  {
+    "id": "marina_morningstar_golden_isles",
+    "name": "Morningstar Marinas Golden Isles",
+    "type": "marina",
+    "geo": {
+      "lat": 31.1768,
+      "lon": -81.3903,
+      "icw_mile": 675.0,
+      "segment": "St. Simons Island / Golden Isles"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-09",
+      "confidence": 0.88
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Morningstar Marinas Golden Isles / Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/marina/morningstar-marinas-at-golden-isles",
+      "source_date": "2026-04-06"
+    },
+    "depth": {
+      "approach_ft_mlw": 10.0,
+      "dockside_ft_mlw": 18.0,
+      "max_recommended_draft_ft": 9.0
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": false,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Transient pricing should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.3
+    },
+    "protection": {
+      "wind": {
+        "N": 0.74,
+        "E": 0.66,
+        "S": 0.72,
+        "W": 0.76
+      },
+      "wake_exposure_score": 0.24,
+      "current_exposure_score": 0.34
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.26
+    },
+    "quality": {
+      "baseline_score": 0.84,
+      "use_cases": {
+        "overnight_stop": 0.86,
+        "fuel_stop": 0.0,
+        "provisioning": 0.18,
+        "weather_wait": 0.72,
+        "quiet_night": 0.68,
+        "easy_in_easy_out": 0.84,
+        "budget_stop": 0.36
+      },
+      "value_score": 0.4,
+      "convenience_score": 0.38,
+      "quiet_score": 0.68
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.35,
+        "text": "Current transient rates should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A good Georgia coast transient stop if easy access and a clean in-and-out matter more than downtown convenience."
+    },
+    "contact": {
+      "phone": "+1 (912) 421-2501",
+      "email": "news@morningstarmarinas.com",
+      "website": "https://www.morningstarmarinas.com/location/706/ga/st-simons-island/morningstar-marinas-golden-isles/",
+      "vhf": "68"
+    }
+  },
+  {
+    "id": "marina_jekyll_harbor_marina",
+    "name": "Jekyll Harbor Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 31.0377,
+      "lon": -81.4305,
+      "icw_mile": 685.0,
+      "segment": "Jekyll Island"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-09",
+      "confidence": 0.87
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Jekyll Harbor Marina / Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/featured-marina-old/jekyll-harbor-marina",
+      "source_date": "2026-04-06"
+    },
+    "depth": {
+      "approach_ft_mlw": 12.0,
+      "dockside_ft_mlw": 10.0,
+      "max_recommended_draft_ft": 8.5
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "repairs": false
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Transient pricing should be confirmed directly. Online reservations are available."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.44
+    },
+    "protection": {
+      "wind": {
+        "N": 0.72,
+        "E": 0.62,
+        "S": 0.7,
+        "W": 0.74
+      },
+      "wake_exposure_score": 0.26,
+      "current_exposure_score": 0.38
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.34
+    },
+    "quality": {
+      "baseline_score": 0.83,
+      "use_cases": {
+        "overnight_stop": 0.84,
+        "fuel_stop": 0.8,
+        "provisioning": 0.2,
+        "weather_wait": 0.74,
+        "quiet_night": 0.66,
+        "easy_in_easy_out": 0.72,
+        "budget_stop": 0.34
+      },
+      "value_score": 0.38,
+      "convenience_score": 0.42,
+      "quiet_score": 0.66
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.35,
+        "text": "Current transient rates should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A real Jekyll-area overnight stop with fuel and pumpout, plus notably easy current-parallel face-dock access."
+    },
+    "contact": {
+      "phone": "+1 (912) 635-3137",
+      "email": "contact@jekyllharbor.com",
+      "website": "https://jekyllharbor.com/",
+      "vhf": "72"
+    }
+  },
+  {
+    "id": "marina_safe_harbor_bahia_bleu",
+    "name": "Safe Harbor Bahia Bleu",
+    "type": "marina",
+    "geo": {
+      "lat": 32.031398,
+      "lon": -81.049568,
+      "icw_mile": 582.6,
+      "segment": "Thunderbolt / Savannah"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-09",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Safe Harbor Bahia Bleu / Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/marina/safe-harbor-bahia-bleu",
+      "source_date": "2026-04-06"
+    },
+    "depth": {
+      "approach_ft_mlw": 26.0,
+      "dockside_ft_mlw": 20.0,
+      "max_recommended_draft_ft": 12.0
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "ship_store": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official/current transient rates should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.42
+    },
+    "protection": {
+      "wind": {
+        "N": 0.76,
+        "E": 0.68,
+        "S": 0.74,
+        "W": 0.78
+      },
+      "wake_exposure_score": 0.22,
+      "current_exposure_score": 0.3
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 100,
+      "dock_handling_difficulty_score": 0.28
+    },
+    "quality": {
+      "baseline_score": 0.86,
+      "use_cases": {
+        "overnight_stop": 0.86,
+        "fuel_stop": 0.82,
+        "provisioning": 0.22,
+        "weather_wait": 0.8,
+        "quiet_night": 0.7,
+        "easy_in_easy_out": 0.76,
+        "budget_stop": 0.32
+      },
+      "value_score": 0.36,
+      "convenience_score": 0.52,
+      "quiet_score": 0.7
+    },
+    "cautions": [
+      {
+        "type": "loa_range",
+        "severity": 0.45,
+        "text": "Official transient-slip listing should still be confirmed directly for your vessel size and current availability."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A strong Savannah-area transient choice if you want a serious marina with fuel and good facilities rather than a bare-bones stop."
+    },
+    "contact": {
+      "phone": "+1 (912) 354-2283",
+      "website": "https://shmarinas.com/locations/safe-harbor-bahia-bleu/",
+      "vhf": "71"
+    }
+  },
+  {
+    "id": "marina_isle_of_hope_marina",
+    "name": "Isle of Hope Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 31.9797,
+      "lon": -81.0563,
+      "icw_mile": 590.0,
+      "segment": "Savannah / Isle of Hope"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-09",
+      "confidence": 0.91
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Isle of Hope Marina / Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/marina/isle-of-hope-marina",
+      "source_date": "2026-04-09"
+    },
+    "contact": {
+      "phone": "+1 (912) 354-8187",
+      "email": "info@iohmarina.com",
+      "website": "https://www.iohmarina.com/",
+      "vhf": "16"
+    },
+    "depth": {
+      "approach_ft_mlw": 12.0,
+      "dockside_ft_mlw": 15.0,
+      "max_recommended_draft_ft": 12.0
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "ship_store": true,
+      "bikes": true,
+      "courtesy_car": true,
+      "moorings": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Current transient rates should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.74
+    },
+    "protection": {
+      "wind": {
+        "N": 0.78,
+        "E": 0.66,
+        "S": 0.76,
+        "W": 0.8
+      },
+      "wake_exposure_score": 0.26,
+      "current_exposure_score": 0.34
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 220,
+      "dock_handling_difficulty_score": 0.3
+    },
+    "quality": {
+      "baseline_score": 0.9,
+      "use_cases": {
+        "overnight_stop": 0.9,
+        "fuel_stop": 0.9,
+        "provisioning": 0.36,
+        "weather_wait": 0.8,
+        "quiet_night": 0.74,
+        "easy_in_easy_out": 0.76,
+        "budget_stop": 0.4
+      },
+      "value_score": 0.42,
+      "convenience_score": 0.7,
+      "quiet_score": 0.74
+    },
+    "cautions": [
+      {
+        "type": "current",
+        "severity": 0.38,
+        "text": "This is a working ICW stop in current, so arrival timing and line handling still matter."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A high-value Savannah-area stop, especially because it is the last reliable southbound fuel stop before a long gap. Historic setting and strong marina utility."
+    }
+  },
+  {
+    "id": "marina_thunderbolt_marine",
+    "name": "Thunderbolt Marine",
+    "type": "marina",
+    "geo": {
+      "lat": 32.02445,
+      "lon": -81.046383,
+      "icw_mile": 583.0,
+      "segment": "Thunderbolt / Savannah"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-09",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Thunderbolt Marine / Waterway Guide / CruisersNet",
+      "source_url": "https://www.waterwayguide.com/marina/thunderbolt-marine",
+      "source_date": "2026-04-09"
+    },
+    "contact": {
+      "phone": "+1 (912) 210-0363",
+      "email": "dockmaster@thunderboltmarine.us",
+      "website": "https://www.thunderboltmarine.com/",
+      "vhf": "11"
+    },
+    "depth": {
+      "approach_ft_mlw": 20.0,
+      "dockside_ft_mlw": 20.0,
+      "max_recommended_draft_ft": 12.0
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "repairs": true,
+      "haulout": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Transient pricing should be confirmed directly. Extended stays are best arranged in advance."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.58
+    },
+    "protection": {
+      "wind": {
+        "N": 0.8,
+        "E": 0.68,
+        "S": 0.78,
+        "W": 0.82
+      },
+      "wake_exposure_score": 0.22,
+      "current_exposure_score": 0.3
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 200,
+      "dock_handling_difficulty_score": 0.28
+    },
+    "quality": {
+      "baseline_score": 0.88,
+      "use_cases": {
+        "overnight_stop": 0.84,
+        "fuel_stop": 0.8,
+        "provisioning": 0.24,
+        "weather_wait": 0.82,
+        "quiet_night": 0.68,
+        "easy_in_easy_out": 0.78,
+        "budget_stop": 0.28
+      },
+      "value_score": 0.32,
+      "convenience_score": 0.58,
+      "quiet_score": 0.68
+    },
+    "cautions": [
+      {
+        "type": "yard_environment",
+        "severity": 0.3,
+        "text": "This is a serious yard-and-marina stop more than a resort stop, so expect a more working-waterfront feel."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A very practical deep-water Savannah-area stop for bigger boats, repairs, and people who value capability over charm."
+    }
+  },
+  {
+    "id": "marina_marinemax_savannah_bend",
+    "name": "MarineMax Savannah Bend",
+    "type": "marina",
+    "geo": {
+      "lat": 32.03555,
+      "lon": -81.04555,
+      "icw_mile": 582.3,
+      "segment": "Thunderbolt / Savannah"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-09",
+      "confidence": 0.84
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "MarineMax Savannah Bend / Waterway Guide / Marinalife",
+      "source_url": "https://www.marinemax.com/marinas/savannah-bend",
+      "source_date": "2026-04-09"
+    },
+    "contact": {
+      "phone": "+1 (912) 897-9881",
+      "website": "https://www.marinemax.com/marinas/savannah-bend",
+      "vhf": "68"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Current transient pricing and draft suitability should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.26
+    },
+    "protection": {
+      "wind": {
+        "N": 0.76,
+        "E": 0.66,
+        "S": 0.74,
+        "W": 0.78
+      },
+      "wake_exposure_score": 0.24,
+      "current_exposure_score": 0.28
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 65,
+      "dock_handling_difficulty_score": 0.26
+    },
+    "quality": {
+      "baseline_score": 0.82,
+      "use_cases": {
+        "overnight_stop": 0.8,
+        "fuel_stop": 0.78,
+        "provisioning": 0.12,
+        "weather_wait": 0.76,
+        "quiet_night": 0.68,
+        "easy_in_easy_out": 0.76,
+        "budget_stop": 0.3
+      },
+      "value_score": 0.34,
+      "convenience_score": 0.36,
+      "quiet_score": 0.68
+    },
+    "cautions": [
+      {
+        "type": "depth_unknown",
+        "severity": 0.4,
+        "text": "Depth details should be confirmed directly before planning this as a draft-sensitive stop."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A useful Thunderbolt-area working marina option that broadens the Savannah transient field, especially for fuel and pumpout."
+    }
+  },
+  {
+    "id": "marina_kilkenny_marina",
+    "name": "Kilkenny Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 31.79159,
+      "lon": -81.20732,
+      "icw_mile": 614.0,
+      "segment": "Kilkenny Creek / Richmond Hill"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-09",
+      "confidence": 0.82
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Kilkenny Marina / Waterway Guide / Marinalife",
+      "source_url": "https://www.waterwayguide.com/marina/kilkenny-marina",
+      "source_date": "2026-04-09"
+    },
+    "contact": {
+      "phone": "+1 (912) 727-2215",
+      "website": "https://www.waterwayguide.com/marina/kilkenny-marina"
+    },
+    "depth": {
+      "approach_ft_mlw": 8.0,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": 6.5
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": false,
+      "water": false,
+      "shore_power": false,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "ship_store": true,
+      "restaurant": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Current transient pricing and fuel availability should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.18
+    },
+    "protection": {
+      "wind": {
+        "N": 0.88,
+        "E": 0.72,
+        "S": 0.86,
+        "W": 0.9
+      },
+      "wake_exposure_score": 0.1,
+      "current_exposure_score": 0.16
+    },
+    "vessel_fit": {
+      "big_boat_friendly": false,
+      "max_comfortable_loa_ft": 90,
+      "dock_handling_difficulty_score": 0.26
+    },
+    "quality": {
+      "baseline_score": 0.82,
+      "use_cases": {
+        "overnight_stop": 0.84,
+        "fuel_stop": 0.74,
+        "provisioning": 0.08,
+        "weather_wait": 0.9,
+        "quiet_night": 0.88,
+        "easy_in_easy_out": 0.58,
+        "budget_stop": 0.46
+      },
+      "value_score": 0.48,
+      "convenience_score": 0.22,
+      "quiet_score": 0.88
+    },
+    "cautions": [
+      {
+        "type": "off_icw",
+        "severity": 0.34,
+        "text": "This is an off-ICW creek stop, so route planning and entrance timing deserve attention."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A more protected and more old-school Georgia stop than the straight-ICW marinas. Better for a quiet night than for town access."
+    }
+  },
+  {
+    "id": "marina_sunbury_crab_company_marina",
+    "name": "Sunbury Crab Company Restaurant & Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 31.77148,
+      "lon": -81.27764,
+      "icw_mile": 620.0,
+      "segment": "Sunbury / Midway"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-09",
+      "confidence": 0.83
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Sunbury Crab Company / Waterway Guide / CruisersNet",
+      "source_url": "https://www.waterwayguide.com/featured-marina/sunbury-crab-co-restaurant-and-marina",
+      "source_date": "2026-04-09"
+    },
+    "contact": {
+      "phone": "+1 (912) 884-8640",
+      "website": "https://sunburycrabco.com/"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": false,
+      "wifi": true,
+      "restaurant": true,
+      "courtesy_car": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Current transient pricing and service details should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.14
+    },
+    "protection": {
+      "wind": {
+        "N": 0.8,
+        "E": 0.66,
+        "S": 0.78,
+        "W": 0.84
+      },
+      "wake_exposure_score": 0.14,
+      "current_exposure_score": 0.22
+    },
+    "vessel_fit": {
+      "big_boat_friendly": false,
+      "max_comfortable_loa_ft": 100,
+      "dock_handling_difficulty_score": 0.34
+    },
+    "quality": {
+      "baseline_score": 0.8,
+      "use_cases": {
+        "overnight_stop": 0.82,
+        "fuel_stop": 0.76,
+        "provisioning": 0.12,
+        "weather_wait": 0.78,
+        "quiet_night": 0.78,
+        "easy_in_easy_out": 0.56,
+        "budget_stop": 0.44
+      },
+      "value_score": 0.46,
+      "convenience_score": 0.2,
+      "quiet_score": 0.78
+    },
+    "cautions": [
+      {
+        "type": "approach",
+        "severity": 0.38,
+        "text": "Approach guidance should be reviewed carefully and the marina should be called ahead for docking help."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A classic Georgia stop if you want an atmospheric dock-and-dinner experience more than a polished marina complex."
+    }
+  },
+  {
+    "id": "marina_st_marys_intracoastal_gateway",
+    "name": "St. Marys Intracoastal Gateway Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 30.7195,
+      "lon": -81.5491,
+      "icw_mile": 712.0,
+      "segment": "St. Marys"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-10",
+      "confidence": 0.93
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "City of St. Marys Gateway Marina",
+      "source_url": "https://www.stmarysga.gov/departments/st_marys_gateway_marina/index.php",
+      "source_date": "2026-04-10"
+    },
+    "contact": {
+      "phone": "+1 (912) 540-7230",
+      "email": "credy@stmarysga.gov",
+      "website": "https://www.stmarysga.gov/departments/st_marys_gateway_marina/index.php",
+      "vhf": "16"
+    },
+    "depth": {
+      "approach_ft_mlw": 25.0,
+      "dockside_ft_mlw": 25.0,
+      "max_recommended_draft_ft": 12.0
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": false,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "bikes": true,
+      "dock_carts": true,
+      "mail_room": true,
+      "golf_cart_rides": true,
+      "security_24h": true,
+      "boaters_lounge": true,
+      "day_trip_dockage": true,
+      "moorings": false
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 2.5,
+        "rate_basis": "per ft per day, with published range to 3.00 per ft",
+        "electric_rate": null,
+        "electric_rate_basis": "30 and 50 amp service available",
+        "water_rate": 0,
+        "water_rate_basis": "included with daily rate",
+        "pumpout_rate": 0,
+        "pumpout_rate_basis": "included at slip with daily rate",
+        "notes": "Published rates include $2.50-$3.00/ft daily, $12.50/ft weekly including water and at-slip pumpout, and $20 flat-rate day trip dockage with a 4-hour maximum. Check-in after 1:00 PM, check-out before 11:00 AM."
+      },
+      "special_offers": [
+        {
+          "description": "Weekly rate",
+          "rate": 12.5,
+          "rate_basis": "per ft per week including water and at-slip pumpout"
+        },
+        {
+          "description": "Day trip rate",
+          "rate": 20,
+          "rate_basis": "flat rate, 4 hour maximum"
+        }
+      ]
+    },
+    "shore_access": {
+      "groceries_nearby": true,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.96
+    },
+    "protection": {
+      "wind": {
+        "N": 0.76,
+        "E": 0.7,
+        "S": 0.74,
+        "W": 0.8
+      },
+      "wake_exposure_score": 0.24,
+      "current_exposure_score": 0.36
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 130,
+      "dock_handling_difficulty_score": 0.34
+    },
+    "quality": {
+      "baseline_score": 0.91,
+      "use_cases": {
+        "overnight_stop": 0.92,
+        "fuel_stop": 0.0,
+        "provisioning": 0.84,
+        "weather_wait": 0.8,
+        "quiet_night": 0.76,
+        "easy_in_easy_out": 0.72,
+        "budget_stop": 0.48
+      },
+      "value_score": 0.52,
+      "convenience_score": 0.94,
+      "quiet_score": 0.76
+    },
+    "cautions": [
+      {
+        "type": "off_icw",
+        "severity": 0.56,
+        "text": "This marina is several miles off the ICW rather than a straight-off-the-waterway stop."
+      },
+      {
+        "type": "no_fuel",
+        "severity": 0.42,
+        "text": "Fuel is not available here, so cruisers needing fuel should plan that separately."
+      }
+    ],
+    "expert_notes": {
+      "plain": "Sail to the Sun Logbook: St. Marys Intracoastal Gateway Marina is off the beaten ICW track, but a worthwhile stop. This is a friendly, helpful marina and town and worth the time to visit. Note that if you choose to anchor, the current swirls in this area, particularly at slack tides. Give yourself plenty of room. Note also that you can go well up the river and around the bend into areas not shown on your chart with plenty of water under your keel."
+    },
+    "aliases": [
+      "st marys marina",
+      "st. marys marina",
+      "st marys intracoastal gateway",
+      "st marys gateway marina",
+      "st marys ga marina",
+      "saint marys marina"
+    ],
+    "nearby_places": [
+      "st marys",
+      "st. marys",
+      "saint marys",
+      "cumberland sound"
+    ]
+  },
+  {
+    "id": "marina_coffee_bluff_marina",
+    "name": "Coffee Bluff Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 31.9499,
+      "lon": -81.1083,
+      "icw_mile": 594.0,
+      "segment": "Savannah / Coffee Bluff"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-10",
+      "confidence": 0.84
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Coffee Bluff Marina / Waterway Guide / Marinalife",
+      "source_url": "https://www.waterwayguide.com/marina/coffee-bluff-marina",
+      "source_date": "2026-04-10"
+    },
+    "contact": {
+      "phone": null,
+      "email": null,
+      "website": "https://www.coffeebluffmarina.info/",
+      "vhf": null
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": null,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "ship_store": true,
+      "repairs": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 1.5,
+        "rate_basis": "per ft per night",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Current rates, fuel prices, and depth suitability should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.26
+    },
+    "protection": {
+      "wind": {
+        "N": 0.78,
+        "E": 0.68,
+        "S": 0.76,
+        "W": 0.82
+      },
+      "wake_exposure_score": 0.18,
+      "current_exposure_score": 0.24
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 200,
+      "dock_handling_difficulty_score": 0.24
+    },
+    "quality": {
+      "baseline_score": 0.84,
+      "use_cases": {
+        "overnight_stop": 0.84,
+        "fuel_stop": 0.8,
+        "provisioning": 0.18,
+        "weather_wait": 0.8,
+        "quiet_night": 0.82,
+        "easy_in_easy_out": 0.72,
+        "budget_stop": 0.48
+      },
+      "value_score": 0.5,
+      "convenience_score": 0.34,
+      "quiet_score": 0.82
+    },
+    "cautions": [
+      {
+        "type": "depth_confirm",
+        "severity": 0.38,
+        "text": "Depths and current conditions should be confirmed directly before planning this as a draft-sensitive stop."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A quieter Savannah-area stop with useful marina services. Better for people who want a less urban feel than Thunderbolt or downtown-access stops."
+    }
+  },
+  {
+    "id": "marina_delegal_creek_marina",
+    "name": "Delegal Creek Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 31.8907,
+      "lon": -81.0182,
+      "icw_mile": 718.0,
+      "segment": "Skidaway / Savannah Urbanized Area"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-10",
+      "confidence": 0.92
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Delegal Creek Marina / Landings / Waterway Guide / CruisersNet / Dockwa",
+      "source_url": "https://www.landings.org/delegal-creek-marina",
+      "source_date": "2026-04-10"
+    },
+    "contact": {
+      "phone": "+1 (912) 224-3885",
+      "email": "marinas@landings.org",
+      "website": "https://www.landings.org/delegal-creek-marina",
+      "vhf": "68"
+    },
+    "media": {
+      "chartlet_url": "/images/chartlets/delegal-creek-chart.png"
+    },
+    "depth": {
+      "approach_ft_mlw": 4.0,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": 4.0
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "ship_store": false,
+      "courtesy_cart": true,
+      "bait": true,
+      "ice": true,
+      "snacks": true,
+      "beverages": true,
+      "fish_cleaning_station": true,
+      "kayak_rentals": true,
+      "sunset_pavilion": true,
+      "delegal_tower": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 2.25,
+        "rate_basis": "per ft per day",
+        "electric_rate": 5,
+        "electric_rate_basis": "30 amp per day",
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": 5,
+        "pumpout_rate_basis": "per cycle",
+        "notes": "50 amp electric is $10 per day. BoatUS member discounts are advertised. Depth, slip suitability, and fuel practicality should still be confirmed directly before arrival."
+      },
+      "special_offers": [
+        {
+          "description": "50 amp electric",
+          "rate": 10,
+          "rate_basis": "per day"
+        }
+      ]
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.24
+    },
+    "protection": {
+      "wind": {
+        "N": 0.86,
+        "E": 0.74,
+        "S": 0.84,
+        "W": 0.88
+      },
+      "wake_exposure_score": 0.08,
+      "current_exposure_score": 0.14
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 125,
+      "dock_handling_difficulty_score": 0.38
+    },
+    "quality": {
+      "baseline_score": 0.84,
+      "use_cases": {
+        "overnight_stop": 0.88,
+        "fuel_stop": 0.48,
+        "provisioning": 0.14,
+        "weather_wait": 0.9,
+        "quiet_night": 0.9,
+        "easy_in_easy_out": 0.34,
+        "budget_stop": 0.54
+      },
+      "value_score": 0.58,
+      "convenience_score": 0.26,
+      "quiet_score": 0.9
+    },
+    "cautions": [
+      {
+        "type": "off_icw",
+        "severity": 0.72,
+        "text": "This is not a straight-off-the-ICW stop. The marina sits about 1.8 miles off the ICW and is better treated as a deliberate destination than a casual pass-through stop."
+      },
+      {
+        "type": "shoal_depth",
+        "severity": 0.88,
+        "text": "The approach is through a shoal-sensitive channel. Use the Delegal Creek chart and current local guidance before entry."
+      },
+      {
+        "type": "aids_private",
+        "severity": 0.76,
+        "text": "Approach aids are privately maintained and should not be treated casually. Local chart guidance should be reviewed before entry."
+      }
+    ],
+    "expert_notes": {
+      "plain": "Sail to the Sun Logbook: Delegal Creek Marina is better treated as a protected, depth-limited, off-ICW stop than as a routine Savannah fuel answer. For practical fuel on this stretch, passing cruisers should generally think first of Isle of Hope or the Thunderbolt marinas. Consult the chartlet below as a guide to entering this marina. Note that the position of the markers may have changed."
+    },
+    "aliases": [
+      "delagal",
+      "delagal creek",
+      "delagal creek marina",
+      "delegal",
+      "delegal creek",
+      "delegal creek ga",
+      "delegal creek marina",
+      "delegal creek savannah",
+      "skidaway delegal creek"
+    ],
+    "nearby_places": [
+      "delegal creek",
+      "skidaway",
+      "skidaway island",
+      "savannah urbanized area",
+      "savannah outskirts"
+    ]
+  },
+  {
+    "id": "marina_fort_mcallister_marina",
+    "name": "Fort McAllister Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 31.8824,
+      "lon": -81.1935,
+      "icw_mile": 604.5,
+      "segment": "Richmond Hill / Ogeechee"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-10",
+      "confidence": 0.83
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Fort McAllister Marina / Waterway Guide / Marinalife",
+      "source_url": "https://www.waterwayguide.com/marina/1-2336/fort-mcallister-marina",
+      "source_date": "2026-04-10"
+    },
+    "contact": {
+      "phone": null,
+      "email": null,
+      "website": "https://www.waterwayguide.com/marina/1-2336/fort-mcallister-marina",
+      "vhf": null
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": 14.0,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": null,
+      "wifi": null,
+      "restaurant": false,
+      "pool": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 2.5,
+        "rate_basis": "per ft per night",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Rates and fuel status should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.12
+    },
+    "protection": {
+      "wind": {
+        "N": 0.84,
+        "E": 0.72,
+        "S": 0.82,
+        "W": 0.86
+      },
+      "wake_exposure_score": 0.12,
+      "current_exposure_score": 0.18
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 100,
+      "dock_handling_difficulty_score": 0.28
+    },
+    "quality": {
+      "baseline_score": 0.8,
+      "use_cases": {
+        "overnight_stop": 0.82,
+        "fuel_stop": 0.72,
+        "provisioning": 0.06,
+        "weather_wait": 0.86,
+        "quiet_night": 0.84,
+        "easy_in_easy_out": 0.58,
+        "budget_stop": 0.4
+      },
+      "value_score": 0.42,
+      "convenience_score": 0.16,
+      "quiet_score": 0.84
+    },
+    "cautions": [
+      {
+        "type": "service_verify",
+        "severity": 0.42,
+        "text": "Some service details are not consistently published, so confirm transient suitability, fuel availability, and amenities directly before arrival."
+      }
+    ],
+    "expert_notes": {
+      "plain": "More of a protected state-park-area stop than a full town stop. Better for a quiet overnight than for provisioning or shoreside convenience."
+    }
+  },
+  {
+    "id": "marina_landings_harbor_marina",
+    "name": "Landings Harbor Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 31.9586,
+      "lon": -81.0038,
+      "icw_mile": 587.0,
+      "segment": "Skidaway / Landings"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-10",
+      "confidence": 0.81
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Landings Harbor Marina / Waterway Guide / CruisersNet / BoatUS",
+      "source_url": "https://www.waterwayguide.com/marina/landings-harbor-marina",
+      "source_date": "2026-04-10"
+    },
+    "contact": {
+      "phone": "+1 (912) 598-1901",
+      "email": "brettr@landings.org",
+      "website": "https://www.landings.org/landings-harbor-marina",
+      "vhf": "68"
+    },
+    "depth": {
+      "approach_ft_mlw": 8.0,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": 7.0
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": null,
+      "wifi": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Transient availability is limited and should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.18
+    },
+    "protection": {
+      "wind": {
+        "N": 0.78,
+        "E": 0.68,
+        "S": 0.76,
+        "W": 0.82
+      },
+      "wake_exposure_score": 0.16,
+      "current_exposure_score": 0.18
+    },
+    "vessel_fit": {
+      "big_boat_friendly": false,
+      "max_comfortable_loa_ft": 40,
+      "dock_handling_difficulty_score": 0.24
+    },
+    "quality": {
+      "baseline_score": 0.76,
+      "use_cases": {
+        "overnight_stop": 0.72,
+        "fuel_stop": 0.74,
+        "provisioning": 0.06,
+        "weather_wait": 0.74,
+        "quiet_night": 0.82,
+        "easy_in_easy_out": 0.64,
+        "budget_stop": 0.34
+      },
+      "value_score": 0.36,
+      "convenience_score": 0.16,
+      "quiet_score": 0.82
+    },
+    "cautions": [
+      {
+        "type": "limited_transient",
+        "severity": 0.52,
+        "text": "Transient capacity is limited and vessel size matters here more than at the bigger Savannah-area stops."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A smaller, quieter Skidaway-area marina better suited to modest-size transient boats than to larger cruising yachts."
+    }
+  }
+]

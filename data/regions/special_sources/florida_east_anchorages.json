@@ -1,0 +1,491 @@
+[
+  {
+    "id": "anchorage_blount_island",
+    "name": "Blount Island",
+    "type": "anchorage",
+    "geo": {
+      "lat": 30.4025,
+      "lon": -81.50805,
+      "icw_mile": 10.3,
+      "segment": "Jacksonville / St. Johns River"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.84
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/reviews/2-451/blount-island",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "typical_ft_mlw": 14.0,
+      "shallow_spots_ft_mlw": 12.0,
+      "deep_spots_ft_mlw": 17.0,
+      "max_recommended_draft_ft": 10.5
+    },
+    "holding": {
+      "bottom_type": ["unknown"],
+      "holding_quality_score": 0.6
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": false,
+      "shore_access_easy": false
+    },
+    "protection": {
+      "wind": {
+        "N": 0.56,
+        "E": 0.42,
+        "S": 0.54,
+        "W": 0.62
+      },
+      "wake_exposure_score": 0.46,
+      "current_exposure_score": 0.44
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.05
+    },
+    "quality": {
+      "baseline_score": 0.56,
+      "use_cases": {
+        "overnight_stop": 0.58,
+        "fuel_stop": 0.0,
+        "provisioning": 0.0,
+        "weather_wait": 0.42,
+        "quiet_night": 0.46,
+        "easy_in_easy_out": 0.52,
+        "budget_stop": 0.82
+      },
+      "value_score": 0.9,
+      "convenience_score": 0.08,
+      "quiet_score": 0.46
+    },
+    "cautions": [
+      {
+        "type": "industrial_area",
+        "severity": 0.52,
+        "text": "This is more of a practical river anchorage than a scenic stop."
+      }
+    ],
+    "expert_notes": {
+      "plain": "Useful as a no-cost Jacksonville-area stop, but not one to treat like a destination anchorage."
+    }
+  },
+  {
+    "id": "anchorage_fort_matanzas_g81a",
+    "name": "Fort Matanzas G81A",
+    "type": "anchorage",
+    "geo": {
+      "lat": 29.715483,
+      "lon": -81.23765,
+      "icw_mile": 792.4,
+      "segment": "Matanzas River / South of St. Augustine"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.88
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/reviews/2-511/fort-matanzas-g81a",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "typical_ft_mlw": 9.0,
+      "shallow_spots_ft_mlw": 8.0,
+      "deep_spots_ft_mlw": 10.0,
+      "max_recommended_draft_ft": 7.0
+    },
+    "holding": {
+      "bottom_type": ["unknown"],
+      "holding_quality_score": 0.68
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": false,
+      "shore_access_easy": false
+    },
+    "protection": {
+      "wind": {
+        "N": 0.62,
+        "E": 0.46,
+        "S": 0.58,
+        "W": 0.68
+      },
+      "wake_exposure_score": 0.34,
+      "current_exposure_score": 0.38
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.06
+    },
+    "quality": {
+      "baseline_score": 0.72,
+      "use_cases": {
+        "overnight_stop": 0.76,
+        "fuel_stop": 0.0,
+        "provisioning": 0.0,
+        "weather_wait": 0.58,
+        "quiet_night": 0.72,
+        "easy_in_easy_out": 0.6,
+        "budget_stop": 0.92
+      },
+      "value_score": 0.95,
+      "convenience_score": 0.1,
+      "quiet_score": 0.72
+    },
+    "cautions": [
+      {
+        "type": "shore_access_limited",
+        "severity": 0.38,
+        "text": "This is more of a pure overnight anchorage than a provisioning stop."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A practical St. Augustine-south anchorage if you want a quieter, no-cost stop and do not need shore services."
+    }
+  },
+  {
+    "id": "anchorage_bennett_causeway_bridges",
+    "name": "Bennett Causeway Bridges",
+    "type": "anchorage",
+    "geo": {
+      "lat": 28.4,
+      "lon": -80.738617,
+      "icw_mile": 894.0,
+      "segment": "Indian River / Cocoa-Cape Canaveral"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.84
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/anchorage/2-535/bennett-causeway-bridges",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "typical_ft_mlw": 7.5,
+      "shallow_spots_ft_mlw": 7.0,
+      "deep_spots_ft_mlw": 8.0,
+      "max_recommended_draft_ft": 6.0
+    },
+    "holding": {
+      "bottom_type": ["unknown"],
+      "holding_quality_score": 0.58
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": false,
+      "shore_access_easy": false
+    },
+    "protection": {
+      "wind": {
+        "N": 0.56,
+        "E": 0.42,
+        "S": 0.52,
+        "W": 0.58
+      },
+      "wake_exposure_score": 0.42,
+      "current_exposure_score": 0.24
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.08
+    },
+    "quality": {
+      "baseline_score": 0.62,
+      "use_cases": {
+        "overnight_stop": 0.64,
+        "fuel_stop": 0.0,
+        "provisioning": 0.0,
+        "weather_wait": 0.38,
+        "quiet_night": 0.5,
+        "easy_in_easy_out": 0.66,
+        "budget_stop": 0.94
+      },
+      "value_score": 0.96,
+      "convenience_score": 0.1,
+      "quiet_score": 0.5
+    },
+    "cautions": [
+      {
+        "type": "bridge_area",
+        "severity": 0.42,
+        "text": "This is a bridge-area anchorage, so it is more of a practical stop than a peaceful destination anchorage."
+      }
+    ],
+    "expert_notes": {
+      "plain": "Useful if you need a straightforward no-cost stop in the Cocoa/Cape Canaveral stretch, but not the most protected or scenic anchorage."
+    }
+  },
+  {
+    "id": "anchorage_cocoa_yacht_basin",
+    "name": "Cocoa Yacht Basin",
+    "type": "anchorage",
+    "geo": {
+      "lat": 28.352217,
+      "lon": -80.721117,
+      "icw_mile": 897.5,
+      "segment": "Indian River / Cocoa"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/anchorage/2-536/cocoa-yacht-basin",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "typical_ft_mlw": 7.5,
+      "shallow_spots_ft_mlw": 6.0,
+      "deep_spots_ft_mlw": 9.0,
+      "max_recommended_draft_ft": 6.0
+    },
+    "holding": {
+      "bottom_type": ["unknown"],
+      "holding_quality_score": 0.72
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": true,
+      "shore_access_easy": true
+    },
+    "protection": {
+      "wind": {
+        "N": 0.62,
+        "E": 0.46,
+        "S": 0.58,
+        "W": 0.68
+      },
+      "wake_exposure_score": 0.34,
+      "current_exposure_score": 0.2
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.72
+    },
+    "quality": {
+      "baseline_score": 0.8,
+      "use_cases": {
+        "overnight_stop": 0.82,
+        "fuel_stop": 0.0,
+        "provisioning": 0.34,
+        "weather_wait": 0.58,
+        "quiet_night": 0.68,
+        "easy_in_easy_out": 0.7,
+        "budget_stop": 0.96
+      },
+      "value_score": 0.98,
+      "convenience_score": 0.62,
+      "quiet_score": 0.68
+    },
+    "cautions": [
+      {
+        "type": "cable_pipeline",
+        "severity": 0.82,
+        "text": "Avoid the charted cable and pipeline area south of the bridges."
+      },
+      {
+        "type": "low_power_lines",
+        "severity": 0.9,
+        "text": "Stay well clear of the low power lines charted at 38 feet."
+      }
+    ],
+    "expert_notes": {
+      "plain": "One of the more useful Cocoa-area anchorages because it combines a workable overnight stop with decent town access, but the charted obstructions and low wires matter."
+    }
+  },
+  {
+    "id": "anchorage_indian_river_g89",
+    "name": "Indian River G89",
+    "type": "anchorage",
+    "geo": {
+      "lat": 28.2771,
+      "lon": -80.67805,
+      "icw_mile": 904.5,
+      "segment": "Indian River / South Cocoa Beach"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/anchorage/2-538/indian-river-g89",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "typical_ft_mlw": 9.5,
+      "shallow_spots_ft_mlw": 8.0,
+      "deep_spots_ft_mlw": 10.0,
+      "max_recommended_draft_ft": 7.5
+    },
+    "holding": {
+      "bottom_type": ["unknown"],
+      "holding_quality_score": 0.82
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": false,
+      "shore_access_easy": false
+    },
+    "protection": {
+      "wind": {
+        "N": 0.58,
+        "E": 0.42,
+        "S": 0.52,
+        "W": 0.6
+      },
+      "wake_exposure_score": 0.34,
+      "current_exposure_score": 0.3
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.1
+    },
+    "quality": {
+      "baseline_score": 0.78,
+      "use_cases": {
+        "overnight_stop": 0.8,
+        "fuel_stop": 0.0,
+        "provisioning": 0.04,
+        "weather_wait": 0.54,
+        "quiet_night": 0.72,
+        "easy_in_easy_out": 0.82,
+        "budget_stop": 0.96
+      },
+      "value_score": 0.98,
+      "convenience_score": 0.12,
+      "quiet_score": 0.72
+    },
+    "cautions": [
+      {
+        "type": "open_exposure",
+        "severity": 0.58,
+        "text": "Open south through west to north and can be subject to heavy wakes."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A practical Indian River stop with good reported holding and easy access right off the ICW, but not the best choice when exposed winds or wakes are up."
+    }
+  },
+  {
+    "id": "anchorage_lake_worth_lagoon",
+    "name": "Lake Worth Lagoon anchorage",
+    "type": "anchorage",
+    "geo": {
+      "lat": 26.757933,
+      "lon": -80.0445,
+      "icw_mile": 1019.0,
+      "segment": "Lake Worth / West Palm Beach"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide + Sail to the Sun local knowledge",
+      "source_url": "https://www.waterwayguide.com/anchorage/2-611/lake-worth-r6",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "typical_ft_mlw": 8.0,
+      "shallow_spots_ft_mlw": 8.0,
+      "deep_spots_ft_mlw": 8.0,
+      "max_recommended_draft_ft": 6.5
+    },
+    "holding": {
+      "bottom_type": ["unknown"],
+      "holding_quality_score": 0.66
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": true,
+      "shore_access_easy": true
+    },
+    "protection": {
+      "wind": {
+        "N": 0.54,
+        "E": 0.42,
+        "S": 0.5,
+        "W": 0.58
+      },
+      "wake_exposure_score": 0.42,
+      "current_exposure_score": 0.32
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.18
+    },
+    "quality": {
+      "baseline_score": 0.7,
+      "use_cases": {
+        "overnight_stop": 0.72,
+        "fuel_stop": 0.0,
+        "provisioning": 0.08,
+        "weather_wait": 0.46,
+        "quiet_night": 0.56,
+        "easy_in_easy_out": 0.72,
+        "budget_stop": 0.96
+      },
+      "value_score": 0.98,
+      "convenience_score": 0.2,
+      "quiet_score": 0.56
+    },
+    "local_knowledge": {
+      "source_type": "editorial_override",
+      "source_name": "Sail to the Sun Expert Opinion",
+      "basis": "experienced cruiser/local operational knowledge",
+      "confidence": 0.95
+    },
+    "cautions": [
+      {
+        "type": "spoil_and_cables",
+        "severity": 0.88,
+        "text": "Avoid the charted spoil and cable areas here."
+      },
+      {
+        "type": "crowded_area",
+        "severity": 0.62,
+        "text": "There are numerous permanently moored vessels in this area."
+      },
+      {
+        "type": "anchoring_law_limit",
+        "severity": 0.92,
+        "text": "Local anchoring laws restrict stays here to 30 days in any 6-month period."
+      }
+    ],
+    "expert_notes": {
+      "plain": "Sail to the Sun Expert Opinion: This is the Lake Worth Lagoon anchorage. Local anchoring laws restrict stays here to 30 days in any 6-month period. Dinghy dockage is available at the Palm Beach Sailing Club for a daily, weekly, or monthly charge. Place the hook carefully because of charted hazards and the number of local moored boats."
+    }
+  }
+]

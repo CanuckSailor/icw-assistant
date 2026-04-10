@@ -1,0 +1,318 @@
+[
+  {
+    "id": "anchorage_alligator_river_durant_island_south",
+    "name": "Alligator River - Durant Island (South)",
+    "type": "anchorage",
+    "geo": {
+      "lat": 35.94105,
+      "lon": -75.940583,
+      "icw_mile": null,
+      "segment": "Alligator River"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.84
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/anchorage/2-2608/alligator-river-durant-island-south",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "typical_ft_mlw": 8.5,
+      "shallow_spots_ft_mlw": 8.0,
+      "deep_spots_ft_mlw": 9.0,
+      "max_recommended_draft_ft": 6.5
+    },
+    "holding": {
+      "bottom_type": ["unknown"],
+      "holding_quality_score": 0.84
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": false,
+      "shore_access_easy": false
+    },
+    "protection": {
+      "wind": {
+        "N": 0.52,
+        "E": 0.36,
+        "S": 0.48,
+        "W": 0.54
+      },
+      "wake_exposure_score": 0.32,
+      "current_exposure_score": 0.12
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.02
+    },
+    "quality": {
+      "baseline_score": 0.72,
+      "use_cases": {
+        "overnight_stop": 0.74,
+        "fuel_stop": 0.0,
+        "provisioning": 0.0,
+        "weather_wait": 0.56,
+        "quiet_night": 0.72,
+        "easy_in_easy_out": 0.76,
+        "budget_stop": 0.98
+      },
+      "value_score": 0.99,
+      "convenience_score": 0.04,
+      "quiet_score": 0.72
+    },
+    "cautions": [],
+    "expert_notes": {
+      "plain": "A practical Alligator River overnight stop when you need a no-cost anchorage in an otherwise sparse stretch."
+    }
+  },
+  {
+    "id": "anchorage_pungo_river_jordan_creek",
+    "name": "Pungo River - Jordan Creek",
+    "type": "anchorage",
+    "geo": {
+      "lat": 35.455633,
+      "lon": -76.614533,
+      "icw_mile": 140.0,
+      "segment": "Pungo River"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.88
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/anchorage/2-2016/jordan-creek-nc",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "typical_ft_mlw": 12.5,
+      "shallow_spots_ft_mlw": 10.0,
+      "deep_spots_ft_mlw": 15.0,
+      "max_recommended_draft_ft": 5.0
+    },
+    "holding": {
+      "bottom_type": ["mud"],
+      "holding_quality_score": 0.82
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": false,
+      "shore_access_easy": false
+    },
+    "protection": {
+      "wind": {
+        "N": 0.62,
+        "E": 0.2,
+        "S": 0.62,
+        "W": 0.68
+      },
+      "wake_exposure_score": 0.16,
+      "current_exposure_score": 0.16
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.02
+    },
+    "quality": {
+      "baseline_score": 0.76,
+      "use_cases": {
+        "overnight_stop": 0.78,
+        "fuel_stop": 0.0,
+        "provisioning": 0.0,
+        "weather_wait": 0.74,
+        "quiet_night": 0.84,
+        "easy_in_easy_out": 0.62,
+        "budget_stop": 0.98
+      },
+      "value_score": 0.99,
+      "convenience_score": 0.04,
+      "quiet_score": 0.84
+    },
+    "cautions": [
+      {
+        "type": "entrance_bar",
+        "severity": 0.9,
+        "text": "The entrance bar should not be attempted if you draw more than 5 feet."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A strong quiet-night anchorage if your draft fits the entrance. Not for casual deeper-draft use."
+    }
+  },
+  {
+    "id": "anchorage_beaufort_taylor_creek",
+    "name": "Beaufort - Taylor Creek",
+    "type": "anchorage",
+    "geo": {
+      "lat": 34.714167,
+      "lon": -76.663883,
+      "icw_mile": 204.0,
+      "segment": "Beaufort"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.92
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/anchorage/2-318/taylor-creek",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "typical_ft_mlw": 8.5,
+      "shallow_spots_ft_mlw": 7.0,
+      "deep_spots_ft_mlw": 10.0,
+      "max_recommended_draft_ft": 6.5
+    },
+    "holding": {
+      "bottom_type": ["mud"],
+      "holding_quality_score": 0.9
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": true,
+      "shore_access_easy": true
+    },
+    "protection": {
+      "wind": {
+        "N": 0.58,
+        "E": 0.44,
+        "S": 0.58,
+        "W": 0.5
+      },
+      "wake_exposure_score": 0.38,
+      "current_exposure_score": 0.72
+    },
+    "shore_access": {
+      "groceries_nearby": true,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.82
+    },
+    "quality": {
+      "baseline_score": 0.84,
+      "use_cases": {
+        "overnight_stop": 0.84,
+        "fuel_stop": 0.0,
+        "provisioning": 0.64,
+        "weather_wait": 0.42,
+        "quiet_night": 0.54,
+        "easy_in_easy_out": 0.52,
+        "budget_stop": 0.98
+      },
+      "value_score": 0.99,
+      "convenience_score": 0.78,
+      "quiet_score": 0.54
+    },
+    "cautions": [
+      {
+        "type": "swift_current",
+        "severity": 0.9,
+        "text": "Swift tidal current and close quarters require care."
+      },
+      {
+        "type": "bahamian_moor_preferred",
+        "severity": 0.86,
+        "text": "A Bahamian moor is often advisable here because of current and limited swinging room."
+      },
+      {
+        "type": "shoaling_edge",
+        "severity": 0.72,
+        "text": "Be mindful of sharp shoaling along the southern side."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A classic Beaufort anchorage with strong town access, but this is not a lazy hook-and-forget place. Current management matters."
+    }
+  },
+  {
+    "id": "anchorage_lookout_bight",
+    "name": "Lookout Bight",
+    "type": "anchorage",
+    "geo": {
+      "lat": 34.61675,
+      "lon": -76.535883,
+      "icw_mile": null,
+      "segment": "Cape Lookout"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.88
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/anchorage/2-283/lookout-bight",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "typical_ft_mlw": 12.0,
+      "shallow_spots_ft_mlw": 8.0,
+      "deep_spots_ft_mlw": 26.0,
+      "max_recommended_draft_ft": 8.5
+    },
+    "holding": {
+      "bottom_type": ["mud"],
+      "holding_quality_score": 0.9
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": true,
+      "shore_access_easy": true
+    },
+    "protection": {
+      "wind": {
+        "N": 0.34,
+        "E": 0.34,
+        "S": 0.7,
+        "W": 0.34
+      },
+      "wake_exposure_score": 0.4,
+      "current_exposure_score": 0.58
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.18
+    },
+    "quality": {
+      "baseline_score": 0.8,
+      "use_cases": {
+        "overnight_stop": 0.82,
+        "fuel_stop": 0.0,
+        "provisioning": 0.0,
+        "weather_wait": 0.54,
+        "quiet_night": 0.72,
+        "easy_in_easy_out": 0.56,
+        "budget_stop": 0.98
+      },
+      "value_score": 0.99,
+      "convenience_score": 0.18,
+      "quiet_score": 0.72
+    },
+    "cautions": [
+      {
+        "type": "wind_exposure",
+        "severity": 0.62,
+        "text": "This anchorage is exposed from northeast through northwest."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A rewarding Cape Lookout anchorage with real scenery and beach access, but not a fully protected hideout."
+    }
+  }
+]

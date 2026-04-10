@@ -1,0 +1,403 @@
+[
+  {
+    "id": "marina_portsmouth_boating_center",
+    "name": "Portsmouth Boating Center",
+    "type": "marina",
+    "geo": {
+      "lat": 36.846117,
+      "lon": -76.315000,
+      "icw_mile": 0.0,
+      "segment": "Portsmouth / Mile Marker Zero"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.87
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/marina/portsmouth-boating-center",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": null,
+      "pumpout": null,
+      "water": null,
+      "shore_power": null,
+      "restrooms": true,
+      "showers": true,
+      "laundry": null,
+      "repairs": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Current rates should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.28
+    },
+    "protection": {
+      "wind": {
+        "N": 0.8,
+        "E": 0.68,
+        "S": 0.76,
+        "W": 0.82
+      },
+      "wake_exposure_score": 0.22,
+      "current_exposure_score": 0.34
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.32
+    },
+    "quality": {
+      "baseline_score": 0.82,
+      "use_cases": {
+        "overnight_stop": 0.82,
+        "fuel_stop": 0.0,
+        "provisioning": 0.08,
+        "weather_wait": 0.82,
+        "quiet_night": 0.72,
+        "easy_in_easy_out": 0.82,
+        "budget_stop": 0.42
+      },
+      "value_score": 0.46,
+      "convenience_score": 0.34,
+      "quiet_score": 0.72
+    },
+    "cautions": [
+      {
+        "type": "yard_feel",
+        "severity": 0.34,
+        "text": "This is more of a practical working-marina choice than a polished resort stop."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A useful MM 0.0 stop when practical dockage and yard capability matter more than atmosphere."
+    }
+  },
+  {
+    "id": "marina_tidewater_yacht_marina",
+    "name": "Tidewater Yacht Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 36.8358,
+      "lon": -76.3095,
+      "icw_mile": 0.0,
+      "segment": "Portsmouth / Mile Marker Zero"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.91
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/marina/tidewater-yacht-marina",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "approach_ft_mlw": 12.0,
+      "dockside_ft_mlw": 11.0,
+      "max_recommended_draft_ft": 9.5
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "restaurant": true,
+      "marine_store": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Rates and specials should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.66
+    },
+    "protection": {
+      "wind": {
+        "N": 0.86,
+        "E": 0.72,
+        "S": 0.82,
+        "W": 0.88
+      },
+      "wake_exposure_score": 0.16,
+      "current_exposure_score": 0.26
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 300,
+      "dock_handling_difficulty_score": 0.22
+    },
+    "quality": {
+      "baseline_score": 0.92,
+      "use_cases": {
+        "overnight_stop": 0.92,
+        "fuel_stop": 0.84,
+        "provisioning": 0.2,
+        "weather_wait": 0.92,
+        "quiet_night": 0.82,
+        "easy_in_easy_out": 0.9,
+        "budget_stop": 0.4
+      },
+      "value_score": 0.44,
+      "convenience_score": 0.72,
+      "quiet_score": 0.82
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.28,
+        "text": "Current transient rates should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A very strong MM Zero choice with depth, protection, fuel, and one of the more complete service packages in the area."
+    }
+  },
+  {
+    "id": "marina_ocean_yacht_marina",
+    "name": "Ocean Yacht Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 36.8306,
+      "lon": -76.3090,
+      "icw_mile": 0.5,
+      "segment": "Portsmouth / South of MM Zero"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/featured-marina/ocean-yacht-marina",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "approach_ft_mlw": 45.0,
+      "dockside_ft_mlw": 30.0,
+      "max_recommended_draft_ft": 20.0
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": null,
+      "restaurant": false
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Current transient rates should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.28
+    },
+    "protection": {
+      "wind": {
+        "N": 0.84,
+        "E": 0.72,
+        "S": 0.8,
+        "W": 0.86
+      },
+      "wake_exposure_score": 0.16,
+      "current_exposure_score": 0.24
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 250,
+      "dock_handling_difficulty_score": 0.22
+    },
+    "quality": {
+      "baseline_score": 0.91,
+      "use_cases": {
+        "overnight_stop": 0.9,
+        "fuel_stop": 0.84,
+        "provisioning": 0.08,
+        "weather_wait": 0.92,
+        "quiet_night": 0.8,
+        "easy_in_easy_out": 0.9,
+        "budget_stop": 0.34
+      },
+      "value_score": 0.36,
+      "convenience_score": 0.5,
+      "quiet_score": 0.8
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.28,
+        "text": "Current transient rates should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A deep-water, big-boat-capable Portsmouth option that works especially well when depth and easy handling matter."
+    }
+  },
+  {
+    "id": "marina_safe_harbor_bluewater",
+    "name": "Safe Harbor Bluewater",
+    "type": "marina",
+    "geo": {
+      "lat": 37.016667,
+      "lon": -76.343333,
+      "icw_mile": 5.5,
+      "segment": "Hampton"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.88
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Waterway Guide / Safe Harbor",
+      "source_url": "https://www.waterwayguide.com/marina/safe-harbor-blue-water",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "restaurant": true,
+      "pool": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Current transient rates should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.42
+    },
+    "protection": {
+      "wind": {
+        "N": 0.82,
+        "E": 0.68,
+        "S": 0.8,
+        "W": 0.84
+      },
+      "wake_exposure_score": 0.2,
+      "current_exposure_score": 0.28
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 200,
+      "dock_handling_difficulty_score": 0.26
+    },
+    "quality": {
+      "baseline_score": 0.88,
+      "use_cases": {
+        "overnight_stop": 0.88,
+        "fuel_stop": 0.82,
+        "provisioning": 0.14,
+        "weather_wait": 0.86,
+        "quiet_night": 0.76,
+        "easy_in_easy_out": 0.82,
+        "budget_stop": 0.34
+      },
+      "value_score": 0.36,
+      "convenience_score": 0.56,
+      "quiet_score": 0.76
+    },
+    "cautions": [
+      {
+        "type": "depth_unknown",
+        "severity": 0.46,
+        "text": "Depth should be confirmed directly before arrival."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A strong Hampton Roads transient stop with a fuller amenity package than many plain working marinas."
+    }
+  }
+]

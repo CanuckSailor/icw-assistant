@@ -1,0 +1,510 @@
+[
+  {
+    "id": "marina_safe_harbor_port_royal_landing",
+    "name": "Safe Harbor Port Royal Landing",
+    "type": "marina",
+    "geo": {
+      "lat": 32.4128,
+      "lon": -80.6922,
+      "icw_mile": 539.0,
+      "segment": "Port Royal / Beaufort"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.91
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Waterway Guide / Safe Harbor",
+      "source_url": "https://www.waterwayguide.com/marina/safe-harbor-port-royal-landing",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "approach_ft_mlw": 20.0,
+      "dockside_ft_mlw": 15.0,
+      "max_recommended_draft_ft": 12.0
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": false,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "restaurant": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Transient pricing should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.44
+    },
+    "protection": {
+      "wind": {
+        "N": 0.72,
+        "E": 0.62,
+        "S": 0.7,
+        "W": 0.76
+      },
+      "wake_exposure_score": 0.34,
+      "current_exposure_score": 0.72
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 120,
+      "dock_handling_difficulty_score": 0.46
+    },
+    "quality": {
+      "baseline_score": 0.87,
+      "use_cases": {
+        "overnight_stop": 0.88,
+        "fuel_stop": 0.0,
+        "provisioning": 0.22,
+        "weather_wait": 0.8,
+        "quiet_night": 0.62,
+        "easy_in_easy_out": 0.8,
+        "budget_stop": 0.42
+      },
+      "value_score": 0.44,
+      "convenience_score": 0.52,
+      "quiet_score": 0.62
+    },
+    "cautions": [
+      {
+        "type": "strong_current",
+        "severity": 0.82,
+        "text": "Easy in and out, but current can be strong when the tide is running."
+      },
+      {
+        "type": "facility_walk",
+        "severity": 0.36,
+        "text": "Transient face dock is convenient, but the walk to some facilities can feel long."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A very practical Beaufort-area transient stop with good water and real depth, but tide and current should be taken seriously."
+    }
+  },
+  {
+    "id": "marina_hilton_head_harbor_marina",
+    "name": "Hilton Head Harbor Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 32.2365,
+      "lon": -80.7526,
+      "icw_mile": 557.0,
+      "segment": "Hilton Head"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.88
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/marina/hilton-head-harbor",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "ship_store": true,
+      "restaurant": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Transient pricing should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.46
+    },
+    "protection": {
+      "wind": {
+        "N": 0.72,
+        "E": 0.64,
+        "S": 0.7,
+        "W": 0.74
+      },
+      "wake_exposure_score": 0.3,
+      "current_exposure_score": 0.42
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.34
+    },
+    "quality": {
+      "baseline_score": 0.84,
+      "use_cases": {
+        "overnight_stop": 0.84,
+        "fuel_stop": 0.8,
+        "provisioning": 0.2,
+        "weather_wait": 0.76,
+        "quiet_night": 0.64,
+        "easy_in_easy_out": 0.8,
+        "budget_stop": 0.36
+      },
+      "value_score": 0.38,
+      "convenience_score": 0.5,
+      "quiet_score": 0.64
+    },
+    "cautions": [
+      {
+        "type": "depth_unknown",
+        "severity": 0.5,
+        "text": "Depth should be confirmed directly before arrival."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A useful Hilton Head transient/fuel stop right on the ICW if you want a straightforward marina with services."
+    }
+  },
+  {
+    "id": "marina_harbour_town_yacht_basin",
+    "name": "Harbour Town Yacht Basin",
+    "type": "marina",
+    "geo": {
+      "lat": 32.1389,
+      "lon": -80.8111,
+      "icw_mile": 565.0,
+      "segment": "Hilton Head / Calibogue Sound"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/marina/harbour-town-yacht-basin",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "approach_ft_mlw": 8.5,
+      "dockside_ft_mlw": 8.0,
+      "max_recommended_draft_ft": 7.0
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "restaurant": true,
+      "ship_store": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Transient pricing should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.68
+    },
+    "protection": {
+      "wind": {
+        "N": 0.68,
+        "E": 0.6,
+        "S": 0.66,
+        "W": 0.7
+      },
+      "wake_exposure_score": 0.34,
+      "current_exposure_score": 0.4
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 140,
+      "dock_handling_difficulty_score": 0.36
+    },
+    "quality": {
+      "baseline_score": 0.85,
+      "use_cases": {
+        "overnight_stop": 0.84,
+        "fuel_stop": 0.76,
+        "provisioning": 0.22,
+        "weather_wait": 0.7,
+        "quiet_night": 0.58,
+        "easy_in_easy_out": 0.7,
+        "budget_stop": 0.28
+      },
+      "value_score": 0.3,
+      "convenience_score": 0.62,
+      "quiet_score": 0.58
+    },
+    "cautions": [
+      {
+        "type": "draft_caution",
+        "severity": 0.58,
+        "text": "Reported depths are workable for many cruisers, but draft should still be matched carefully."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A polished Hilton Head transient stop with resort feel and solid facilities, but not the budget choice."
+    }
+  },
+  {
+    "id": "marina_safe_harbor_charleston_city",
+    "name": "Safe Harbor Charleston City",
+    "type": "marina",
+    "geo": {
+      "lat": 32.8218,
+      "lon": -79.9498,
+      "icw_mile": 469.5,
+      "segment": "Charleston"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.88
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/marina/safe-harbor-charleston-city",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "restaurant": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Transient pricing should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.78
+    },
+    "protection": {
+      "wind": {
+        "N": 0.7,
+        "E": 0.56,
+        "S": 0.68,
+        "W": 0.74
+      },
+      "wake_exposure_score": 0.36,
+      "current_exposure_score": 0.48
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.4
+    },
+    "quality": {
+      "baseline_score": 0.86,
+      "use_cases": {
+        "overnight_stop": 0.86,
+        "fuel_stop": 0.82,
+        "provisioning": 0.36,
+        "weather_wait": 0.76,
+        "quiet_night": 0.46,
+        "easy_in_easy_out": 0.74,
+        "budget_stop": 0.3
+      },
+      "value_score": 0.34,
+      "convenience_score": 0.74,
+      "quiet_score": 0.46
+    },
+    "cautions": [
+      {
+        "type": "depth_unknown",
+        "severity": 0.46,
+        "text": "Depth should be confirmed directly before arrival."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A very strong Charleston working-marina option with one of the better big-picture approaches in the area."
+    }
+  },
+  {
+    "id": "marina_charleston_harbor_resort_marina",
+    "name": "Charleston Harbor Resort & Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 32.7872,
+      "lon": -79.8983,
+      "icw_mile": 463.0,
+      "segment": "Charleston Harbor / Mount Pleasant"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/marina/charleston-harbor-resort-and-marina",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "approach_ft_mlw": 12.0,
+      "dockside_ft_mlw": 12.0,
+      "max_recommended_draft_ft": 10.5
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "restaurant": true,
+      "resort_pool": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Transient pricing should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.52
+    },
+    "protection": {
+      "wind": {
+        "N": 0.64,
+        "E": 0.52,
+        "S": 0.62,
+        "W": 0.68
+      },
+      "wake_exposure_score": 0.42,
+      "current_exposure_score": 0.78
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 175,
+      "dock_handling_difficulty_score": 0.58
+    },
+    "quality": {
+      "baseline_score": 0.87,
+      "use_cases": {
+        "overnight_stop": 0.86,
+        "fuel_stop": 0.8,
+        "provisioning": 0.24,
+        "weather_wait": 0.72,
+        "quiet_night": 0.42,
+        "easy_in_easy_out": 0.62,
+        "budget_stop": 0.24
+      },
+      "value_score": 0.28,
+      "convenience_score": 0.56,
+      "quiet_score": 0.42
+    },
+    "cautions": [
+      {
+        "type": "slack_tide_preferred",
+        "severity": 0.88,
+        "text": "Strong current and a six-foot tide range can make docking challenging; arriving at slack tide is advisable."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A big, capable Charleston stop with solid depth, but this is not the place to get casual about current or docking technique."
+    }
+  }
+]

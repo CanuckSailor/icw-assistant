@@ -1,0 +1,320 @@
+[
+  {
+    "id": "anchorage_church_creek_new_cut_landing",
+    "name": "Church Creek - New Cut Landing",
+    "type": "anchorage",
+    "geo": {
+      "lat": 32.708867,
+      "lon": -80.180967,
+      "icw_mile": 488.2,
+      "segment": "South of Charleston / Wadmalaw"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/anchorage/2-367/church-creek-new-cut-landing",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "typical_ft_mlw": 15.0,
+      "shallow_spots_ft_mlw": 10.0,
+      "deep_spots_ft_mlw": 20.0,
+      "max_recommended_draft_ft": 9.0
+    },
+    "holding": {
+      "bottom_type": ["mud"],
+      "holding_quality_score": 0.9
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": false,
+      "shore_access_easy": false
+    },
+    "protection": {
+      "wind": {
+        "N": 0.58,
+        "E": 0.52,
+        "S": 0.34,
+        "W": 0.7
+      },
+      "wake_exposure_score": 0.32,
+      "current_exposure_score": 0.3
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.06
+    },
+    "quality": {
+      "baseline_score": 0.82,
+      "use_cases": {
+        "overnight_stop": 0.84,
+        "fuel_stop": 0.0,
+        "provisioning": 0.0,
+        "weather_wait": 0.68,
+        "quiet_night": 0.8,
+        "easy_in_easy_out": 0.72,
+        "budget_stop": 0.98
+      },
+      "value_score": 0.99,
+      "convenience_score": 0.08,
+      "quiet_score": 0.8
+    },
+    "cautions": [
+      {
+        "type": "oyster_beds_and_flats",
+        "severity": 0.72,
+        "text": "Stay centered on entry; oyster beds lie to the north and shallow mud flats to the south."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A strong South Carolina overnight anchorage when you want real swing room and clean mud holding off the ICW."
+    }
+  },
+  {
+    "id": "anchorage_church_creek_alternate",
+    "name": "Church Creek (alternate)",
+    "type": "anchorage",
+    "geo": {
+      "lat": 32.707617,
+      "lon": -80.172267,
+      "icw_mile": 488.2,
+      "segment": "South of Charleston / Wadmalaw"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.88
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/anchorage/2-3584/church-creek-alternate",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "typical_ft_mlw": 12.0,
+      "shallow_spots_ft_mlw": 12.0,
+      "deep_spots_ft_mlw": 12.0,
+      "max_recommended_draft_ft": 8.5
+    },
+    "holding": {
+      "bottom_type": ["mud"],
+      "holding_quality_score": 0.92
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": false,
+      "shore_access_easy": false
+    },
+    "protection": {
+      "wind": {
+        "N": 0.76,
+        "E": 0.68,
+        "S": 0.72,
+        "W": 0.78
+      },
+      "wake_exposure_score": 0.18,
+      "current_exposure_score": 0.24
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.05
+    },
+    "quality": {
+      "baseline_score": 0.86,
+      "use_cases": {
+        "overnight_stop": 0.88,
+        "fuel_stop": 0.0,
+        "provisioning": 0.0,
+        "weather_wait": 0.8,
+        "quiet_night": 0.86,
+        "easy_in_easy_out": 0.7,
+        "budget_stop": 0.98
+      },
+      "value_score": 0.99,
+      "convenience_score": 0.06,
+      "quiet_score": 0.86
+    },
+    "cautions": [],
+    "expert_notes": {
+      "plain": "This is the better Church Creek answer when shelter matters. Better all-around overnight protection than the primary anchorage."
+    }
+  },
+  {
+    "id": "anchorage_wappoo_creek",
+    "name": "Wappoo Creek",
+    "type": "anchorage",
+    "geo": {
+      "lat": 32.764717,
+      "lon": -79.980833,
+      "icw_mile": 471.0,
+      "segment": "Charleston / Wappoo Creek"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.94
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide + Sail to the Sun local knowledge",
+      "source_url": "https://www.waterwayguide.com/anchorage/2-363/wappoo-creek",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "typical_ft_mlw": 13.0,
+      "shallow_spots_ft_mlw": 11.0,
+      "deep_spots_ft_mlw": 15.0,
+      "max_recommended_draft_ft": 9.0
+    },
+    "holding": {
+      "bottom_type": ["mud"],
+      "holding_quality_score": 0.94
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": true,
+      "shore_access_easy": true
+    },
+    "protection": {
+      "wind": {
+        "N": 0.82,
+        "E": 0.72,
+        "S": 0.8,
+        "W": 0.84
+      },
+      "wake_exposure_score": 0.12,
+      "current_exposure_score": 0.72
+    },
+    "shore_access": {
+      "groceries_nearby": true,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "pharmacy_nearby": true,
+      "walkability_score": 0.72,
+      "shore_access_note": "Dinghy dock is on the opposite side of the creek just past the bridge at the boat ramp. Harris Teeter and CVS are about 0.5 miles away at 1739 Maybank Hwy."
+    },
+    "quality": {
+      "baseline_score": 0.9,
+      "use_cases": {
+        "overnight_stop": 0.9,
+        "fuel_stop": 0.0,
+        "provisioning": 0.62,
+        "weather_wait": 0.78,
+        "quiet_night": 0.82,
+        "easy_in_easy_out": 0.72,
+        "budget_stop": 0.98
+      },
+      "value_score": 0.99,
+      "convenience_score": 0.68,
+      "quiet_score": 0.82
+    },
+    "local_knowledge": {
+      "source_type": "editorial_override",
+      "source_name": "Sail to the Sun Expert Opinion",
+      "basis": "experienced cruiser/local operational knowledge",
+      "confidence": 0.96
+    },
+    "media": {
+      "chartlet_url": "/images/chartlets/wappoo-creek-chartlet.png",
+      "chartlet_caption": "Sail to the Sun Expert Opinion chartlet for Wappoo Creek"
+    },
+    "cautions": [
+      {
+        "type": "strong_current",
+        "severity": 0.88,
+        "text": "Current can be strong here, so use adequate scope and set the anchor properly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "Sail to the Sun Expert Opinion: Contrary to some reports, holding here is excellent despite the strong current. Generally, anchor in the middle of the channel between the shore and the marshy area opposite it for excellent protection from wakes. Use adequate scope. Good wind protection. Shore access with a dinghy dock is on the opposite side of the creek just past the bridge at a boat ramp. There is a Harris Teeter grocery store and CVS Pharmacy about 0.5 miles from the boat ramp at 1739 Maybank Hwy."
+    }
+  },
+  {
+    "id": "anchorage_ocella_creek",
+    "name": "Ocella Creek",
+    "type": "anchorage",
+    "geo": {
+      "lat": 32.567667,
+      "lon": -80.219883,
+      "icw_mile": null,
+      "segment": "North Edisto River"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.8
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/anchorage/2-4057/ocella-creek",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "typical_ft_mlw": 10.0,
+      "shallow_spots_ft_mlw": 10.0,
+      "deep_spots_ft_mlw": 11.0,
+      "max_recommended_draft_ft": 7.5
+    },
+    "holding": {
+      "bottom_type": ["unknown"],
+      "holding_quality_score": 0.9
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": false,
+      "shore_access_easy": false
+    },
+    "protection": {
+      "wind": {
+        "N": 0.82,
+        "E": 0.76,
+        "S": 0.8,
+        "W": 0.84
+      },
+      "wake_exposure_score": 0.08,
+      "current_exposure_score": 0.14
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.0
+    },
+    "quality": {
+      "baseline_score": 0.8,
+      "use_cases": {
+        "overnight_stop": 0.82,
+        "fuel_stop": 0.0,
+        "provisioning": 0.0,
+        "weather_wait": 0.82,
+        "quiet_night": 0.88,
+        "easy_in_easy_out": 0.62,
+        "budget_stop": 0.98
+      },
+      "value_score": 0.99,
+      "convenience_score": 0.02,
+      "quiet_score": 0.88
+    },
+    "cautions": [
+      {
+        "type": "high_tide_entry_bias",
+        "severity": 0.36,
+        "text": "Some reports favor entering here at higher water."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A quiet North Edisto hideaway anchorage when you want peace more than shore convenience."
+    }
+  }
+]

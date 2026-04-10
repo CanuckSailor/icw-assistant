@@ -1,0 +1,352 @@
+[
+  {
+    "name": "Charleston",
+    "aliases": [
+      "charleston",
+      "charleston sc",
+      "charleston harbor",
+      "wappoo creek",
+      "ashley river",
+      "cooper river",
+      "mount pleasant",
+      "patriots point"
+    ],
+    "lat": 32.7765,
+    "lon": -79.9311,
+    "sidebarRegion": "charleston_sc"
+  },
+  {
+    "name": "Beaufort, SC",
+    "aliases": [
+      "beaufort",
+      "beaufort sc",
+      "beaufort south carolina",
+      "port royal",
+      "ladys island",
+      "lady's island",
+      "battery creek",
+      "beaufort river",
+      "downtown beaufort sc"
+    ],
+    "lat": 32.4316,
+    "lon": -80.6698,
+    "sidebarRegion": "beaufort_sc"
+  },
+  {
+    "name": "Hilton Head",
+    "aliases": [
+      "hilton head",
+      "hilton head sc",
+      "hilton head island",
+      "skull creek",
+      "broad creek hilton head",
+      "shelter cove",
+      "harbour town"
+    ],
+    "lat": 32.2163,
+    "lon": -80.7526,
+    "sidebarRegion": "hilton_head_sc"
+  },
+  {
+    "name": "Savannah",
+    "aliases": [
+      "savannah",
+      "savannah ga",
+      "savannah georgia",
+      "thunderbolt",
+      "isle of hope",
+      "savannah river"
+    ],
+    "lat": 32.0809,
+    "lon": -81.0912,
+    "sidebarRegion": "savannah_ga"
+  },
+  {
+    "name": "Jekyll Island",
+    "aliases": [
+      "jekyll island",
+      "jekyll",
+      "brunswick",
+      "brunswick ga",
+      "st simons",
+      "saint simons",
+      "st simons island",
+      "saint simons island"
+    ],
+    "lat": 31.0746,
+    "lon": -81.4145,
+    "sidebarRegion": "jekyll_island_ga"
+  },
+  {
+    "name": "St. Augustine",
+    "aliases": [
+      "st augustine",
+      "saint augustine",
+      "st augustine fl",
+      "bridge of lions",
+      "camachee",
+      "camachee cove",
+      "san marco"
+    ],
+    "lat": 29.8947,
+    "lon": -81.3145,
+    "sidebarRegion": "st_augustine_fl"
+  },
+  {
+    "name": "Palm Beach",
+    "aliases": [
+      "palm beach",
+      "west palm beach",
+      "lake worth",
+      "lake worth lagoon",
+      "palm beach gardens",
+      "north palm beach",
+      "riviera beach"
+    ],
+    "lat": 26.7153,
+    "lon": -80.0534,
+    "sidebarRegion": "palm_beach_fl"
+  },
+  {
+    "name": "Annapolis",
+    "aliases": [
+      "annapolis",
+      "annapolis md",
+      "severn river",
+      "spa creek",
+      "ego alley"
+    ],
+    "lat": 38.9784,
+    "lon": -76.4922,
+    "sidebarRegion": "annapolis_md"
+  },
+  {
+    "name": "Yorktown",
+    "aliases": [
+      "yorktown",
+      "yorktown va",
+      "york river",
+      "riverwalk landing"
+    ],
+    "lat": 37.2388,
+    "lon": -76.5097,
+    "sidebarRegion": "yorktown_va"
+  },
+  {
+    "name": "Norfolk",
+    "aliases": [
+      "norfolk",
+      "norfolk va",
+      "portsmouth va",
+      "hampton roads",
+      "elizabeth river",
+      "downtown norfolk"
+    ],
+    "lat": 36.8508,
+    "lon": -76.2859,
+    "sidebarRegion": "norfolk_va"
+  },
+  {
+    "name": "Beaufort, NC",
+    "aliases": [
+      "beaufort nc",
+      "beaufort north carolina",
+      "morehead city",
+      "moorehead city",
+      "taylors creek",
+      "taylor's creek",
+      "radio island",
+      "beaufort inlet"
+    ],
+    "lat": 34.7182,
+    "lon": -76.6638,
+    "sidebarRegion": "beaufort_nc"
+  },
+  {
+    "name": "Oriental, NC",
+    "aliases": [
+      "oriental",
+      "oriental nc",
+      "oriental north carolina",
+      "oriental harbor",
+      "smith creek",
+      "whittaker creek",
+      "whitaker creek",
+      "green creek",
+      "broad creek nc",
+      "neal creek",
+      "adams creek",
+      "bay river",
+      "neuse river oriental",
+      "goose creek nc",
+      "south river nc"
+    ],
+    "lat": 35.0313,
+    "lon": -76.6927,
+    "sidebarRegion": "oriental_nc"
+  },
+  {
+    "name": "New Bern",
+    "aliases": [
+      "new bern",
+      "new bern nc",
+      "downtown new bern",
+      "trent river",
+      "neuse river new bern"
+    ],
+    "lat": 35.1085,
+    "lon": -77.0441,
+    "sidebarRegion": "new_bern_nc"
+  },
+  {
+    "name": "Belhaven",
+    "aliases": [
+      "belhaven",
+      "belhaven nc",
+      "pantego creek",
+      "downtown belhaven"
+    ],
+    "lat": 35.5404,
+    "lon": -76.623,
+    "sidebarRegion": "belhaven_nc"
+  },
+  {
+    "name": "Coinjock",
+    "aliases": [
+      "coinjock",
+      "coinjock nc",
+      "currituck",
+      "currituck sound"
+    ],
+    "lat": 36.3535,
+    "lon": -75.9249,
+    "sidebarRegion": "coinjock_nc"
+  },
+  {
+    "name": "Elizabeth City",
+    "aliases": [
+      "elizabeth city",
+      "elizabeth city nc",
+      "pasquotank river"
+    ],
+    "lat": 36.2946,
+    "lon": -76.251,
+    "sidebarRegion": "elizabeth_city_nc"
+  },
+  {
+    "name": "Southport",
+    "aliases": [
+      "southport",
+      "southport nc",
+      "cape fear",
+      "cape fear river",
+      "bald head island"
+    ],
+    "lat": 33.9216,
+    "lon": -78.02,
+    "sidebarRegion": "southport_nc"
+  },
+  {
+    "name": "Myrtle Beach",
+    "aliases": [
+      "myrtle beach",
+      "myrtle beach sc",
+      "little river",
+      "barefoot landing",
+      "socastee"
+    ],
+    "lat": 33.6891,
+    "lon": -78.8867,
+    "sidebarRegion": "myrtle_beach_sc"
+  },
+  {
+    "name": "Georgetown, SC",
+    "aliases": [
+      "georgetown",
+      "georgetown sc",
+      "winyah bay",
+      "sampit river"
+    ],
+    "lat": 33.3768,
+    "lon": -79.2945,
+    "sidebarRegion": "georgetown_sc"
+  },
+  {
+    "name": "River Dunes / Broad Creek, NC",
+    "aliases": [
+      "river dunes",
+      "river dunes marina",
+      "grace harbor",
+      "broad creek oriental",
+      "broad creek pamlico"
+    ],
+    "lat": 35.0016,
+    "lon": -76.7909,
+    "sidebarRegion": "oriental_nc"
+  },
+  {
+    "name": "Greens Creek, NC",
+    "aliases": [
+      "greens creek",
+      "greens creek oriental",
+      "oriental greens creek"
+    ],
+    "lat": 35.0185,
+    "lon": -76.7055,
+    "sidebarRegion": "oriental_nc"
+  },
+  {
+    "name": "Mayo Creek, NC",
+    "aliases": [
+      "mayo",
+      "mayo nc",
+      "mayo creek",
+      "mayo creek nc"
+    ],
+    "lat": 35.0313,
+    "lon": -76.6927,
+    "sidebarRegion": "oriental_nc"
+  },
+  {
+    "name": "St. Marys, GA",
+    "aliases": [
+      "st marys",
+      "st marys ga",
+      "st marys georgia",
+      "st. marys",
+      "st. marys ga",
+      "st. marys georgia",
+      "saint marys",
+      "saint marys ga",
+      "saint marys georgia",
+      "st mary's",
+      "st. mary's",
+      "saint mary's",
+      "cumberland sound",
+      "st marys river",
+      "st. marys river"
+    ],
+    "lat": 30.7195,
+    "lon": -81.5491,
+    "sidebarRegion": "st_marys_ga"
+  },
+  {
+    "name": "Delegal Creek, GA",
+    "aliases": [
+      "delegal creek",
+      "delegal creek marina",
+      "delegal",
+      "delegal creek ga",
+      "delegal creek savannah",
+      "delagal creek",
+      "delagal creek marina",
+      "delagal",
+      "skidaway",
+      "skidaway island",
+      "skidaway delegal creek"
+    ],
+    "lat": 31.8907,
+    "lon": -81.0182,
+    "sidebarRegion": "savannah_ga"
+  }
+]

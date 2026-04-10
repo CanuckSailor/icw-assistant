@@ -1,0 +1,1060 @@
+[
+  {
+    "id": "free_dock_jim_king_park_sisters_creek",
+    "name": "Jim King Park / Sisters Creek",
+    "type": "free_dock",
+    "geo": {
+      "lat": 30.39813,
+      "lon": -81.45819,
+      "icw_mile": 737.8,
+      "segment": "Jacksonville / Fernandina Approach"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-06",
+      "confidence": 0.94
+    },
+    "local_knowledge": {
+      "source_type": "editorial_override",
+      "source_name": "Wally Moran local knowledge",
+      "basis": "personal experience / trusted local knowledge",
+      "last_reviewed": "2026-04-06",
+      "confidence": 0.94
+    },
+    "source": {
+      "type": "partner_curated_reference",
+      "name": "ICW Free Docks",
+      "source_url": "https://www.icwfreedocks.com/florida",
+      "source_date": "2026-04-06"
+    },
+    "depth": {
+      "reported_ft_mlw": null,
+      "approach_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "overnight_allowed": true,
+      "max_stay_hours": 72,
+      "shore_power": false,
+      "water": true,
+      "pumpout": false,
+      "restrooms": true,
+      "showers": false
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 0,
+        "rate_basis": "up to 72 hours",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Free dockage"
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.2
+    },
+    "protection": {
+      "wind": {
+        "N": 0.55,
+        "E": 0.45,
+        "S": 0.5,
+        "W": 0.65
+      },
+      "wake_exposure_score": 0.45,
+      "current_exposure_score": 0.92
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.88
+    },
+    "quality": {
+      "baseline_score": 0.68,
+      "use_cases": {
+        "overnight_stop": 0.74,
+        "fuel_stop": 0.0,
+        "provisioning": 0.08,
+        "weather_wait": 0.38,
+        "quiet_night": 0.48,
+        "easy_in_easy_out": 0.28,
+        "budget_stop": 0.93
+      },
+      "value_score": 0.98,
+      "convenience_score": 0.18,
+      "quiet_score": 0.46,
+      "restroom_condition_score": 0.3
+    },
+    "cautions": [
+      {
+        "type": "strong_current",
+        "severity": 0.98,
+        "text": "Very strong currents at this dock. Docking and undocking should ideally be done at slack tide."
+      },
+      {
+        "type": "docking_technique",
+        "severity": 0.95,
+        "text": "Always dock into the current here. If slack tide is not possible, ask someone on the dock to assist with lines."
+      },
+      {
+        "type": "crew_difficulty",
+        "severity": 0.92,
+        "text": "This location can be very difficult for singlehanders and inexperienced crew."
+      },
+      {
+        "type": "slack_tide_wait_option",
+        "severity": 0.7,
+        "text": "If needed, it is possible to wait for slack tide at the anchorage immediately south of the highway bridge before attempting the dock."
+      },
+      {
+        "type": "sunken_vessel",
+        "severity": 0.7,
+        "text": "Reported large sunken vessel near the dock reduces available docking space."
+      },
+      {
+        "type": "facility_condition",
+        "severity": 0.55,
+        "text": "Washrooms are available, but they are not in very good condition."
+      },
+      {
+        "type": "event_closure",
+        "severity": 0.4,
+        "text": "Closed during the annual kingfish tournament in July."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A legitimate no-cost overnight option, but currents are the real story here. This is not a casual docking situation, especially for singlehanders or inexperienced crew.",
+      "for_budget_cruisers": "Strong free-stop value if conditions and crew skill allow it.",
+      "for_deep_draft": "Depth data is too weak to treat casually without local confirmation.",
+      "for_singlehanders": "Best handled at slack tide. If you need to wait, the anchorage immediately south of the highway bridge is the practical place to stand by until conditions are right."
+    }
+  },
+  {
+    "id": "free_dock_metropolitan_park_marina_jacksonville",
+    "name": "Metropolitan Park Marina",
+    "type": "free_dock",
+    "geo": {
+      "lat": 30.31963,
+      "lon": -81.64102,
+      "icw_mile": 738.5,
+      "segment": "Jacksonville"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-06",
+      "confidence": 0.86
+    },
+    "source": {
+      "type": "partner_curated_reference",
+      "name": "ICW Free Docks",
+      "source_url": "https://www.icwfreedocks.com/florida",
+      "source_date": "2026-04-06"
+    },
+    "depth": {
+      "reported_ft_mlw": 4,
+      "approach_ft_mlw": 4,
+      "max_recommended_draft_ft": 4.9
+    },
+    "access": {
+      "overnight_allowed": true,
+      "max_stay_hours": 72,
+      "shore_power": true,
+      "water": true,
+      "pumpout": true,
+      "restrooms": true,
+      "showers": true,
+      "fuel": false
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 0,
+        "rate_basis": "up to 72 hours in a 30 day period",
+        "electric_rate": 8.56,
+        "electric_rate_basis": "per night",
+        "water_rate": 0,
+        "water_rate_basis": "included",
+        "pumpout_rate": 0,
+        "notes": "Free dockage; electric extra"
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.3
+    },
+    "protection": {
+      "wind": {
+        "N": 0.65,
+        "E": 0.55,
+        "S": 0.6,
+        "W": 0.7
+      },
+      "wake_exposure_score": 0.35,
+      "current_exposure_score": 0.45
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.4
+    },
+    "quality": {
+      "baseline_score": 0.78,
+      "use_cases": {
+        "overnight_stop": 0.82,
+        "fuel_stop": 0.0,
+        "provisioning": 0.18,
+        "weather_wait": 0.58,
+        "quiet_night": 0.5,
+        "easy_in_easy_out": 0.7,
+        "budget_stop": 0.94
+      },
+      "value_score": 0.95,
+      "convenience_score": 0.52,
+      "quiet_score": 0.5
+    },
+    "cautions": [
+      {
+        "type": "shoal_slips",
+        "severity": 0.85,
+        "text": "Reported slip depths around 3 to 4 feet at low tide; deeper-draft boats should favor the end dock or sea wall docks."
+      },
+      {
+        "type": "event_restriction",
+        "severity": 0.45,
+        "text": "Free dockage is not available during football games and some special events."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A very strong value stop because the dockage is free and utilities are available, but slip depth can be the deciding factor.",
+      "for_budget_cruisers": "Excellent free-dockage value if your draft fits and no event blackout applies.",
+      "for_deep_draft": "This should not be treated as an automatic fit for 5-foot-plus draft throughout the slips."
+    }
+  },
+  {
+    "id": "inactive_bings_landing",
+    "name": "Bing's Landing",
+    "type": "day_dock",
+    "geo": {
+      "lat": 29.61528,
+      "lon": -81.20489,
+      "icw_mile": 800.2,
+      "segment": "Palm Coast"
+    },
+    "status": {
+      "active": false,
+      "last_curated": "2026-04-06",
+      "confidence": 0.84
+    },
+    "source": {
+      "type": "partner_curated_reference",
+      "name": "ICW Free Docks",
+      "source_url": "https://www.icwfreedocks.com/florida",
+      "source_date": "2026-04-06"
+    },
+    "depth": {
+      "reported_ft_mlw": null,
+      "approach_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "overnight_allowed": false,
+      "max_stay_hours": 0,
+      "shore_power": false,
+      "water": false,
+      "pumpout": false,
+      "restrooms": true,
+      "showers": false
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Docking for cruising boats is not allowed; dinghy tie-up only with limited time."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.25
+    },
+    "protection": {
+      "wind": {
+        "N": 0.55,
+        "E": 0.45,
+        "S": 0.5,
+        "W": 0.6
+      },
+      "wake_exposure_score": 0.35,
+      "current_exposure_score": 0.35
+    },
+    "vessel_fit": {
+      "big_boat_friendly": false,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.5
+    },
+    "quality": {
+      "baseline_score": 0.15,
+      "use_cases": {
+        "overnight_stop": 0.0,
+        "fuel_stop": 0.0,
+        "provisioning": 0.05,
+        "weather_wait": 0.0,
+        "quiet_night": 0.0,
+        "easy_in_easy_out": 0.1,
+        "budget_stop": 0.0
+      },
+      "value_score": 0.0,
+      "convenience_score": 0.18,
+      "quiet_score": 0.0
+    },
+    "cautions": [
+      {
+        "type": "not_allowed",
+        "severity": 1.0,
+        "text": "Cruising-boat docking is not allowed here."
+      }
+    ],
+    "expert_notes": {
+      "plain": "Do not surface this as a valid cruising stop; keep it only as a negative-reference record so the AI does not recommend it incorrectly."
+    }
+  },
+  {
+    "id": "town_dock_cassen_park_ormond_beach",
+    "name": "Cassen Park Free Dock",
+    "type": "town_dock",
+    "geo": {
+      "lat": 29.285819,
+      "lon": -81.053336,
+      "icw_mile": 825.0,
+      "segment": "Ormond Beach"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-06",
+      "confidence": 0.9
+    },
+    "local_knowledge": {
+      "source_type": "editorial_override",
+      "source_name": "Wally Moran local knowledge",
+      "basis": "personal experience / trusted local knowledge",
+      "last_reviewed": "2026-04-06",
+      "confidence": 0.92
+    },
+    "source": {
+      "type": "partner_curated_reference",
+      "name": "ICW Free Docks",
+      "source_url": "https://www.icwfreedocks.com/florida",
+      "source_date": "2026-04-06"
+    },
+    "depth": {
+      "reported_ft_mlw": 5,
+      "approach_ft_mlw": 5,
+      "max_recommended_draft_ft": 4.8
+    },
+    "access": {
+      "overnight_allowed": false,
+      "max_stay_hours": 12,
+      "shore_power": false,
+      "water": false,
+      "pumpout": false,
+      "restrooms": false,
+      "showers": false
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 0,
+        "rate_basis": "day use only",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Do not treat as an overnight stop"
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": true,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.9
+    },
+    "protection": {
+      "wind": {
+        "N": 0.7,
+        "E": 0.55,
+        "S": 0.75,
+        "W": 0.7
+      },
+      "wake_exposure_score": 0.28,
+      "current_exposure_score": 0.3
+    },
+    "vessel_fit": {
+      "big_boat_friendly": false,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.35
+    },
+    "quality": {
+      "baseline_score": 0.36,
+      "use_cases": {
+        "overnight_stop": 0.02,
+        "fuel_stop": 0.0,
+        "provisioning": 0.55,
+        "weather_wait": 0.05,
+        "quiet_night": 0.05,
+        "easy_in_easy_out": 0.45,
+        "budget_stop": 0.12
+      },
+      "value_score": 0.2,
+      "convenience_score": 0.86,
+      "quiet_score": 0.18
+    },
+    "cautions": [
+      {
+        "type": "shoaling",
+        "severity": 0.85,
+        "text": "There has been a shallow hump in the channel around 5 feet based on local experience."
+      },
+      {
+        "type": "not_overnight",
+        "severity": 0.95,
+        "text": "This should not be treated as an overnight dock."
+      }
+    ],
+    "expert_notes": {
+      "plain": "Good public-access stop in concept, but not a dependable overnight choice and not one to treat casually if your draft is near 5 feet."
+    }
+  },
+  {
+    "id": "town_dock_new_smyrna_riverside_park",
+    "name": "New Smyrna Beach Riverside Park Docks",
+    "type": "town_dock",
+    "geo": {
+      "lat": 29.02551,
+      "lon": -80.91926,
+      "icw_mile": 846.4,
+      "segment": "New Smyrna Beach"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-06",
+      "confidence": 0.84
+    },
+    "source": {
+      "type": "partner_curated_reference",
+      "name": "ICW Free Docks",
+      "source_url": "https://www.icwfreedocks.com/florida",
+      "source_date": "2026-04-06"
+    },
+    "depth": {
+      "reported_ft_mlw": null,
+      "approach_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "overnight_allowed": false,
+      "max_stay_hours": 10,
+      "shore_power": false,
+      "water": false,
+      "pumpout": false,
+      "restrooms": true,
+      "showers": false
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 0,
+        "rate_basis": "up to 10 hours",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Transient dockage at nearby city marina is fee-based but price not stated"
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.82
+    },
+    "protection": {
+      "wind": {
+        "N": 0.6,
+        "E": 0.5,
+        "S": 0.6,
+        "W": 0.65
+      },
+      "wake_exposure_score": 0.35,
+      "current_exposure_score": 0.4
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.35
+    },
+    "quality": {
+      "baseline_score": 0.32,
+      "use_cases": {
+        "overnight_stop": 0.0,
+        "fuel_stop": 0.0,
+        "provisioning": 0.38,
+        "weather_wait": 0.0,
+        "quiet_night": 0.0,
+        "easy_in_easy_out": 0.55,
+        "budget_stop": 0.08
+      },
+      "value_score": 0.15,
+      "convenience_score": 0.72,
+      "quiet_score": 0.1
+    },
+    "cautions": [
+      {
+        "type": "not_overnight",
+        "severity": 1.0,
+        "text": "Overnight docking is not allowed."
+      },
+      {
+        "type": "event_restriction",
+        "severity": 0.45,
+        "text": "Docking may be unavailable during Brannon Center events."
+      }
+    ],
+    "expert_notes": {
+      "plain": "Useful town stop for a short layover, but not a valid overnight budget answer."
+    }
+  },
+  {
+    "id": "free_dock_cocoa_village",
+    "name": "Cocoa Village Free Dock",
+    "type": "free_dock",
+    "geo": {
+      "lat": 28.35491,
+      "lon": -80.722278,
+      "icw_mile": 897.9,
+      "segment": "Cocoa Village"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-06",
+      "confidence": 0.88
+    },
+    "source": {
+      "type": "partner_curated_reference",
+      "name": "ICW Free Docks",
+      "source_url": "https://www.icwfreedocks.com/florida",
+      "source_date": "2026-04-06"
+    },
+    "depth": {
+      "reported_ft_mlw": 5.75,
+      "approach_ft_mlw": 5.75,
+      "max_recommended_draft_ft": 5.5
+    },
+    "access": {
+      "overnight_allowed": true,
+      "max_stay_hours": 48,
+      "shore_power": false,
+      "water": false,
+      "pumpout": false,
+      "restrooms": true,
+      "showers": false,
+      "dinghy_access": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 0,
+        "rate_basis": "up to 48 hours per 30 day period",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Free overnight dockage; day slips also available"
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.9
+    },
+    "protection": {
+      "wind": {
+        "N": 0.62,
+        "E": 0.5,
+        "S": 0.6,
+        "W": 0.68
+      },
+      "wake_exposure_score": 0.38,
+      "current_exposure_score": 0.35
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.35
+    },
+    "quality": {
+      "baseline_score": 0.84,
+      "use_cases": {
+        "overnight_stop": 0.88,
+        "fuel_stop": 0.0,
+        "provisioning": 0.62,
+        "weather_wait": 0.52,
+        "quiet_night": 0.58,
+        "easy_in_easy_out": 0.74,
+        "budget_stop": 0.98
+      },
+      "value_score": 0.99,
+      "convenience_score": 0.78,
+      "quiet_score": 0.58
+    },
+    "cautions": [
+      {
+        "type": "depth_limit",
+        "severity": 0.7,
+        "text": "Reported depth is around 5.5 to 6 feet with mud bottom, so draft still matters."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A real free overnight answer with decent town access, making it one of the better east-coast Florida budget stops.",
+      "for_budget_cruisers": "One of the strongest no-cost overnight options in this import file.",
+      "for_deep_draft": "Good but not casual for boats pushing the upper end of the reported depth."
+    }
+  },
+  {
+    "id": "town_dock_jones_pier_vero_beach",
+    "name": "Jones' Pier Conservation Area Dock",
+    "type": "town_dock",
+    "geo": {
+      "lat": 27.6505,
+      "lon": -80.3705,
+      "icw_mile": 945.7,
+      "segment": "Vero Beach"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-06",
+      "confidence": 0.78
+    },
+    "source": {
+      "type": "partner_curated_reference",
+      "name": "ICW Free Docks",
+      "source_url": "https://www.icwfreedocks.com/florida",
+      "source_date": "2026-04-06"
+    },
+    "depth": {
+      "reported_ft_mlw": null,
+      "approach_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "overnight_allowed": false,
+      "max_stay_hours": 12,
+      "shore_power": false,
+      "water": false,
+      "pumpout": false,
+      "restrooms": false,
+      "showers": false
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 0,
+        "rate_basis": "day use only",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "No overnight docking allowed"
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.15
+    },
+    "protection": {
+      "wind": {
+        "N": 0.6,
+        "E": 0.5,
+        "S": 0.6,
+        "W": 0.68
+      },
+      "wake_exposure_score": 0.3,
+      "current_exposure_score": 0.35
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.3
+    },
+    "quality": {
+      "baseline_score": 0.22,
+      "use_cases": {
+        "overnight_stop": 0.0,
+        "fuel_stop": 0.0,
+        "provisioning": 0.02,
+        "weather_wait": 0.0,
+        "quiet_night": 0.0,
+        "easy_in_easy_out": 0.35,
+        "budget_stop": 0.05
+      },
+      "value_score": 0.08,
+      "convenience_score": 0.08,
+      "quiet_score": 0.08
+    },
+    "cautions": [
+      {
+        "type": "not_overnight",
+        "severity": 1.0,
+        "text": "Daytime docking only; not an overnight stop."
+      }
+    ],
+    "expert_notes": {
+      "plain": "Useful as a day-use landing, not as a budget overnight answer."
+    }
+  },
+  {
+    "id": "town_dock_west_palm_beach_public_docks",
+    "name": "West Palm Beach Public Docks",
+    "type": "town_dock",
+    "geo": {
+      "lat": 26.707,
+      "lon": -80.05,
+      "icw_mile": 1017.0,
+      "segment": "West Palm Beach"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-06",
+      "confidence": 0.9
+    },
+    "local_knowledge": {
+      "source_type": "editorial_override",
+      "source_name": "Wally Moran local knowledge",
+      "basis": "personal experience / trusted local knowledge",
+      "last_reviewed": "2026-04-06",
+      "confidence": 0.93
+    },
+    "source": {
+      "type": "partner_curated_reference",
+      "name": "ICW Free Docks",
+      "source_url": "https://www.icwfreedocks.com/florida",
+      "source_date": "2026-04-06"
+    },
+    "depth": {
+      "reported_ft_mlw": null,
+      "approach_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "overnight_allowed": false,
+      "max_stay_hours": 19,
+      "shore_power": false,
+      "water": false,
+      "pumpout": false,
+      "restrooms": false,
+      "showers": false
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 0,
+        "rate_basis": "5:00 AM to midnight only",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "No overnight use from midnight to 5:00 AM"
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.95
+    },
+    "protection": {
+      "wind": {
+        "N": 0.45,
+        "E": 0.4,
+        "S": 0.45,
+        "W": 0.5
+      },
+      "wake_exposure_score": 0.45,
+      "current_exposure_score": 0.9
+    },
+    "vessel_fit": {
+      "big_boat_friendly": false,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.92
+    },
+    "quality": {
+      "baseline_score": 0.2,
+      "use_cases": {
+        "overnight_stop": 0.0,
+        "fuel_stop": 0.0,
+        "provisioning": 0.42,
+        "weather_wait": 0.0,
+        "quiet_night": 0.0,
+        "easy_in_easy_out": 0.08,
+        "budget_stop": 0.06
+      },
+      "value_score": 0.08,
+      "convenience_score": 0.82,
+      "quiet_score": 0.02
+    },
+    "cautions": [
+      {
+        "type": "not_overnight",
+        "severity": 1.0,
+        "text": "Overnight use is prohibited."
+      },
+      {
+        "type": "cross_current",
+        "severity": 0.95,
+        "text": "Strong current runs roughly at right angles to the docks, making docking and undocking difficult."
+      },
+      {
+        "type": "dock_design_limit",
+        "severity": 0.9,
+        "text": "Dock design is not well suited to larger boats."
+      },
+      {
+        "type": "damage_risk",
+        "severity": 0.88,
+        "text": "Current can set the boat into the dock with real risk of damage."
+      }
+    ],
+    "expert_notes": {
+      "plain": "Do not treat these as a serious overnight or large-boat recommendation even though the downtown access is attractive."
+    }
+  },
+  {
+    "id": "town_dock_lake_worth_snook_islands",
+    "name": "Lake Worth Snook Islands Visitors Dock",
+    "type": "town_dock",
+    "geo": {
+      "lat": 26.6185,
+      "lon": -80.055,
+      "icw_mile": 1021.0,
+      "segment": "Lake Worth"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-06",
+      "confidence": 0.8
+    },
+    "source": {
+      "type": "partner_curated_reference",
+      "name": "ICW Free Docks",
+      "source_url": "https://www.icwfreedocks.com/florida",
+      "source_date": "2026-04-06"
+    },
+    "depth": {
+      "reported_ft_mlw": null,
+      "approach_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "overnight_allowed": false,
+      "max_stay_hours": 18,
+      "shore_power": false,
+      "water": false,
+      "pumpout": false,
+      "restrooms": false,
+      "showers": false
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 0,
+        "rate_basis": "6:00 AM to midnight",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "First come basis; not an overnight stop"
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.3
+    },
+    "protection": {
+      "wind": {
+        "N": 0.55,
+        "E": 0.45,
+        "S": 0.55,
+        "W": 0.6
+      },
+      "wake_exposure_score": 0.3,
+      "current_exposure_score": 0.35
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.4
+    },
+    "quality": {
+      "baseline_score": 0.18,
+      "use_cases": {
+        "overnight_stop": 0.0,
+        "fuel_stop": 0.0,
+        "provisioning": 0.12,
+        "weather_wait": 0.0,
+        "quiet_night": 0.0,
+        "easy_in_easy_out": 0.28,
+        "budget_stop": 0.05
+      },
+      "value_score": 0.05,
+      "convenience_score": 0.18,
+      "quiet_score": 0.06
+    },
+    "cautions": [
+      {
+        "type": "not_overnight",
+        "severity": 1.0,
+        "text": "Day use only; not a valid overnight recommendation."
+      }
+    ],
+    "expert_notes": {
+      "plain": "Useful public-access stop, but not an overnight answer."
+    }
+  },
+  {
+    "id": "free_dock_hollywood_beach_publix",
+    "name": "Hollywood Beach Publix Dock",
+    "type": "free_dock",
+    "geo": {
+      "lat": 25.994092,
+      "lon": -80.11933,
+      "icw_mile": 1075.0,
+      "segment": "Hollywood"
+    },
+    "status": {
+      "active": false,
+      "last_curated": "2026-04-06",
+      "confidence": 0.92
+    },
+    "local_knowledge": {
+      "source_type": "editorial_override",
+      "source_name": "Wally Moran local knowledge",
+      "basis": "current local status report",
+      "last_reviewed": "2026-04-06",
+      "confidence": 0.92
+    },
+    "source": {
+      "type": "partner_curated_reference",
+      "name": "ICW Free Docks",
+      "source_url": "https://www.icwfreedocks.com/florida",
+      "source_date": "2026-04-06"
+    },
+    "depth": {
+      "reported_ft_mlw": 8,
+      "approach_ft_mlw": 8,
+      "max_recommended_draft_ft": 7.0
+    },
+    "access": {
+      "overnight_allowed": null,
+      "max_stay_hours": null,
+      "shore_power": false,
+      "water": false,
+      "pumpout": false,
+      "restrooms": false,
+      "showers": false
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 0,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Dock reported closed for repairs; reopening date unknown"
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": true,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.72
+    },
+    "protection": {
+      "wind": {
+        "N": 0.55,
+        "E": 0.5,
+        "S": 0.55,
+        "W": 0.6
+      },
+      "wake_exposure_score": 0.35,
+      "current_exposure_score": 0.35
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.35
+    },
+    "quality": {
+      "baseline_score": 0.0,
+      "use_cases": {
+        "overnight_stop": 0.0,
+        "fuel_stop": 0.0,
+        "provisioning": 0.0,
+        "weather_wait": 0.0,
+        "quiet_night": 0.0,
+        "easy_in_easy_out": 0.0,
+        "budget_stop": 0.0
+      },
+      "value_score": 0.0,
+      "convenience_score": 0.0,
+      "quiet_score": 0.0
+    },
+    "cautions": [
+      {
+        "type": "temporary_closure",
+        "severity": 1.0,
+        "text": "Temporarily closed for repairs. Reopening date unknown."
+      }
+    ],
+    "expert_notes": {
+      "plain": "Do not recommend this dock at present. It is temporarily closed for repairs and the reopening date is unknown."
+    }
+  }
+]

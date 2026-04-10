@@ -1,0 +1,948 @@
+[
+  {
+    "id": "marina_coinjock_marina_restaurant",
+    "name": "Coinjock Marina & Restaurant",
+    "type": "marina",
+    "geo": {
+      "lat": 36.349167,
+      "lon": -75.948617,
+      "icw_mile": 50.0,
+      "segment": "Coinjock"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.91
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/marina/coinjock-marina-inc",
+      "source_date": "2026-04-07"
+    },
+    "contact": {
+      "phone": null,
+      "email": null,
+      "website": "https://www.waterwayguide.com/marina/coinjock-marina-inc",
+      "vhf": null
+    },
+    "depth": {
+      "approach_ft_mlw": 12.0,
+      "dockside_ft_mlw": 12.0,
+      "max_recommended_draft_ft": 10.5
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "restaurant": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Transient pricing should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.34
+    },
+    "protection": {
+      "wind": {
+        "N": 0.72,
+        "E": 0.62,
+        "S": 0.7,
+        "W": 0.76
+      },
+      "wake_exposure_score": 0.16,
+      "current_exposure_score": 0.28
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 150,
+      "dock_handling_difficulty_score": 0.22
+    },
+    "quality": {
+      "baseline_score": 0.89,
+      "use_cases": {
+        "overnight_stop": 0.9,
+        "fuel_stop": 0.86,
+        "provisioning": 0.12,
+        "weather_wait": 0.78,
+        "quiet_night": 0.68,
+        "easy_in_easy_out": 0.9,
+        "budget_stop": 0.42
+      },
+      "value_score": 0.46,
+      "convenience_score": 0.42,
+      "quiet_score": 0.68
+    },
+    "cautions": [
+      {
+        "type": "current_direction",
+        "severity": 0.42,
+        "text": "Call ahead and dock with awareness of current direction."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A classic ICW stop: easy alongside tie, straightforward fuel, dependable overnight value, and one of the more practical north-south transit marinas on the route."
+    },
+    "aliases": [
+      "coinjock marina",
+      "coinjock restaurant",
+      "coinjock marina and restaurant"
+    ],
+    "nearby_places": [
+      "coinjock",
+      "currituck sound"
+    ]
+  },
+  {
+    "id": "marina_dowry_creek_marina",
+    "name": "Dowry Creek Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 35.5402,
+      "lon": -76.6237,
+      "icw_mile": 132.0,
+      "segment": "Belhaven / Dowry Creek"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.92
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/marina/dowry-creek-marina",
+      "source_date": "2026-04-07"
+    },
+    "contact": {
+      "phone": null,
+      "email": null,
+      "website": "https://www.waterwayguide.com/marina/dowry-creek-marina",
+      "vhf": null
+    },
+    "depth": {
+      "approach_ft_mlw": 9.0,
+      "dockside_ft_mlw": 11.0,
+      "max_recommended_draft_ft": 8.0
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "pool": true,
+      "restaurant": false,
+      "loaner_car": true,
+      "anchorage_adjacent": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Overnight dockage available; discounts and fuel prices change and should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.2
+    },
+    "protection": {
+      "wind": {
+        "N": 0.86,
+        "E": 0.72,
+        "S": 0.84,
+        "W": 0.88
+      },
+      "wake_exposure_score": 0.12,
+      "current_exposure_score": 0.18
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 200,
+      "dock_handling_difficulty_score": 0.24
+    },
+    "quality": {
+      "baseline_score": 0.9,
+      "use_cases": {
+        "overnight_stop": 0.92,
+        "fuel_stop": 0.82,
+        "provisioning": 0.16,
+        "weather_wait": 0.9,
+        "quiet_night": 0.86,
+        "easy_in_easy_out": 0.84,
+        "budget_stop": 0.56
+      },
+      "value_score": 0.58,
+      "convenience_score": 0.44,
+      "quiet_score": 0.86
+    },
+    "cautions": [
+      {
+        "type": "off_icw",
+        "severity": 0.28,
+        "text": "The marina sits off the ICW in a protected cove; follow the marked entrance channel carefully."
+      }
+    ],
+    "expert_notes": {
+      "plain": "One of the better protected stopovers in this stretch. Strong choice for weather, rest, and a quieter night."
+    },
+    "aliases": [
+      "dowry creek",
+      "dowry creek marina"
+    ],
+    "nearby_places": [
+      "belhaven",
+      "dowry creek"
+    ]
+  },
+  {
+    "id": "marina_river_dunes_grace_harbor",
+    "name": "River Dunes Marina at Grace Harbor",
+    "type": "marina",
+    "geo": {
+      "lat": 35.0875,
+      "lon": -76.6892,
+      "icw_mile": 173.0,
+      "segment": "Oriental / Broad Creek"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/marina/grace-harbor-at-river-dunes",
+      "source_date": "2026-04-07"
+    },
+    "contact": {
+      "phone": null,
+      "email": null,
+      "website": "https://www.waterwayguide.com/marina/grace-harbor-at-river-dunes",
+      "vhf": null
+    },
+    "depth": {
+      "approach_ft_mlw": 7.0,
+      "dockside_ft_mlw": 9.0,
+      "max_recommended_draft_ft": 6.5
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "pool": true,
+      "restaurant": true,
+      "fitness_center": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Transient pricing should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.3
+    },
+    "protection": {
+      "wind": {
+        "N": 0.9,
+        "E": 0.76,
+        "S": 0.88,
+        "W": 0.92
+      },
+      "wake_exposure_score": 0.1,
+      "current_exposure_score": 0.12
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 125,
+      "dock_handling_difficulty_score": 0.2
+    },
+    "quality": {
+      "baseline_score": 0.91,
+      "use_cases": {
+        "overnight_stop": 0.92,
+        "fuel_stop": 0.8,
+        "provisioning": 0.18,
+        "weather_wait": 0.94,
+        "quiet_night": 0.88,
+        "easy_in_easy_out": 0.78,
+        "budget_stop": 0.3
+      },
+      "value_score": 0.32,
+      "convenience_score": 0.5,
+      "quiet_score": 0.88
+    },
+    "cautions": [
+      {
+        "type": "draft_caution",
+        "severity": 0.46,
+        "text": "Approach is workable but not deep by offshore-marina standards; deeper draft boats should match conditions carefully."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A premium protected stop with better comfort than many ICW marinas. Strong weather-wait and rest stop."
+    },
+    "aliases": [
+      "river dunes",
+      "grace harbor",
+      "river dunes marina",
+      "grace harbor marina"
+    ],
+    "nearby_places": [
+      "oriental",
+      "broad creek",
+      "grace harbor"
+    ]
+  },
+  {
+    "id": "marina_oriental_marina_inn",
+    "name": "Oriental Marina & Inn",
+    "type": "marina",
+    "geo": {
+      "lat": 35.0313,
+      "lon": -76.6927,
+      "icw_mile": 182.0,
+      "segment": "Oriental"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-08",
+      "confidence": 0.92
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/marina/oriental-marina-and-inn",
+      "source_date": "2026-04-08"
+    },
+    "contact": {
+      "phone": "(252) 249-1818",
+      "website": "https://orientalmarina.com/",
+      "email": "orientalmarinaInn@yahoo.com",
+      "vhf": "16"
+    },
+    "depth": {
+      "approach_ft_mlw": 8.0,
+      "dockside_ft_mlw": 6.5,
+      "max_recommended_draft_ft": 6.0
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": false,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "restaurant": true,
+      "pool": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Fuel prices, transient rates, adjacent pumpout access, and depth suitability should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": true,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.9
+    },
+    "protection": {
+      "wind": {
+        "N": 0.74,
+        "E": 0.62,
+        "S": 0.7,
+        "W": 0.78
+      },
+      "wake_exposure_score": 0.18,
+      "current_exposure_score": 0.2
+    },
+    "vessel_fit": {
+      "big_boat_friendly": false,
+      "max_comfortable_loa_ft": 100,
+      "dock_handling_difficulty_score": 0.24
+    },
+    "quality": {
+      "baseline_score": 0.9,
+      "use_cases": {
+        "overnight_stop": 0.86,
+        "fuel_stop": 0.95,
+        "provisioning": 0.88,
+        "weather_wait": 0.72,
+        "quiet_night": 0.7,
+        "easy_in_easy_out": 0.84,
+        "budget_stop": 0.44
+      },
+      "value_score": 0.48,
+      "convenience_score": 0.94,
+      "quiet_score": 0.7
+    },
+    "cautions": [
+      {
+        "type": "draft_caution",
+        "severity": 0.44,
+        "text": "Approach and dockside depths are workable for many cruisers, but deeper draft boats should confirm current conditions directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "The more convenient in-town fuel stop for Oriental, with strong walk-to-village value and useful shoreside access. While the marina does not have its own pumpout, the free pumpout at Oriental Town Dock #2 is immediately beside the marina docks and is commonly used in connection with staying there."
+    },
+    "service_associations": [
+      {
+        "service": "pumpout",
+        "provided_by": "free_dock_oriental_town_dock_2",
+        "relationship": "adjacent_shared_practical_access",
+        "plain": "Oriental Marina & Inn does not have its own pumpout, but the free pumpout at Oriental Town Dock #2 is immediately beside the marina docks and is commonly used in connection with staying there."
+      }
+    ],
+    "aliases": [
+      "oriental marina",
+      "oriental marina inn",
+      "oriental inn"
+    ],
+    "nearby_places": [
+      "oriental",
+      "oriental nc",
+      "smith creek"
+    ]
+  },
+  {
+    "id": "marina_oriental_harbor_village",
+    "name": "Oriental Harbor Village Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 35.024717,
+      "lon": -76.698733,
+      "icw_mile": 182.0,
+      "segment": "Oriental"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.86
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/marina/oriental-harbor",
+      "source_date": "2026-04-07"
+    },
+    "contact": {
+      "phone": null,
+      "email": null,
+      "website": "https://www.waterwayguide.com/marina/oriental-harbor",
+      "vhf": null
+    },
+    "depth": {
+      "approach_ft_mlw": 8.0,
+      "dockside_ft_mlw": 6.0,
+      "max_recommended_draft_ft": 5.5
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": null,
+      "pumpout": null,
+      "water": null,
+      "shore_power": null,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Transient pricing should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": true,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.86
+    },
+    "protection": {
+      "wind": {
+        "N": 0.72,
+        "E": 0.62,
+        "S": 0.68,
+        "W": 0.76
+      },
+      "wake_exposure_score": 0.18,
+      "current_exposure_score": 0.2
+    },
+    "vessel_fit": {
+      "big_boat_friendly": false,
+      "max_comfortable_loa_ft": 50,
+      "dock_handling_difficulty_score": 0.26
+    },
+    "quality": {
+      "baseline_score": 0.8,
+      "use_cases": {
+        "overnight_stop": 0.82,
+        "fuel_stop": 0.0,
+        "provisioning": 0.74,
+        "weather_wait": 0.7,
+        "quiet_night": 0.72,
+        "easy_in_easy_out": 0.72,
+        "budget_stop": 0.4
+      },
+      "value_score": 0.42,
+      "convenience_score": 0.82,
+      "quiet_score": 0.72
+    },
+    "cautions": [
+      {
+        "type": "draft_caution",
+        "severity": 0.44,
+        "text": "Depth is more limited here than at some larger marinas, so call ahead if draft is a concern."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A real village stop in Oriental with better walk-to-town value than many marinas on this stretch."
+    },
+    "aliases": [
+      "oriental harbor village",
+      "harbor village oriental"
+    ],
+    "nearby_places": [
+      "oriental",
+      "oriental nc"
+    ]
+  },
+  {
+    "id": "free_dock_oriental_town_dock_1",
+    "name": "Oriental Town Dock #1 - Free Dock",
+    "type": "free_dock",
+    "geo": {
+      "lat": 35.024,
+      "lon": -76.6966,
+      "icw_mile": 182.0,
+      "segment": "Oriental"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-08",
+      "confidence": 0.89
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/free-dock/8-55/oriental-town-dock-1-free-dock",
+      "source_date": "2026-04-08"
+    },
+    "contact": {
+      "phone": null,
+      "email": null,
+      "website": "https://www.waterwayguide.com/free-dock/8-55/oriental-town-dock-1-free-dock",
+      "vhf": null,
+      "camera_url": "https://towndock.net/harborcam"
+    },
+    "depth": {
+      "approach_ft_mlw": 6.0,
+      "dockside_ft_mlw": 6.0,
+      "max_recommended_draft_ft": 5.5
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "day_use_only": false,
+      "fuel": false,
+      "pumpout": false,
+      "water": false,
+      "shore_power": false,
+      "restrooms": true,
+      "showers": false,
+      "laundry": false,
+      "wifi": false
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 0,
+        "rate_basis": "free",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Free overnight docking allowed subject to the town's stay limits."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": true,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.94
+    },
+    "protection": {
+      "wind": {
+        "N": 0.66,
+        "E": 0.56,
+        "S": 0.62,
+        "W": 0.7
+      },
+      "wake_exposure_score": 0.22,
+      "current_exposure_score": 0.18
+    },
+    "vessel_fit": {
+      "big_boat_friendly": false,
+      "max_comfortable_loa_ft": 55,
+      "dock_handling_difficulty_score": 0.22
+    },
+    "quality": {
+      "baseline_score": 0.86,
+      "use_cases": {
+        "overnight_stop": 0.8,
+        "fuel_stop": 0.0,
+        "provisioning": 0.82,
+        "weather_wait": 0.48,
+        "quiet_night": 0.64,
+        "easy_in_easy_out": 0.8,
+        "budget_stop": 1.0
+      },
+      "value_score": 1.0,
+      "convenience_score": 0.92,
+      "quiet_score": 0.64
+    },
+    "cautions": [
+      {
+        "type": "stay_limit",
+        "severity": 0.34,
+        "text": "Free dock with town stay limits. Check current local rules before planning a longer stop."
+      }
+    ],
+    "expert_notes": {
+      "plain": "Oriental has two free docks. If you want to see whether there may be space before arrival, check the harbor cam at towndock.net. It shows the main dock clearly and gives a decent view of the second dock as well."
+    },
+    "aliases": [
+      "oriental town dock 1",
+      "oriental free dock 1",
+      "oriental main free dock"
+    ],
+    "nearby_places": [
+      "oriental",
+      "oriental nc",
+      "town dock"
+    ]
+  },
+  {
+    "id": "free_dock_oriental_town_dock_2",
+    "name": "Oriental Town Dock #2 - Free Dock",
+    "type": "free_dock",
+    "geo": {
+      "lat": 35.024267,
+      "lon": -76.695783,
+      "icw_mile": 182.0,
+      "segment": "Oriental"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-08",
+      "confidence": 0.91
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/free-dock/8-56/oriental-town-dock-2-free-dock",
+      "source_date": "2026-04-08"
+    },
+    "contact": {
+      "phone": null,
+      "email": null,
+      "website": "https://www.waterwayguide.com/free-dock/8-56/oriental-town-dock-2-free-dock",
+      "vhf": null,
+      "camera_url": "https://towndock.net/harborcam"
+    },
+    "depth": {
+      "approach_ft_mlw": 6.0,
+      "dockside_ft_mlw": 6.0,
+      "max_recommended_draft_ft": 5.5
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "day_use_only": false,
+      "fuel": false,
+      "pumpout": true,
+      "water": false,
+      "shore_power": false,
+      "restrooms": true,
+      "showers": false,
+      "laundry": false,
+      "wifi": false
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 0,
+        "rate_basis": "free",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": 0,
+        "notes": "48 hour limit in any 30-day period. Free dock and free pumpout."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": true,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.92
+    },
+    "protection": {
+      "wind": {
+        "N": 0.66,
+        "E": 0.56,
+        "S": 0.62,
+        "W": 0.7
+      },
+      "wake_exposure_score": 0.22,
+      "current_exposure_score": 0.18
+    },
+    "vessel_fit": {
+      "big_boat_friendly": false,
+      "max_comfortable_loa_ft": 55,
+      "dock_handling_difficulty_score": 0.2
+    },
+    "quality": {
+      "baseline_score": 0.86,
+      "use_cases": {
+        "overnight_stop": 0.78,
+        "fuel_stop": 0.0,
+        "provisioning": 0.8,
+        "weather_wait": 0.5,
+        "quiet_night": 0.64,
+        "easy_in_easy_out": 0.8,
+        "budget_stop": 1.0
+      },
+      "value_score": 1.0,
+      "convenience_score": 0.9,
+      "quiet_score": 0.64
+    },
+    "cautions": [
+      {
+        "type": "stay_limit",
+        "severity": 0.34,
+        "text": "Free dock with a 48 hour limit in any 30-day period."
+      }
+    ],
+    "expert_notes": {
+      "plain": "Oriental has two free docks. Town Dock #2 has the free pumpout and sits immediately beside Oriental Marina & Inn, so it is commonly used in connection with staying at the marina. If you want to see whether there may be space before arrival, check the harbor cam at towndock.net. It shows the main dock clearly and gives a decent view of the second dock as well."
+    },
+    "service_associations": [
+      {
+        "service": "pumpout",
+        "used_by": "marina_oriental_marina_inn",
+        "relationship": "adjacent_shared_practical_access",
+        "plain": "This free pumpout sits immediately beside Oriental Marina & Inn and is commonly used in connection with staying at the marina."
+      }
+    ],
+    "aliases": [
+      "oriental town dock 2",
+      "oriental free dock 2",
+      "oriental pumpout dock"
+    ],
+    "nearby_places": [
+      "oriental",
+      "oriental nc",
+      "town dock"
+    ]
+  },
+  {
+    "id": "marina_beaufort_town_docks",
+    "name": "Beaufort Town Docks",
+    "type": "marina",
+    "geo": {
+      "lat": 34.7173,
+      "lon": -76.6653,
+      "icw_mile": 202.0,
+      "segment": "Beaufort"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/marina/beaufort-docks",
+      "source_date": "2026-04-07"
+    },
+    "contact": {
+      "phone": null,
+      "email": null,
+      "website": "https://www.waterwayguide.com/marina/beaufort-docks",
+      "vhf": null
+    },
+    "depth": {
+      "approach_ft_mlw": 12.0,
+      "dockside_ft_mlw": 12.0,
+      "max_recommended_draft_ft": 10.5
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": false,
+      "pumpout": false,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "courtesy_car": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Reserve and confirm current rates directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": true,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.96
+    },
+    "protection": {
+      "wind": {
+        "N": 0.7,
+        "E": 0.58,
+        "S": 0.68,
+        "W": 0.72
+      },
+      "wake_exposure_score": 0.28,
+      "current_exposure_score": 0.36
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 240,
+      "dock_handling_difficulty_score": 0.3
+    },
+    "quality": {
+      "baseline_score": 0.9,
+      "use_cases": {
+        "overnight_stop": 0.88,
+        "fuel_stop": 0.0,
+        "provisioning": 0.9,
+        "weather_wait": 0.7,
+        "quiet_night": 0.54,
+        "easy_in_easy_out": 0.78,
+        "budget_stop": 0.42
+      },
+      "value_score": 0.46,
+      "convenience_score": 0.96,
+      "quiet_score": 0.54
+    },
+    "cautions": [
+      {
+        "type": "busy_waterfront",
+        "severity": 0.34,
+        "text": "Excellent town access, but the tradeoff is a busier waterfront feel than more secluded stops."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A classic Beaufort stop if walkability and town access matter more than seclusion."
+    },
+    "aliases": [
+      "beaufort town docks",
+      "beaufort docks"
+    ],
+    "nearby_places": [
+      "beaufort",
+      "beaufort nc",
+      "taylors creek"
+    ]
+  }
+]

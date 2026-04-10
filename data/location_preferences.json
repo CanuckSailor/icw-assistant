@@ -1,0 +1,86 @@
+[
+  {
+    "id": "oriental-fuel-convenience",
+    "place_aliases": [
+      "oriental",
+      "oriental nc",
+      "oriental north carolina"
+    ],
+    "query_tags": [
+      "fuel",
+      "diesel",
+      "gas",
+      "marine gas",
+      "propane"
+    ],
+    "prefer_matches": [
+      "oriental marina and inn"
+    ],
+    "prefer_bonus": 0.45,
+    "deprioritize_matches": [
+      "river dunes",
+      "grace harbor"
+    ],
+    "deprioritize_penalty": 0.18,
+    "prompt_guidance": "For fuel questions about Oriental, NC, treat Oriental Marina & Inn as the more convenient in-town fuel stop. River Dunes Marina at Grace Harbor may be mentioned as a nearby alternative, but not as the primary Oriental fuel answer unless the candidate data clearly defeats the in-town option."
+  },
+  {
+    "id": "st-marys-off-icw-guidance",
+    "place_aliases": [
+      "st marys",
+      "st marys ga",
+      "st marys georgia",
+      "st. marys",
+      "saint marys"
+    ],
+    "query_tags": [
+      "marina",
+      "marinas",
+      "transient",
+      "transient slips",
+      "dock",
+      "docks",
+      "pumpout",
+      "fuel",
+      "what about"
+    ],
+    "prefer_matches": [
+      "st marys intracoastal gateway marina"
+    ],
+    "prefer_bonus": 0.4,
+    "deprioritize_matches": [],
+    "deprioritize_penalty": 0.0,
+    "prompt_guidance": "For broad marina questions about St. Marys, GA, say plainly that St. Marys Intracoastal Gateway Marina exists but sits several miles off the ICW. For easier straight-ICW alternatives in the area, Fernandina Beach marinas are the natural comparison set."
+  },
+  {
+    "id": "savannah-fuel-practicality",
+    "place_aliases": [
+      "savannah",
+      "savannah ga",
+      "thunderbolt",
+      "isle of hope",
+      "skidaway",
+      "delegal creek",
+      "savannah urbanized area"
+    ],
+    "query_tags": [
+      "fuel",
+      "diesel",
+      "gas",
+      "marine gas",
+      "propane"
+    ],
+    "prefer_matches": [
+      "isle of hope marina",
+      "safe harbor bahia bleu",
+      "thunderbolt marine",
+      "marinemax savannah bend"
+    ],
+    "prefer_bonus": 0.35,
+    "deprioritize_matches": [
+      "delegal creek marina"
+    ],
+    "deprioritize_penalty": 0.4,
+    "prompt_guidance": "For practical fuel questions in the Savannah / Thunderbolt / Skidaway stretch, treat Isle of Hope and the Thunderbolt marinas as the primary passing-cruiser answers before Delegal Creek Marina. Delegal Creek is off the ICW, runs through a shoaling approach, and should not be framed as the convenient default fuel stop."
+  }
+]

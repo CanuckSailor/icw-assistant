@@ -1,0 +1,2122 @@
+[
+  {
+    "id": "marina_st_augustine_municipal_marina",
+    "name": "St. Augustine Municipal Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 29.891833,
+      "lon": -81.309167,
+      "icw_mile": 778.3,
+      "segment": "St. Augustine"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.91
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "St. Augustine Municipal Marina / Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/marina/st-augustine-municipal-marina",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "approach_ft_mlw": 20.0,
+      "dockside_ft_mlw": 15.0,
+      "max_recommended_draft_ft": 12.0
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "dinghy_dock": true,
+      "wifi": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "daily transient dockage available; official rate sheet uses vessel size tiers",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": 5,
+        "notes": "Hourly dockage is available at $5 per hour up to 4 hours when space is available; dinghy dockage permits are $15/day."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.95
+    },
+    "protection": {
+      "wind": {
+        "N": 0.6,
+        "E": 0.45,
+        "S": 0.6,
+        "W": 0.65
+      },
+      "wake_exposure_score": 0.45,
+      "current_exposure_score": 0.65
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.45
+    },
+    "quality": {
+      "baseline_score": 0.9,
+      "use_cases": {
+        "overnight_stop": 0.88,
+        "fuel_stop": 0.9,
+        "provisioning": 0.62,
+        "weather_wait": 0.7,
+        "quiet_night": 0.45,
+        "easy_in_easy_out": 0.62,
+        "budget_stop": 0.35
+      },
+      "value_score": 0.42,
+      "convenience_score": 0.94,
+      "quiet_score": 0.38
+    },
+    "cautions": [
+      {
+        "type": "current",
+        "severity": 0.65,
+        "text": "Current in the downtown waterfront area can be meaningful, especially around the Bridge of Lions."
+      }
+    ],
+    "expert_notes": {
+      "plain": "This is the downtown convenience play, not the cheapest play. Strong overall stop if you want services, dinghy access, and immediate access to town."
+    }
+  },
+  {
+    "id": "mooring_san_marco_downtown_field",
+    "name": "San Marco Downtown Mooring Field",
+    "type": "mooring_field",
+    "geo": {
+      "lat": 29.894333,
+      "lon": -81.309417,
+      "icw_mile": 778.0,
+      "segment": "St. Augustine"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "City of St. Augustine / Waterway Guide",
+      "source_url": "https://www.citystaug.com/346/Downtown-Moorings",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "overnight_allowed": true,
+      "launch_service": false,
+      "dinghy_access": true,
+      "pumpout": false,
+      "showers": true,
+      "laundry": true,
+      "restrooms": true,
+      "water_tender": false
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 35,
+        "rate_basis": "per night mooring",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Monthly transient mooring rate listed as $620."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.95
+    },
+    "protection": {
+      "wind": {
+        "N": 0.55,
+        "E": 0.4,
+        "S": 0.55,
+        "W": 0.6
+      },
+      "wake_exposure_score": 0.55,
+      "current_exposure_score": 0.7
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.35
+    },
+    "quality": {
+      "baseline_score": 0.82,
+      "use_cases": {
+        "overnight_stop": 0.86,
+        "fuel_stop": 0.0,
+        "provisioning": 0.58,
+        "weather_wait": 0.48,
+        "quiet_night": 0.35,
+        "easy_in_easy_out": 0.52,
+        "budget_stop": 0.58
+      },
+      "value_score": 0.62,
+      "convenience_score": 0.9,
+      "quiet_score": 0.34
+    },
+    "cautions": [
+      {
+        "type": "current",
+        "severity": 0.7,
+        "text": "Expect current and harbor movement in the downtown mooring area."
+      }
+    ],
+    "expert_notes": {
+      "plain": "Good downtown mooring choice if you want to be in the middle of St. Augustine without paying full-slip rates."
+    }
+  },
+  {
+    "id": "mooring_salt_run_field",
+    "name": "Salt Run Mooring Field",
+    "type": "mooring_field",
+    "geo": {
+      "lat": 29.888483,
+      "lon": -81.28505,
+      "icw_mile": 777.0,
+      "segment": "St. Augustine / Anastasia"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "City of St. Augustine / Waterway Guide",
+      "source_url": "https://www.citystaug.com/347/Salt-Run-Moorings",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "overnight_allowed": true,
+      "launch_service": false,
+      "dinghy_access": true,
+      "pumpout": false,
+      "showers": false,
+      "laundry": false,
+      "restrooms": false,
+      "water_tender": false
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 20,
+        "rate_basis": "per night mooring",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Monthly transient mooring rate listed as $400."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.18
+    },
+    "protection": {
+      "wind": {
+        "N": 0.65,
+        "E": 0.45,
+        "S": 0.6,
+        "W": 0.7
+      },
+      "wake_exposure_score": 0.28,
+      "current_exposure_score": 0.35
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.2
+    },
+    "quality": {
+      "baseline_score": 0.72,
+      "use_cases": {
+        "overnight_stop": 0.78,
+        "fuel_stop": 0.0,
+        "provisioning": 0.08,
+        "weather_wait": 0.56,
+        "quiet_night": 0.74,
+        "easy_in_easy_out": 0.48,
+        "budget_stop": 0.72
+      },
+      "value_score": 0.78,
+      "convenience_score": 0.16,
+      "quiet_score": 0.76
+    },
+    "cautions": [
+      {
+        "type": "limited_amenities",
+        "severity": 0.75,
+        "text": "Salt Run has limited availability, minimum shoreside amenities, and no water tender service."
+      },
+      {
+        "type": "shoal_tendency",
+        "severity": 0.7,
+        "text": "The water in Salt Run tends to be much shallower, so draft deserves attention."
+      }
+    ],
+    "expert_notes": {
+      "plain": "This is the quieter and more budget-friendly St. Augustine mooring play, but it is much less convenient ashore."
+    }
+  },
+  {
+    "id": "marina_camachee_cove_yacht_harbor",
+    "name": "Camachee Cove Yacht Harbor",
+    "type": "marina",
+    "geo": {
+      "lat": 29.916667,
+      "lon": -81.308333,
+      "icw_mile": 775.7,
+      "segment": "St. Augustine North"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.88
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Camachee Cove Yacht Harbor / Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/marina/windward-at-camachee-cove-yacht-harbor",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "approach_ft_mlw": 6.0,
+      "dockside_ft_mlw": 7.0,
+      "max_recommended_draft_ft": 6.0
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": null,
+      "water": null,
+      "shore_power": null,
+      "restrooms": true,
+      "showers": true,
+      "laundry": null,
+      "repairs": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Transient slips available; verify current rates directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.42
+    },
+    "protection": {
+      "wind": {
+        "N": 0.8,
+        "E": 0.7,
+        "S": 0.75,
+        "W": 0.8
+      },
+      "wake_exposure_score": 0.18,
+      "current_exposure_score": 0.28
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 135,
+      "dock_handling_difficulty_score": 0.24
+    },
+    "quality": {
+      "baseline_score": 0.86,
+      "use_cases": {
+        "overnight_stop": 0.86,
+        "fuel_stop": 0.78,
+        "provisioning": 0.24,
+        "weather_wait": 0.84,
+        "quiet_night": 0.76,
+        "easy_in_easy_out": 0.78,
+        "budget_stop": 0.32
+      },
+      "value_score": 0.34,
+      "convenience_score": 0.48,
+      "quiet_score": 0.8
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.4,
+        "text": "Current transient pricing should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "This is the protected, calmer St. Augustine marina option rather than the budget option."
+    }
+  },
+  {
+    "id": "marina_english_landing_marina",
+    "name": "English Landing Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 29.884031,
+      "lon": -81.324532,
+      "icw_mile": 779.0,
+      "segment": "St. Augustine"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.86
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "English Landing Marina",
+      "source_url": "https://englishlandingmarina.com/",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": null,
+      "pumpout": null,
+      "water": null,
+      "shore_power": null,
+      "restrooms": null,
+      "showers": null,
+      "laundry": null,
+      "repairs": null
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Transient slips available; verify current rates directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": true,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.82
+    },
+    "protection": {
+      "wind": {
+        "N": 0.72,
+        "E": 0.6,
+        "S": 0.68,
+        "W": 0.76
+      },
+      "wake_exposure_score": 0.2,
+      "current_exposure_score": 0.3
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 55,
+      "dock_handling_difficulty_score": 0.28
+    },
+    "quality": {
+      "baseline_score": 0.82,
+      "use_cases": {
+        "overnight_stop": 0.82,
+        "fuel_stop": 0.0,
+        "provisioning": 0.84,
+        "weather_wait": 0.66,
+        "quiet_night": 0.72,
+        "easy_in_easy_out": 0.7,
+        "budget_stop": 0.48
+      },
+      "value_score": 0.5,
+      "convenience_score": 0.84,
+      "quiet_score": 0.72
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.4,
+        "text": "Current transient pricing should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "Good provisioning-oriented stop with a more practical, less touristy feel than downtown."
+    }
+  },
+  {
+    "id": "marina_sunset_bay_marina_anchorage",
+    "name": "Sunset Bay Marina & Anchorage",
+    "type": "marina",
+    "geo": {
+      "lat": 27.1996,
+      "lon": -80.2554,
+      "icw_mile": 989.0,
+      "segment": "Stuart"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Sunset Bay Marina & Anchorage",
+      "source_url": "https://www.integramarinas.com/marinas/sunset-bay-marina-and-anchorage/",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": null,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "marine_store": true,
+      "restaurant": true,
+      "mooring_field": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "198 slips and 69 moorings; verify current transient and mooring rates directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.82
+    },
+    "protection": {
+      "wind": {
+        "N": 0.75,
+        "E": 0.65,
+        "S": 0.72,
+        "W": 0.78
+      },
+      "wake_exposure_score": 0.22,
+      "current_exposure_score": 0.3
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.28
+    },
+    "quality": {
+      "baseline_score": 0.9,
+      "use_cases": {
+        "overnight_stop": 0.9,
+        "fuel_stop": 0.82,
+        "provisioning": 0.58,
+        "weather_wait": 0.8,
+        "quiet_night": 0.72,
+        "easy_in_easy_out": 0.76,
+        "budget_stop": 0.54
+      },
+      "value_score": 0.56,
+      "convenience_score": 0.82,
+      "quiet_score": 0.72
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.35,
+        "text": "Current transient and mooring pricing should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "This is the most complete Stuart marina/anchorage package in the current core file, with both slip and mooring options plus strong services."
+    }
+  },
+  {
+    "id": "marina_safe_harbor_harborage_yacht_club",
+    "name": "Safe Harbor Harborage Yacht Club",
+    "type": "marina",
+    "geo": {
+      "lat": 27.2143,
+      "lon": -80.2683,
+      "icw_mile": 991.2,
+      "segment": "Stuart"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.86
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Safe Harbor Harborage Yacht Club",
+      "source_url": "https://shmarinas.com/locations/safe-harbor-harborage-yacht-club/",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": null,
+      "water": null,
+      "shore_power": null,
+      "restrooms": true,
+      "showers": null,
+      "laundry": null,
+      "repairs": true,
+      "restaurant": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Transient slips available; verify current rates directly."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.42
+    },
+    "protection": {
+      "wind": {
+        "N": 0.78,
+        "E": 0.68,
+        "S": 0.74,
+        "W": 0.8
+      },
+      "wake_exposure_score": 0.22,
+      "current_exposure_score": 0.28
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 110,
+      "dock_handling_difficulty_score": 0.26
+    },
+    "quality": {
+      "baseline_score": 0.84,
+      "use_cases": {
+        "overnight_stop": 0.84,
+        "fuel_stop": 0.72,
+        "provisioning": 0.24,
+        "weather_wait": 0.82,
+        "quiet_night": 0.74,
+        "easy_in_easy_out": 0.74,
+        "budget_stop": 0.34
+      },
+      "value_score": 0.36,
+      "convenience_score": 0.46,
+      "quiet_score": 0.74
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.35,
+        "text": "Current transient pricing should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A stronger Stuart marina option for protection and services than for budget."
+    }
+  },
+  {
+    "id": "marina_fort_pierce_city_marina",
+    "name": "Fort Pierce City Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 27.4497,
+      "lon": -80.3204,
+      "icw_mile": 965.6,
+      "segment": "Fort Pierce"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "City of Fort Pierce",
+      "source_url": "https://www.cityoffortpierce.com/1015/City-Marina",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "restaurant": true,
+      "liveaboard_allowed": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 3.5,
+        "rate_basis": "per ft per day",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Weeks 1-2 at $2.00/ft/day; weeks 3-16 at $1.25/ft/day; 5-11 months at $23.75/ft."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.78
+    },
+    "protection": {
+      "wind": {
+        "N": 0.72,
+        "E": 0.58,
+        "S": 0.68,
+        "W": 0.74
+      },
+      "wake_exposure_score": 0.28,
+      "current_exposure_score": 0.32
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 160,
+      "dock_handling_difficulty_score": 0.3
+    },
+    "quality": {
+      "baseline_score": 0.88,
+      "use_cases": {
+        "overnight_stop": 0.88,
+        "fuel_stop": 0.84,
+        "provisioning": 0.38,
+        "weather_wait": 0.8,
+        "quiet_night": 0.68,
+        "easy_in_easy_out": 0.76,
+        "budget_stop": 0.6
+      },
+      "value_score": 0.66,
+      "convenience_score": 0.78,
+      "quiet_score": 0.68
+    },
+    "cautions": [
+      {
+        "type": "rate_change",
+        "severity": 0.35,
+        "text": "Official dockage rates are published by the city but should still be confirmed before arrival."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A strong municipal-marina style stop with real services, published rates, and better budget transparency than many private marinas."
+    }
+  },
+  {
+    "id": "marina_vero_beach_city_marina",
+    "name": "Vero Beach City Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 27.6518,
+      "lon": -80.3709,
+      "icw_mile": 951.0,
+      "segment": "Vero Beach"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "City of Vero Beach / Waterway Guide",
+      "source_url": "https://www.covb.org/244/Reservations-Rates",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "mooring_field": true,
+      "fuel": false,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "dinghy_dock": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 30,
+        "rate_basis": "per ft per month transient slip",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Transient daily mooring rate is $23.36. Waterway Guide lists 10 transient slips."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.34
+    },
+    "protection": {
+      "wind": {
+        "N": 0.74,
+        "E": 0.6,
+        "S": 0.7,
+        "W": 0.76
+      },
+      "wake_exposure_score": 0.26,
+      "current_exposure_score": 0.28
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 130,
+      "dock_handling_difficulty_score": 0.26
+    },
+    "quality": {
+      "baseline_score": 0.86,
+      "use_cases": {
+        "overnight_stop": 0.86,
+        "fuel_stop": 0.0,
+        "provisioning": 0.22,
+        "weather_wait": 0.78,
+        "quiet_night": 0.72,
+        "easy_in_easy_out": 0.72,
+        "budget_stop": 0.62
+      },
+      "value_score": 0.66,
+      "convenience_score": 0.42,
+      "quiet_score": 0.72
+    },
+    "cautions": [
+      {
+        "type": "rate_interpretation",
+        "severity": 0.35,
+        "text": "Vero\u2019s official published rate structure uses monthly-equivalent formatting in places; confirm the exact transient slip quote directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "This is a strong managed-city-marina option with both mooring and transient capability, and better published rate transparency than many private marinas."
+    }
+  },
+  {
+    "id": "marina_safe_harbor_new_port_cove",
+    "name": "Safe Harbor New Port Cove",
+    "type": "marina",
+    "geo": {
+      "lat": 26.78065,
+      "lon": -80.050333,
+      "icw_mile": 1017.4,
+      "segment": "Riviera Beach / Lake Park"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Waterway Guide / Safe Harbor",
+      "source_url": "https://www.waterwayguide.com/marina/safe-harbor-new-port-cove",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "approach_ft_mlw": 5.0,
+      "dockside_ft_mlw": 5.0,
+      "max_recommended_draft_ft": 4.5
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "ship_store": true,
+      "liveaboard_allowed": false
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 4.0,
+        "rate_basis": "per ft per day",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": 0,
+        "water_rate_basis": "free",
+        "pumpout_rate": 30.0,
+        "notes": "Please call for pricing; marina leases by slip size rather than vessel size. Current transient rates should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "fuel": {
+      "diesel_available": true,
+      "gasoline_available": true,
+      "marine_gasoline_available": true,
+      "propane_available": null,
+      "diesel_price": 5.69,
+      "gasoline_price": 6.58,
+      "fuel_price_date": "2026-04-02",
+      "non_ethanol": true,
+      "valvtect": true
+    },
+    "contact": {
+      "phone": "+1 (561) 844-2504",
+      "email": "[email protected]",
+      "website": "https://shmarinas.com/locations/safe-harbor-new-port-cove",
+      "vhf": "8"
+    },
+    "shore_access": {
+      "groceries_nearby": true,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.48
+    },
+    "protection": {
+      "wind": {
+        "N": 0.76,
+        "E": 0.68,
+        "S": 0.72,
+        "W": 0.78
+      },
+      "wake_exposure_score": 0.24,
+      "current_exposure_score": 0.3
+    },
+    "vessel_fit": {
+      "big_boat_friendly": false,
+      "max_comfortable_loa_ft": 60,
+      "dock_handling_difficulty_score": 0.32
+    },
+    "quality": {
+      "baseline_score": 0.76,
+      "use_cases": {
+        "overnight_stop": 0.74,
+        "fuel_stop": 0.84,
+        "provisioning": 0.36,
+        "weather_wait": 0.72,
+        "quiet_night": 0.66,
+        "easy_in_easy_out": 0.74,
+        "budget_stop": 0.44
+      },
+      "value_score": 0.46,
+      "convenience_score": 0.58,
+      "quiet_score": 0.66
+    },
+    "cautions": [
+      {
+        "type": "draft_limit",
+        "severity": 0.88,
+        "text": "This is not a good choice for deeper-draft boats; reported approach and dockside depth are only 5 feet."
+      }
+    ],
+    "expert_notes": {
+      "plain": "Useful small-slip Riviera Beach option if your draft fits it. Better for modest-draft boats than for heavier cruising sailboats."
+    }
+  },
+  {
+    "id": "marina_sailfish_marina",
+    "name": "Sailfish Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 26.777667,
+      "lon": -80.040833,
+      "icw_mile": 1017.7,
+      "segment": "Palm Beach Shores / Lake Worth Inlet"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/marina/sailfish-resort-and-marina",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": null,
+      "wifi": null,
+      "restaurant": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Current transient pricing should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "fuel": {
+      "diesel_available": true,
+      "gasoline_available": true,
+      "marine_gasoline_available": true,
+      "propane_available": null,
+      "diesel_price": 6.0,
+      "gasoline_price": 5.7,
+      "fuel_price_date": "2026-04-02",
+      "non_ethanol": true,
+      "valvtect": false
+    },
+    "contact": {
+      "phone": "+1 (561) 844-1724",
+      "email": "[email protected]",
+      "website": "http://sailfishmarina.com",
+      "vhf": "68"
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.54
+    },
+    "protection": {
+      "wind": {
+        "N": 0.68,
+        "E": 0.62,
+        "S": 0.66,
+        "W": 0.72
+      },
+      "wake_exposure_score": 0.32,
+      "current_exposure_score": 0.38
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 180,
+      "dock_handling_difficulty_score": 0.36
+    },
+    "quality": {
+      "baseline_score": 0.84,
+      "use_cases": {
+        "overnight_stop": 0.84,
+        "fuel_stop": 0.82,
+        "provisioning": 0.24,
+        "weather_wait": 0.7,
+        "quiet_night": 0.56,
+        "easy_in_easy_out": 0.74,
+        "budget_stop": 0.34
+      },
+      "value_score": 0.36,
+      "convenience_score": 0.56,
+      "quiet_score": 0.56
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.32,
+        "text": "Current transient pricing should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A legitimate Lake Worth inlet-area transient stop with easy boater contact information and on-site fuel, but not the cheapest play."
+    }
+  },
+  {
+    "id": "marina_riviera_beach_city_marina",
+    "name": "Riviera Beach City Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 26.774083,
+      "lon": -80.051767,
+      "icw_mile": 1018.0,
+      "segment": "Riviera Beach / Lake Worth Inlet"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.92
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Waterway Guide / Marina Village Palm Beach",
+      "source_url": "https://www.waterwayguide.com/featured-marina/riviera-beach-municipal-marina",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "approach_ft_mlw": 8.0,
+      "dockside_ft_mlw": 7.0,
+      "max_recommended_draft_ft": 6.0
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "dinghy_dock": true,
+      "restaurant": true,
+      "security": true,
+      "liveaboard_allowed": false
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "see marina website for current transient rates",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Dockage available for long-term, monthly, or transient use; call ahead for current pricing."
+      },
+      "special_offers": []
+    },
+    "fuel": {
+      "diesel_available": true,
+      "gasoline_available": true,
+      "marine_gasoline_available": true,
+      "propane_available": null,
+      "diesel_price": 6.32,
+      "gasoline_price": 6.26,
+      "fuel_price_date": "2026-04-07",
+      "non_ethanol": true,
+      "valvtect": true
+    },
+    "contact": {
+      "phone": "+1 (561) 842-7806",
+      "email": "[email protected]",
+      "website": "https://www.marinavillagepalmbeach.com/riviera-beach-marina-amenities.html",
+      "vhf": "11"
+    },
+    "shore_access": {
+      "groceries_nearby": true,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.58
+    },
+    "protection": {
+      "wind": {
+        "N": 0.68,
+        "E": 0.56,
+        "S": 0.66,
+        "W": 0.72
+      },
+      "wake_exposure_score": 0.34,
+      "current_exposure_score": 0.62
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 200,
+      "dock_handling_difficulty_score": 0.48
+    },
+    "quality": {
+      "baseline_score": 0.86,
+      "use_cases": {
+        "overnight_stop": 0.84,
+        "fuel_stop": 0.86,
+        "provisioning": 0.34,
+        "weather_wait": 0.72,
+        "quiet_night": 0.54,
+        "easy_in_easy_out": 0.66,
+        "budget_stop": 0.48
+      },
+      "value_score": 0.48,
+      "convenience_score": 0.62,
+      "quiet_score": 0.54
+    },
+    "cautions": [
+      {
+        "type": "current_outer_docks",
+        "severity": 0.84,
+        "text": "Current can be an issue, especially on the outer docks, so docking plans should account for tide and current."
+      },
+      {
+        "type": "draft_limit",
+        "severity": 0.68,
+        "text": "Reported dockside depth is only 7 feet, so deeper-draft boats should confirm current conditions carefully."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A real Riviera Beach transient option with decent services and fuel, but current on the outer docks is the operational issue to take seriously."
+    }
+  },
+  {
+    "id": "marina_safe_harbor_rybovich",
+    "name": "Safe Harbor Rybovich",
+    "type": "marina",
+    "geo": {
+      "lat": 26.748333,
+      "lon": -80.05,
+      "icw_mile": 1019.5,
+      "segment": "West Palm Beach / Riviera Beach"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.91
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Waterway Guide / Safe Harbor",
+      "source_url": "https://www.waterwayguide.com/marina/rybovich-marina",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "approach_ft_mlw": 18.0,
+      "dockside_ft_mlw": 18.0,
+      "max_recommended_draft_ft": 14.0
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": false,
+      "wifi": true,
+      "restaurant": true,
+      "pool": true,
+      "ship_store": true,
+      "ice": true,
+      "repairs": true,
+      "dry_storage": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "contact marina for current information",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Current transient rates should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "fuel": {
+      "diesel_available": true,
+      "gasoline_available": true,
+      "marine_gasoline_available": true,
+      "propane_available": null,
+      "diesel_price": null,
+      "gasoline_price": null,
+      "fuel_price_date": null,
+      "non_ethanol": false,
+      "valvtect": false
+    },
+    "contact": {
+      "phone": "+1 (561) 840-8308",
+      "email": "[email protected]",
+      "website": "https://shmarinas.com/locations/safe-harbor-rybovich",
+      "vhf": "65"
+    },
+    "shore_access": {
+      "groceries_nearby": true,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.52
+    },
+    "protection": {
+      "wind": {
+        "N": 0.78,
+        "E": 0.68,
+        "S": 0.76,
+        "W": 0.82
+      },
+      "wake_exposure_score": 0.22,
+      "current_exposure_score": 0.28
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 330,
+      "dock_handling_difficulty_score": 0.26
+    },
+    "quality": {
+      "baseline_score": 0.9,
+      "use_cases": {
+        "overnight_stop": 0.86,
+        "fuel_stop": 0.82,
+        "provisioning": 0.32,
+        "weather_wait": 0.88,
+        "quiet_night": 0.72,
+        "easy_in_easy_out": 0.82,
+        "budget_stop": 0.18
+      },
+      "value_score": 0.22,
+      "convenience_score": 0.68,
+      "quiet_score": 0.72
+    },
+    "cautions": [
+      {
+        "type": "premium_marina",
+        "severity": 0.34,
+        "text": "This is a premium deep-water marina and service yard rather than a budget stop."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A deep-water, high-capability Palm Beach area stop that makes sense when draft, boat size, or service yard access matter more than budget."
+    }
+  },
+  {
+    "id": "marina_town_of_palm_beach_marina",
+    "name": "Town of Palm Beach Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 26.702933,
+      "lon": -80.044267,
+      "icw_mile": 1022.8,
+      "segment": "Palm Beach"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.93
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Waterway Guide / Town of Palm Beach Marina",
+      "source_url": "https://www.waterwayguide.com/marina/town-of-palm-beach-marina",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "approach_ft_mlw": 9.0,
+      "dockside_ft_mlw": 12.0,
+      "max_recommended_draft_ft": 7.5
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": false,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": false,
+      "wifi": true,
+      "security": true,
+      "liveaboard_allowed": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "contact facility or official dockage page for current pricing",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Call ahead to confirm current pricing and availability."
+      },
+      "special_offers": []
+    },
+    "fuel": {
+      "diesel_available": false,
+      "gasoline_available": false,
+      "marine_gasoline_available": false,
+      "propane_available": null
+    },
+    "contact": {
+      "phone": "+1 (561) 838-5463",
+      "email": "[email protected]",
+      "website": "https://www.townofpalmbeachmarina.com",
+      "vhf": "68"
+    },
+    "shore_access": {
+      "groceries_nearby": true,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.96
+    },
+    "protection": {
+      "wind": {
+        "N": 0.7,
+        "E": 0.56,
+        "S": 0.68,
+        "W": 0.74
+      },
+      "wake_exposure_score": 0.34,
+      "current_exposure_score": 0.42
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 295,
+      "dock_handling_difficulty_score": 0.36
+    },
+    "quality": {
+      "baseline_score": 0.9,
+      "use_cases": {
+        "overnight_stop": 0.88,
+        "fuel_stop": 0.0,
+        "provisioning": 0.78,
+        "weather_wait": 0.74,
+        "quiet_night": 0.6,
+        "easy_in_easy_out": 0.76,
+        "budget_stop": 0.18
+      },
+      "value_score": 0.22,
+      "convenience_score": 0.94,
+      "quiet_score": 0.6
+    },
+    "cautions": [
+      {
+        "type": "premium_pricing",
+        "severity": 0.3,
+        "text": "This is a premier Palm Beach marina, so pricing should be expected to reflect that."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A strong Palm Beach choice when location and quality matter more than cost. Excellent walkability and serious transient capability."
+    }
+  },
+  {
+    "id": "marina_palm_harbor_marina",
+    "name": "Palm Harbor Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 26.716,
+      "lon": -80.048333,
+      "icw_mile": 1022.0,
+      "segment": "West Palm Beach"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-07",
+      "confidence": 0.92
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Waterway Guide / Palm Harbor Marina",
+      "source_url": "https://www.waterwayguide.com/marina/palm-harbor-marina-fl",
+      "source_date": "2026-04-07"
+    },
+    "depth": {
+      "approach_ft_mlw": 10.0,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": 8.0
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": null,
+      "water": null,
+      "shore_power": null,
+      "restrooms": true,
+      "showers": true,
+      "laundry": null,
+      "wifi": null,
+      "concierge": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "contact marina for current transient pricing",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Transient overnight and transient monthly slips are available; current pricing should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "fuel": {
+      "diesel_available": true,
+      "gasoline_available": true,
+      "marine_gasoline_available": true,
+      "propane_available": null,
+      "diesel_price": 6.359,
+      "gasoline_price": 6.409,
+      "fuel_price_date": "2026-04-02",
+      "non_ethanol": true,
+      "valvtect": false
+    },
+    "contact": {
+      "phone": "+1 (561) 655-4757",
+      "email": "[email protected]",
+      "website": "http://www.palmharbor-marina.com",
+      "vhf": "68"
+    },
+    "shore_access": {
+      "groceries_nearby": true,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.9
+    },
+    "protection": {
+      "wind": {
+        "N": 0.72,
+        "E": 0.58,
+        "S": 0.7,
+        "W": 0.76
+      },
+      "wake_exposure_score": 0.3,
+      "current_exposure_score": 0.38
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 250,
+      "dock_handling_difficulty_score": 0.34
+    },
+    "quality": {
+      "baseline_score": 0.9,
+      "use_cases": {
+        "overnight_stop": 0.88,
+        "fuel_stop": 0.86,
+        "provisioning": 0.74,
+        "weather_wait": 0.74,
+        "quiet_night": 0.58,
+        "easy_in_easy_out": 0.8,
+        "budget_stop": 0.22
+      },
+      "value_score": 0.26,
+      "convenience_score": 0.9,
+      "quiet_score": 0.58
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.28,
+        "text": "Current transient rates should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A very useful West Palm transient marina with real contactability, fuel, and downtown access. Strong choice when you want a proper marina rather than the public docks."
+    }
+  },
+  {
+    "id": "marina_fernandina_harbor_marina",
+    "name": "Fernandina Harbor Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 30.67065,
+      "lon": -81.46516,
+      "icw_mile": 716.0,
+      "segment": "Fernandina Beach / Amelia Island"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-10",
+      "confidence": 0.92
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Fernandina Harbor Marina / City of Fernandina Beach",
+      "source_url": "https://www.fernandinaharbormarina.com/contact-us",
+      "source_date": "2026-04-10"
+    },
+    "contact": {
+      "phone": "+1 (904) 310-3300",
+      "email": "fernandinaharbor@fbfl.city",
+      "website": "https://www.fernandinaharbormarina.com/",
+      "vhf": "16"
+    },
+    "depth": {
+      "approach_ft_mlw": 25.0,
+      "dockside_ft_mlw": 25.0,
+      "max_recommended_draft_ft": 16.0
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": null,
+      "laundry": true,
+      "wifi": true,
+      "dinghy_dock": true,
+      "restaurant": true,
+      "bait_tackle": true,
+      "boaters_lounge": true,
+      "mooring_field": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "published by vessel-length tiers; call marina for current quote and availability",
+        "electric_rate": null,
+        "electric_rate_basis": "30A / 50A / 100A tiers",
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Transient dockage is published by length tier. Under 70 ft: $2.75-$3.25/ft/day, $16.10-$17.50/ft/week, $34.50/ft/month. 70-99 ft: $3.00-$3.50/ft/day, $17.15-$18.20/ft/week, $38.40/ft/month. 100-149 ft: $3.50-$4.00/ft/day, $19.25-$20.00/ft/week, $42.00/ft/month. 150-199 ft: $3.75-$4.25/ft/day, $21.00-$22.50/ft/week, $43.50/ft/month. 200-250 ft: $4.00-$4.50/ft/day, $22.75-$24.15/ft/week, $43.50/ft/month. Special events and holidays may be higher. Transient stays limited to 6 months. Long-term dockage: non-commercial $25/ft/month; commercial $27.50/ft/month. Dock N Dine per 3 hours: up to 25 ft $16.05; 25-35 ft $32.10; over 36 ft $42.80. Electric: daily 30A/50A/100A = $6/$12/$25; weekly $30/$72/$125; monthly $60/$125/$350."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": true,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.96
+    },
+    "protection": {
+      "wind": {
+        "N": 0.72,
+        "E": 0.58,
+        "S": 0.7,
+        "W": 0.76
+      },
+      "wake_exposure_score": 0.28,
+      "current_exposure_score": 0.36
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 200,
+      "dock_handling_difficulty_score": 0.34
+    },
+    "quality": {
+      "baseline_score": 0.9,
+      "use_cases": {
+        "overnight_stop": 0.9,
+        "fuel_stop": 0.88,
+        "provisioning": 0.78,
+        "weather_wait": 0.78,
+        "quiet_night": 0.58,
+        "easy_in_easy_out": 0.82,
+        "budget_stop": 0.42
+      },
+      "value_score": 0.46,
+      "convenience_score": 0.96,
+      "quiet_score": 0.58
+    },
+    "cautions": [
+      {
+        "type": "busy_waterfront",
+        "severity": 0.42,
+        "text": "This is a busy downtown waterfront marina, so movement and activity can be higher than at more secluded stops."
+      },
+      {
+        "type": "special_event_rates",
+        "severity": 0.32,
+        "text": "Special events and holidays can carry higher rates than the standard published schedule."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A top Fernandina stop if downtown access matters. Strong contactability, fuel, pumpout, and immediate walkability make it the practical in-town choice. The marina also has a first-come, first-served mooring field with amenity access."
+    },
+    "aliases": [
+      "fernandina beach marina",
+      "fernandina harbor",
+      "fernandina harbour marina",
+      "fernandina harbor marina",
+      "fernandina harbour",
+      "fernandina marina"
+    ],
+    "nearby_places": [
+      "fernandina beach",
+      "amelia island",
+      "downtown fernandina",
+      "front street fernandina"
+    ]
+  },
+  {
+    "id": "mooring_fernandina_harbor_field",
+    "name": "Fernandina Harbor Mooring Field",
+    "type": "mooring_field",
+    "geo": {
+      "lat": 30.67065,
+      "lon": -81.46516,
+      "icw_mile": 716.0,
+      "segment": "Fernandina Beach / Amelia Island"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-10",
+      "confidence": 0.95
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Fernandina Harbor Marina official rates page",
+      "source_url": "https://www.fernandinaharbormarina.com/book-boat-slip",
+      "source_date": "2026-04-10"
+    },
+    "contact": {
+      "phone": "+1 (904) 310-3300",
+      "email": "fernandinaharbor@fbfl.city",
+      "website": "https://www.fernandinaharbormarina.com/",
+      "vhf": "16"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "overnight_allowed": true,
+      "launch_service": false,
+      "dinghy_access": true,
+      "dinghy_dock": true,
+      "pumpout": false,
+      "showers": true,
+      "laundry": true,
+      "restrooms": true,
+      "wifi": true,
+      "boaters_lounge": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 32.1,
+        "rate_basis": "per night mooring, tax included",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "First come, first served mooring field. Weekly mooring rate is $192.60 tax included. Monthly mooring rate is $636.64 tax included."
+      },
+      "special_offers": [
+        {
+          "label": "Weekly mooring",
+          "price": 192.6,
+          "basis": "per week",
+          "notes": "Tax included"
+        },
+        {
+          "label": "Monthly mooring",
+          "price": 636.64,
+          "basis": "per month",
+          "notes": "Tax included"
+        },
+        {
+          "label": "Dinghy dock under 12 ft",
+          "price": 10.7,
+          "basis": "per day",
+          "notes": "Tax included; vessels less than 12 feet only"
+        },
+        {
+          "label": "Dinghy dock under 12 ft",
+          "price": 53.5,
+          "basis": "per week",
+          "notes": "Tax included; vessels less than 12 feet only"
+        }
+      ]
+    },
+    "shore_access": {
+      "groceries_nearby": true,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.96
+    },
+    "protection": {
+      "wind": {
+        "N": 0.66,
+        "E": 0.54,
+        "S": 0.64,
+        "W": 0.7
+      },
+      "wake_exposure_score": 0.34,
+      "current_exposure_score": 0.42
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.28
+    },
+    "quality": {
+      "baseline_score": 0.88,
+      "use_cases": {
+        "overnight_stop": 0.9,
+        "fuel_stop": 0.0,
+        "provisioning": 0.78,
+        "weather_wait": 0.7,
+        "quiet_night": 0.56,
+        "easy_in_easy_out": 0.76,
+        "budget_stop": 0.68
+      },
+      "value_score": 0.72,
+      "convenience_score": 0.94,
+      "quiet_score": 0.56
+    },
+    "cautions": [
+      {
+        "type": "first_come_first_served",
+        "severity": 0.38,
+        "text": "The mooring field is first come, first served."
+      },
+      {
+        "type": "dinghy_size_limit",
+        "severity": 0.44,
+        "text": "Dinghy dock pricing applies only to vessels less than 12 feet."
+      }
+    ],
+    "expert_notes": {
+      "plain": "The Fernandina mooring field is first come, first served. Amenity access includes the dinghy dock, showers, laundry, free Wi-Fi, and the boater's lounge."
+    },
+    "aliases": [
+      "fernandina harbour mooring field",
+      "fernandina harbor mooring field",
+      "fernandina moorings",
+      "fernandina harbor moorings",
+      "fernandina mooring field",
+      "fernandina harbour moorings"
+    ],
+    "nearby_places": [
+      "fernandina beach",
+      "amelia island",
+      "downtown fernandina",
+      "fernandina harbor marina"
+    ]
+  },
+  {
+    "id": "marina_windward_amelia_island_marina",
+    "name": "Windward at Amelia Island Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 30.6198,
+      "lon": -81.5169,
+      "icw_mile": 720.5,
+      "segment": "Amelia Island South"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-10",
+      "confidence": 0.86
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Windward at Amelia Island Marina / CruisersNet / Dockwa",
+      "source_url": "https://dockwa.com/explore/destination/2gc8my-windward-at-amelia-island-marina",
+      "source_date": "2026-04-10"
+    },
+    "contact": {
+      "phone": "+1 (904) 277-4615",
+      "email": null,
+      "website": "https://dockwa.com/explore/destination/2gc8my-windward-at-amelia-island-marina",
+      "vhf": "72"
+    },
+    "depth": {
+      "approach_ft_mlw": 5.0,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": 4.5
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "confirm current transient rates directly",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Approach is shallow enough that tide and current conditions should be checked before committing."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.24
+    },
+    "protection": {
+      "wind": {
+        "N": 0.8,
+        "E": 0.7,
+        "S": 0.78,
+        "W": 0.82
+      },
+      "wake_exposure_score": 0.14,
+      "current_exposure_score": 0.18
+    },
+    "vessel_fit": {
+      "big_boat_friendly": false,
+      "max_comfortable_loa_ft": 85,
+      "dock_handling_difficulty_score": 0.24
+    },
+    "quality": {
+      "baseline_score": 0.82,
+      "use_cases": {
+        "overnight_stop": 0.84,
+        "fuel_stop": 0.76,
+        "provisioning": 0.08,
+        "weather_wait": 0.86,
+        "quiet_night": 0.86,
+        "easy_in_easy_out": 0.56,
+        "budget_stop": 0.42
+      },
+      "value_score": 0.44,
+      "convenience_score": 0.22,
+      "quiet_score": 0.86
+    },
+    "cautions": [
+      {
+        "type": "shoal_approach",
+        "severity": 0.74,
+        "text": "This is not a good blind-arrival stop for deeper boats. Reported approach depth is shallow enough that current local conditions matter."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A quieter Amelia-area stop than downtown Fernandina, but the approach depth is the real filter. Better for shallower boats that want protection more than town access."
+    },
+    "aliases": [
+      "windward amelia",
+      "windward at amelia island",
+      "amelia island marina",
+      "windward marina amelia"
+    ],
+    "nearby_places": [
+      "amelia island",
+      "south amelia",
+      "amelia river"
+    ]
+  },
+  {
+    "id": "marina_tiger_point_marina",
+    "name": "Tiger Point Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 30.6413,
+      "lon": -81.5041,
+      "icw_mile": 715.3,
+      "segment": "Amelia River / Tiger Point"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-10",
+      "confidence": 0.85
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Tiger Point Marina / Waterway Guide / Official Marina Site",
+      "source_url": "https://www.tigerpointmarina.biz/",
+      "source_date": "2026-04-10"
+    },
+    "contact": {
+      "phone": "+1 (904) 277-2720",
+      "email": "tigerpointmarina@gmail.com",
+      "website": "https://www.tigerpointmarina.biz/",
+      "vhf": "11"
+    },
+    "depth": {
+      "approach_ft_mlw": 7.0,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": 6.0
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "repairs": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "confirm current transient rates directly",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Transient space is more limited than at some larger nearby stops, so call ahead."
+      },
+      "special_offers": []
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.16
+    },
+    "protection": {
+      "wind": {
+        "N": 0.82,
+        "E": 0.7,
+        "S": 0.8,
+        "W": 0.84
+      },
+      "wake_exposure_score": 0.16,
+      "current_exposure_score": 0.2
+    },
+    "vessel_fit": {
+      "big_boat_friendly": false,
+      "max_comfortable_loa_ft": 80,
+      "dock_handling_difficulty_score": 0.22
+    },
+    "quality": {
+      "baseline_score": 0.8,
+      "use_cases": {
+        "overnight_stop": 0.82,
+        "fuel_stop": 0.78,
+        "provisioning": 0.06,
+        "weather_wait": 0.84,
+        "quiet_night": 0.84,
+        "easy_in_easy_out": 0.62,
+        "budget_stop": 0.4
+      },
+      "value_score": 0.42,
+      "convenience_score": 0.18,
+      "quiet_score": 0.84
+    },
+    "cautions": [
+      {
+        "type": "limited_transient",
+        "severity": 0.44,
+        "text": "Transient space can be limited, so this is best treated as a call-ahead stop."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A practical Amelia River stop when you want marina services and a quieter setting than downtown Fernandina."
+    },
+    "aliases": [
+      "tiger point",
+      "tiger point marina",
+      "tiger point amelia"
+    ],
+    "nearby_places": [
+      "amelia river",
+      "amelia island",
+      "fernandina south"
+    ]
+  }
+]
