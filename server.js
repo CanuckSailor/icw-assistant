@@ -387,7 +387,7 @@ function inferSidebarIntent(message) {
   const q = normalizeText(message);
 
   if (
-    /marina|dock|slip|stay|transient|dockage|fuel|pumpout|service|services|provisioning|laundry|restaurant|groceries|courtesy car|repair/.test(
+    /marina|marinas|dock|docks|slip|slips|stay|transient|dockage|fuel|pumpout|service|services|provisioning|laundry|restaurant|groceries|courtesy car|repair/.test(
       q
     )
   ) {
@@ -410,7 +410,7 @@ function inferOperationalIntent(message) {
       /\bservice\b|\bservices\b|\bpumpout\b|\blaundry\b|\bprovisioning\b|\bwater\b|\bshore power\b|\bshowers\b|\brestrooms\b|\brepair\b|\brepairs\b/.test(
         q
       ),
-    marina: /\bmarina\b|\bdock\b|\bslip\b|\btransient\b|\bdockage\b/.test(q),
+    marina: /\bmarina\b|\bmarinas\b|\bdock\b|\bdocks\b|\bslip\b|\bslips\b|\btransient\b|\bdockage\b/.test(q),
     town: /\btown\b|\bwalkable\b|\brestaurants\b|\bgroceries\b|\bashore\b/.test(q)
   };
 }
