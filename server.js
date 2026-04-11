@@ -678,10 +678,10 @@ function applyQuerySpecificRankingBoosts(rankedLocations, message, searchCenter)
       );
 
     if (isDeltavilleTransitQuestion) {
-      if (nameBlob.includes("regatta point yachting center")) bonus += 0.34;
-      if (nameBlob.includes("jackson creek marina")) bonus += 0.28;
-      if (nameBlob.includes("deltaville marina")) bonus += 0.24;
-      if (nameBlob.includes("fishing bay marina")) bonus -= 0.18;
+      if (nameBlob.includes("regatta point yachting center")) bonus += 0.52;
+      if (nameBlob.includes("jackson creek marina")) bonus += 0.42;
+      if (nameBlob.includes("deltaville marina")) bonus += 0.34;
+      if (nameBlob.includes("fishing bay marina")) bonus -= 0.36;
       if (nameBlob.includes("chesapeake cove marina")) bonus += 0.06;
 
       if (textBlob.includes("easiest and most favored")) bonus += 0.10;
