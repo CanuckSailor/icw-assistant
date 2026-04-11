@@ -311,19 +311,19 @@
     },
     "status": {
       "active": true,
-      "last_curated": "2026-04-07",
-      "confidence": 0.88
+      "last_curated": "2026-04-11",
+      "confidence": 0.91
     },
     "source": {
       "type": "curated_core",
-      "name": "Waterway Guide / Safe Harbor",
-      "source_url": "https://www.waterwayguide.com/marina/safe-harbor-blue-water",
-      "source_date": "2026-04-07"
+      "name": "Safe Harbor Bluewater official page / Waterway Guide",
+      "source_url": "https://shmarinas.com/locations/safe-harbor-bluewater/",
+      "source_date": "2026-04-11"
     },
     "depth": {
-      "approach_ft_mlw": null,
-      "dockside_ft_mlw": null,
-      "max_recommended_draft_ft": null
+      "approach_ft_mlw": 10.0,
+      "dockside_ft_mlw": 10.0,
+      "max_recommended_draft_ft": 10.0
     },
     "access": {
       "transient_slips": true,
@@ -337,26 +337,34 @@
       "laundry": true,
       "wifi": true,
       "restaurant": true,
-      "pool": true
+      "pool": true,
+      "ship_store": true,
+      "courtesy_bikes": true
     },
     "pricing": {
       "currency": "USD",
       "standard": {
         "dockage_rate": null,
-        "rate_basis": null,
+        "rate_basis": "30 ft minimum for transients; contact for current information",
         "electric_rate": null,
         "electric_rate_basis": null,
         "water_rate": null,
         "water_rate_basis": null,
         "pumpout_rate": null,
-        "notes": "Current transient rates should be confirmed directly."
+        "notes": "Official and Waterway Guide pages show transient capability and current fuel information, but dockage pricing should still be confirmed directly."
       },
       "special_offers": []
+    },
+    "contact": {
+      "phone": null,
+      "email": null,
+      "website": "https://shmarinas.com/locations/safe-harbor-bluewater/",
+      "vhf": null
     },
     "shore_access": {
       "groceries_nearby": false,
       "restaurants_nearby": true,
-      "marine_store_nearby": false,
+      "marine_store_nearby": true,
       "walkability_score": 0.42
     },
     "protection": {
@@ -375,29 +383,29 @@
       "dock_handling_difficulty_score": 0.26
     },
     "quality": {
-      "baseline_score": 0.88,
+      "baseline_score": 0.9,
       "use_cases": {
-        "overnight_stop": 0.88,
-        "fuel_stop": 0.82,
-        "provisioning": 0.14,
-        "weather_wait": 0.86,
+        "overnight_stop": 0.9,
+        "fuel_stop": 0.86,
+        "provisioning": 0.16,
+        "weather_wait": 0.88,
         "quiet_night": 0.76,
-        "easy_in_easy_out": 0.82,
+        "easy_in_easy_out": 0.84,
         "budget_stop": 0.34
       },
-      "value_score": 0.36,
-      "convenience_score": 0.56,
+      "value_score": 0.38,
+      "convenience_score": 0.62,
       "quiet_score": 0.76
     },
     "cautions": [
       {
-        "type": "depth_unknown",
-        "severity": 0.46,
-        "text": "Depth should be confirmed directly before arrival."
+        "type": "pricing_unknown",
+        "severity": 0.34,
+        "text": "Current transient dockage rates should be confirmed directly."
       }
     ],
     "expert_notes": {
-      "plain": "A strong Hampton Roads transient stop with a fuller amenity package than many plain working marinas."
+      "plain": "A strong Hampton Roads transient stop with a fuller amenity and service package than many plain working marinas. Think of this as the fuller-service Hampton choice rather than the downtown-walkability choice."
     }
   },
   {
@@ -617,24 +625,24 @@
     "name": "Fishing Bay Marina",
     "type": "marina",
     "geo": {
-      "lat": null,
-      "lon": null,
+      "lat": 37.533333,
+      "lon": -76.333333,
       "icw_mile": null,
       "segment": "Deltaville / Fishing Bay"
     },
     "status": {
       "active": true,
-      "last_curated": "2026-04-10",
-      "confidence": 0.93
+      "last_curated": "2026-04-11",
+      "confidence": 0.94
     },
     "source": {
       "type": "curated_core",
-      "name": "Fishing Bay Marina official transient page / Waterway Guide",
-      "source_url": "https://fishingbay.com/transients/",
-      "source_date": "2026-04-10"
+      "name": "Fishing Bay Marina official pages / Waterway Guide",
+      "source_url": "https://fishingbay.com/our-location/",
+      "source_date": "2026-04-11"
     },
     "depth": {
-      "approach_ft_mlw": 18.0,
+      "approach_ft_mlw": 16.0,
       "dockside_ft_mlw": 15.0,
       "max_recommended_draft_ft": 12.0
     },
@@ -671,7 +679,7 @@
       "phone": "+1 (804) 776-6800",
       "email": "info@fishingbay.com",
       "website": "https://fishingbay.com/transients/",
-      "vhf": null
+      "vhf": "16"
     },
     "shore_access": {
       "groceries_nearby": true,
@@ -825,6 +833,111 @@
     ],
     "expert_notes": {
       "plain": "A practical Deltaville transient stop with published rates, electric included, and a useful service-yard profile, but depth should be checked carefully by deeper-draft boats."
+    }
+  },
+  {
+    "id": "marina_hampton_public_piers",
+    "name": "Hampton Public Piers / The Docks at Downtown Hampton",
+    "type": "marina",
+    "geo": {
+      "lat": 37.0256,
+      "lon": -76.3445,
+      "icw_mile": null,
+      "segment": "Hampton / Downtown"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-11",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Downtown Hampton public piers page",
+      "source_url": "https://www.downtownhampton.com/boating/public-piers",
+      "source_date": "2026-04-11"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": false,
+      "pumpout": null,
+      "water": null,
+      "shore_power": null,
+      "restrooms": true,
+      "showers": true,
+      "laundry": null,
+      "wifi": null
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official downtown page confirms transient dockage but does not publish current rates on-page."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (757) 727-1271",
+      "email": null,
+      "website": "https://www.downtownhampton.com/boating/public-piers",
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.94
+    },
+    "protection": {
+      "wind": {
+        "N": 0.68,
+        "E": 0.56,
+        "S": 0.66,
+        "W": 0.72
+      },
+      "wake_exposure_score": 0.34,
+      "current_exposure_score": 0.3
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 130,
+      "dock_handling_difficulty_score": 0.28
+    },
+    "quality": {
+      "baseline_score": 0.9,
+      "use_cases": {
+        "overnight_stop": 0.9,
+        "fuel_stop": 0.0,
+        "provisioning": 0.34,
+        "weather_wait": 0.76,
+        "quiet_night": 0.64,
+        "easy_in_easy_out": 0.84,
+        "budget_stop": 0.46
+      },
+      "value_score": 0.5,
+      "convenience_score": 0.92,
+      "quiet_score": 0.64
+    },
+    "cautions": [
+      {
+        "type": "fuel_unavailable",
+        "severity": 0.24,
+        "text": "This is a transient downtown dockage choice, not a fuel stop."
+      }
+    ],
+    "expert_notes": {
+      "plain": "This is the downtown Hampton transient and walkability play. Strong choice when you want to step ashore into town rather than into a yard setting."
     }
   }
 ]
