@@ -5,7 +5,7 @@
     "type": "marina",
     "geo": {
       "lat": 36.846117,
-      "lon": -76.315000,
+      "lon": -76.315,
       "icw_mile": 0.0,
       "segment": "Portsmouth / Mile Marker Zero"
     },
@@ -205,7 +205,7 @@
     "type": "marina",
     "geo": {
       "lat": 36.8306,
-      "lon": -76.3090,
+      "lon": -76.309,
       "icw_mile": 0.5,
       "segment": "Portsmouth / South of MM Zero"
     },
@@ -398,6 +398,433 @@
     ],
     "expert_notes": {
       "plain": "A strong Hampton Roads transient stop with a fuller amenity package than many plain working marinas."
+    }
+  },
+  {
+    "id": "marina_morningstar_marinas_little_creek",
+    "name": "Morningstar Marinas Little Creek",
+    "type": "marina",
+    "geo": {
+      "lat": 36.923333,
+      "lon": -76.19,
+      "icw_mile": 9.0,
+      "segment": "Norfolk / Little Creek"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-10",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Morningstar Marinas / Waterway Guide",
+      "source_url": "https://www.morningstarmarinas.com/overnight-transient-dockage-morningstar-marinas/norfolk-va/",
+      "source_date": "2026-04-10"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": null,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": null,
+      "wifi": null,
+      "repairs": null,
+      "marine_store": null
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official transient page does not publish current dockage pricing; confirm directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (757) 587-8000",
+      "email": "littlecreek@morningstarmarinas.com",
+      "website": "https://www.morningstarmarinas.com/location/714/va/norfolk/little-creek/",
+      "vhf": "Monitored 66 / Working 71"
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.28
+    },
+    "protection": {
+      "wind": {
+        "N": 0.82,
+        "E": 0.72,
+        "S": 0.8,
+        "W": 0.84
+      },
+      "wake_exposure_score": 0.24,
+      "current_exposure_score": 0.24
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.26
+    },
+    "quality": {
+      "baseline_score": 0.88,
+      "use_cases": {
+        "overnight_stop": 0.88,
+        "fuel_stop": 0.2,
+        "provisioning": 0.08,
+        "weather_wait": 0.86,
+        "quiet_night": 0.74,
+        "easy_in_easy_out": 0.9,
+        "budget_stop": 0.34
+      },
+      "value_score": 0.4,
+      "convenience_score": 0.48,
+      "quiet_score": 0.74
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.26,
+        "text": "Current transient dockage pricing should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A strategically useful Little Creek staging stop for Chesapeake arrivals and ICW departures, especially when position and easy handling matter more than resort atmosphere."
+    }
+  },
+  {
+    "id": "marina_riverwalk_landing_piers",
+    "name": "Riverwalk Landing Piers",
+    "type": "marina",
+    "geo": {
+      "lat": 37.239333,
+      "lon": -76.508167,
+      "icw_mile": null,
+      "segment": "Yorktown / York River"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-10",
+      "confidence": 0.92
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "York County / Waterway Guide",
+      "source_url": "https://www.yorkcounty.gov/facilities/facility/details/Riverwalk-Landing-Boat-Docks-15",
+      "source_date": "2026-04-10"
+    },
+    "depth": {
+      "approach_ft_mlw": 20.0,
+      "dockside_ft_mlw": 27.0,
+      "max_recommended_draft_ft": 12.0
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": false,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": null,
+      "wifi": null
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official county page confirms overnight dockage and pier-side utilities but does not publish current transient pricing on-page."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": null,
+      "email": null,
+      "website": "https://www.visityorktown.org/276/On-the-Water",
+      "vhf": "Monitored 16 / Working 68"
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.9
+    },
+    "protection": {
+      "wind": {
+        "N": 0.7,
+        "E": 0.62,
+        "S": 0.74,
+        "W": 0.78
+      },
+      "wake_exposure_score": 0.34,
+      "current_exposure_score": 0.34
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.3
+    },
+    "quality": {
+      "baseline_score": 0.9,
+      "use_cases": {
+        "overnight_stop": 0.9,
+        "fuel_stop": 0.0,
+        "provisioning": 0.28,
+        "weather_wait": 0.78,
+        "quiet_night": 0.72,
+        "easy_in_easy_out": 0.82,
+        "budget_stop": 0.46
+      },
+      "value_score": 0.5,
+      "convenience_score": 0.82,
+      "quiet_score": 0.72
+    },
+    "cautions": [
+      {
+        "type": "fuel_unavailable",
+        "severity": 0.22,
+        "text": "This is a dockage destination rather than a fuel stop."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A very useful Yorktown destination stop with outstanding walkability and real overnight utility, but not the place to aim for fuel."
+    }
+  },
+  {
+    "id": "marina_fishing_bay_marina",
+    "name": "Fishing Bay Marina",
+    "type": "marina",
+    "geo": {
+      "lat": null,
+      "lon": null,
+      "icw_mile": null,
+      "segment": "Deltaville / Fishing Bay"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-10",
+      "confidence": 0.93
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Fishing Bay Marina official transient page / Waterway Guide",
+      "source_url": "https://fishingbay.com/transients/",
+      "source_date": "2026-04-10"
+    },
+    "depth": {
+      "approach_ft_mlw": 18.0,
+      "dockside_ft_mlw": 15.0,
+      "max_recommended_draft_ft": 12.0
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "pool": true,
+      "courtesy_car": true,
+      "marine_store": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 2.5,
+        "rate_basis": "monohull per ft per night",
+        "electric_rate": 25.0,
+        "electric_rate_basis": "50A daily; weekly 100.00",
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official page lists monohull nightly dockage at $2.50/ft, catamaran nightly at $4.50/ft, and a $100 nightly minimum. Weekly pricing is published separately."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (804) 776-6800",
+      "email": "info@fishingbay.com",
+      "website": "https://fishingbay.com/transients/",
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": true,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.58
+    },
+    "protection": {
+      "wind": {
+        "N": 0.8,
+        "E": 0.72,
+        "S": 0.78,
+        "W": 0.82
+      },
+      "wake_exposure_score": 0.2,
+      "current_exposure_score": 0.2
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 200,
+      "dock_handling_difficulty_score": 0.24
+    },
+    "quality": {
+      "baseline_score": 0.93,
+      "use_cases": {
+        "overnight_stop": 0.92,
+        "fuel_stop": 0.84,
+        "provisioning": 0.74,
+        "weather_wait": 0.9,
+        "quiet_night": 0.82,
+        "easy_in_easy_out": 0.88,
+        "budget_stop": 0.66
+      },
+      "value_score": 0.72,
+      "convenience_score": 0.82,
+      "quiet_score": 0.82
+    },
+    "cautions": [
+      {
+        "type": "minimum_nightly",
+        "severity": 0.18,
+        "text": "Official transient rates include a $100 nightly minimum, which matters for smaller boats."
+      }
+    ],
+    "expert_notes": {
+      "plain": "One of the stronger Deltaville transient choices because it publishes real rates, has useful services, and works well as a Chesapeake stepping-stone stop."
+    }
+  },
+  {
+    "id": "marina_deltaville_yachting_center",
+    "name": "Deltaville Yachting Center",
+    "type": "marina",
+    "geo": {
+      "lat": 37.556167,
+      "lon": -76.317167,
+      "icw_mile": null,
+      "segment": "Deltaville / Broad Creek"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-10",
+      "confidence": 0.92
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Deltaville Yachting Center official transient page / Waterway Guide",
+      "source_url": "https://dycboat.com/transient-reservation/",
+      "source_date": "2026-04-10"
+    },
+    "depth": {
+      "approach_ft_mlw": 6.0,
+      "dockside_ft_mlw": 9.0,
+      "max_recommended_draft_ft": 7.0
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": null,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": null,
+      "marine_store": true,
+      "repairs": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 2.25,
+        "rate_basis": "non-BoatUS per ft per night, electric included",
+        "electric_rate": 0.0,
+        "electric_rate_basis": "included in transient rate",
+        "water_rate": 0.0,
+        "water_rate_basis": "included with slip",
+        "pumpout_rate": null,
+        "notes": "Official transient page lists BoatUS transient rate at $1.85/ft and non-BoatUS at $2.25/ft, both with electric included."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (804) 776-9898",
+      "email": "info@dycboat.com",
+      "website": "https://dycboat.com/transient-reservation/",
+      "vhf": "Monitored 16 / Working 72"
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": true,
+      "walkability_score": 0.26
+    },
+    "protection": {
+      "wind": {
+        "N": 0.84,
+        "E": 0.72,
+        "S": 0.82,
+        "W": 0.86
+      },
+      "wake_exposure_score": 0.18,
+      "current_exposure_score": 0.18
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 65,
+      "dock_handling_difficulty_score": 0.24
+    },
+    "quality": {
+      "baseline_score": 0.9,
+      "use_cases": {
+        "overnight_stop": 0.88,
+        "fuel_stop": 0.2,
+        "provisioning": 0.16,
+        "weather_wait": 0.88,
+        "quiet_night": 0.82,
+        "easy_in_easy_out": 0.84,
+        "budget_stop": 0.68
+      },
+      "value_score": 0.74,
+      "convenience_score": 0.56,
+      "quiet_score": 0.82
+    },
+    "cautions": [
+      {
+        "type": "depth_limited",
+        "severity": 0.34,
+        "text": "Official marina materials indicate 6 to 9 foot depths, so deeper-draft boats should confirm carefully."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A practical Deltaville transient stop with published rates, electric included, and a useful service-yard profile, but depth should be checked carefully by deeper-draft boats."
     }
   }
 ]
