@@ -567,25 +567,46 @@ function applyQuerySpecificRankingBoosts(rankedLocations, message, searchCenter)
 
   const intent = inferOperationalIntent(message);
   const placeName = normalizeText(searchCenter?.placeName || "");
+  const sidebarRegion = normalizeText(searchCenter?.sidebarRegion || "");
   const matchingPreferences = getMatchingPreferences(message, searchCenter);
+
+  const isGeneralMarinaQuestion =
+    intent.marina && !intent.fuel && !intent.services && !intent.town;
+
+  const isPalmBeachStyleMarket =
+    placeName.includes("palm beach") ||
+    placeName.includes("west palm beach") ||
+    sidebarRegion.includes("palm_beach") ||
+    placeName.includes("fort lauderdale") ||
+    sidebarRegion.includes("fort_lauderdale");
 
   const boosted = rankedLocations.map((loc) => {
     let bonus = 0;
+
     const nameBlob = locationNameText(loc);
+    const textBlob = normalizeText(
+      [
+        loc.name || "",
+        loc.region || "",
+        loc.waterbody || "",
+        loc.source?.name || "",
+        loc.source?.source_url || "",
+        loc.expert_notes?.plain || "",
+        loc.pricing?.standard?.rate_basis || "",
+        loc.pricing?.standard?.notes || "",
+        ...(Array.isArray(loc.cautions) ? loc.cautions.map((c) => c.text || "") : [])
+      ].join(" ")
+    );
+
+    const currentScore = Number(loc.ranking?.final_score ?? 0);
 
     if ((intent.fuel || intent.services || intent.marina || intent.town) && placeName) {
       const firstPlaceWord = placeName.split(" ")[0];
-      if (firstPlaceWord && nameBlob.includes(firstPlaceWord)) {
-        bonus += 0.18;
-      }
-      if (nameBlob.includes(placeName)) {
-        bonus += 0.12;
-      }
+      if (firstPlaceWord && nameBlob.includes(firstPlaceWord)) bonus += 0.18;
+      if (nameBlob.includes(placeName)) bonus += 0.12;
     }
 
-    if (intent.fuel && hasFuelSignal(loc)) {
-      bonus += 0.18;
-    }
+    if (intent.fuel && hasFuelSignal(loc)) bonus += 0.18;
 
     if (intent.town && (loc.shore_access?.walkability_score ?? 0) >= 0.75) {
       bonus += 0.12;
@@ -594,6 +615,7 @@ function applyQuerySpecificRankingBoosts(rankedLocations, message, searchCenter)
     if ((intent.fuel || intent.services) && loc.ranking?.distance_nm != null && loc.ranking.distance_nm > 3) {
       bonus -= 0.05;
     }
+
     if (
       (intent.fuel || intent.services) &&
       loc.ranking?.distance_icw_miles != null &&
@@ -602,11 +624,52 @@ function applyQuerySpecificRankingBoosts(rankedLocations, message, searchCenter)
       bonus -= 0.05;
     }
 
+    if (isGeneralMarinaQuestion) {
+      if ((loc.type || "") === "marina") bonus += 0.03;
+
+      if (textBlob.includes("municipal")) bonus += 0.28;
+      if (textBlob.includes("city marina")) bonus += 0.28;
+      if (textBlob.includes("working transient option")) bonus += 0.24;
+      if (textBlob.includes("practical transient")) bonus += 0.22;
+      if (textBlob.includes("practical")) bonus += 0.10;
+
+      if ((loc.quality?.value_score ?? 0) >= 0.55) bonus += 0.10;
+      if ((loc.quality?.convenience_score ?? 0) >= 0.7) bonus += 0.08;
+      if ((loc.shore_access?.walkability_score ?? 0) >= 0.75) bonus += 0.07;
+      if (loc.access?.transient_slips) bonus += 0.05;
+      if (loc.access?.pumpout) bonus += 0.03;
+
+      if (textBlob.includes("superyacht")) bonus -= 0.42;
+      if (textBlob.includes("premium marina")) bonus -= 0.24;
+      if (textBlob.includes("premium")) bonus -= 0.12;
+      if (textBlob.includes("service yard")) bonus -= 0.22;
+      if (textBlob.includes("50 to 300 feet")) bonus -= 0.34;
+      if (textBlob.includes("60 feet upward")) bonus -= 0.42;
+      if (textBlob.includes("starts at 60 ft")) bonus -= 0.36;
+      if (textBlob.includes("not a natural fit for the average 25 50 foot cruising boat")) bonus -= 0.45;
+      if (textBlob.includes("not the average cruiser default")) bonus -= 0.35;
+      if (textBlob.includes("large yacht oriented")) bonus -= 0.32;
+      if (textBlob.includes("yacht oriented")) bonus -= 0.18;
+    }
+
+    if (isPalmBeachStyleMarket && isGeneralMarinaQuestion) {
+      if (nameBlob.includes("palm harbor marina")) bonus += 0.22;
+      if (nameBlob.includes("riviera beach city marina")) bonus += 0.30;
+      if (nameBlob.includes("safe harbor rybovich")) bonus -= 0.28;
+      if (nameBlob.includes("sailfish marina")) bonus -= 0.08;
+      if (nameBlob.includes("safe harbor new port cove")) bonus -= 0.06;
+
+      if (placeName.includes("west palm beach") && nameBlob.includes("palm harbor marina")) {
+        bonus += 0.10;
+      }
+
+      if (textBlob.includes("city marina")) bonus += 0.10;
+      if (textBlob.includes("reported dockside depth is only 7 feet")) bonus -= 0.02;
+    }
+
     matchingPreferences.forEach((pref) => {
       bonus += scorePreferenceForLocation(pref, loc);
     });
-
-    const currentScore = Number(loc.ranking?.final_score ?? 0);
 
     return {
       ...loc,
