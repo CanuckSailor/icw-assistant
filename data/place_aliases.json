@@ -140,7 +140,9 @@
       "portsmouth va",
       "hampton roads",
       "elizabeth river",
-      "downtown norfolk"
+      "downtown norfolk",
+      "portsmouth",
+      "portsmouth virginia"
     ],
     "lat": 36.8508,
     "lon": -76.2859,
@@ -348,5 +350,16 @@
     "lat": 31.8907,
     "lon": -81.0182,
     "sidebarRegion": "savannah_ga"
+  },
+  {
+    "name": "Deltaville",
+    "lat": 37.556167,
+    "lon": -76.317167,
+    "sidebarRegion": "deltaville_va",
+    "aliases": [
+      "deltaville",
+      "deltaville va",
+      "deltaville virginia"
+    ]
   }
 ]
