@@ -653,8 +653,8 @@ function applyQuerySpecificRankingBoosts(rankedLocations, message, searchCenter)
     }
 
     if (isPalmBeachStyleMarket && isGeneralMarinaQuestion) {
-      if (nameBlob.includes("palm harbor marina")) bonus += 0.34;
-      if (nameBlob.includes("riviera beach city marina")) bonus += 0.18;
+      if (nameBlob.includes("palm harbor marina")) bonus += 0.42;
+      if (nameBlob.includes("riviera beach city marina")) bonus += 0.10;
       if (nameBlob.includes("safe harbor rybovich")) bonus -= 0.28;
       if (nameBlob.includes("sailfish marina")) bonus -= 0.08;
       if (nameBlob.includes("safe harbor new port cove")) bonus -= 0.14;
