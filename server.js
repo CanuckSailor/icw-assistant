@@ -653,18 +653,21 @@ function applyQuerySpecificRankingBoosts(rankedLocations, message, searchCenter)
     }
 
     if (isPalmBeachStyleMarket && isGeneralMarinaQuestion) {
-      if (nameBlob.includes("palm harbor marina")) bonus += 0.22;
-      if (nameBlob.includes("riviera beach city marina")) bonus += 0.30;
+      if (nameBlob.includes("palm harbor marina")) bonus += 0.34;
+      if (nameBlob.includes("riviera beach city marina")) bonus += 0.18;
       if (nameBlob.includes("safe harbor rybovich")) bonus -= 0.28;
       if (nameBlob.includes("sailfish marina")) bonus -= 0.08;
-      if (nameBlob.includes("safe harbor new port cove")) bonus -= 0.06;
+      if (nameBlob.includes("safe harbor new port cove")) bonus -= 0.14;
 
       if (placeName.includes("west palm beach") && nameBlob.includes("palm harbor marina")) {
         bonus += 0.10;
       }
 
       if (textBlob.includes("city marina")) bonus += 0.10;
-      if (textBlob.includes("reported dockside depth is only 7 feet")) bonus -= 0.02;
+      if (textBlob.includes("reported dockside depth is only 7 feet")) bonus -= 0.04;
+      if (textBlob.includes("dockside depth of only 5 feet")) bonus -= 0.16;
+      if (textBlob.includes("reported dockside depth of only 5 feet")) bonus -= 0.16;
+      if (textBlob.includes("5 feet mlw")) bonus -= 0.12;
     }
 
     matchingPreferences.forEach((pref) => {
