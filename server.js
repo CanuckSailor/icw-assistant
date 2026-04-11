@@ -1,4 +1,3 @@
-// SENTINEL_TEST_PALM_BEACH
 require("dotenv").config();
 
 const express = require("express");
