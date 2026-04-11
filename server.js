@@ -670,6 +670,26 @@ function applyQuerySpecificRankingBoosts(rankedLocations, message, searchCenter)
       if (textBlob.includes("5 feet mlw")) bonus -= 0.12;
     }
 
+    const isDeltavilleTransitQuestion =
+      (placeName.includes("deltaville") || sidebarRegion.includes("deltaville")) &&
+      (
+        isGeneralMarinaQuestion ||
+        /\beasy in\b|\beasy in and out\b|\bpass through\b|\bpass-through\b|\btransit\b|\btransient\b|\bquick stop\b/.test(normalizeText(message))
+      );
+
+    if (isDeltavilleTransitQuestion) {
+      if (nameBlob.includes("regatta point yachting center")) bonus += 0.34;
+      if (nameBlob.includes("jackson creek marina")) bonus += 0.28;
+      if (nameBlob.includes("deltaville marina")) bonus += 0.24;
+      if (nameBlob.includes("fishing bay marina")) bonus -= 0.18;
+      if (nameBlob.includes("chesapeake cove marina")) bonus += 0.06;
+
+      if (textBlob.includes("easiest and most favored")) bonus += 0.10;
+      if (textBlob.includes("better pass-through choice")) bonus += 0.08;
+      if (textBlob.includes("longer run in than the broad creek")) bonus -= 0.12;
+      if (textBlob.includes("longer run in")) bonus -= 0.08;
+    }
+
     matchingPreferences.forEach((pref) => {
       bonus += scorePreferenceForLocation(pref, loc);
     });
