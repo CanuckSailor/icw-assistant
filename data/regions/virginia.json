@@ -725,7 +725,7 @@
       }
     ],
     "expert_notes": {
-      "plain": "One of the stronger Deltaville transient choices because it publishes real rates, has useful services, and works well as a Chesapeake stepping-stone stop."
+      "plain": "One of the stronger Deltaville transient choices because it publishes real rates, has useful services, and works well as a Chesapeake stepping-stone stop. It is, however, on Fishing Bay and many pass-through cruisers consider it a longer run in than the Broad Creek / Regatta Point side."
     },
     "aliases": [
       "fishing bay marina",
@@ -955,5 +955,486 @@
     "expert_notes": {
       "plain": "This is the downtown Hampton transient and walkability play. Strong choice when you want to step ashore into town rather than into a yard setting."
     }
+  },
+  {
+    "id": "marina_regatta_point_yachting_center",
+    "name": "Regatta Point Yachting Center",
+    "type": "marina",
+    "geo": {
+      "lat": 37.5579,
+      "lon": -76.3217,
+      "icw_mile": null,
+      "segment": "Deltaville / Broad Creek / Regatta Point"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-11",
+      "confidence": 0.94
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Regatta Point Yachting Center official pages",
+      "source_url": "https://www.regattapointyc.com/",
+      "source_date": "2026-04-11"
+    },
+    "depth": {
+      "approach_ft_mlw": 8.0,
+      "dockside_ft_mlw": 8.0,
+      "max_recommended_draft_ft": 8.5
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": false,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "pool": true,
+      "courtesy_car": true,
+      "courtesy_bikes": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": 0.0,
+        "water_rate_basis": "RO water at slips",
+        "pumpout_rate": null,
+        "notes": "Official site confirms 14 transient slips are always available, but current dockage pricing should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (804) 776-8400",
+      "email": null,
+      "website": "https://www.regattapointyc.com/",
+      "vhf": "16/72"
+    },
+    "shore_access": {
+      "groceries_nearby": true,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.42
+    },
+    "protection": {
+      "wind": {
+        "N": 0.84,
+        "E": 0.74,
+        "S": 0.82,
+        "W": 0.86
+      },
+      "wake_exposure_score": 0.16,
+      "current_exposure_score": 0.18
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.18
+    },
+    "quality": {
+      "baseline_score": 0.95,
+      "use_cases": {
+        "overnight_stop": 0.94,
+        "fuel_stop": 0.0,
+        "provisioning": 0.42,
+        "weather_wait": 0.94,
+        "quiet_night": 0.86,
+        "easy_in_easy_out": 0.96,
+        "budget_stop": 0.36
+      },
+      "value_score": 0.42,
+      "convenience_score": 0.9,
+      "quiet_score": 0.86
+    },
+    "cautions": [
+      {
+        "type": "no_fuel",
+        "severity": 0.22,
+        "text": "A strong transient and weather-wait choice, but not the place to plan a fuel stop."
+      }
+    ],
+    "expert_notes": {
+      "plain": "This is one of the easiest and most favored Deltaville pass-through transient choices. It is on the more convenient Broad Creek / Regatta Point side rather than the longer run into Fishing Bay. Approaching Broad Creek, watch for shoaling at WR3 and favor center or slightly right of center for the best water at low tide."
+    },
+    "aliases": [
+      "regatta point",
+      "regatta point yachting center",
+      "deltaville transient marina",
+      "deltaville easy in and out marina"
+    ],
+    "nearby_places": [
+      "deltaville",
+      "broad creek",
+      "regatta point"
+    ],
+    "search_terms": [
+      "deltaville easy marina",
+      "deltaville weather wait marina",
+      "deltaville transient slips",
+      "deltaville broad creek marina"
+    ]
+  },
+  {
+    "id": "marina_jackson_creek_marina",
+    "name": "Jackson Creek Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 37.549033,
+      "lon": -76.328957,
+      "icw_mile": null,
+      "segment": "Deltaville / Jackson Creek"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-11",
+      "confidence": 0.93
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Jackson Creek Marina official site / Waterway Guide",
+      "source_url": "https://www.jacksoncreekmarina.com/",
+      "source_date": "2026-04-11"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": false,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "pool": true,
+      "courtesy_car": true,
+      "courtesy_bikes": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official site confirms transient visitors and amenities, but current dockage pricing should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (804) 776-9812",
+      "email": "info@jacksoncreekmarina.com",
+      "website": "https://www.jacksoncreekmarina.com/",
+      "vhf": "16/69"
+    },
+    "shore_access": {
+      "groceries_nearby": true,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.34
+    },
+    "protection": {
+      "wind": {
+        "N": 0.88,
+        "E": 0.78,
+        "S": 0.86,
+        "W": 0.9
+      },
+      "wake_exposure_score": 0.12,
+      "current_exposure_score": 0.14
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.18
+    },
+    "quality": {
+      "baseline_score": 0.93,
+      "use_cases": {
+        "overnight_stop": 0.92,
+        "fuel_stop": 0.0,
+        "provisioning": 0.34,
+        "weather_wait": 0.94,
+        "quiet_night": 0.9,
+        "easy_in_easy_out": 0.88,
+        "budget_stop": 0.42
+      },
+      "value_score": 0.46,
+      "convenience_score": 0.82,
+      "quiet_score": 0.9
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.24,
+        "text": "Current transient pricing should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A very strong protected Deltaville stop just minutes from the Bay, with a fuller amenity package than many transient marinas. A better pass-through choice than Fishing Bay for many cruisers who want the more direct Jackson Creek / Broad Creek side."
+    },
+    "aliases": [
+      "jackson creek marina",
+      "jackson creek",
+      "deltaville marina jackson creek"
+    ],
+    "nearby_places": [
+      "deltaville",
+      "jackson creek"
+    ],
+    "search_terms": [
+      "deltaville protected marina",
+      "deltaville pool marina",
+      "deltaville courtesy car marina"
+    ]
+  },
+  {
+    "id": "marina_deltaville_marina",
+    "name": "Deltaville Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 37.5489,
+      "lon": -76.3297,
+      "icw_mile": null,
+      "segment": "Deltaville / Jackson Creek"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-11",
+      "confidence": 0.91
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Deltaville Marina official site",
+      "source_url": "https://www.deltavillemarina.com/",
+      "source_date": "2026-04-11"
+    },
+    "depth": {
+      "approach_ft_mlw": 10.0,
+      "dockside_ft_mlw": 10.0,
+      "max_recommended_draft_ft": 8.5
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": null,
+      "pool": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": 0.0,
+        "notes": "Official site confirms transient dockage, fuel dock, and free pumpout, but current dockage pricing should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": null,
+      "email": null,
+      "website": "https://www.deltavillemarina.com/",
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": true,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.32
+    },
+    "protection": {
+      "wind": {
+        "N": 0.86,
+        "E": 0.76,
+        "S": 0.84,
+        "W": 0.88
+      },
+      "wake_exposure_score": 0.14,
+      "current_exposure_score": 0.16
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.2
+    },
+    "quality": {
+      "baseline_score": 0.91,
+      "use_cases": {
+        "overnight_stop": 0.9,
+        "fuel_stop": 0.86,
+        "provisioning": 0.3,
+        "weather_wait": 0.9,
+        "quiet_night": 0.84,
+        "easy_in_easy_out": 0.88,
+        "budget_stop": 0.44
+      },
+      "value_score": 0.5,
+      "convenience_score": 0.8,
+      "quiet_score": 0.84
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.22,
+        "text": "Current transient dockage pricing should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A very useful Jackson Creek / Deltaville transit stop with fuel dock, free pumpout, and better pass-through convenience than the longer run into Fishing Bay."
+    },
+    "aliases": [
+      "deltaville marina",
+      "deltaville boatyard and marina"
+    ],
+    "nearby_places": [
+      "deltaville",
+      "jackson creek"
+    ],
+    "search_terms": [
+      "deltaville fuel dock",
+      "deltaville free pumpout",
+      "deltaville transient dockage"
+    ]
+  },
+  {
+    "id": "marina_chesapeake_cove_marina",
+    "name": "Chesapeake Cove Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 37.558183,
+      "lon": -76.32285,
+      "icw_mile": null,
+      "segment": "Deltaville / Broad Creek"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-11",
+      "confidence": 0.88
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/marina/chesapeake-cove-marina",
+      "source_date": "2026-04-11"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": null,
+      "pumpout": null,
+      "water": null,
+      "shore_power": null,
+      "restrooms": null,
+      "showers": null,
+      "laundry": null,
+      "wifi": null
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Waterway Guide listing confirms active marina details and contact information; current services and pricing should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (804) 776-6855",
+      "email": "[email\u00a0protected]",
+      "website": "https://chesapeakecovemarina.com/",
+      "vhf": "16/68"
+    },
+    "shore_access": {
+      "groceries_nearby": true,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.28
+    },
+    "protection": {
+      "wind": {
+        "N": 0.84,
+        "E": 0.74,
+        "S": 0.82,
+        "W": 0.86
+      },
+      "wake_exposure_score": 0.16,
+      "current_exposure_score": 0.18
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.22
+    },
+    "quality": {
+      "baseline_score": 0.84,
+      "use_cases": {
+        "overnight_stop": 0.84,
+        "fuel_stop": 0.2,
+        "provisioning": 0.24,
+        "weather_wait": 0.84,
+        "quiet_night": 0.8,
+        "easy_in_easy_out": 0.82,
+        "budget_stop": 0.42
+      },
+      "value_score": 0.46,
+      "convenience_score": 0.72,
+      "quiet_score": 0.8
+    },
+    "cautions": [
+      {
+        "type": "detail_confirmation",
+        "severity": 0.3,
+        "text": "Transient services and current rates should be confirmed directly because the primary source set is lighter than for some nearby marinas."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A legitimate Broad Creek / Deltaville-area option that belongs in the local cluster, though it is not as fully documented as Regatta Point, Jackson Creek Marina, or Deltaville Marina."
+    },
+    "aliases": [
+      "chesapeake cove marina"
+    ],
+    "nearby_places": [
+      "deltaville",
+      "broad creek"
+    ],
+    "search_terms": [
+      "deltaville broad creek marina"
+    ]
   }
 ]
