@@ -361,5 +361,16 @@
       "deltaville va",
       "deltaville virginia"
     ]
+  },
+  {
+    "name": "Hampton",
+    "lat": 37.0299,
+    "lon": -76.3452,
+    "sidebarRegion": "hampton_va",
+    "aliases": [
+      "hampton",
+      "hampton va",
+      "hampton virginia"
+    ]
   }
 ]
