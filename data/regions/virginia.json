@@ -1436,5 +1436,612 @@
     "search_terms": [
       "deltaville broad creek marina"
     ]
+  },
+  {
+    "id": "marina_reedville_marina",
+    "name": "Reedville Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 37.837667,
+      "lon": -76.279503,
+      "icw_mile": null,
+      "segment": "Reedville / Cockrell Creek"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Reedville Marina / Waterway Guide / marinas.com",
+      "source_url": "https://www.reedvillemarina.com/",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": 14.0,
+      "max_recommended_draft_ft": 11.0
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "gasoline_available": true,
+      "diesel_available": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": null,
+      "wifi": true,
+      "restaurant": true,
+      "marine_store": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Current transient dockage pricing should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (804) 453-6789",
+      "email": null,
+      "website": "https://www.reedvillemarina.com/",
+      "vhf": "16"
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.52
+    },
+    "protection": {
+      "wind": {
+        "N": 0.82,
+        "E": 0.74,
+        "S": 0.8,
+        "W": 0.84
+      },
+      "wake_exposure_score": 0.18,
+      "current_exposure_score": 0.24
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 250,
+      "dock_handling_difficulty_score": 0.24
+    },
+    "quality": {
+      "baseline_score": 0.9,
+      "use_cases": {
+        "overnight_stop": 0.9,
+        "fuel_stop": 0.86,
+        "provisioning": 0.24,
+        "weather_wait": 0.86,
+        "quiet_night": 0.78,
+        "easy_in_easy_out": 0.82,
+        "budget_stop": 0.42
+      },
+      "value_score": 0.46,
+      "convenience_score": 0.74,
+      "quiet_score": 0.78
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.28,
+        "text": "Current transient rates should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A practical Reedville stop with fuel, pumpout, and a real transient profile. Strong Chesapeake stepping-stone option when you want a serviceable village stop rather than just a marina field."
+    },
+    "aliases": [
+      "reedville marina",
+      "reedville marina and crazy crab restaurant"
+    ],
+    "nearby_places": [
+      "reedville",
+      "cockrell creek"
+    ],
+    "search_terms": [
+      "reedville fuel stop",
+      "reedville transient marina"
+    ]
+  },
+  {
+    "id": "marina_buzzards_point_marina",
+    "name": "Buzzard's Point Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 37.8426,
+      "lon": -76.287267,
+      "icw_mile": null,
+      "segment": "Reedville / Great Wicomico Entrance"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.88
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Buzzard's Point Marina official site",
+      "source_url": "https://buzzard-point.com/buzzards-point-marina/",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": null,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": null,
+      "wifi": null,
+      "restaurant": false,
+      "dry_storage": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Current transient pricing and available dockside services should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (804) 453-3545",
+      "email": "buzzardpointmarina@gmail.com",
+      "website": "https://buzzard-point.com/",
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.18
+    },
+    "protection": {
+      "wind": {
+        "N": 0.76,
+        "E": 0.66,
+        "S": 0.74,
+        "W": 0.78
+      },
+      "wake_exposure_score": 0.18,
+      "current_exposure_score": 0.22
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.2
+    },
+    "quality": {
+      "baseline_score": 0.82,
+      "use_cases": {
+        "overnight_stop": 0.8,
+        "fuel_stop": 0.2,
+        "provisioning": 0.08,
+        "weather_wait": 0.82,
+        "quiet_night": 0.8,
+        "easy_in_easy_out": 0.9,
+        "budget_stop": 0.4
+      },
+      "value_score": 0.42,
+      "convenience_score": 0.54,
+      "quiet_score": 0.8
+    },
+    "cautions": [
+      {
+        "type": "service_confirmation",
+        "severity": 0.3,
+        "text": "Transient services and pricing should be confirmed directly because the official site emphasizes the facility more than a detailed transient rate sheet."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A quick-in Reedville-area option just minutes off the Bay. More of a practical fishing-and-transient stop than a polished destination marina."
+    },
+    "aliases": [
+      "buzzards point marina",
+      "buzzard point marina"
+    ],
+    "nearby_places": [
+      "reedville",
+      "great wicomico river"
+    ],
+    "search_terms": [
+      "reedville easy in and out marina"
+    ]
+  },
+  {
+    "id": "marina_urbanna_town_marina_uptons_point",
+    "name": "Urbanna Town Marina at Upton's Point",
+    "type": "marina",
+    "geo": {
+      "lat": 37.634267,
+      "lon": -76.571583,
+      "icw_mile": null,
+      "segment": "Urbanna / Urbanna Creek"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.94
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Urbanna Town Marina official page",
+      "source_url": "https://urbannava.gov/marina/",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": 6.0,
+      "dockside_ft_mlw": 8.0,
+      "max_recommended_draft_ft": 5.5
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": false,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "courtesy_bikes": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": null,
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official marina page confirms over 15 transient slips and one long dock for boats over 90 feet, but current dockage pricing should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (804) 758-5440",
+      "email": "townmarina@urbannava.gov",
+      "website": "https://urbannava.gov/marina/",
+      "vhf": "16"
+    },
+    "shore_access": {
+      "groceries_nearby": true,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.96
+    },
+    "protection": {
+      "wind": {
+        "N": 0.78,
+        "E": 0.68,
+        "S": 0.76,
+        "W": 0.8
+      },
+      "wake_exposure_score": 0.2,
+      "current_exposure_score": 0.22
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 100,
+      "dock_handling_difficulty_score": 0.24
+    },
+    "quality": {
+      "baseline_score": 0.92,
+      "use_cases": {
+        "overnight_stop": 0.92,
+        "fuel_stop": 0.0,
+        "provisioning": 0.62,
+        "weather_wait": 0.84,
+        "quiet_night": 0.78,
+        "easy_in_easy_out": 0.82,
+        "budget_stop": 0.48
+      },
+      "value_score": 0.52,
+      "convenience_score": 0.94,
+      "quiet_score": 0.78
+    },
+    "cautions": [
+      {
+        "type": "depth_limited",
+        "severity": 0.42,
+        "text": "Official depths are 6 feet approach and 8 feet at transient dockage, so deeper-draft boats should confirm carefully."
+      },
+      {
+        "type": "fuel_unavailable",
+        "severity": 0.24,
+        "text": "This is a town-dockage destination, not a fuel stop."
+      }
+    ],
+    "expert_notes": {
+      "plain": "The best Urbanna answer for downtown walkability. Great side-trip stop if you want to step right into town, but not the place to plan fuel."
+    },
+    "aliases": [
+      "urbanna town marina",
+      "uptons point",
+      "upton's point marina"
+    ],
+    "nearby_places": [
+      "urbanna",
+      "urbanna creek"
+    ],
+    "search_terms": [
+      "urbanna downtown marina",
+      "urbanna transient dockage"
+    ]
+  },
+  {
+    "id": "marina_urbanna_boatyard_and_marina_urbby",
+    "name": "Urbanna Boat Yard and Marina (URBBY)",
+    "type": "marina",
+    "geo": {
+      "lat": 37.638,
+      "lon": -76.5744,
+      "icw_mile": null,
+      "segment": "Urbanna / Urbanna Creek"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.92
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "URBBY Marina official site",
+      "source_url": "https://urbbymarina.com/",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "gasoline_available": true,
+      "diesel_available": true,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": null,
+      "repairs": true,
+      "marine_store": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "transient and annual slips from 24 to 100 ft; current rates direct",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official site confirms transient slips, diesel and non-ethanol gas, and full-service yard capability; current dockage rates should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": null,
+      "email": null,
+      "website": "https://urbbymarina.com/",
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": true,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.82
+    },
+    "protection": {
+      "wind": {
+        "N": 0.84,
+        "E": 0.76,
+        "S": 0.82,
+        "W": 0.86
+      },
+      "wake_exposure_score": 0.16,
+      "current_exposure_score": 0.18
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 100,
+      "dock_handling_difficulty_score": 0.22
+    },
+    "quality": {
+      "baseline_score": 0.9,
+      "use_cases": {
+        "overnight_stop": 0.9,
+        "fuel_stop": 0.84,
+        "provisioning": 0.52,
+        "weather_wait": 0.88,
+        "quiet_night": 0.8,
+        "easy_in_easy_out": 0.84,
+        "budget_stop": 0.4
+      },
+      "value_score": 0.46,
+      "convenience_score": 0.86,
+      "quiet_score": 0.8
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.24,
+        "text": "Current transient dockage rates should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "The fuller-service Urbanna answer. Strong choice when you want fuel, yard capability, and easy walking access to town in one stop."
+    },
+    "aliases": [
+      "urbby",
+      "urbanna boat yard",
+      "urbanna boatyard and marina",
+      "urbanna harbor marina"
+    ],
+    "nearby_places": [
+      "urbanna",
+      "urbanna creek"
+    ],
+    "search_terms": [
+      "urbanna fuel stop",
+      "urbanna service marina"
+    ]
+  },
+  {
+    "id": "marina_sunset_point_marina",
+    "name": "Sunset Point Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 37.6289,
+      "lon": -76.589,
+      "icw_mile": null,
+      "segment": "Urbanna / Robinson Creek"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.88
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Sunset Point Marina official site / Waterway Guide",
+      "source_url": "https://www.sunsetpointurbanna.com/",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": 6.0,
+      "dockside_ft_mlw": 4.0,
+      "max_recommended_draft_ft": 4.5
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": false,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": null,
+      "wifi": true,
+      "boat_ramp": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "transient slip reservations direct",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official site confirms 28 wet slips and Waterway Guide reports 6 ft approach and 4 ft dockside; current transient pricing should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": null,
+      "email": null,
+      "website": "https://www.sunsetpointurbanna.com/",
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.18
+    },
+    "protection": {
+      "wind": {
+        "N": 0.88,
+        "E": 0.8,
+        "S": 0.86,
+        "W": 0.9
+      },
+      "wake_exposure_score": 0.1,
+      "current_exposure_score": 0.12
+    },
+    "vessel_fit": {
+      "big_boat_friendly": false,
+      "max_comfortable_loa_ft": 40,
+      "dock_handling_difficulty_score": 0.16
+    },
+    "quality": {
+      "baseline_score": 0.8,
+      "use_cases": {
+        "overnight_stop": 0.82,
+        "fuel_stop": 0.0,
+        "provisioning": 0.1,
+        "weather_wait": 0.88,
+        "quiet_night": 0.92,
+        "easy_in_easy_out": 0.74,
+        "budget_stop": 0.46
+      },
+      "value_score": 0.48,
+      "convenience_score": 0.34,
+      "quiet_score": 0.92
+    },
+    "cautions": [
+      {
+        "type": "shoal_dock_depth",
+        "severity": 0.68,
+        "text": "Waterway Guide reports about 4 feet at the dock, so draft matters here."
+      },
+      {
+        "type": "fuel_unavailable",
+        "severity": 0.22,
+        "text": "This is a quiet protected marina, not a fuel stop."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A quieter Urbanna-side option on Robinson Creek. Better for a peaceful stop than for deep-draft or full-service needs."
+    },
+    "aliases": [
+      "sunset point marina"
+    ],
+    "nearby_places": [
+      "urbanna",
+      "robinson creek"
+    ],
+    "search_terms": [
+      "urbanna quiet marina"
+    ]
   }
 ]
