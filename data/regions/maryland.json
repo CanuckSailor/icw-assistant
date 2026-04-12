@@ -610,7 +610,7 @@
       "lat": 38.9724,
       "lon": -76.4839,
       "icw_mile": null,
-      "segment": "Annapolis / Eastport"
+      "segment": "Eastport / Annapolis Harbor"
     },
     "status": {
       "active": true,
@@ -706,7 +706,7 @@
       }
     ],
     "expert_notes": {
-      "plain": "One of the core Annapolis answers. Best when immediate walkability, downtown access, and full urban convenience matter more than absolute quiet."
+      "plain": "Sail to the Sun Logbook: Your cruising editor once lived aboard here while working for Waterway Guide when they were based out of Annapolis, and loved it. It is convenient to some of Annapolis\u2019s best pubs and restaurants, gives easy access to and from the Bay, and it is only a short walk over the bridge to downtown Annapolis \u2014 and an easy stagger back. Transient dockage is available, but book ahead, especially during the fall Sailboat Show."
     },
     "aliases": [
       "annapolis city marina",
@@ -721,7 +721,10 @@
     "search_terms": [
       "downtown annapolis marina",
       "annapolis transient marina"
-    ]
+    ],
+    "local_notes": {
+      "annapolis_context": "Sail to the Sun Logbook: Annapolis is America\u2019s sailing capital, and you will know it the moment you cruise into town. If there is something you need, you will probably find it here, from Bacon\u2019s, https://baconsails.com/, the quintessential consignment shop, to boutique marine stores and competent yacht yards. If you are looking for crabcakes, Davis\u2019 Pub is your best stop. Good burgers too. During the show, do not be surprised to see major sailing names there. It is Annapolis. If you as a sailor do not feel right at home in Annapolis, you will never feel at home anywhere."
+    }
   },
   {
     "id": "marina_annapolis_landing_marina",
