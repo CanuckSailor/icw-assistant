@@ -731,13 +731,28 @@ function extractContactLikeFields(location) {
 }
 
 function getLogbookText(location) {
-  if (location?.expert_notes?.plain) {
-    return String(location.expert_notes.plain)
+  const notes = [];
+  const seen = new Set();
+
+  const pushNote = (value) => {
+    if (typeof value !== "string") return;
+    const clean = String(value)
       .replace(/^sail to the sun expert opinion:\s*/i, "")
       .replace(/^sail to the sun logbook:\s*/i, "")
       .trim();
+
+    if (!clean || seen.has(clean)) return;
+    seen.add(clean);
+    notes.push(clean);
+  };
+
+  pushNote(location?.expert_notes?.plain);
+
+  if (location?.local_notes && typeof location.local_notes === "object") {
+    Object.values(location.local_notes).forEach(pushNote);
   }
-  return "";
+
+  return notes.join(" ");
 }
 
 function getCameraLinkFromLocation(location) {

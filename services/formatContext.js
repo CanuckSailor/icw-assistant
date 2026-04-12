@@ -57,6 +57,21 @@ function formatServiceAssociations(location) {
 
 function formatExpertMaterial(location) {
   const lines = [];
+  const seen = new Set();
+
+  const pushLogbookLine = (prefix, value) => {
+    if (typeof value !== "string") return;
+    const clean = String(value)
+      .replace(/^sail to the sun expert opinion:\s*/i, "")
+      .replace(/^sail to the sun logbook:\s*/i, "")
+      .trim();
+
+    if (!clean) return;
+    const dedupeKey = `${prefix}::${clean}`;
+    if (seen.has(dedupeKey)) return;
+    seen.add(dedupeKey);
+    lines.push(`${prefix}: ${clean}`);
+  };
 
   if (location.local_knowledge) {
     lines.push(
@@ -64,14 +79,7 @@ function formatExpertMaterial(location) {
     );
   }
 
-  if (location.expert_notes?.plain) {
-    const clean = String(location.expert_notes.plain)
-      .replace(/^sail to the sun expert opinion:\s*/i, "")
-      .replace(/^sail to the sun logbook:\s*/i, "")
-      .trim();
-
-    lines.push(`Sail to the Sun Logbook note: ${clean}`);
-  }
+  pushLogbookLine("Sail to the Sun Logbook note", location.expert_notes?.plain);
 
   if (location.expert_notes?.for_budget_cruisers) {
     lines.push(`Logbook note (budget): ${location.expert_notes.for_budget_cruisers}`);
@@ -83,6 +91,12 @@ function formatExpertMaterial(location) {
 
   if (location.expert_notes?.for_singlehanders) {
     lines.push(`Logbook note (singlehanders): ${location.expert_notes.for_singlehanders}`);
+  }
+
+  if (location.local_notes && typeof location.local_notes === "object") {
+    Object.values(location.local_notes).forEach((value) => {
+      pushLogbookLine("Sail to the Sun Logbook context", value);
+    });
   }
 
   return lines;

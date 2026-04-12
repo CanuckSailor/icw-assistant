@@ -706,7 +706,7 @@
       }
     ],
     "expert_notes": {
-      "plain": "Sail to the Sun Logbook: Your cruising editor once lived aboard here while working for Waterway Guide when they were based out of Annapolis, and loved it. It is convenient to some of Annapolis\u2019s best pubs and restaurants, gives easy access to and from the Bay, and it is only a short walk over the bridge to downtown Annapolis \u2014 and an easy stagger back. Transient dockage is available, but book ahead, especially during the fall Sailboat Show."
+      "plain": "Sail to the Sun Logbook: Your cruising editor once lived aboard here while working for Waterway Guide when they were based out of Annapolis, and loved it. It is convenient to some of Annapolis\u2019s best pubs and restaurants, with easy access to and from the Bay, and a short walk to downtown \u2014 and an easy stagger back. Transient dockage is available, but you will need to book ahead, especially during the fall Sailboat Show."
     },
     "aliases": [
       "annapolis city marina",
@@ -723,7 +723,7 @@
       "annapolis transient marina"
     ],
     "local_notes": {
-      "annapolis_context": "Sail to the Sun Logbook: Annapolis is America\u2019s sailing capital, and you will know it the moment you cruise into town. If there is something you need, you will probably find it here, from Bacon\u2019s, https://baconsails.com/, the quintessential consignment shop, to boutique marine stores and competent yacht yards. If you are looking for crabcakes, Davis\u2019 Pub is your best stop. Good burgers too. During the show, do not be surprised to see major sailing names there. It is Annapolis. If you as a sailor do not feel right at home in Annapolis, you will never feel at home anywhere."
+      "annapolis_context": "Sail to the Sun Logbook: Annapolis is America\u2019s sailing capital, and you will know it the moment you cruise into town. If there is something you need, you will find it here, whether it is from Bacon\u2019s, https://baconsails.com/, the quintessential consignment shop, one of the boutique marine stores, or the many competent yachtyards. If you are looking for crabcakes, Davis\u2019 Pub is your best stop. Good burgers too. During the show, do not be surprised to see high-profile sailors around town. It is Annapolis. If you as a sailor do not feel right at home in Annapolis, you will never feel at home anywhere."
     }
   },
   {
@@ -1563,6 +1563,257 @@
     "search_terms": [
       "wellwood marina",
       "upper bay restaurant marina"
+    ]
+  },
+  {
+    "id": "marina_annapolis_city_dock_ego_alley",
+    "name": "Annapolis City Dock / Ego Alley",
+    "type": "marina",
+    "geo": {
+      "lat": 38.9784,
+      "lon": -76.4922,
+      "icw_mile": null,
+      "segment": "Annapolis / City Dock / Ego Alley"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.94
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "City of Annapolis Harbormaster",
+      "source_url": "https://www.annapolis.gov/165/Harbormaster",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": false,
+      "pumpout": false,
+      "water": null,
+      "shore_power": null,
+      "restrooms": true,
+      "showers": true,
+      "laundry": false,
+      "dock_assistance": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 3.0,
+        "rate_basis": "per ft weekdays (Sunday-Thursday) overnight dockage; weekends and holidays $4.00/ft",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Hourly first-come transient dockage before 5 p.m. is $10/hr up to 50 ft and $15/hr over 50 ft. Overnight minimum is $40. Call 410-263-7973 or hail VHF 17 for space assignment. Construction at City Dock means many slips are closed and some water/power hookups may be suspended."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (410) 263-7973",
+      "email": null,
+      "website": "https://www.annapolis.gov/177/Docking",
+      "vhf": "17"
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 1.0
+    },
+    "protection": {
+      "wind": {
+        "N": 0.64,
+        "E": 0.48,
+        "S": 0.62,
+        "W": 0.68
+      },
+      "wake_exposure_score": 0.44,
+      "current_exposure_score": 0.32
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.36
+    },
+    "quality": {
+      "baseline_score": 0.91,
+      "use_cases": {
+        "overnight_stop": 0.9,
+        "fuel_stop": 0.0,
+        "provisioning": 0.8,
+        "weather_wait": 0.62,
+        "quiet_night": 0.42,
+        "easy_in_easy_out": 0.7,
+        "budget_stop": 0.28
+      },
+      "value_score": 0.34,
+      "convenience_score": 1.0,
+      "quiet_score": 0.42
+    },
+    "cautions": [
+      {
+        "type": "construction_limitations",
+        "severity": 0.72,
+        "text": "City Dock resiliency construction has closed many slips, so space is constrained and some water/power hookups may be suspended."
+      },
+      {
+        "type": "busy_harbor",
+        "severity": 0.46,
+        "text": "This is the middle of the Annapolis circus. Expect traffic, activity, and attention."
+      }
+    ],
+    "expert_notes": {
+      "plain": "Sail to the Sun Logbook: If you want to be right in the middle of Annapolis, this is it. Great for instant access to town, but it is not the quiet choice."
+    },
+    "local_notes": {
+      "annapolis_context": "Sail to the Sun Logbook: Annapolis is America\u2019s sailing capital, and you will know it the moment you cruise into town. If there is something you need, you will find it here, whether it is from Bacon\u2019s, https://baconsails.com/, the quintessential consignment shop, one of the boutique marine stores, or the many competent yachtyards. If you are looking for crabcakes, Davis\u2019 Pub is your best stop. Good burgers too."
+    },
+    "aliases": [
+      "ego alley",
+      "annapolis city dock",
+      "city dock annapolis"
+    ],
+    "nearby_places": [
+      "annapolis",
+      "city dock",
+      "ego alley",
+      "spa creek"
+    ],
+    "search_terms": [
+      "downtown annapolis dockage",
+      "ego alley dockage",
+      "annapolis city dock transient"
+    ]
+  },
+  {
+    "id": "mooring_annapolis_city_transient_moorings",
+    "name": "Annapolis City Transient Moorings",
+    "type": "mooring_field",
+    "geo": {
+      "lat": 38.9784,
+      "lon": -76.4922,
+      "icw_mile": null,
+      "segment": "Annapolis / Spa Creek and Back Creek"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.95
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "City of Annapolis Moorings",
+      "source_url": "https://www.annapolis.gov/183/Moorings",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "overnight_allowed": true,
+      "launch_service": false,
+      "dinghy_access": true,
+      "pumpout": false,
+      "showers": false,
+      "laundry": false,
+      "restrooms": false,
+      "water_taxi": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "transient moorings first-come, first-served",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Transient moorings cannot be reserved. Front Forty (#1-40) is $35/night for vessels up to 55 ft. Saint Mary's Cove (#41-60) is $25/night for vessels up to 35 ft. Well's Cove (#61-66), Truxtun Park (#67-71), and Back Creek (#72-76) are $35/night for vessels up to 55 ft. The seventh night is free if paid in advance for a week."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (410) 263-7973",
+      "email": null,
+      "website": "https://www.annapolis.gov/183/Moorings",
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.84
+    },
+    "protection": {
+      "wind": {
+        "N": 0.64,
+        "E": 0.5,
+        "S": 0.62,
+        "W": 0.7
+      },
+      "wake_exposure_score": 0.34,
+      "current_exposure_score": 0.32
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 55,
+      "dock_handling_difficulty_score": 0.28
+    },
+    "quality": {
+      "baseline_score": 0.88,
+      "use_cases": {
+        "overnight_stop": 0.88,
+        "fuel_stop": 0.0,
+        "provisioning": 0.56,
+        "weather_wait": 0.58,
+        "quiet_night": 0.62,
+        "easy_in_easy_out": 0.72,
+        "budget_stop": 0.7
+      },
+      "value_score": 0.74,
+      "convenience_score": 0.82,
+      "quiet_score": 0.62
+    },
+    "cautions": [
+      {
+        "type": "first_come_first_served",
+        "severity": 0.28,
+        "text": "Transient city moorings are first-come, first-served and cannot be reserved."
+      }
+    ],
+    "expert_notes": {
+      "plain": "Sail to the Sun Logbook: If you want Annapolis without paying full dockage, the city moorings are a very real answer \u2014 especially if you are comfortable using the water taxi or your dinghy."
+    },
+    "aliases": [
+      "annapolis moorings",
+      "annapolis city moorings",
+      "front forty",
+      "saint marys cove moorings",
+      "wells cove moorings",
+      "truxtun park moorings",
+      "back creek moorings"
+    ],
+    "nearby_places": [
+      "annapolis",
+      "spa creek",
+      "back creek"
+    ],
+    "search_terms": [
+      "annapolis mooring balls",
+      "annapolis transient moorings",
+      "front forty annapolis"
     ]
   }
 ]
