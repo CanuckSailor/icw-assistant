@@ -5,7 +5,7 @@
     "type": "anchorage",
     "geo": {
       "lat": 36.843333,
-      "lon": -76.300000,
+      "lon": -76.3,
       "icw_mile": 0.2,
       "segment": "Portsmouth / Elizabeth River"
     },
@@ -27,7 +27,9 @@
       "max_recommended_draft_ft": 6.5
     },
     "holding": {
-      "bottom_type": ["mud"],
+      "bottom_type": [
+        "mud"
+      ],
       "holding_quality_score": 0.64
     },
     "access": {
@@ -105,7 +107,9 @@
       "max_recommended_draft_ft": 7.5
     },
     "holding": {
-      "bottom_type": ["sand"],
+      "bottom_type": [
+        "sand"
+      ],
       "holding_quality_score": 0.82
     },
     "access": {
@@ -166,7 +170,7 @@
     "type": "anchorage",
     "geo": {
       "lat": 37.261617,
-      "lon": -76.877000,
+      "lon": -76.877,
       "icw_mile": null,
       "segment": "Off James River"
     },
@@ -188,7 +192,9 @@
       "max_recommended_draft_ft": 7.5
     },
     "holding": {
-      "bottom_type": ["unknown"],
+      "bottom_type": [
+        "unknown"
+      ],
       "holding_quality_score": 0.7
     },
     "access": {
@@ -244,7 +250,7 @@
     "type": "anchorage",
     "geo": {
       "lat": 36.901383,
-      "lon": -76.032500,
+      "lon": -76.0325,
       "icw_mile": 191.8,
       "segment": "Virginia Beach / Chesapeake Bay"
     },
@@ -266,7 +272,9 @@
       "max_recommended_draft_ft": 6.0
     },
     "holding": {
-      "bottom_type": ["mud"],
+      "bottom_type": [
+        "mud"
+      ],
       "holding_quality_score": 0.76
     },
     "access": {
@@ -319,6 +327,486 @@
     ],
     "expert_notes": {
       "plain": "A niche Virginia Beach anchorage more useful for the right boat and air draft than as a general default stop."
+    }
+  },
+  {
+    "id": "anchorage_western_branch_elizabeth_river",
+    "name": "Western Branch, Elizabeth River",
+    "type": "anchorage",
+    "geo": {
+      "lat": 36.834033,
+      "lon": -76.385033,
+      "icw_mile": null,
+      "segment": "Portsmouth / Western Branch"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.82
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/anchorage/2-3161/western-branch-elizabeth-river",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "typical_ft_mlw": 5.0,
+      "shallow_spots_ft_mlw": 4.0,
+      "deep_spots_ft_mlw": 6.0,
+      "max_recommended_draft_ft": 4.5
+    },
+    "holding": {
+      "bottom_type": [
+        "mud"
+      ],
+      "holding_quality_score": 0.84
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": false,
+      "shore_access_easy": false
+    },
+    "protection": {
+      "wind": {
+        "N": 0.82,
+        "E": 0.68,
+        "S": 0.8,
+        "W": 0.84
+      },
+      "wake_exposure_score": 0.22,
+      "current_exposure_score": 0.18
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.02
+    },
+    "quality": {
+      "baseline_score": 0.76,
+      "use_cases": {
+        "overnight_stop": 0.78,
+        "fuel_stop": 0.0,
+        "provisioning": 0.0,
+        "weather_wait": 0.82,
+        "quiet_night": 0.78,
+        "easy_in_easy_out": 0.54,
+        "budget_stop": 0.99
+      },
+      "value_score": 0.99,
+      "convenience_score": 0.02,
+      "quiet_score": 0.78
+    },
+    "cautions": [
+      {
+        "type": "shoal_near_shore",
+        "severity": 0.52,
+        "text": "About 4 feet has been reported roughly 100 feet off shore, so draft and swing room deserve attention."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A protected Portsmouth-side anchorage if your draft fits, with better quiet and weather cover than Hospital Point but far less shoreside utility."
+    }
+  },
+  {
+    "id": "anchorage_cockrell_creek_shell_landing",
+    "name": "Great Wicomico River - Cockrell Creek (Shell Landing)",
+    "type": "anchorage",
+    "geo": {
+      "lat": 37.82345,
+      "lon": -76.275517,
+      "icw_mile": null,
+      "segment": "Reedville / Cockrell Creek"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/anchorage/2-2012/fleeton-reedville",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "typical_ft_mlw": 8.0,
+      "shallow_spots_ft_mlw": 7.0,
+      "deep_spots_ft_mlw": 9.0,
+      "max_recommended_draft_ft": 6.5
+    },
+    "holding": {
+      "bottom_type": [
+        "mud"
+      ],
+      "holding_quality_score": 0.9
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": true,
+      "shore_access_easy": true
+    },
+    "protection": {
+      "wind": {
+        "N": 0.54,
+        "E": 0.74,
+        "S": 0.84,
+        "W": 0.84
+      },
+      "wake_exposure_score": 0.14,
+      "current_exposure_score": 0.16
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.12
+    },
+    "quality": {
+      "baseline_score": 0.86,
+      "use_cases": {
+        "overnight_stop": 0.88,
+        "fuel_stop": 0.0,
+        "provisioning": 0.06,
+        "weather_wait": 0.84,
+        "quiet_night": 0.9,
+        "easy_in_easy_out": 0.74,
+        "budget_stop": 0.99
+      },
+      "value_score": 0.99,
+      "convenience_score": 0.14,
+      "quiet_score": 0.9
+    },
+    "cautions": [
+      {
+        "type": "north_wind_exposure",
+        "severity": 0.34,
+        "text": "This anchorage is upwind of the stacks in most winds except north."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A strong Reedville-area quiet-night anchorage close to the mouth of Cockrell Creek, with good holding and better protection than many open-Bay options."
+    }
+  },
+  {
+    "id": "anchorage_deltaville_broad_creek",
+    "name": "Deltaville - Broad Creek",
+    "type": "anchorage",
+    "geo": {
+      "lat": 37.558667,
+      "lon": -76.3165,
+      "icw_mile": null,
+      "segment": "Deltaville / Broad Creek"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide / Sail to the Sun local knowledge",
+      "source_url": "https://www.waterwayguide.com/destination/100/deltaville-va",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "typical_ft_mlw": 8.0,
+      "shallow_spots_ft_mlw": 6.0,
+      "deep_spots_ft_mlw": 10.0,
+      "max_recommended_draft_ft": 6.5
+    },
+    "holding": {
+      "bottom_type": [
+        "mud"
+      ],
+      "holding_quality_score": 0.84
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": true,
+      "shore_access_easy": false
+    },
+    "protection": {
+      "wind": {
+        "N": 0.76,
+        "E": 0.72,
+        "S": 0.8,
+        "W": 0.84
+      },
+      "wake_exposure_score": 0.16,
+      "current_exposure_score": 0.22
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.18
+    },
+    "quality": {
+      "baseline_score": 0.86,
+      "use_cases": {
+        "overnight_stop": 0.86,
+        "fuel_stop": 0.0,
+        "provisioning": 0.1,
+        "weather_wait": 0.88,
+        "quiet_night": 0.82,
+        "easy_in_easy_out": 0.86,
+        "budget_stop": 0.99
+      },
+      "value_score": 0.99,
+      "convenience_score": 0.2,
+      "quiet_score": 0.82
+    },
+    "cautions": [
+      {
+        "type": "shoaling_approach",
+        "severity": 0.62,
+        "text": "Approaching Broad Creek, the channel shoals at WR3; favor center or slightly right of center for the best water at low tide."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A useful Deltaville anchorage on the more convenient Broad Creek side. Do not be surprised to find one or two boats anchored due west of the end of Norview Marina; it is a commonly used spot with good holding and protection."
+    }
+  },
+  {
+    "id": "anchorage_jackson_creek_2",
+    "name": "Jackson Creek 2",
+    "type": "anchorage",
+    "geo": {
+      "lat": 37.550167,
+      "lon": -76.33335,
+      "icw_mile": null,
+      "segment": "Deltaville / Jackson Creek"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.91
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/anchorage/2-3276/jackson-creek-2",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "typical_ft_mlw": 8.0,
+      "shallow_spots_ft_mlw": 8.0,
+      "deep_spots_ft_mlw": 8.0,
+      "max_recommended_draft_ft": 6.5
+    },
+    "holding": {
+      "bottom_type": [
+        "mud"
+      ],
+      "holding_quality_score": 0.92
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": true,
+      "shore_access_easy": true
+    },
+    "protection": {
+      "wind": {
+        "N": 0.88,
+        "E": 0.8,
+        "S": 0.86,
+        "W": 0.9
+      },
+      "wake_exposure_score": 0.1,
+      "current_exposure_score": 0.12
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.22
+    },
+    "quality": {
+      "baseline_score": 0.92,
+      "use_cases": {
+        "overnight_stop": 0.92,
+        "fuel_stop": 0.0,
+        "provisioning": 0.12,
+        "weather_wait": 0.92,
+        "quiet_night": 0.9,
+        "easy_in_easy_out": 0.88,
+        "budget_stop": 0.99
+      },
+      "value_score": 0.99,
+      "convenience_score": 0.22,
+      "quiet_score": 0.9
+    },
+    "cautions": [
+      {
+        "type": "soft_mud",
+        "severity": 0.22,
+        "text": "Soft mud has been reported, so expect some washdown when you bring the anchor up."
+      }
+    ],
+    "expert_notes": {
+      "plain": "One of the better Deltaville-area anchorage choices if you want protection and a prettier setting than the more exposed Bay-edge options."
+    }
+  },
+  {
+    "id": "anchorage_jackson_creek_north_branch",
+    "name": "Jackson Creek North Branch",
+    "type": "anchorage",
+    "geo": {
+      "lat": 37.548883,
+      "lon": -76.331667,
+      "icw_mile": 153.0,
+      "segment": "Deltaville / Jackson Creek North Branch"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/anchorage/2-189/jackson-creek-north-branch",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "typical_ft_mlw": 9.0,
+      "shallow_spots_ft_mlw": 8.0,
+      "deep_spots_ft_mlw": 10.0,
+      "max_recommended_draft_ft": 7.0
+    },
+    "holding": {
+      "bottom_type": [
+        "mud"
+      ],
+      "holding_quality_score": 0.9
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": true,
+      "shore_access_easy": true
+    },
+    "protection": {
+      "wind": {
+        "N": 0.9,
+        "E": 0.74,
+        "S": 0.86,
+        "W": 0.92
+      },
+      "wake_exposure_score": 0.08,
+      "current_exposure_score": 0.1
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.1
+    },
+    "quality": {
+      "baseline_score": 0.9,
+      "use_cases": {
+        "overnight_stop": 0.9,
+        "fuel_stop": 0.0,
+        "provisioning": 0.04,
+        "weather_wait": 0.94,
+        "quiet_night": 0.92,
+        "easy_in_easy_out": 0.82,
+        "budget_stop": 0.99
+      },
+      "value_score": 0.99,
+      "convenience_score": 0.12,
+      "quiet_score": 0.92
+    },
+    "cautions": [
+      {
+        "type": "southeast_exposure",
+        "severity": 0.28,
+        "text": "Protection is strong overall, but this anchorage is less ideal in a strong southeast."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A very strong protected Jackson Creek anchorage and one of the prettier Deltaville-area choices when you want shelter more than shoreside convenience."
+    }
+  },
+  {
+    "id": "anchorage_urbanna_harbor",
+    "name": "Urbanna Harbor",
+    "type": "anchorage",
+    "geo": {
+      "lat": 37.637117,
+      "lon": -76.568733,
+      "icw_mile": null,
+      "segment": "Urbanna / Urbanna Creek"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "special_source_anchorages",
+      "name": "Waterway Guide",
+      "source_url": "https://www.waterwayguide.com/anchorage/2-2048/urbanna-harbor",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "typical_ft_mlw": 9.0,
+      "shallow_spots_ft_mlw": 8.0,
+      "deep_spots_ft_mlw": 10.0,
+      "max_recommended_draft_ft": 7.0
+    },
+    "holding": {
+      "bottom_type": [
+        "mud"
+      ],
+      "holding_quality_score": 0.66
+    },
+    "access": {
+      "overnight_allowed": true,
+      "dinghy_access": true,
+      "shore_access_easy": true
+    },
+    "protection": {
+      "wind": {
+        "N": 0.74,
+        "E": 0.68,
+        "S": 0.76,
+        "W": 0.8
+      },
+      "wake_exposure_score": 0.16,
+      "current_exposure_score": 0.12
+    },
+    "shore_access": {
+      "groceries_nearby": true,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.78
+    },
+    "quality": {
+      "baseline_score": 0.86,
+      "use_cases": {
+        "overnight_stop": 0.86,
+        "fuel_stop": 0.0,
+        "provisioning": 0.56,
+        "weather_wait": 0.78,
+        "quiet_night": 0.8,
+        "easy_in_easy_out": 0.8,
+        "budget_stop": 0.99
+      },
+      "value_score": 0.99,
+      "convenience_score": 0.74,
+      "quiet_score": 0.8
+    },
+    "cautions": [
+      {
+        "type": "fair_holding",
+        "severity": 0.36,
+        "text": "Holding has been described as fair in soupy mud, so set carefully."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A very useful Urbanna side-trip anchorage if you want to walk into town without paying for a slip. Tie the dinghy by the ramp at the town marina and keep it out of the way."
     }
   }
 ]
