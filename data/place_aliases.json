@@ -372,5 +372,33 @@
       "hampton va",
       "hampton virginia"
     ]
+  },
+  {
+    "name": "Reedville",
+    "aliases": [
+      "reedville",
+      "reedville va",
+      "reedville virginia",
+      "cockrell creek",
+      "great wicomico river"
+    ],
+    "lat": 37.8421,
+    "lon": -76.2741,
+    "sidebarRegion": "reedville_va"
+  },
+  {
+    "name": "Urbanna",
+    "aliases": [
+      "urbanna",
+      "urbanna va",
+      "urbanna virginia",
+      "urbanna creek",
+      "uptons point",
+      "upton's point",
+      "robinson creek"
+    ],
+    "lat": 37.6388,
+    "lon": -76.5794,
+    "sidebarRegion": "urbanna_va"
   }
 ]
