@@ -1,0 +1,1565 @@
+[
+  {
+    "id": "marina_safe_harbor_zahnisers",
+    "name": "Safe Harbor Zahnisers",
+    "type": "marina",
+    "geo": {
+      "lat": 38.3189,
+      "lon": -76.4527,
+      "icw_mile": null,
+      "segment": "Solomons / Back Creek"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.93
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Safe Harbor Zahnisers official page",
+      "source_url": "https://shmarinas.com/locations/safe-harbor-zahnisers/",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": 15.0,
+      "dockside_ft_mlw": 15.0,
+      "max_recommended_draft_ft": 12.0
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "repairs": true,
+      "pool": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "transient slips 19 ft to 140 ft; confirm current pricing directly",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official page lists transient slips, Wi-Fi, shore power, and max draft 12 ft; current rates should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (410) 326-2166",
+      "email": null,
+      "website": "https://shmarinas.com/locations/safe-harbor-zahnisers/",
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.46
+    },
+    "protection": {
+      "wind": {
+        "N": 0.84,
+        "E": 0.76,
+        "S": 0.82,
+        "W": 0.86
+      },
+      "wake_exposure_score": 0.14,
+      "current_exposure_score": 0.18
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 140,
+      "dock_handling_difficulty_score": 0.22
+    },
+    "quality": {
+      "baseline_score": 0.93,
+      "use_cases": {
+        "overnight_stop": 0.92,
+        "fuel_stop": 0.88,
+        "provisioning": 0.24,
+        "weather_wait": 0.92,
+        "quiet_night": 0.82,
+        "easy_in_easy_out": 0.86,
+        "budget_stop": 0.34
+      },
+      "value_score": 0.4,
+      "convenience_score": 0.74,
+      "quiet_score": 0.82
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.24,
+        "text": "Current transient dockage pricing should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "One of the strongest western Chesapeake service and transient stops in the Solomons area."
+    },
+    "aliases": [
+      "zahnisers",
+      "zahnisers marina",
+      "safe harbor zahnisers"
+    ],
+    "nearby_places": [
+      "solomons",
+      "back creek",
+      "solomons island"
+    ],
+    "search_terms": [
+      "solomons transient marina",
+      "solomons fuel stop"
+    ]
+  },
+  {
+    "id": "marina_spring_cove_marina",
+    "name": "Spring Cove Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 38.3207,
+      "lon": -76.4578,
+      "icw_mile": null,
+      "segment": "Solomons / Back Creek"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.91
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Spring Cove Marina official site",
+      "source_url": "https://springcovemarina.com/",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": null,
+      "repairs": true,
+      "pool": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "transient, monthly, and annual slips available; current rates direct",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official site confirms transient slips and fuel dock; current transient pricing should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (410) 326-2161",
+      "email": "info@springcovemarina.com",
+      "website": "https://springcovemarina.com/",
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.4
+    },
+    "protection": {
+      "wind": {
+        "N": 0.84,
+        "E": 0.76,
+        "S": 0.82,
+        "W": 0.86
+      },
+      "wake_exposure_score": 0.16,
+      "current_exposure_score": 0.18
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.22
+    },
+    "quality": {
+      "baseline_score": 0.9,
+      "use_cases": {
+        "overnight_stop": 0.9,
+        "fuel_stop": 0.84,
+        "provisioning": 0.22,
+        "weather_wait": 0.9,
+        "quiet_night": 0.8,
+        "easy_in_easy_out": 0.84,
+        "budget_stop": 0.34
+      },
+      "value_score": 0.38,
+      "convenience_score": 0.68,
+      "quiet_score": 0.8
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.24,
+        "text": "Current transient dockage pricing should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A strong Solomons transient and service option with fuel dock and full-yard capability."
+    },
+    "aliases": [
+      "spring cove",
+      "spring cove marina"
+    ],
+    "nearby_places": [
+      "solomons",
+      "back creek",
+      "solomons island"
+    ],
+    "search_terms": [
+      "solomons marina",
+      "solomons fuel dock"
+    ]
+  },
+  {
+    "id": "marina_solomons_yachting_center",
+    "name": "Solomons Yachting Center",
+    "type": "marina",
+    "geo": {
+      "lat": 38.322222,
+      "lon": -76.456111,
+      "icw_mile": null,
+      "segment": "Solomons / Back Creek"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.91
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Solomons Yachting Center official site",
+      "source_url": "https://solomonsyachtingcenter.net/slips/transients",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "pool": true,
+      "lounge": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "transient slips; current rates direct",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official transient page confirms fuel dock, pumpout, showers, laundry, internet access, and pool; current transient pricing should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (410) 326-2401",
+      "email": null,
+      "website": "https://solomonsyachtingcenter.net/slips/transients",
+      "vhf": "16"
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.38
+    },
+    "protection": {
+      "wind": {
+        "N": 0.84,
+        "E": 0.76,
+        "S": 0.82,
+        "W": 0.86
+      },
+      "wake_exposure_score": 0.14,
+      "current_exposure_score": 0.18
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.2
+    },
+    "quality": {
+      "baseline_score": 0.91,
+      "use_cases": {
+        "overnight_stop": 0.9,
+        "fuel_stop": 0.86,
+        "provisioning": 0.2,
+        "weather_wait": 0.9,
+        "quiet_night": 0.82,
+        "easy_in_easy_out": 0.86,
+        "budget_stop": 0.34
+      },
+      "value_score": 0.4,
+      "convenience_score": 0.7,
+      "quiet_score": 0.82
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.24,
+        "text": "Current transient dockage pricing should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A very solid Solomons transient stop with fuel, pumpout, pool, and good all-around cruiser utility."
+    },
+    "aliases": [
+      "solomons yachting center"
+    ],
+    "nearby_places": [
+      "solomons",
+      "back creek",
+      "solomons island"
+    ],
+    "search_terms": [
+      "solomons transient slips",
+      "solomons fuel stop marina"
+    ]
+  },
+  {
+    "id": "marina_herrington_harbour_north",
+    "name": "Herrington Harbour North",
+    "type": "marina",
+    "geo": {
+      "lat": 38.7482,
+      "lon": -76.5469,
+      "icw_mile": null,
+      "segment": "Herring Bay / Tracys Landing"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.91
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Herrington Harbour North official site",
+      "source_url": "https://www.herringtonharbour.com/north/",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": null,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": null,
+      "repairs": true,
+      "pool": true,
+      "restaurant": true,
+      "marine_store": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "transient dockage available; current rates direct",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official site confirms 600 protected slips and full-service yacht center; current transient pricing should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (410) 867-4343",
+      "email": null,
+      "website": "https://www.herringtonharbour.com/north/",
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.24
+    },
+    "protection": {
+      "wind": {
+        "N": 0.9,
+        "E": 0.84,
+        "S": 0.88,
+        "W": 0.92
+      },
+      "wake_exposure_score": 0.1,
+      "current_exposure_score": 0.12
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.18
+    },
+    "quality": {
+      "baseline_score": 0.91,
+      "use_cases": {
+        "overnight_stop": 0.9,
+        "fuel_stop": 0.2,
+        "provisioning": 0.16,
+        "weather_wait": 0.94,
+        "quiet_night": 0.88,
+        "easy_in_easy_out": 0.82,
+        "budget_stop": 0.3
+      },
+      "value_score": 0.34,
+      "convenience_score": 0.56,
+      "quiet_score": 0.88
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.24,
+        "text": "Current transient pricing should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A major Herring Bay resort-and-yard stop with strong protection and very broad service depth."
+    },
+    "aliases": [
+      "herrington north",
+      "herrington harbour north"
+    ],
+    "nearby_places": [
+      "herring bay",
+      "tracys landing",
+      "tracys landing"
+    ],
+    "search_terms": [
+      "herring bay marina",
+      "western chesapeake weather wait marina"
+    ]
+  },
+  {
+    "id": "marina_herrington_harbour_south",
+    "name": "Herrington Harbour South",
+    "type": "marina",
+    "geo": {
+      "lat": 38.7087,
+      "lon": -76.5318,
+      "icw_mile": null,
+      "segment": "Herring Bay / North Beach"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.92
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Herrington Harbour South official site",
+      "source_url": "https://www.herringtonharbour.com/south/transient-dockage/",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "pool": true,
+      "restaurant": true,
+      "private_beach": true,
+      "kayaks": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "overnight dockage available; current rates direct",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official site confirms fuel dock, pumpout, pool, restaurant, deli, beach, and complimentary Wi-Fi; current transient pricing should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (410) 286-1111",
+      "email": null,
+      "website": "https://www.herringtonharbour.com/south/transient-dockage/",
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.26
+    },
+    "protection": {
+      "wind": {
+        "N": 0.88,
+        "E": 0.82,
+        "S": 0.86,
+        "W": 0.9
+      },
+      "wake_exposure_score": 0.12,
+      "current_exposure_score": 0.14
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.18
+    },
+    "quality": {
+      "baseline_score": 0.93,
+      "use_cases": {
+        "overnight_stop": 0.92,
+        "fuel_stop": 0.86,
+        "provisioning": 0.18,
+        "weather_wait": 0.94,
+        "quiet_night": 0.88,
+        "easy_in_easy_out": 0.84,
+        "budget_stop": 0.3
+      },
+      "value_score": 0.34,
+      "convenience_score": 0.62,
+      "quiet_score": 0.88
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.24,
+        "text": "Current transient dockage pricing should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A high-amenity western-Bay transient stop and weather-wait option, with one of the stronger resort-style amenity packages on this stretch."
+    },
+    "aliases": [
+      "herrington south",
+      "herrington harbour south"
+    ],
+    "nearby_places": [
+      "herring bay",
+      "north beach"
+    ],
+    "search_terms": [
+      "herring bay transient marina",
+      "western chesapeake resort marina"
+    ]
+  },
+  {
+    "id": "marina_annapolis_city_marina",
+    "name": "Annapolis City Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 38.9724,
+      "lon": -76.4839,
+      "icw_mile": null,
+      "segment": "Annapolis / Eastport"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.95
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Annapolis City Marina official site",
+      "source_url": "https://www.annapoliscitymarina.com/transients",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "dock_shop": true,
+      "parking": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 3.25,
+        "rate_basis": "31 ft and over daily transient rate; 30 ft or less is $3.00/ft daily",
+        "electric_rate": null,
+        "electric_rate_basis": "electric included in seasonal transient rates per official page",
+        "water_rate": null,
+        "water_rate_basis": "water included in seasonal transient rates per official page",
+        "pumpout_rate": null,
+        "notes": "Official transient page lists seasonal transient daily rates of $3.00/ft for boats 30 ft or less and $3.25/ft for 31 ft and over; weekly and monthly rates also published."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (410) 268-0660",
+      "email": null,
+      "website": "https://www.annapoliscitymarina.com/",
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.98
+    },
+    "protection": {
+      "wind": {
+        "N": 0.72,
+        "E": 0.56,
+        "S": 0.7,
+        "W": 0.76
+      },
+      "wake_exposure_score": 0.34,
+      "current_exposure_score": 0.28
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.28
+    },
+    "quality": {
+      "baseline_score": 0.94,
+      "use_cases": {
+        "overnight_stop": 0.92,
+        "fuel_stop": 0.86,
+        "provisioning": 0.7,
+        "weather_wait": 0.72,
+        "quiet_night": 0.56,
+        "easy_in_easy_out": 0.78,
+        "budget_stop": 0.28
+      },
+      "value_score": 0.34,
+      "convenience_score": 0.98,
+      "quiet_score": 0.56
+    },
+    "cautions": [
+      {
+        "type": "downtown_traffic",
+        "severity": 0.44,
+        "text": "This is the downtown Annapolis convenience play, so expect more harbor traffic and activity than at quieter outlying marinas."
+      }
+    ],
+    "expert_notes": {
+      "plain": "One of the core Annapolis answers. Best when immediate walkability, downtown access, and full urban convenience matter more than absolute quiet."
+    },
+    "aliases": [
+      "annapolis city marina",
+      "eastport marina annapolis"
+    ],
+    "nearby_places": [
+      "annapolis",
+      "eastport",
+      "spa creek",
+      "annapolis harbor"
+    ],
+    "search_terms": [
+      "downtown annapolis marina",
+      "annapolis transient marina"
+    ]
+  },
+  {
+    "id": "marina_annapolis_landing_marina",
+    "name": "Annapolis Landing Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 38.9528,
+      "lon": -76.4815,
+      "icw_mile": null,
+      "segment": "Annapolis / Back Creek"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.94
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Annapolis Landing Marina official site",
+      "source_url": "https://annapolislandingmarina.com/annapolis-transient-slips/",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "pool": true,
+      "ship_store": true,
+      "dinghy_dock": true,
+      "water_taxi": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "nightly and monthly transient slips available; current rates direct",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official site confirms transient dockage, only fuel in Back Creek, water taxi to downtown, showers/laundry, and high-speed diesel pump; current rates should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (410) 263-0090",
+      "email": null,
+      "website": "https://annapolislandingmarina.com/",
+      "vhf": "9"
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.72
+    },
+    "protection": {
+      "wind": {
+        "N": 0.84,
+        "E": 0.76,
+        "S": 0.82,
+        "W": 0.88
+      },
+      "wake_exposure_score": 0.12,
+      "current_exposure_score": 0.16
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.22
+    },
+    "quality": {
+      "baseline_score": 0.95,
+      "use_cases": {
+        "overnight_stop": 0.94,
+        "fuel_stop": 0.9,
+        "provisioning": 0.58,
+        "weather_wait": 0.9,
+        "quiet_night": 0.82,
+        "easy_in_easy_out": 0.88,
+        "budget_stop": 0.32
+      },
+      "value_score": 0.36,
+      "convenience_score": 0.88,
+      "quiet_score": 0.82
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.22,
+        "text": "Current transient dockage pricing should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A very strong Annapolis transient answer, especially for cruisers who want fuel, Back Creek protection, and easy water-taxi access to downtown."
+    },
+    "aliases": [
+      "annapolis landing",
+      "annapolis landing marina"
+    ],
+    "nearby_places": [
+      "annapolis",
+      "back creek",
+      "annapolis harbor"
+    ],
+    "search_terms": [
+      "annapolis fuel dock",
+      "back creek transient marina"
+    ]
+  },
+  {
+    "id": "marina_port_annapolis_marina",
+    "name": "Port Annapolis Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 38.9486,
+      "lon": -76.4715,
+      "icw_mile": null,
+      "segment": "Annapolis / Back Creek"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.92
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Port Annapolis Marina official site",
+      "source_url": "https://portannapolis.com/slips/",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": null,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": null,
+      "repairs": true,
+      "pool": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "transient slips available; current rates direct",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official site confirms transient slips, bridge-free Bay access, and major yard/service capability; current transient pricing should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": null,
+      "email": null,
+      "website": "https://portannapolis.com/slips/",
+      "vhf": "16"
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.36
+    },
+    "protection": {
+      "wind": {
+        "N": 0.86,
+        "E": 0.78,
+        "S": 0.84,
+        "W": 0.88
+      },
+      "wake_exposure_score": 0.14,
+      "current_exposure_score": 0.16
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.22
+    },
+    "quality": {
+      "baseline_score": 0.9,
+      "use_cases": {
+        "overnight_stop": 0.9,
+        "fuel_stop": 0.2,
+        "provisioning": 0.18,
+        "weather_wait": 0.9,
+        "quiet_night": 0.84,
+        "easy_in_easy_out": 0.9,
+        "budget_stop": 0.3
+      },
+      "value_score": 0.34,
+      "convenience_score": 0.62,
+      "quiet_score": 0.84
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.22,
+        "text": "Current transient dockage pricing should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A strong Annapolis answer for larger boats or anyone who values bridge-free Bay access and yard capability over downtown proximity."
+    },
+    "aliases": [
+      "port annapolis",
+      "port annapolis marina"
+    ],
+    "nearby_places": [
+      "annapolis",
+      "back creek"
+    ],
+    "search_terms": [
+      "annapolis large boat marina",
+      "annapolis service marina"
+    ]
+  },
+  {
+    "id": "marina_chesapeake_harbour_marina",
+    "name": "Chesapeake Harbour Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 38.9382,
+      "lon": -76.4665,
+      "icw_mile": null,
+      "segment": "Annapolis / Chesapeake Harbour"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.93
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Chesapeake Harbour Marina official page",
+      "source_url": "https://trident-marine.com/marinas/chesapeake-harbour-marina/",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": 8.0,
+      "dockside_ft_mlw": 8.0,
+      "max_recommended_draft_ft": 7.5
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": false,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "restaurant": true,
+      "fitness_center": true,
+      "pool": true,
+      "mechanic": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "transient slips available; current rates direct",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official and Waterway Guide pages confirm transient slips, restaurant, pools, bathhouses, laundry, and on-site mechanic; current rates should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": null,
+      "email": null,
+      "website": "https://trident-marine.com/marinas/chesapeake-harbour-marina/",
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.34
+    },
+    "protection": {
+      "wind": {
+        "N": 0.84,
+        "E": 0.78,
+        "S": 0.82,
+        "W": 0.86
+      },
+      "wake_exposure_score": 0.14,
+      "current_exposure_score": 0.16
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 120,
+      "dock_handling_difficulty_score": 0.22
+    },
+    "quality": {
+      "baseline_score": 0.91,
+      "use_cases": {
+        "overnight_stop": 0.9,
+        "fuel_stop": 0.0,
+        "provisioning": 0.26,
+        "weather_wait": 0.9,
+        "quiet_night": 0.84,
+        "easy_in_easy_out": 0.86,
+        "budget_stop": 0.3
+      },
+      "value_score": 0.34,
+      "convenience_score": 0.64,
+      "quiet_score": 0.84
+    },
+    "cautions": [
+      {
+        "type": "depth_limited",
+        "severity": 0.36,
+        "text": "Waterway Guide reports about 8 ft approach and dockside, so deeper-draft boats should confirm carefully."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A protected Annapolis-area marina with one of the better amenity packages if you want resort comforts more than downtown walkability."
+    },
+    "aliases": [
+      "chesapeake harbour",
+      "chesapeake harbour marina"
+    ],
+    "nearby_places": [
+      "annapolis",
+      "chesapeake harbour"
+    ],
+    "search_terms": [
+      "annapolis resort marina",
+      "annapolis protected marina"
+    ]
+  },
+  {
+    "id": "marina_maryland_marina",
+    "name": "Maryland Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 39.3093,
+      "lon": -76.4444,
+      "icw_mile": null,
+      "segment": "Baltimore / Middle River"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.88
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Maryland Marina official site",
+      "source_url": "https://marylandmarina.net/",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": null,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": null,
+      "wifi": null,
+      "boat_ramp": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "slips available; transient details confirm direct",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official site emphasizes 360 slips and broad storage/launch capability; current transient availability and pricing should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (410) 686-1260",
+      "email": null,
+      "website": "https://marylandmarina.net/",
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.18
+    },
+    "protection": {
+      "wind": {
+        "N": 0.88,
+        "E": 0.8,
+        "S": 0.86,
+        "W": 0.9
+      },
+      "wake_exposure_score": 0.12,
+      "current_exposure_score": 0.14
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.2
+    },
+    "quality": {
+      "baseline_score": 0.82,
+      "use_cases": {
+        "overnight_stop": 0.8,
+        "fuel_stop": 0.2,
+        "provisioning": 0.08,
+        "weather_wait": 0.86,
+        "quiet_night": 0.82,
+        "easy_in_easy_out": 0.82,
+        "budget_stop": 0.38
+      },
+      "value_score": 0.42,
+      "convenience_score": 0.48,
+      "quiet_score": 0.82
+    },
+    "cautions": [
+      {
+        "type": "transient_confirmation",
+        "severity": 0.3,
+        "text": "Transient pricing and specific overnight details should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A practical Baltimore-approach marina candidate, more about utility and protection than destination appeal."
+    },
+    "aliases": [
+      "maryland marina"
+    ],
+    "nearby_places": [
+      "middle river",
+      "baltimore",
+      "essex"
+    ],
+    "search_terms": [
+      "baltimore approach marina",
+      "middle river transient marina"
+    ]
+  },
+  {
+    "id": "marina_charlestown_marina",
+    "name": "Charlestown Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 39.5717,
+      "lon": -75.9768,
+      "icw_mile": null,
+      "segment": "Charlestown / Upper Chesapeake"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Charlestown Marina official site",
+      "source_url": "https://www.charlestownmarina.com/",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "repairs": true,
+      "ship_store": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "monthly and yearly emphasized; transient availability direct",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official site confirms 200+ covered and uncovered slips, fuel dock, Wi-Fi, laundry, and yard capability; current transient pricing should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (410) 287-8126",
+      "email": null,
+      "website": "https://www.charlestownmarina.com/",
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": true,
+      "walkability_score": 0.16
+    },
+    "protection": {
+      "wind": {
+        "N": 0.9,
+        "E": 0.82,
+        "S": 0.88,
+        "W": 0.92
+      },
+      "wake_exposure_score": 0.1,
+      "current_exposure_score": 0.12
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 65,
+      "dock_handling_difficulty_score": 0.18
+    },
+    "quality": {
+      "baseline_score": 0.88,
+      "use_cases": {
+        "overnight_stop": 0.88,
+        "fuel_stop": 0.84,
+        "provisioning": 0.08,
+        "weather_wait": 0.9,
+        "quiet_night": 0.84,
+        "easy_in_easy_out": 0.88,
+        "budget_stop": 0.38
+      },
+      "value_score": 0.42,
+      "convenience_score": 0.56,
+      "quiet_score": 0.84
+    },
+    "cautions": [
+      {
+        "type": "transient_confirmation",
+        "severity": 0.26,
+        "text": "Current transient pricing and slip availability should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A strong upper-Bay practical marina as you work toward the C&D, with real utility and yard capability."
+    },
+    "aliases": [
+      "charlestown marina"
+    ],
+    "nearby_places": [
+      "charlestown",
+      "upper chesapeake",
+      "c and d canal",
+      "c&d canal"
+    ],
+    "search_terms": [
+      "upper chesapeake marina",
+      "ced canal approach marina"
+    ]
+  },
+  {
+    "id": "marina_north_east_river_marina",
+    "name": "North East River Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 39.5698,
+      "lon": -75.9724,
+      "icw_mile": null,
+      "segment": "Charlestown / Upper Chesapeake"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.89
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "North East River Marina official site",
+      "source_url": "https://northeastrivermarina.com/",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": null,
+      "pumpout": null,
+      "water": null,
+      "shore_power": null,
+      "restrooms": true,
+      "showers": null,
+      "laundry": null,
+      "wifi": null,
+      "boat_ramp": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "transient slips often available by reservation",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official site confirms transient slips often available by reservation; current rates and utilities should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (410) 287-5298",
+      "email": null,
+      "website": "https://northeastrivermarina.com/",
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.16
+    },
+    "protection": {
+      "wind": {
+        "N": 0.9,
+        "E": 0.82,
+        "S": 0.88,
+        "W": 0.92
+      },
+      "wake_exposure_score": 0.1,
+      "current_exposure_score": 0.12
+    },
+    "vessel_fit": {
+      "big_boat_friendly": false,
+      "max_comfortable_loa_ft": 42,
+      "dock_handling_difficulty_score": 0.18
+    },
+    "quality": {
+      "baseline_score": 0.82,
+      "use_cases": {
+        "overnight_stop": 0.82,
+        "fuel_stop": 0.0,
+        "provisioning": 0.08,
+        "weather_wait": 0.88,
+        "quiet_night": 0.84,
+        "easy_in_easy_out": 0.86,
+        "budget_stop": 0.4
+      },
+      "value_score": 0.44,
+      "convenience_score": 0.48,
+      "quiet_score": 0.84
+    },
+    "cautions": [
+      {
+        "type": "service_confirmation",
+        "severity": 0.26,
+        "text": "Transient services, pricing, and utility details should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A useful upper-Bay transient-by-reservation option near the C&D approach, especially if you value protection over broad amenities."
+    },
+    "aliases": [
+      "north east river marina"
+    ],
+    "nearby_places": [
+      "charlestown",
+      "north east river",
+      "upper chesapeake",
+      "c and d canal",
+      "c&d canal"
+    ],
+    "search_terms": [
+      "north east river transient marina",
+      "upper bay protected marina"
+    ]
+  },
+  {
+    "id": "marina_wellwood_marina",
+    "name": "Wellwood Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 39.571,
+      "lon": -75.9688,
+      "icw_mile": null,
+      "segment": "Charlestown / Upper Chesapeake"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.86
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Wellwood Marina official page",
+      "source_url": "https://www.wellwoodclub.com/wellwood-marina/",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": false,
+      "pumpout": true,
+      "water": true,
+      "shore_power": null,
+      "restrooms": true,
+      "showers": true,
+      "laundry": null,
+      "wifi": null,
+      "restaurant": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "dock up to 45 ft while dining or visiting; current overnight/transient details direct",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official page emphasizes over 50 slips and the restaurant destination role; current transient and overnight details should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (410) 287-6666",
+      "email": null,
+      "website": "https://www.wellwoodclub.com/wellwood-marina/",
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.22
+    },
+    "protection": {
+      "wind": {
+        "N": 0.88,
+        "E": 0.8,
+        "S": 0.86,
+        "W": 0.9
+      },
+      "wake_exposure_score": 0.12,
+      "current_exposure_score": 0.14
+    },
+    "vessel_fit": {
+      "big_boat_friendly": false,
+      "max_comfortable_loa_ft": 45,
+      "dock_handling_difficulty_score": 0.18
+    },
+    "quality": {
+      "baseline_score": 0.78,
+      "use_cases": {
+        "overnight_stop": 0.74,
+        "fuel_stop": 0.0,
+        "provisioning": 0.14,
+        "weather_wait": 0.82,
+        "quiet_night": 0.78,
+        "easy_in_easy_out": 0.82,
+        "budget_stop": 0.36
+      },
+      "value_score": 0.38,
+      "convenience_score": 0.5,
+      "quiet_score": 0.78
+    },
+    "cautions": [
+      {
+        "type": "service_confirmation",
+        "severity": 0.28,
+        "text": "Current transient/overnight terms should be confirmed directly because the official page leans heavily toward restaurant and general marina use."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A useful upper-Bay stop that is as much a dining destination as a marina. Better thought of as a nice stopover option than a full-service cruiser base."
+    },
+    "aliases": [
+      "wellwood marina"
+    ],
+    "nearby_places": [
+      "charlestown",
+      "upper chesapeake",
+      "c and d canal",
+      "c&d canal"
+    ],
+    "search_terms": [
+      "wellwood marina",
+      "upper bay restaurant marina"
+    ]
+  }
+]
