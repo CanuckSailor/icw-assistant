@@ -381,10 +381,9 @@
       "source_date": "2026-04-12"
     },
     "depth": {
-      "approach_ft_mlw": 7.0,
-      "dockside_ft_mlw": 7.0,
-      "tidal_range_ft": 1.5,
-      "max_recommended_draft_ft": 6.0
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
     },
     "access": {
       "transient_slips": true,
@@ -396,23 +395,11 @@
       "restrooms": true,
       "showers": true,
       "laundry": true,
-      "wifi": true,
+      "wifi": null,
       "repairs": true,
       "pool": true,
       "restaurant": true,
-      "marine_store": true,
-      "kayaks": true,
-      "paddleboards": true,
-      "courtesy_bikes": true,
-      "hot_tub": true,
-      "dog_park": true,
-      "fitness_center": true,
-      "grills": true,
-      "conference_room": true,
-      "west_marine_nearby": true,
-      "inn_nearby": true,
-      "private_security": true,
-      "year_round_haul_launch": true
+      "marine_store": true
     },
     "pricing": {
       "currency": "USD",
@@ -424,15 +411,15 @@
         "water_rate": null,
         "water_rate_basis": null,
         "pumpout_rate": null,
-        "notes": "Waterway Guide lists 7.0 / 7.0 ft approach and dockside depth, 1.5 ft tide range, largest vessel 120 ft, and 20 transient slips. Official site says docks have frost-free spigots, electric, and Wi-Fi. Current transient pricing should be confirmed directly."
+        "notes": "Official site confirms 600 protected slips and full-service yacht center; current transient pricing should be confirmed directly."
       },
       "special_offers": []
     },
     "contact": {
       "phone": "+1 (410) 867-4343",
-      "email": "hhn@herringtonharbour.com",
+      "email": null,
       "website": "https://www.herringtonharbour.com/north/",
-      "vhf": "Monitored 9 / Working 74"
+      "vhf": null
     },
     "shore_access": {
       "groceries_nearby": false,
@@ -452,7 +439,7 @@
     },
     "vessel_fit": {
       "big_boat_friendly": true,
-      "max_comfortable_loa_ft": 120,
+      "max_comfortable_loa_ft": null,
       "dock_handling_difficulty_score": 0.18
     },
     "quality": {
@@ -467,7 +454,7 @@
         "budget_stop": 0.3
       },
       "value_score": 0.34,
-      "convenience_score": 0.76,
+      "convenience_score": 0.56,
       "quiet_score": 0.88
     },
     "cautions": [
@@ -478,15 +465,11 @@
       }
     ],
     "expert_notes": {
-      "plain": "Sail to the Sun Logbook: One of the bigger and more fully featured western-Bay marinas, with strong resort amenities, serious yard capability, and clear appeal for larger boats and longer stops. This one is genuinely big-boat friendly, with published docking for boats up to 120 feet."
+      "plain": "A major Herring Bay resort-and-yard stop with strong protection and very broad service depth."
     },
     "aliases": [
       "herrington north",
-      "herrington harbour north",
-      "herrington harbor north",
-      "herrington harbor",
-      "herrington harbour",
-      "herring bay marina"
+      "herrington harbour north"
     ],
     "nearby_places": [
       "herring bay",
@@ -496,21 +479,7 @@
     "search_terms": [
       "herring bay marina",
       "western chesapeake weather wait marina"
-    ],
-    "yard_features": {
-      "travel_lifts": [
-        "85 ton",
-        "50 ton",
-        "35 ton"
-      ],
-      "land_storage_acres": 70,
-      "contractors_on_site": true,
-      "bottom_paint_services": true,
-      "highly_trained_staff": true
-    },
-    "local_notes": {
-      "herrington_north_specials": "Waterway Guide Specials: saltwater pool with kids pool, hot tub and pool bar, complimentary kayaks, paddleboards and bikes, indoor and outdoor fitness equipment, high-speed Wi-Fi, dog park, shaded community grill areas, spa-quality showers and restrooms, social events, playground, conference room, yard games, private security, West Marine, year-round haul and launch, multiple Travelifts, bottom paint services, dockside restaurant bar and grill, and an inn less than one mile away."
-    }
+    ]
   },
   {
     "id": "marina_herrington_harbour_south",
@@ -534,10 +503,9 @@
       "source_date": "2026-04-12"
     },
     "depth": {
-      "approach_ft_mlw": 7.0,
-      "dockside_ft_mlw": 7.0,
-      "tidal_range_ft": 1.5,
-      "max_recommended_draft_ft": 6.0
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
     },
     "access": {
       "transient_slips": true,
@@ -553,35 +521,27 @@
       "pool": true,
       "restaurant": true,
       "private_beach": true,
-      "kayaks": true,
-      "paddleboards": true,
-      "fitness_center": true,
-      "market": true,
-      "pickleball": true,
-      "tennis": true,
-      "basketball": true,
-      "grills": true,
-      "lodging_nearby": true
+      "kayaks": true
     },
     "pricing": {
       "currency": "USD",
       "standard": {
-        "dockage_rate": 3.5,
-        "rate_basis": "in-season Sunday-Thursday per ft per night; Friday/Saturday/holidays $4.40/ft; off-season $2.50/ft",
-        "electric_rate": 8.0,
-        "electric_rate_basis": "30A per night; 50A is $16.00/night",
+        "dockage_rate": null,
+        "rate_basis": "overnight dockage available; current rates direct",
+        "electric_rate": null,
+        "electric_rate_basis": null,
         "water_rate": null,
         "water_rate_basis": null,
         "pumpout_rate": null,
-        "notes": "Waterway Guide lists 7.0 / 7.0 ft approach and dockside depth, 1.5 ft tide range, largest vessel 80 ft, and 30 transient slips. Official transient page lists in-season Sunday-Thursday at $3.50/ft, Friday/Saturday/holidays at $4.40/ft, off-season at $2.50/ft, with $8 for 30A and $16 for 50A electric per night."
+        "notes": "Official site confirms fuel dock, pumpout, pool, restaurant, deli, beach, and complimentary Wi-Fi; current transient pricing should be confirmed directly."
       },
       "special_offers": []
     },
     "contact": {
-      "phone": "+1 (410) 741-5100",
-      "email": "hhs@herringtonharbour.com",
+      "phone": "+1 (410) 286-1111",
+      "email": null,
       "website": "https://www.herringtonharbour.com/south/transient-dockage/",
-      "vhf": "Monitored 16 / Working 9"
+      "vhf": null
     },
     "shore_access": {
       "groceries_nearby": false,
@@ -601,7 +561,7 @@
     },
     "vessel_fit": {
       "big_boat_friendly": true,
-      "max_comfortable_loa_ft": 80,
+      "max_comfortable_loa_ft": null,
       "dock_handling_difficulty_score": 0.18
     },
     "quality": {
@@ -627,15 +587,11 @@
       }
     ],
     "expert_notes": {
-      "plain": "Sail to the Sun Logbook: Herrington Harbour South is the more resort-style of the two Herrington marinas, with fuel, pump-out, beach, pool, deli, restaurant, and strong transient amenities. It is a very good weather-wait or comfort stop on the western Bay."
+      "plain": "A high-amenity western-Bay transient stop and weather-wait option, with one of the stronger resort-style amenity packages on this stretch."
     },
     "aliases": [
       "herrington south",
-      "herrington harbour south",
-      "herrington harbor south",
-      "herrington harbor",
-      "herrington harbour",
-      "herring bay marina"
+      "herrington harbour south"
     ],
     "nearby_places": [
       "herring bay",
@@ -644,10 +600,7 @@
     "search_terms": [
       "herring bay transient marina",
       "western chesapeake resort marina"
-    ],
-    "local_notes": {
-      "herrington_south_specials": "Waterway Guide / official transient amenities: private sandy beaches with kayaks and paddleboards, Olympic-size pool and kiddie pool, Ketch 22, Chesapeake Market and Deli, complimentary Wi-Fi, full-service fuel dock with pump-out stations, fitness center, lighted tennis court, basketball, pickleball, playground, picnic areas with grills, and restrooms, showers, and laundry."
-    }
+    ]
   },
   {
     "id": "marina_annapolis_city_marina",
@@ -2692,6 +2645,718 @@
     "search_terms": [
       "rhode river transient marina",
       "mayo protected marina"
+    ]
+  },
+  {
+    "id": "marina_whitehall_marina",
+    "name": "Whitehall Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 39.01585,
+      "lon": -76.43283,
+      "icw_mile": null,
+      "segment": "Annapolis Perimeter / Whitehall Creek"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.91
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Whitehall Marina official site / Waterway Guide",
+      "source_url": "https://www.whitehallannapolis.com/",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": 12.0,
+      "dockside_ft_mlw": 12.0,
+      "max_recommended_draft_ft": 9.5
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": false,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": null,
+      "wifi": true,
+      "repairs": true,
+      "travel_lift": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "daily, weekly, and monthly rates available; contact direct",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official site says annual, monthly, weekly, and daily rates are available. Waterway Guide shows largest vessel 50 ft, 116 total slips, and 3 transient slips. Dockage rates are not published; please contact the marina directly for pricing."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (410) 757-4819",
+      "email": "info@whitehallannapolis.com",
+      "website": "https://www.whitehallannapolis.com/",
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.1
+    },
+    "protection": {
+      "wind": {
+        "N": 0.9,
+        "E": 0.82,
+        "S": 0.88,
+        "W": 0.92
+      },
+      "wake_exposure_score": 0.08,
+      "current_exposure_score": 0.1
+    },
+    "vessel_fit": {
+      "big_boat_friendly": false,
+      "max_comfortable_loa_ft": 50,
+      "dock_handling_difficulty_score": 0.16
+    },
+    "quality": {
+      "baseline_score": 0.86,
+      "use_cases": {
+        "overnight_stop": 0.86,
+        "fuel_stop": 0.0,
+        "provisioning": 0.04,
+        "weather_wait": 0.9,
+        "quiet_night": 0.9,
+        "easy_in_easy_out": 0.78,
+        "budget_stop": 0.36
+      },
+      "value_score": 0.4,
+      "convenience_score": 0.56,
+      "quiet_score": 0.9
+    },
+    "cautions": [
+      {
+        "type": "small_transient_inventory",
+        "severity": 0.34,
+        "text": "Waterway Guide lists only 3 transient slips, so confirm space before planning on it."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A protected Whitehall Creek stop that is better for a quiet overnight or weather wait than for downtown Annapolis access."
+    },
+    "aliases": [
+      "whitehall marina"
+    ],
+    "nearby_places": [
+      "whitehall creek",
+      "annapolis"
+    ],
+    "search_terms": [
+      "whitehall creek marina",
+      "annapolis quiet marina"
+    ]
+  },
+  {
+    "id": "marina_the_marina_at_nautilus_point",
+    "name": "The Marina at Nautilus Point",
+    "type": "marina",
+    "geo": {
+      "lat": 38.9528,
+      "lon": -76.4726,
+      "icw_mile": null,
+      "segment": "Annapolis Perimeter / Eastport / Back Creek"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.94
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Marina at Nautilus Point official site / Waterway Guide",
+      "source_url": "https://www.marinaatnautiluspoint.com/slips",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": false,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": true,
+      "pool": true,
+      "clubhouse": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 3.0,
+        "rate_basis": "in-season nightly per ft; boat shows and holidays $4.00/ft; off-season $2.00/ft",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official slip page lists nightly dockage at $3.00/ft in season, $4.00/ft during boat shows and holidays, and $2.00/ft off-season. Waterway Guide lists 153 total slips, 8 transient slips, and a largest vessel of 60 ft."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (443) 870-5222",
+      "email": null,
+      "website": "https://www.marinaatnautiluspoint.com/",
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.78
+    },
+    "protection": {
+      "wind": {
+        "N": 0.86,
+        "E": 0.78,
+        "S": 0.84,
+        "W": 0.88
+      },
+      "wake_exposure_score": 0.12,
+      "current_exposure_score": 0.14
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 60,
+      "dock_handling_difficulty_score": 0.18
+    },
+    "quality": {
+      "baseline_score": 0.91,
+      "use_cases": {
+        "overnight_stop": 0.92,
+        "fuel_stop": 0.0,
+        "provisioning": 0.44,
+        "weather_wait": 0.88,
+        "quiet_night": 0.82,
+        "easy_in_easy_out": 0.88,
+        "budget_stop": 0.54
+      },
+      "value_score": 0.58,
+      "convenience_score": 0.84,
+      "quiet_score": 0.82
+    },
+    "cautions": [
+      {
+        "type": "holiday_rates",
+        "severity": 0.22,
+        "text": "Boat show and holiday rates run higher and may carry minimum-stay requirements."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A strong Eastport / Back Creek transient option with better pricing transparency than many Annapolis marinas and a good balance between protection and town access."
+    },
+    "aliases": [
+      "nautilus point",
+      "marina at nautilus point",
+      "club nautilus point marina"
+    ],
+    "nearby_places": [
+      "annapolis",
+      "eastport",
+      "back creek"
+    ],
+    "search_terms": [
+      "eastport transient marina",
+      "annapolis published transient rates"
+    ]
+  },
+  {
+    "id": "marina_bert_jabin_yacht_yard",
+    "name": "Bert Jabin Yacht Yard",
+    "type": "marina",
+    "geo": {
+      "lat": 38.9552,
+      "lon": -76.4751,
+      "icw_mile": null,
+      "segment": "Annapolis Perimeter / Back Creek"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.94
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Bert Jabin Yacht Yard official site / Waterway Guide",
+      "source_url": "https://bjyy.com/",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": 9.5,
+      "dockside_ft_mlw": 9.0,
+      "max_recommended_draft_ft": 7.5
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": false,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": null,
+      "wifi": null,
+      "repairs": true,
+      "travel_lift": true,
+      "boat_storage": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "nightly dockage/day trips available; current rates direct",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Waterway Guide lists 9.5 / 9.0 ft approach and dockside depth, largest vessel 75 ft, and 25 transient slips. Official site and marina listings confirm transient dockage/day-trip options. Dockage rates are not published; please contact the marina directly for pricing."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": null,
+      "email": null,
+      "website": "https://bjyy.com/",
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": true,
+      "walkability_score": 0.24
+    },
+    "protection": {
+      "wind": {
+        "N": 0.88,
+        "E": 0.8,
+        "S": 0.86,
+        "W": 0.9
+      },
+      "wake_exposure_score": 0.1,
+      "current_exposure_score": 0.12
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 75,
+      "dock_handling_difficulty_score": 0.18
+    },
+    "quality": {
+      "baseline_score": 0.92,
+      "use_cases": {
+        "overnight_stop": 0.9,
+        "fuel_stop": 0.0,
+        "provisioning": 0.18,
+        "weather_wait": 0.92,
+        "quiet_night": 0.84,
+        "easy_in_easy_out": 0.88,
+        "budget_stop": 0.36
+      },
+      "value_score": 0.4,
+      "convenience_score": 0.74,
+      "quiet_score": 0.84
+    },
+    "cautions": [
+      {
+        "type": "yard_orientation",
+        "severity": 0.18,
+        "text": "This is a serious yacht yard as much as a transient marina, which is an advantage if you need service but less of a resort stop."
+      }
+    ],
+    "expert_notes": {
+      "plain": "One of the stronger Back Creek working-marina answers if you want depth, protection, and real yard capability rather than a polished resort feel."
+    },
+    "aliases": [
+      "bert jabin",
+      "bert jabin yacht yard",
+      "bjyy"
+    ],
+    "nearby_places": [
+      "annapolis",
+      "back creek"
+    ],
+    "search_terms": [
+      "back creek service marina",
+      "annapolis yacht yard transient"
+    ]
+  },
+  {
+    "id": "marina_horn_point_harbor_marina",
+    "name": "Horn Point Harbor Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 38.9667,
+      "lon": -76.4755,
+      "icw_mile": null,
+      "segment": "Annapolis Perimeter / Eastport / Back Creek Mouth"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.93
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Horn Point Harbor official site / Dockwa / Marinalife",
+      "source_url": "https://hornpointharbor.com/slip-rates-and-reservations/",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": 12.0,
+      "dockside_ft_mlw": 12.0,
+      "max_recommended_draft_ft": 10.0
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": false,
+      "pumpout": true,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": null,
+      "wifi": true,
+      "parking": true,
+      "grills": true,
+      "ev_charging": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 3.0,
+        "rate_basis": "Marinalife reports 2025 transient rates of $3.00-$3.50/ft",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official site says the marina maintains extensive transient dockage and can accommodate yachts exceeding 130 ft drawing up to 12 ft. Dockage rates are not published on the official site; Marinalife reports 2025 transient rates of $3.00-$3.50/ft. Confirm directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (410) 263-0550",
+      "email": "info@hornpointharbor.com",
+      "website": "https://hornpointharbor.com/",
+      "vhf": "16"
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.86
+    },
+    "protection": {
+      "wind": {
+        "N": 0.82,
+        "E": 0.72,
+        "S": 0.8,
+        "W": 0.84
+      },
+      "wake_exposure_score": 0.14,
+      "current_exposure_score": 0.14
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 130,
+      "dock_handling_difficulty_score": 0.2
+    },
+    "quality": {
+      "baseline_score": 0.93,
+      "use_cases": {
+        "overnight_stop": 0.92,
+        "fuel_stop": 0.0,
+        "provisioning": 0.48,
+        "weather_wait": 0.88,
+        "quiet_night": 0.78,
+        "easy_in_easy_out": 0.92,
+        "budget_stop": 0.44
+      },
+      "value_score": 0.48,
+      "convenience_score": 0.86,
+      "quiet_score": 0.78
+    },
+    "cautions": [
+      {
+        "type": "pricing_confirmation",
+        "severity": 0.2,
+        "text": "Published pricing evidence is secondary-source rather than directly on the official slip page, so confirm directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A very strong Eastport answer for bigger boats and easy Bay access, with more protection than the harbor-front options and a quick run into the Chesapeake."
+    },
+    "aliases": [
+      "horn point harbor",
+      "horn point harbor marina"
+    ],
+    "nearby_places": [
+      "annapolis",
+      "eastport",
+      "back creek"
+    ],
+    "search_terms": [
+      "eastport big boat marina",
+      "annapolis back creek mouth marina"
+    ]
+  },
+  {
+    "id": "marina_yacht_basin_company",
+    "name": "Yacht Basin Company",
+    "type": "marina",
+    "geo": {
+      "lat": 38.9738,
+      "lon": -76.4866,
+      "icw_mile": null,
+      "segment": "Annapolis Perimeter / Eastport"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.87
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Waterway Guide regional directory",
+      "source_url": "https://www.waterwayguide.com/directory/marina/maryland/annapolis?display=list&radius=10",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": false,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": null,
+      "wifi": null
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "transient availability should be confirmed direct",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Included as an Annapolis/Eastport perimeter facility from Waterway Guide regional listings. Dockage rates are not published; please contact the marina directly for pricing."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": null,
+      "email": null,
+      "website": null,
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.9
+    },
+    "protection": {
+      "wind": {
+        "N": 0.78,
+        "E": 0.68,
+        "S": 0.76,
+        "W": 0.82
+      },
+      "wake_exposure_score": 0.18,
+      "current_exposure_score": 0.18
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.22
+    },
+    "quality": {
+      "baseline_score": 0.82,
+      "use_cases": {
+        "overnight_stop": 0.82,
+        "fuel_stop": 0.0,
+        "provisioning": 0.46,
+        "weather_wait": 0.76,
+        "quiet_night": 0.68,
+        "easy_in_easy_out": 0.82,
+        "budget_stop": 0.34
+      },
+      "value_score": 0.38,
+      "convenience_score": 0.8,
+      "quiet_score": 0.68
+    },
+    "cautions": [
+      {
+        "type": "light_documentation",
+        "severity": 0.34,
+        "text": "This facility is useful to include in the Annapolis perimeter, but documentation is lighter than for the stronger featured-marina records."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A legitimate Eastport perimeter marina to keep in the Annapolis comparison set, though not as richly documented as the stronger featured-marina records."
+    },
+    "aliases": [
+      "yacht basin company"
+    ],
+    "nearby_places": [
+      "annapolis",
+      "eastport"
+    ],
+    "search_terms": [
+      "eastport marina annapolis"
+    ]
+  },
+  {
+    "id": "marina_london_towne_marina",
+    "name": "London Towne Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 38.9471,
+      "lon": -76.5575,
+      "icw_mile": null,
+      "segment": "Annapolis Perimeter / Edgewater / South River"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.84
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Waterway Guide regional directory",
+      "source_url": "https://www.waterwayguide.com/directory/marina/maryland/annapolis?display=list&radius=10",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": false,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": null,
+      "wifi": null
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "confirm direct",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Included as a South River / Edgewater perimeter facility from regional marina listings. Dockage rates are not published; please contact the marina directly for pricing."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": null,
+      "email": null,
+      "website": null,
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.1
+    },
+    "protection": {
+      "wind": {
+        "N": 0.88,
+        "E": 0.8,
+        "S": 0.86,
+        "W": 0.9
+      },
+      "wake_exposure_score": 0.1,
+      "current_exposure_score": 0.12
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.18
+    },
+    "quality": {
+      "baseline_score": 0.8,
+      "use_cases": {
+        "overnight_stop": 0.8,
+        "fuel_stop": 0.0,
+        "provisioning": 0.04,
+        "weather_wait": 0.88,
+        "quiet_night": 0.86,
+        "easy_in_easy_out": 0.8,
+        "budget_stop": 0.34
+      },
+      "value_score": 0.38,
+      "convenience_score": 0.48,
+      "quiet_score": 0.86
+    },
+    "cautions": [
+      {
+        "type": "light_documentation",
+        "severity": 0.36,
+        "text": "Included as a perimeter facility, but source documentation is lighter than for the stronger Annapolis cluster records."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A quieter South River perimeter option to keep in the Annapolis/Edgewater comparison set."
+    },
+    "aliases": [
+      "london towne marina"
+    ],
+    "nearby_places": [
+      "edgewater",
+      "south river",
+      "annapolis"
+    ],
+    "search_terms": [
+      "south river marina edgewater"
     ]
   }
 ]
