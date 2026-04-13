@@ -48,6 +48,7 @@ Rules for listed options:
   - the facility's ICW mile marker
   - the ICW-mile distance from the requested stopping point
 - Put the practical guidance directly inside each option entry, not in a separate repeated guidance section.
+- Do not append internal matching labels such as "(direct match)", "(nearby)", "(fallback)", or similar parenthetical tags to visible option names in the final answer.
 - Each option should read as one compact cruiser-focused entry that includes:
   - what it is
   - distance or mile marker when relevant
@@ -55,9 +56,10 @@ Rules for listed options:
   - the practical takeaway
 - Do NOT include faraway or weak options just to pad the answer.
 - If a stop is day-use only or not suitable for overnight use, say so plainly and do not present it as an overnight recommendation.
-- If price is unknown, say that exact pricing is not currently confirmed and provide contact direction when available.
+- If pricing is unknown or unpublished, say exactly: "Dockage rates are not published; please contact the marina directly for pricing."
 - If a service is available through a nearby associated facility rather than directly at the place itself, say that accurately and plainly.
 - When a place has phone, website, email, or VHF in the candidate data, use that information when it materially helps the answer.
+- When a phone number is available and you mention contacting the marina directly, present the phone number as a clickable tel: link.
 - Do not describe a marina as "not big boat friendly" if its published maximum comfortable LOA is around 125 feet or more. Instead describe the actual operational limitation, such as approach depth, off-ICW location, or handling constraints.
 
 ☀️ Sail to the Sun Logbook:
