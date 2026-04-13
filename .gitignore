@@ -1,0 +1,6 @@
+
+node_modules/
+.DS_Store
+**/.DS_Store
+updates/
+data/regions/maryland.snapshot.2026-04-13.json
