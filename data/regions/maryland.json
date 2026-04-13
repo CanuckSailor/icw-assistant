@@ -1674,9 +1674,6 @@
     "expert_notes": {
       "plain": "Sail to the Sun Logbook: If you want to be right in the middle of Annapolis, this is it. Great for instant access to town, but it is not the quiet choice."
     },
-    "local_notes": {
-      "annapolis_context": "Sail to the Sun Logbook: Annapolis is America\u2019s sailing capital, and you will know it the moment you cruise into town. If there is something you need, you will find it here, whether it is from Bacon\u2019s, https://baconsails.com/, the quintessential consignment shop, one of the boutique marine stores, or the many competent yachtyards. If you are looking for crabcakes, Davis\u2019 Pub is your best stop. Good burgers too."
-    },
     "aliases": [
       "ego alley",
       "annapolis city dock",
@@ -1814,6 +1811,840 @@
       "annapolis mooring balls",
       "annapolis transient moorings",
       "front forty annapolis"
+    ]
+  },
+  {
+    "id": "marina_shipwright_harbor_marina",
+    "name": "Shipwright Harbor Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 38.7855,
+      "lon": -76.5537,
+      "icw_mile": null,
+      "segment": "Deale / Traceys Creek"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Shipwright Harbor Marina official site",
+      "source_url": "https://www.shipwrightharbor.com/",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": null,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": null,
+      "wifi": null,
+      "repairs": true,
+      "pool": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "transient dockage confirm direct",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official site emphasizes 250 deep-water slips, pool, and haul-out facilities; current transient pricing should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (410) 867-1100",
+      "email": null,
+      "website": "https://www.shipwrightharbor.com/",
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.22
+    },
+    "protection": {
+      "wind": {
+        "N": 0.88,
+        "E": 0.8,
+        "S": 0.86,
+        "W": 0.9
+      },
+      "wake_exposure_score": 0.1,
+      "current_exposure_score": 0.12
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.18
+    },
+    "quality": {
+      "baseline_score": 0.88,
+      "use_cases": {
+        "overnight_stop": 0.88,
+        "fuel_stop": 0.2,
+        "provisioning": 0.12,
+        "weather_wait": 0.92,
+        "quiet_night": 0.86,
+        "easy_in_easy_out": 0.84,
+        "budget_stop": 0.34
+      },
+      "value_score": 0.38,
+      "convenience_score": 0.58,
+      "quiet_score": 0.86
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.22,
+        "text": "Current transient pricing should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A protected Deale-area marina with strong yard capability and a good weather-wait profile on the western shore."
+    },
+    "aliases": [
+      "shipwright harbor",
+      "shipwright harbor marina"
+    ],
+    "nearby_places": [
+      "deale",
+      "traceys creek",
+      "tracey's creek"
+    ],
+    "search_terms": [
+      "deale transient marina",
+      "deale weather wait marina"
+    ]
+  },
+  {
+    "id": "marina_hartge_yacht_harbor",
+    "name": "Hartge Yacht Harbor",
+    "type": "marina",
+    "geo": {
+      "lat": 38.8432,
+      "lon": -76.5482,
+      "icw_mile": null,
+      "segment": "Galesville / West River"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.91
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Hartge Yacht Harbor official site",
+      "source_url": "https://hartgeyachtharbor.com/slips-moorings/",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": 7.0,
+      "dockside_ft_mlw": 7.0,
+      "max_recommended_draft_ft": 5.5
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": false,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": true,
+      "wifi": null,
+      "mooring_field": true,
+      "repairs": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "daily, weekly, monthly transient slips and moorings",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official site says slips have drafts up to 7 ft and transient slips accommodate boats up to 85 ft; current rates should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (443) 607-6306",
+      "email": null,
+      "website": "https://hartgeyachtharbor.com/slips-moorings/",
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": true,
+      "walkability_score": 0.26
+    },
+    "protection": {
+      "wind": {
+        "N": 0.9,
+        "E": 0.82,
+        "S": 0.88,
+        "W": 0.92
+      },
+      "wake_exposure_score": 0.08,
+      "current_exposure_score": 0.1
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 85,
+      "dock_handling_difficulty_score": 0.18
+    },
+    "quality": {
+      "baseline_score": 0.9,
+      "use_cases": {
+        "overnight_stop": 0.9,
+        "fuel_stop": 0.0,
+        "provisioning": 0.18,
+        "weather_wait": 0.94,
+        "quiet_night": 0.88,
+        "easy_in_easy_out": 0.82,
+        "budget_stop": 0.34
+      },
+      "value_score": 0.38,
+      "convenience_score": 0.6,
+      "quiet_score": 0.88
+    },
+    "cautions": [
+      {
+        "type": "no_fuel",
+        "severity": 0.2,
+        "text": "A strong protected transient and mooring stop, but not a fuel dock answer."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A classic Galesville / West River protected stop with both slips and moorings, especially appealing if you value shelter more than instant fuel access."
+    },
+    "aliases": [
+      "hartge",
+      "hartge yacht harbor"
+    ],
+    "nearby_places": [
+      "galesville",
+      "west river"
+    ],
+    "search_terms": [
+      "galesville transient marina",
+      "west river moorings marina"
+    ]
+  },
+  {
+    "id": "marina_pirates_cove_marina",
+    "name": "Pirates Cove Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 38.8442,
+      "lon": -76.5534,
+      "icw_mile": null,
+      "segment": "Galesville / West River"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.88
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Pirates Cove Marina official page",
+      "source_url": "https://www.piratescovemd.com/marina",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": false,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": null,
+      "laundry": null,
+      "wifi": null,
+      "restaurant": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "nightly rental availability direct with dockmaster",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official marina page directs boaters to the dockmaster for transient/nightly availability and notes VHF 16 then 68 in season."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (301) 928-6605",
+      "email": "manager@piratescovemd.com",
+      "website": "https://www.piratescovemd.com/marina",
+      "vhf": "16 then 68"
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.18
+    },
+    "protection": {
+      "wind": {
+        "N": 0.88,
+        "E": 0.8,
+        "S": 0.86,
+        "W": 0.9
+      },
+      "wake_exposure_score": 0.12,
+      "current_exposure_score": 0.12
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": null,
+      "dock_handling_difficulty_score": 0.18
+    },
+    "quality": {
+      "baseline_score": 0.84,
+      "use_cases": {
+        "overnight_stop": 0.84,
+        "fuel_stop": 0.0,
+        "provisioning": 0.14,
+        "weather_wait": 0.88,
+        "quiet_night": 0.8,
+        "easy_in_easy_out": 0.8,
+        "budget_stop": 0.34
+      },
+      "value_score": 0.38,
+      "convenience_score": 0.54,
+      "quiet_score": 0.8
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.24,
+        "text": "Transient/nightly availability and pricing should be confirmed directly with the dockmaster."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A useful Galesville transient stop if you like the restaurant-and-marina mix and want West River protection."
+    },
+    "aliases": [
+      "pirates cove",
+      "pirates cove marina"
+    ],
+    "nearby_places": [
+      "galesville",
+      "west river"
+    ],
+    "search_terms": [
+      "galesville restaurant marina",
+      "west river transient dockage"
+    ]
+  },
+  {
+    "id": "marina_anchor_yacht_basin",
+    "name": "Anchor Yacht Basin",
+    "type": "marina",
+    "geo": {
+      "lat": 38.948,
+      "lon": -76.5493,
+      "icw_mile": null,
+      "segment": "Edgewater / South River"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.91
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Anchor Yacht Basin official transient page",
+      "source_url": "https://anchoryachtbasinmd.com/transient-boat-slips",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": false,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": null,
+      "wifi": true,
+      "parking": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "transient usage available; reserve direct",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official transient page says 125 slips for boats from 20 ft to 80 ft are available for annual rental as well as transient usage; current rates should be confirmed directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (410) 956-9729",
+      "email": null,
+      "website": "https://anchoryachtbasinmd.com/transient-boat-slips",
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.18
+    },
+    "protection": {
+      "wind": {
+        "N": 0.88,
+        "E": 0.8,
+        "S": 0.86,
+        "W": 0.9
+      },
+      "wake_exposure_score": 0.1,
+      "current_exposure_score": 0.12
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 80,
+      "dock_handling_difficulty_score": 0.18
+    },
+    "quality": {
+      "baseline_score": 0.87,
+      "use_cases": {
+        "overnight_stop": 0.88,
+        "fuel_stop": 0.0,
+        "provisioning": 0.1,
+        "weather_wait": 0.9,
+        "quiet_night": 0.86,
+        "easy_in_easy_out": 0.86,
+        "budget_stop": 0.34
+      },
+      "value_score": 0.38,
+      "convenience_score": 0.6,
+      "quiet_score": 0.86
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.22,
+        "text": "Current transient rates should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A protected South River transient option on the Edgewater side when you care more about a practical overnight than about downtown Annapolis."
+    },
+    "aliases": [
+      "anchor yacht basin"
+    ],
+    "nearby_places": [
+      "edgewater",
+      "south river"
+    ],
+    "search_terms": [
+      "edgewater transient marina",
+      "south river protected marina"
+    ]
+  },
+  {
+    "id": "marina_liberty_marina",
+    "name": "Liberty Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 38.9379,
+      "lon": -76.5554,
+      "icw_mile": null,
+      "segment": "Edgewater / South River"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Liberty Marina official site / Waterway Guide",
+      "source_url": "https://www.libertymarina.com/",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": true,
+      "gasoline_available": true,
+      "diesel_available": true,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": null,
+      "wifi": null,
+      "repairs": true,
+      "travel_lift": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "transient slips reported by Waterway Guide; current rates direct",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official site emphasizes monthly and annual dockage, while Waterway Guide reports 50 transient slips and fuel dock services; confirm current transient availability and pricing directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (410) 956-6000",
+      "email": null,
+      "website": "https://www.libertymarina.com/",
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.14
+    },
+    "protection": {
+      "wind": {
+        "N": 0.88,
+        "E": 0.8,
+        "S": 0.86,
+        "W": 0.9
+      },
+      "wake_exposure_score": 0.1,
+      "current_exposure_score": 0.12
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 100,
+      "dock_handling_difficulty_score": 0.18
+    },
+    "quality": {
+      "baseline_score": 0.88,
+      "use_cases": {
+        "overnight_stop": 0.88,
+        "fuel_stop": 0.86,
+        "provisioning": 0.08,
+        "weather_wait": 0.9,
+        "quiet_night": 0.86,
+        "easy_in_easy_out": 0.86,
+        "budget_stop": 0.32
+      },
+      "value_score": 0.36,
+      "convenience_score": 0.64,
+      "quiet_score": 0.86
+    },
+    "cautions": [
+      {
+        "type": "transient_confirmation",
+        "severity": 0.24,
+        "text": "Transient availability should be confirmed directly because the official site emphasizes monthly and annual tenancy."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A practical fuller-service South River stop if you want fuel, yard capability, and protection more than town atmosphere."
+    },
+    "aliases": [
+      "liberty marina",
+      "liberty marina md"
+    ],
+    "nearby_places": [
+      "edgewater",
+      "south river"
+    ],
+    "search_terms": [
+      "south river fuel dock",
+      "edgewater service marina"
+    ]
+  },
+  {
+    "id": "marina_pier_7_resort_marina",
+    "name": "Pier 7 Resort Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 38.9524,
+      "lon": -76.5422,
+      "icw_mile": null,
+      "segment": "Edgewater / South River"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.9
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Pier 7 official site / Waterway Guide",
+      "source_url": "https://piersevenmarina.com/",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": 20.0,
+      "dockside_ft_mlw": 16.0,
+      "max_recommended_draft_ft": 12.0
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": false,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": null,
+      "wifi": null,
+      "restaurant": true,
+      "apartment_rentals": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": null,
+        "rate_basis": "transient, monthly, and annual options available",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official site says flexible transient, monthly, and annual options; Waterway Guide reports 20 transient slips and 20/16 ft approach/dockside depths. Confirm current rates directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (410) 956-4115",
+      "email": null,
+      "website": "https://piersevenmarina.com/",
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": true,
+      "marine_store_nearby": false,
+      "walkability_score": 0.18
+    },
+    "protection": {
+      "wind": {
+        "N": 0.82,
+        "E": 0.72,
+        "S": 0.8,
+        "W": 0.84
+      },
+      "wake_exposure_score": 0.16,
+      "current_exposure_score": 0.14
+    },
+    "vessel_fit": {
+      "big_boat_friendly": true,
+      "max_comfortable_loa_ft": 100,
+      "dock_handling_difficulty_score": 0.18
+    },
+    "quality": {
+      "baseline_score": 0.88,
+      "use_cases": {
+        "overnight_stop": 0.88,
+        "fuel_stop": 0.0,
+        "provisioning": 0.12,
+        "weather_wait": 0.86,
+        "quiet_night": 0.76,
+        "easy_in_easy_out": 0.88,
+        "budget_stop": 0.3
+      },
+      "value_score": 0.34,
+      "convenience_score": 0.62,
+      "quiet_score": 0.76
+    },
+    "cautions": [
+      {
+        "type": "pricing_unknown",
+        "severity": 0.22,
+        "text": "Current transient rates should be confirmed directly."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A strong South River transient option, especially if deeper water and easy access matter more than old-town character."
+    },
+    "aliases": [
+      "pier 7",
+      "pier 7 resort marina",
+      "pier seven marina"
+    ],
+    "nearby_places": [
+      "edgewater",
+      "south river"
+    ],
+    "search_terms": [
+      "edgewater deep water marina",
+      "south river transient slips"
+    ]
+  },
+  {
+    "id": "marina_rhode_river_marina",
+    "name": "Rhode River Marina",
+    "type": "marina",
+    "geo": {
+      "lat": 38.9082,
+      "lon": -76.5317,
+      "icw_mile": null,
+      "segment": "Mayo / Rhode River"
+    },
+    "status": {
+      "active": true,
+      "last_curated": "2026-04-12",
+      "confidence": 0.88
+    },
+    "source": {
+      "type": "curated_core",
+      "name": "Rhode River Marina official site / Waterway Guide",
+      "source_url": "https://www.rhoderivermarina.net/",
+      "source_date": "2026-04-12"
+    },
+    "depth": {
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
+    },
+    "access": {
+      "transient_slips": true,
+      "overnight_allowed": true,
+      "fuel": false,
+      "pumpout": null,
+      "water": true,
+      "shore_power": true,
+      "restrooms": true,
+      "showers": true,
+      "laundry": null,
+      "wifi": null,
+      "repairs": true,
+      "boat_ramp": true
+    },
+    "pricing": {
+      "currency": "USD",
+      "standard": {
+        "dockage_rate": 2.0,
+        "rate_basis": "per ft transient, per Marinalife listing; confirm directly",
+        "electric_rate": null,
+        "electric_rate_basis": null,
+        "water_rate": null,
+        "water_rate_basis": null,
+        "pumpout_rate": null,
+        "notes": "Official site confirms a full-service marina on the Rhode River; Waterway Guide reports 5 transient slips and Marinalife lists transient slips at $2.00/ft. Confirm current rates and services directly."
+      },
+      "special_offers": []
+    },
+    "contact": {
+      "phone": "+1 (410) 798-1658",
+      "email": "service@rhoderivermarina.com",
+      "website": "https://www.rhoderivermarina.net/",
+      "vhf": null
+    },
+    "shore_access": {
+      "groceries_nearby": false,
+      "restaurants_nearby": false,
+      "marine_store_nearby": false,
+      "walkability_score": 0.08
+    },
+    "protection": {
+      "wind": {
+        "N": 0.9,
+        "E": 0.82,
+        "S": 0.88,
+        "W": 0.92
+      },
+      "wake_exposure_score": 0.08,
+      "current_exposure_score": 0.1
+    },
+    "vessel_fit": {
+      "big_boat_friendly": false,
+      "max_comfortable_loa_ft": 50,
+      "dock_handling_difficulty_score": 0.16
+    },
+    "quality": {
+      "baseline_score": 0.84,
+      "use_cases": {
+        "overnight_stop": 0.84,
+        "fuel_stop": 0.0,
+        "provisioning": 0.04,
+        "weather_wait": 0.9,
+        "quiet_night": 0.9,
+        "easy_in_easy_out": 0.76,
+        "budget_stop": 0.56
+      },
+      "value_score": 0.58,
+      "convenience_score": 0.42,
+      "quiet_score": 0.9
+    },
+    "cautions": [
+      {
+        "type": "small_transient_inventory",
+        "severity": 0.26,
+        "text": "Transient inventory appears limited, so confirm space ahead."
+      }
+    ],
+    "expert_notes": {
+      "plain": "A quieter Rhode River option with strong protection, better for a calm stop than for shoreside entertainment."
+    },
+    "aliases": [
+      "rhode river marina"
+    ],
+    "nearby_places": [
+      "mayo",
+      "rhode river",
+      "edgewater"
+    ],
+    "search_terms": [
+      "rhode river transient marina",
+      "mayo protected marina"
     ]
   }
 ]
