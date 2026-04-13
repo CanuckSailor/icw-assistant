@@ -1413,13 +1413,21 @@ app.post("/api/chat", async (req, res) => {
     let fartherRanked = [];
     let directMatchMode = false;
 
-    if (directMatches.length > 0) {
-      directMatchMode = true;
+    const filteredDirectMatches = filterByRequestedTypes(
+      directMatches,
+      parsedQuery.requestedTypes
+    );
 
-      const filteredDirectMatches = filterByRequestedTypes(
-        directMatches,
-        parsedQuery.requestedTypes
-      );
+    const hasExplicitTypeRequest =
+      Array.isArray(parsedQuery.requestedTypes) &&
+      parsedQuery.requestedTypes.length > 0;
+
+    const shouldUseDirectMatches =
+      filteredDirectMatches.length > 0 ||
+      (directMatches.length > 0 && !hasExplicitTypeRequest);
+
+    if (shouldUseDirectMatches) {
+      directMatchMode = true;
 
       const directMatchPool =
         filteredDirectMatches.length > 0 ? filteredDirectMatches : directMatches;
