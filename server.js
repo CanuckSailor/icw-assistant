@@ -426,13 +426,22 @@ function inferDirectInfoIntent(message) {
     /\bget in touch\b/.test(q) ||
     /\breach\b/.test(q);
 
+  const wantsDetails =
+    /\bdetails on\b/.test(q) ||
+    /\btell me about\b/.test(q) ||
+    /\bwhat about\b/.test(q) ||
+    /\binfo on\b/.test(q) ||
+    /\binformation on\b/.test(q) ||
+    /\btransient rates at\b/.test(q);
+
   return {
     wantsLink: /\blink\b|\burl\b|\bwebsite\b|\bweb site\b/.test(q) || wantsGeneralContact,
     wantsPhone: /\bphone\b|\btelephone\b|\bcall\b|\bnumber\b/.test(q) || wantsGeneralContact,
     wantsEmail: /\bemail\b|\be mail\b/.test(q) || wantsGeneralContact,
     wantsVhf: /\bvhf\b|\bchannel\b/.test(q),
     wantsCamera: /\bcamera\b|\bharbor cam\b|\bharbour cam\b|\bwebcam\b|\bcam\b/.test(q),
-    wantsGeneralContact
+    wantsGeneralContact,
+    wantsDetails
   };
 }
 
@@ -444,7 +453,8 @@ function isDirectInfoQuery(message) {
     direct.wantsEmail ||
     direct.wantsVhf ||
     direct.wantsCamera ||
-    direct.wantsGeneralContact
+    direct.wantsGeneralContact ||
+    direct.wantsDetails
   );
 }
 
@@ -790,6 +800,16 @@ Email: ${contact.email || "None"}
 VHF: ${contact.vhf || "None"}
 Camera URL: ${contact.camera_url || "None"}
 Source URL: ${contact.source_url || "None"}
+Approach depth ft MLW: ${loc.depth?.approach_ft_mlw ?? "None"}
+Dockside depth ft MLW: ${loc.depth?.dockside_ft_mlw ?? "None"}
+Tidal range ft: ${loc.depth?.tidal_range_ft ?? "None"}
+Max recommended draft ft: ${loc.depth?.max_recommended_draft_ft ?? "None"}
+Big boat friendly: ${loc.vessel_fit?.big_boat_friendly ?? "None"}
+Max comfortable LOA ft: ${loc.vessel_fit?.max_comfortable_loa_ft ?? "None"}
+Access/services: ${JSON.stringify(loc.access || {}, null, 2)}
+Pricing: ${JSON.stringify(loc.pricing || {}, null, 2)}
+Shore access: ${JSON.stringify(loc.shore_access || {}, null, 2)}
+Cautions: ${JSON.stringify(loc.cautions || [], null, 2)}
 Logbook note: ${getLogbookText(loc) || "None"}
 Camera link override: ${getCameraLinkFromLocation(loc) || "None"}
 `;
@@ -797,7 +817,8 @@ Camera link override: ${getCameraLinkFromLocation(loc) || "None"}
     .join("\n");
 
   let requestType = "direct information";
-  if (directIntent.wantsGeneralContact) requestType = "contact information";
+  if (directIntent.wantsDetails) requestType = "facility details";
+  else if (directIntent.wantsGeneralContact) requestType = "contact information";
   else if (directIntent.wantsCamera) requestType = "camera link";
   else if (directIntent.wantsPhone) requestType = "phone number";
   else if (directIntent.wantsEmail) requestType = "email address";
@@ -824,7 +845,11 @@ Instructions:
 - For any website, camera link, or other URL, return it as a markdown link using the format [Label](https://example.com).
 - If the user asked for a camera link and a camera URL or camera link override is present, use it.
 - If the user asked for a phone number, email, website, or VHF, provide only that information plus at most one short clarifying sentence.
-- Do NOT give the full structured marina or free-dock rundown unless the user explicitly asks for more.
+- If the request type is facility details, answer from the structured candidate fields first.
+- For facility details, explicitly include published approach depth, dockside depth, tidal range, max LOA, big-boat friendliness, major services, and pricing status when present.
+- Do not say a field is unknown, unconfirmed, or not provided if a value is present in the candidate data.
+- If pricing is not published but a phone number is present, say exactly: "Dockage rates are not published; please contact the marina directly for pricing." and include the clickable phone link.
+- Let the Logbook note materially shape the wording for facility-details answers.
 - If there are two closely related candidates and the distinction matters, mention that briefly.
 - If the information is not available in the candidate data, say that plainly.
 `;
