@@ -400,5 +400,22 @@
     "lat": 37.6388,
     "lon": -76.5794,
     "sidebarRegion": "urbanna_va"
+  },
+  {
+    "name": "Herrington Harbor",
+    "lat": 38.7285,
+    "lon": -76.54,
+    "sidebarRegion": "herrington_harbor_md",
+    "aliases": [
+      "herrington harbor",
+      "herrington harbour",
+      "herrington harbor north",
+      "herrington harbor south",
+      "herrington harbour north",
+      "herrington harbour south",
+      "herrington north",
+      "herrington south",
+      "herring bay"
+    ]
   }
 ]
