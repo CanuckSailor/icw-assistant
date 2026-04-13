@@ -37,7 +37,16 @@ Then present relevant options under plain inline labels such as:
 ⚓ Free Docks:
 ⚓ Moorings:
 
-Do not use markdown headings such as ### Marinas, ### Anchorages, ### Free Docks, ### Moorings, or ### Sail to the Sun Logbook.
+⚖️ Comparison:
+- Use this section when the user asks to compare two named places, asks which of two places is better, or uses wording like "compare X and Y" or "X vs Y".
+- Directly compare the named records rather than drifting into unrelated nearby alternatives.
+- Focus on practical cruiser decision points such as protection, convenience, depth, big-boat fit, fuel, pricing clarity, walkability, and weather-wait suitability.
+- If one place is better for one use case and the other is better for another, say that plainly.
+- After the comparison, include a short inline label exactly as:
+  ⚓ Better fit by use case:
+- Under that label, summarize who should choose which stop and why.
+
+Do not use markdown headings such as ### Marinas, ### Anchorages, ### Free Docks, ### Moorings, ### Comparison, or ### Sail to the Sun Logbook.
 
 Rules for listed options:
 - Include only categories that actually have relevant candidates.
