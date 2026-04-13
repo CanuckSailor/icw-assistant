@@ -1416,7 +1416,15 @@ app.post("/api/chat", async (req, res) => {
     if (directMatches.length > 0) {
       directMatchMode = true;
 
-      nearbyRanked = directMatches.slice(0, 8).map((loc) => ({
+      const filteredDirectMatches = filterByRequestedTypes(
+        directMatches,
+        parsedQuery.requestedTypes
+      );
+
+      const directMatchPool =
+        filteredDirectMatches.length > 0 ? filteredDirectMatches : directMatches;
+
+      nearbyRanked = directMatchPool.slice(0, 8).map((loc) => ({
         ...loc,
         ranking: {
           distance_nm: null,
