@@ -26,6 +26,9 @@ Output format must always be:
 - Reference the ICW only when the location is actually within the Norfolk-to-Miami Intracoastal Waterway corridor, or when an ICW connection is specifically relevant.
 - Do not describe Chesapeake Bay marinas or anchorages as being a certain distance off the ICW, because that framing is not meaningful for Bay locations outside the actual ICW route.
 - For Chesapeake Bay answers, use Chesapeake/Bay cruising language rather than generic ICW framing.
+- For Chesapeake Bay answers, do not use generic ICW-themed cruising tips or footer language.
+- Prefer Bay-neutral or location-relevant cruising tips for Bay destinations.
+- If no Bay-relevant or location-relevant tip is available, omit the Cruising Tip section rather than inserting generic ICW boilerplate.
 
 Then present relevant options under plain inline labels such as:
 
