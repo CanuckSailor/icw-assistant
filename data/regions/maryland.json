@@ -381,9 +381,10 @@
       "source_date": "2026-04-12"
     },
     "depth": {
-      "approach_ft_mlw": null,
-      "dockside_ft_mlw": null,
-      "max_recommended_draft_ft": null
+      "approach_ft_mlw": 7.0,
+      "dockside_ft_mlw": 7.0,
+      "max_recommended_draft_ft": 6.0,
+      "tidal_range_ft": 1.5
     },
     "access": {
       "transient_slips": true,
@@ -395,11 +396,22 @@
       "restrooms": true,
       "showers": true,
       "laundry": true,
-      "wifi": null,
+      "wifi": true,
       "repairs": true,
       "pool": true,
       "restaurant": true,
-      "marine_store": true
+      "marine_store": true,
+      "hot_tub": true,
+      "courtesy_bikes": true,
+      "kayaks": true,
+      "paddleboards": true,
+      "fitness_center": true,
+      "dog_park": true,
+      "grills": true,
+      "private_security": true,
+      "west_marine_nearby": true,
+      "year_round_haul_launch": true,
+      "inn_nearby": true
     },
     "pricing": {
       "currency": "USD",
@@ -411,15 +423,15 @@
         "water_rate": null,
         "water_rate_basis": null,
         "pumpout_rate": null,
-        "notes": "Official site confirms 600 protected slips and full-service yacht center; current transient pricing should be confirmed directly."
+        "notes": "Waterway Guide lists 7.0 / 7.0 ft approach and dockside depth, 1.5 ft tide range, largest vessel 120 ft, and 20 transient slips. Dockage rates are not published; please contact the marina directly for pricing."
       },
       "special_offers": []
     },
     "contact": {
       "phone": "+1 (410) 867-4343",
-      "email": null,
+      "email": "hhn@herringtonharbour.com",
       "website": "https://www.herringtonharbour.com/north/",
-      "vhf": null
+      "vhf": "Monitored 9 / Working 74"
     },
     "shore_access": {
       "groceries_nearby": false,
@@ -439,7 +451,7 @@
     },
     "vessel_fit": {
       "big_boat_friendly": true,
-      "max_comfortable_loa_ft": null,
+      "max_comfortable_loa_ft": 120,
       "dock_handling_difficulty_score": 0.18
     },
     "quality": {
@@ -465,7 +477,7 @@
       }
     ],
     "expert_notes": {
-      "plain": "A major Herring Bay resort-and-yard stop with strong protection and very broad service depth."
+      "plain": "Sail to the Sun Logbook: One of the bigger and more fully featured western-Bay marinas, with strong resort amenities, serious yard capability, and clear appeal for larger boats and longer stops. This one is genuinely big-boat friendly, with published docking for boats up to 120 feet."
     },
     "aliases": [
       "herrington north",
@@ -479,7 +491,21 @@
     "search_terms": [
       "herring bay marina",
       "western chesapeake weather wait marina"
-    ]
+    ],
+    "yard_features": {
+      "travel_lifts": [
+        "85 ton",
+        "50 ton",
+        "35 ton"
+      ],
+      "land_storage_acres": 70,
+      "contractors_on_site": true,
+      "bottom_paint_services": true,
+      "highly_trained_staff": true
+    },
+    "local_notes": {
+      "herrington_north_specials": "Waterway Guide Specials: saltwater pool with kids pool, hot tub and pool bar, complimentary kayaks, paddleboards and bikes, indoor and outdoor fitness equipment, high-speed Wi-Fi, dog park, shaded community grill areas, spa-quality showers and restrooms, social events, playground, conference room, yard games, private security, West Marine, year-round haul and launch, multiple Travelifts, bottom paint services, dockside restaurant bar and grill, and an inn less than one mile away."
+    }
   },
   {
     "id": "marina_herrington_harbour_south",
