@@ -383,7 +383,8 @@
     "depth": {
       "approach_ft_mlw": null,
       "dockside_ft_mlw": null,
-      "max_recommended_draft_ft": null
+      "max_recommended_draft_ft": null,
+      "tidal_range_ft": null
     },
     "access": {
       "transient_slips": true,
@@ -399,7 +400,19 @@
       "repairs": true,
       "pool": true,
       "restaurant": true,
-      "marine_store": true
+      "marine_store": true,
+      "kayaks": true,
+      "paddleboards": true,
+      "courtesy_bikes": true,
+      "hot_tub": true,
+      "dog_park": true,
+      "fitness_center": true,
+      "grills": true,
+      "conference_room": true,
+      "west_marine_nearby": true,
+      "inn_nearby": true,
+      "private_security": true,
+      "year_round_haul_launch": true
     },
     "pricing": {
       "currency": "USD",
@@ -411,7 +424,7 @@
         "water_rate": null,
         "water_rate_basis": null,
         "pumpout_rate": null,
-        "notes": "Official site confirms 600 protected slips and full-service yacht center; current transient pricing should be confirmed directly."
+        "notes": "Waterway Guide featured-marina tabs should be checked for current approach depth, dockside depth, tidal range, and facility details. Herrington Harbour North is big-boat friendly, but maximum comfortable LOA should be treated as unknown unless a reliable published limit is found."
       },
       "special_offers": []
     },
@@ -465,14 +478,15 @@
       }
     ],
     "expert_notes": {
-      "plain": "A major Herring Bay resort-and-yard stop with strong protection and very broad service depth."
+      "plain": "Sail to the Sun Logbook: One of the bigger and more fully featured western-Bay marinas, with strong resort amenities, serious yard capability, and clear appeal for larger boats and longer stops. Treat it as big-boat friendly, but with unknown maximum LOA unless a reliable published limit appears."
     },
     "aliases": [
       "herrington north",
       "herrington harbour north",
       "herrington harbor north",
       "herrington harbor",
-      "herrington harbour"
+      "herrington harbour",
+      "herring bay marina"
     ],
     "nearby_places": [
       "herring bay",
@@ -482,7 +496,21 @@
     "search_terms": [
       "herring bay marina",
       "western chesapeake weather wait marina"
-    ]
+    ],
+    "yard_features": {
+      "travel_lifts": [
+        "85 ton",
+        "50 ton",
+        "35 ton"
+      ],
+      "land_storage_acres": 70,
+      "contractors_on_site": true,
+      "bottom_paint_services": true,
+      "highly_trained_staff": true
+    },
+    "local_notes": {
+      "herrington_north_specials": "Waterway Guide Specials / destination notes: resort amenities include a saltwater pool with kids pool, hot tub and pool bar, complimentary kayaks, paddleboards and bikes, indoor and outdoor fitness equipment, high-speed Wi-Fi, dog park, shaded community areas with gas and charcoal grills, spa-quality restrooms and showers, updated laundry, social events, playground, conference room, yard games, private security, West Marine, year-round haul and launch, multiple Travelifts, bottom paint services, dockside restaurant bar and grill, and an inn located less than one mile from the marina."
+    }
   },
   {
     "id": "marina_herrington_harbour_south",
@@ -597,7 +625,8 @@
       "herrington harbour south",
       "herrington harbor south",
       "herrington harbor",
-      "herrington harbour"
+      "herrington harbour",
+      "herring bay marina"
     ],
     "nearby_places": [
       "herring bay",
