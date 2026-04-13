@@ -529,9 +529,10 @@
       "source_date": "2026-04-12"
     },
     "depth": {
-      "approach_ft_mlw": null,
-      "dockside_ft_mlw": null,
-      "max_recommended_draft_ft": null
+      "approach_ft_mlw": 7.0,
+      "dockside_ft_mlw": 7.0,
+      "max_recommended_draft_ft": 6.0,
+      "tidal_range_ft": 1.5
     },
     "access": {
       "transient_slips": true,
@@ -547,27 +548,35 @@
       "pool": true,
       "restaurant": true,
       "private_beach": true,
-      "kayaks": true
+      "kayaks": true,
+      "paddleboards": true,
+      "fitness_center": true,
+      "market": true,
+      "pickleball": true,
+      "tennis": true,
+      "basketball": true,
+      "grills": true,
+      "lodging_nearby": true
     },
     "pricing": {
       "currency": "USD",
       "standard": {
-        "dockage_rate": null,
-        "rate_basis": "overnight dockage available; current rates direct",
-        "electric_rate": null,
-        "electric_rate_basis": null,
+        "dockage_rate": 3.5,
+        "rate_basis": "in-season Sunday-Thursday per ft per night; Friday/Saturday/holidays $4.40/ft; off-season $2.50/ft",
+        "electric_rate": 8.0,
+        "electric_rate_basis": "30A per night; 50A is $16.00/night",
         "water_rate": null,
         "water_rate_basis": null,
         "pumpout_rate": null,
-        "notes": "Official site confirms fuel dock, pumpout, pool, restaurant, deli, beach, and complimentary Wi-Fi; current transient pricing should be confirmed directly."
+        "notes": "Waterway Guide lists 7.0 / 7.0 ft approach and dockside depth, 1.5 ft tide range, largest vessel 80 ft, and 30 transient slips. Official transient page lists in-season Sunday-Thursday at $3.50/ft, Friday/Saturday/holidays at $4.40/ft, off-season at $2.50/ft, with $8 for 30A and $16 for 50A electric per night."
       },
       "special_offers": []
     },
     "contact": {
-      "phone": "+1 (410) 286-1111",
-      "email": null,
+      "phone": "+1 (410) 741-5100",
+      "email": "hhs@herringtonharbour.com",
       "website": "https://www.herringtonharbour.com/south/transient-dockage/",
-      "vhf": null
+      "vhf": "Monitored 16 / Working 9"
     },
     "shore_access": {
       "groceries_nearby": false,
@@ -587,7 +596,7 @@
     },
     "vessel_fit": {
       "big_boat_friendly": true,
-      "max_comfortable_loa_ft": null,
+      "max_comfortable_loa_ft": 80,
       "dock_handling_difficulty_score": 0.18
     },
     "quality": {
@@ -613,7 +622,7 @@
       }
     ],
     "expert_notes": {
-      "plain": "A high-amenity western-Bay transient stop and weather-wait option, with one of the stronger resort-style amenity packages on this stretch."
+      "plain": "Sail to the Sun Logbook: Herrington Harbour South is the more resort-style of the two Herrington marinas, with fuel, pump-out, beach, pool, deli, restaurant, and strong transient amenities. It is a very good weather-wait or comfort stop on the western Bay."
     },
     "aliases": [
       "herrington south",
@@ -626,7 +635,10 @@
     "search_terms": [
       "herring bay transient marina",
       "western chesapeake resort marina"
-    ]
+    ],
+    "local_notes": {
+      "herrington_south_specials": "Waterway Guide / official transient amenities: private sandy beaches with kayaks and paddleboards, Olympic-size pool and kiddie pool, Ketch 22, Chesapeake Market and Deli, complimentary Wi-Fi, full-service fuel dock with pump-out stations, fitness center, lighted tennis court, basketball, pickleball, playground, picnic areas with grills, and restrooms, showers, and laundry."
+    }
   },
   {
     "id": "marina_annapolis_city_marina",
