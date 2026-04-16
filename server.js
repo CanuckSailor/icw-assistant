@@ -778,6 +778,7 @@ function buildDetailAnswer(location) {
   if (phone) marinaLines.push(`- Phone: ${formatPhoneLink(phone)}`);
   if (email) marinaLines.push(`- Email: [${email}](mailto:${email})`);
   if (website) marinaLines.push(`- Website: [${website}](${website})`);
+
   marinaLines.push(`- ${summarizePricing(location)}`);
 
   const logbookText = extractLogbookText(location);
@@ -809,7 +810,7 @@ function detectComparisonQuery(message) {
     /\bcompare\b/.test(q) ||
     /\bwhich marina is better\b/.test(q) ||
     /\bwhich is better\b/.test(q) ||
-    /\bbetter\b/.test(q) && /\bor\b/.test(q) ||
+    (/\bbetter\b/.test(q) && /\bor\b/.test(q)) ||
     /\bvs\b/.test(q) ||
     /\bversus\b/.test(q)
   );
@@ -996,6 +997,23 @@ function buildComparisonAnswer(a, b) {
 }
 
 function findBestDirectLocation(message, locations) {
+  const normalizedMessage = normalizeText(message);
+  if (!normalizedMessage) return null;
+
+  const exactNameMatches = locations
+    .filter((loc) => loc?.status?.active)
+    .filter((loc) => {
+      const fullName = normalizeText(loc.name || "");
+      return fullName && normalizedMessage.includes(fullName);
+    });
+
+  if (exactNameMatches.length) {
+    exactNameMatches.sort(
+      (a, b) => normalizeText(b.name || "").length - normalizeText(a.name || "").length
+    );
+    return exactNameMatches[0];
+  }
+
   const directMatches = findDirectNameMatches(message, locations);
   if (!directMatches.length) return null;
   return directMatches[0];
@@ -1045,8 +1063,8 @@ app.get("/", (_req, res) => {
 app.post("/api/chat", async (req, res) => {
   try {
     const userMessage = String(req.body?.message || "").trim();
-    const lat = Number(req.body?.lat ?? 30.0);
-    const lon = Number(req.body?.lon ?? -81.0);
+    const lat = Number.isFinite(Number(req.body?.lat)) ? Number(req.body?.lat) : 30.0;
+    const lon = Number.isFinite(Number(req.body?.lon)) ? Number(req.body?.lon) : -81.0;
 
     if (!userMessage) {
       return res.status(400).json({ error: "Message is required." });
@@ -1060,7 +1078,7 @@ app.post("/api/chat", async (req, res) => {
       const pair = chooseBestPairForComparison(userMessage, allLocations);
       if (pair && pair.length === 2) {
         const answer = buildComparisonAnswer(pair[0], pair[1]);
-        return res.json({ answer });
+        return res.json({ answer, locationContext: searchCenter });
       }
     }
 
@@ -1068,7 +1086,7 @@ app.post("/api/chat", async (req, res) => {
       const directLocation = findBestDirectLocation(userMessage, allLocations);
       if (directLocation && hasStructuredDetails(directLocation)) {
         const answer = buildDetailAnswer(directLocation);
-        return res.json({ answer });
+        return res.json({ answer, locationContext: searchCenter });
       }
     }
 
@@ -1101,6 +1119,33 @@ app.post("/api/chat", async (req, res) => {
       });
     }
 
+    if (!rankedLocations.length) {
+      const coverageMessage =
+        searchCenter.source === "request_coords"
+          ? `⚠️ Advisory:
+- Your current position appears to be outside the present ICW Assistant coverage area for nearby search.
+
+📍 Conditions:
+- "Near me" is using your actual browser location.
+- Right now, the curated dataset is focused on the Chesapeake and Norfolk-to-Florida cruising corridor, not Toronto or Lake Ontario.
+
+✔️ Summary:
+- Try a named-place query such as "marinas near Annapolis", "fuel near Baltimore", or "anchorages near St. Augustine", or switch back to the default reference location.`
+          : `⚠️ Advisory:
+- No strong candidates were found in the current dataset for that query.
+
+📍 Conditions:
+- The assistant did not find a practical nearby match within the current search radius and coverage area.
+
+✔️ Summary:
+- Try a broader place-based query or a different nearby service request.`;
+
+      return res.json({
+        answer: coverageMessage,
+        locationContext: searchCenter
+      });
+    }
+
     const topLocations = takeTopByCategory(
       rankedLocations,
       parsed?.requestedTypes?.length ? parsed.requestedTypes : null,
@@ -1120,7 +1165,7 @@ app.post("/api/chat", async (req, res) => {
 
     return res.json({ answer });
   } catch (error) {
-    console.error("Chat error:", error);
+    console.error("Chat error:", error.stack || error);
     return res.status(500).json({
       error: "The assistant hit a server-side error.",
       detail: error.message

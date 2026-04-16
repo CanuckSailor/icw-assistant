@@ -8,6 +8,32 @@ function parseMileMarker(text) {
   return match ? Number(match[1]) : null;
 }
 
+function parseRadiusNm(text) {
+  const match = text.match(/\bwithin\s*(\d+(?:\.\d+)?)\s*(nm|nmi|nautical miles?|miles?|mi)\b/i);
+  if (!match) return null;
+
+  const value = Number(match[1]);
+  const unit = String(match[2]).toLowerCase();
+
+  if (unit === "nm" || unit === "nmi" || unit.includes("nautical")) {
+    return Number(value.toFixed(1));
+  }
+
+  return Number((value * 0.868976).toFixed(1));
+}
+
+function detectLocationFlags(text) {
+  const lower = text.toLowerCase();
+  return {
+    wantsNearMe:
+      lower.includes("near me") ||
+      lower.includes("nearby") ||
+      /\bclosest\b/.test(lower) ||
+      /\bclose to me\b/.test(lower) ||
+      /\baround me\b/.test(lower)
+  };
+}
+
 function detectIntent(text) {
   const lower = text.toLowerCase();
 
@@ -159,7 +185,8 @@ function parseQuery(text) {
     preferredType: detectPreferredType(requestedTypes),
     draftFt: parseDraft(text),
     referenceMileMarker: parseMileMarker(text),
-    flags: detectFlags(text),
+    radiusNm: parseRadiusNm(text),
+    flags: { ...detectFlags(text), ...detectLocationFlags(text) },
     shape: detectQueryShape(text)
   };
 }

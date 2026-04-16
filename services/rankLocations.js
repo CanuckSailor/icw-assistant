@@ -375,8 +375,19 @@ function scoreOneLocation(location, userLat, userLon, parsedQuery) {
   };
 }
 
-function rankLocations(locations, userLat, userLon, parsedQuery, options = {}) {
-  const maxDistance = options.maxDistance ?? 15;
+function rankLocations(locations, userLatOrOptions, userLon, parsedQuery, options = {}) {
+  let userLat = userLatOrOptions;
+  let localOptions = options || {};
+
+  if (userLatOrOptions && typeof userLatOrOptions === "object" && !Array.isArray(userLatOrOptions)) {
+    userLat = Number(userLatOrOptions.lat);
+    userLon = Number(userLatOrOptions.lon);
+    parsedQuery = userLatOrOptions.parsedQuery || parsedQuery || {};
+    localOptions = userLatOrOptions.options || options || {};
+  }
+
+  const radiusNm = parsedQuery?.radiusNm;
+  const maxDistance = radiusNm ?? localOptions.maxDistance ?? 15;
 
   return locations
     .filter((loc) => loc.status?.active)
