@@ -116,6 +116,383 @@
       "south river protected marina"
     ]
   },
+{
+  "id": "marina_charlestown_marina",
+  "name": "Charlestown Marina",
+  "type": "marina",
+  "geo": {
+    "lat": 39.5717,
+    "lon": -75.9768,
+    "icw_mile": null,
+    "segment": "Charlestown / Upper Chesapeake"
+  },
+  "status": {
+    "active": true,
+    "last_curated": "2026-04-16",
+    "confidence": 0.94
+  },
+  "source": {
+    "type": "curated_core",
+    "name": "Charlestown Marina official site / Waterway Guide / Marinalife",
+    "source_url": "https://www.charlestownmarina.com/",
+    "source_date": "2026-04-16"
+  },
+  "depth": {
+    "approach_ft_mlw": null,
+    "dockside_ft_mlw": null,
+    "max_recommended_draft_ft": null
+  },
+  "access": {
+    "transient_slips": true,
+    "overnight_allowed": true,
+    "fuel": true,
+    "pumpout": null,
+    "water": true,
+    "shore_power": true,
+    "restrooms": true,
+    "showers": true,
+    "laundry": true,
+    "wifi": true,
+    "repairs": true,
+    "ship_store": true,
+    "travel_lift": true,
+    "dry_storage": true,
+    "covered_slips": true
+  },
+  "pricing": {
+    "currency": "USD",
+    "standard": {
+      "dockage_rate": null,
+      "rate_basis": "transient availability direct; monthly and yearly dockage emphasized on official materials",
+      "electric_rate": null,
+      "electric_rate_basis": null,
+      "water_rate": null,
+      "water_rate_basis": null,
+      "pumpout_rate": null,
+      "notes": "Official site confirms a full-service marina with fuel, laundry, showers, ship store, repairs, and travel-lift yard capability. Waterway Guide and Marinalife indicate transient slips are available. Current transient pricing should be confirmed directly."
+    },
+    "special_offers": []
+  },
+  "contact": {
+    "phone": "+1 (410) 287-8125",
+    "email": "charlestownmarina@hotmail.com",
+    "website": "https://www.charlestownmarina.com/",
+    "vhf": "16"
+  },
+  "shore_access": {
+    "groceries_nearby": false,
+    "restaurants_nearby": false,
+    "marine_store_nearby": true,
+    "walkability_score": 0.16
+  },
+  "protection": {
+    "wind": {
+      "N": 0.9,
+      "E": 0.82,
+      "S": 0.88,
+      "W": 0.92
+    },
+    "wake_exposure_score": 0.1,
+    "current_exposure_score": 0.12
+  },
+  "vessel_fit": {
+    "big_boat_friendly": true,
+    "max_comfortable_loa_ft": 65,
+    "dock_handling_difficulty_score": 0.18
+  },
+  "quality": {
+    "baseline_score": 0.91,
+    "use_cases": {
+      "overnight_stop": 0.9,
+      "fuel_stop": 0.86,
+      "provisioning": 0.08,
+      "weather_wait": 0.9,
+      "quiet_night": 0.82,
+      "easy_in_easy_out": 0.88,
+      "budget_stop": 0.38
+    },
+    "value_score": 0.42,
+    "convenience_score": 0.64,
+    "quiet_score": 0.82
+  },
+  "cautions": [
+    {
+      "type": "transient_confirmation",
+      "severity": 0.24,
+      "text": "Current transient pricing and slip availability should be confirmed directly."
+    }
+  ],
+  "expert_notes": {
+    "plain": "A strong upper-Chesapeake practical marina on the C&D approach, with fuel, laundry, and real yard utility when you want a capable transient base more than a walkable town stop."
+  },
+  "aliases": [
+    "charlestown marina",
+    "charlestown md marina"
+  ],
+  "nearby_places": [
+    "charlestown",
+    "upper chesapeake",
+    "c and d canal",
+    "c&d canal"
+  ],
+  "search_terms": [
+    "upper chesapeake marina",
+    "ced canal approach marina",
+    "charlestown transient marina"
+  ]
+},
+{
+  "id": "marina_north_east_river_marina",
+  "name": "North East River Marina",
+  "type": "marina",
+  "geo": {
+    "lat": 39.5739,
+    "lon": -75.9709,
+    "icw_mile": null,
+    "segment": "Charlestown / Upper Chesapeake"
+  },
+  "status": {
+    "active": true,
+    "last_curated": "2026-04-16",
+    "confidence": 0.9
+  },
+  "source": {
+    "type": "curated_core",
+    "name": "North East River Marina official site / Marinalife / marinas.com",
+    "source_url": "https://northeastrivermarina.com/",
+    "source_date": "2026-04-16"
+  },
+  "depth": {
+    "approach_ft_mlw": null,
+    "dockside_ft_mlw": null,
+    "max_recommended_draft_ft": null
+  },
+  "access": {
+    "transient_slips": true,
+    "overnight_allowed": true,
+    "fuel": false,
+    "pumpout": null,
+    "water": true,
+    "shore_power": true,
+    "restrooms": true,
+    "showers": true,
+    "laundry": null,
+    "wifi": true,
+    "boat_ramp": true,
+    "boat_rentals": true,
+    "parts_service": true
+  },
+  "pricing": {
+    "currency": "USD",
+    "standard": {
+      "dockage_rate": null,
+      "rate_basis": "transient slips often available by reservation; current rates direct",
+      "electric_rate": null,
+      "electric_rate_basis": null,
+      "water_rate": null,
+      "water_rate_basis": null,
+      "pumpout_rate": null,
+      "notes": "Official/public pages describe a family marina with transient slips often available by reservation, rentals, service/parts support, and slips for roughly 17 ft to 40-42 ft boats. Current transient pricing should be confirmed directly."
+    },
+    "special_offers": []
+  },
+  "contact": {
+    "phone": "+1 (410) 287-5298",
+    "email": null,
+    "website": "https://northeastrivermarina.com/",
+    "vhf": null
+  },
+  "shore_access": {
+    "groceries_nearby": true,
+    "restaurants_nearby": true,
+    "marine_store_nearby": false,
+    "walkability_score": 0.52
+  },
+  "protection": {
+    "wind": {
+      "N": 0.92,
+      "E": 0.84,
+      "S": 0.9,
+      "W": 0.94
+    },
+    "wake_exposure_score": 0.08,
+    "current_exposure_score": 0.1
+  },
+  "vessel_fit": {
+    "big_boat_friendly": false,
+    "max_comfortable_loa_ft": 42,
+    "dock_handling_difficulty_score": 0.16
+  },
+  "quality": {
+    "baseline_score": 0.88,
+    "use_cases": {
+      "overnight_stop": 0.88,
+      "fuel_stop": 0.0,
+      "provisioning": 0.34,
+      "weather_wait": 0.92,
+      "quiet_night": 0.9,
+      "easy_in_easy_out": 0.82,
+      "budget_stop": 0.42
+    },
+    "value_score": 0.46,
+    "convenience_score": 0.68,
+    "quiet_score": 0.9
+  },
+  "cautions": [
+    {
+      "type": "size_limit",
+      "severity": 0.36,
+      "text": "This is more of a smaller-boat family marina than a big-boat answer, so larger vessels should look elsewhere."
+    },
+    {
+      "type": "transient_confirmation",
+      "severity": 0.22,
+      "text": "Transient services, pricing, and utility details should be confirmed directly."
+    }
+  ],
+  "expert_notes": {
+    "plain": "A protected upper-Bay reservation-style transient option near the C&D approach, lighter on polished amenities but stronger if you value shelter, a quieter setting, and a more local family-marina feel."
+  },
+  "aliases": [
+    "north east river marina",
+    "northeast river marina",
+    "north east marina"
+  ],
+  "nearby_places": [
+    "charlestown",
+    "upper chesapeake",
+    "north east river",
+    "c and d canal",
+    "c&d canal"
+  ],
+  "search_terms": [
+    "quiet marina near c and d",
+    "charlestown quiet marina",
+    "north east river transient marina"
+  ]
+},
+{
+  "id": "marina_wellwood_marina",
+  "name": "Wellwood Marina",
+  "type": "marina",
+  "geo": {
+    "lat": 39.5708,
+    "lon": -75.9752,
+    "icw_mile": null,
+    "segment": "Charlestown / Upper Chesapeake"
+  },
+  "status": {
+    "active": true,
+    "last_curated": "2026-04-16",
+    "confidence": 0.86
+  },
+  "source": {
+    "type": "curated_core",
+    "name": "Wellwood Marina official marina page / restaurant site",
+    "source_url": "https://www.wellwoodclub.com/wellwood-marina/",
+    "source_date": "2026-04-16"
+  },
+  "depth": {
+    "approach_ft_mlw": null,
+    "dockside_ft_mlw": null,
+    "max_recommended_draft_ft": null
+  },
+  "access": {
+    "transient_slips": true,
+    "overnight_allowed": true,
+    "fuel": false,
+    "pumpout": null,
+    "water": null,
+    "shore_power": null,
+    "restrooms": true,
+    "showers": false,
+    "laundry": false,
+    "wifi": null,
+    "restaurant": true,
+    "free_restaurant_dockage": true
+  },
+  "pricing": {
+    "currency": "USD",
+    "standard": {
+      "dockage_rate": null,
+      "rate_basis": "transient per-day slips available; restaurant guest docking free",
+      "electric_rate": null,
+      "electric_rate_basis": null,
+      "water_rate": null,
+      "water_rate_basis": null,
+      "pumpout_rate": null,
+      "notes": "Official marina page says transient per-day slips are available for short-term stays and restaurant guest docking is free. This is better framed as a dining and short-stop marina than as a full-service transient base. Current overnight details should be confirmed directly."
+    },
+    "special_offers": []
+  },
+  "contact": {
+    "phone": "+1 (410) 287-6666",
+    "email": null,
+    "website": "https://www.wellwoodclub.com/wellwood-marina/",
+    "vhf": null
+  },
+  "shore_access": {
+    "groceries_nearby": false,
+    "restaurants_nearby": true,
+    "marine_store_nearby": false,
+    "walkability_score": 0.28
+  },
+  "protection": {
+    "wind": {
+      "N": 0.84,
+      "E": 0.76,
+      "S": 0.82,
+      "W": 0.88
+    },
+    "wake_exposure_score": 0.14,
+    "current_exposure_score": 0.12
+  },
+  "vessel_fit": {
+    "big_boat_friendly": false,
+    "max_comfortable_loa_ft": 45,
+    "dock_handling_difficulty_score": 0.18
+  },
+  "quality": {
+    "baseline_score": 0.8,
+    "use_cases": {
+      "overnight_stop": 0.64,
+      "fuel_stop": 0.0,
+      "provisioning": 0.08,
+      "weather_wait": 0.68,
+      "quiet_night": 0.74,
+      "easy_in_easy_out": 0.78,
+      "budget_stop": 0.46
+    },
+    "value_score": 0.48,
+    "convenience_score": 0.54,
+    "quiet_score": 0.74
+  },
+  "cautions": [
+    {
+      "type": "limited_service_marina",
+      "severity": 0.28,
+      "text": "This is more of a restaurant and short-stay docking answer than a full-service transient marina base."
+    }
+  ],
+  "expert_notes": {
+    "plain": "A useful Charlestown stopover if you want dining and short-stay docking, but not the same kind of utility transient base as Charlestown Marina."
+  },
+  "aliases": [
+    "wellwood marina",
+    "wellwood",
+    "wellwood club marina"
+  ],
+  "nearby_places": [
+    "charlestown",
+    "upper chesapeake",
+    "north east river"
+  ],
+  "search_terms": [
+    "charlestown restaurant marina",
+    "wellwood transient slips",
+    "charlestown short stay dockage"
+  ]
+},
   {
     "id": "marina_anchorage_marina_baltimore",
     "name": "Anchorage Marina",
