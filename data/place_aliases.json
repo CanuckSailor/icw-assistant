@@ -417,5 +417,72 @@
       "herrington south",
       "herring bay"
     ]
+  },
+  {
+    "name": "Charlestown, MD",
+    "aliases": [
+      "charlestown",
+      "charlestown md",
+      "charlestown maryland",
+      "charlestown marina area",
+      "north east river",
+      "north east river md",
+      "upper chesapeake charlestown"
+    ],
+    "lat": 39.5731,
+    "lon": -75.9788,
+    "sidebarRegion": "charlestown_md"
+  },
+  {
+    "name": "C&D Canal",
+    "aliases": [
+      "c and d",
+      "c and d canal",
+      "c&d",
+      "c&d canal",
+      "chesapeake and delaware canal",
+      "chesapeake delaware canal",
+      "near the c and d",
+      "near the c&d",
+      "quiet marina near the c and d",
+      "quiet marina near the c&d"
+    ],
+    "lat": 39.553,
+    "lon": -75.885,
+    "sidebarRegion": "ced_canal_md"
+  },
+  {
+    "name": "Upper Bay West Side",
+    "aliases": [
+      "upper bay west side",
+      "upper bay west",
+      "upper bay western side",
+      "fuel marina on the upper bay west side",
+      "upper bay west side marina",
+      "middle river upper bay",
+      "middle river md",
+      "bowleys quarters",
+      "bowleys quarters md"
+    ],
+    "lat": 39.3347,
+    "lon": -76.3982,
+    "sidebarRegion": "upper_bay_west_md"
+  },
+  {
+    "name": "Middle River",
+    "aliases": [
+      "middle river",
+      "middle river md",
+      "middle river maryland",
+      "middle river marina area",
+      "essex",
+      "essex md",
+      "bowleys",
+      "bowleys marina",
+      "maryland marina"
+    ],
+    "lat": 39.3093,
+    "lon": -76.4444,
+    "sidebarRegion": "middle_river_md"
   }
 ]
