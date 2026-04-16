@@ -22,8 +22,8 @@ function clamp(value, min = 0, max = 1) {
   return Math.max(min, Math.min(max, value));
 }
 
-function getReferenceDistance(location, userLat, userLon, parsedQuery) {
-  const requestedMm = parsedQuery.referenceMileMarker;
+function getReferenceDistance(location, userLat, userLon, parsedQuery = {}) {
+  const requestedMm = parsedQuery?.referenceMileMarker;
   const locationMm = location.geo?.icw_mile;
 
   if (typeof requestedMm === "number" && typeof locationMm === "number") {
@@ -87,42 +87,42 @@ function scoreUseCase(location, intent) {
   return location.quality?.use_cases?.[intent] ?? 0.5;
 }
 
-function scoreConvenience(location, flags) {
+function scoreConvenience(location, flags = {}) {
   let score = location.quality?.convenience_score ?? 0.5;
 
-  if (flags?.wantsGroceries) {
+  if (flags.wantsGroceries) {
     score += location.shore_access?.groceries_nearby ? 0.15 : -0.15;
   }
 
-  if (flags?.wantsLaundry) {
+  if (flags.wantsLaundry) {
     score += location.access?.laundry ? 0.1 : -0.1;
   }
 
-  if (flags?.wantsFuel) {
+  if (flags.wantsFuel) {
     score += location.access?.fuel ? 0.15 : -0.2;
   }
 
-  if (flags?.wantsEasyShoreAccess) {
+  if (flags.wantsEasyShoreAccess) {
     score += location.shore_access?.walkability_score
       ? location.shore_access.walkability_score * 0.18
       : -0.1;
   }
 
-  if (flags?.wantsPumpout) {
+  if (flags.wantsPumpout) {
     score += location.access?.pumpout ? 0.08 : -0.08;
   }
 
-  if (flags?.wantsRestaurant) {
+  if (flags.wantsRestaurant) {
     score += location.access?.restaurant || location.shore_access?.restaurants_nearby ? 0.08 : -0.04;
   }
 
   return clamp(score);
 }
 
-function scoreQuiet(location, flags) {
+function scoreQuiet(location, flags = {}) {
   let quiet = location.quality?.quiet_score ?? 0.5;
 
-  if (flags?.wantsQuiet || flags?.wantsProtection) {
+  if (flags.wantsQuiet || flags.wantsProtection) {
     quiet += 0.12;
     quiet -= (location.protection?.wake_exposure_score ?? 0.5) * 0.18;
     quiet -= (location.protection?.current_exposure_score ?? 0.5) * 0.08;
@@ -131,8 +131,8 @@ function scoreQuiet(location, flags) {
   return clamp(quiet);
 }
 
-function scoreProtection(location, flags) {
-  if (!flags?.wantsProtection) {
+function scoreProtection(location, flags = {}) {
+  if (!flags.wantsProtection) {
     return 0.5;
   }
 
@@ -166,7 +166,7 @@ function typePenalty(location, preferredType) {
   return location.type === preferredType ? 1.0 : 0.75;
 }
 
-function overnightPolicyMultiplier(location, parsedQuery) {
+function overnightPolicyMultiplier(location, parsedQuery = {}) {
   const asksOvernight =
     parsedQuery.intent === "overnight_stop" ||
     parsedQuery.intent === "quiet_night" ||
@@ -181,7 +181,7 @@ function overnightPolicyMultiplier(location, parsedQuery) {
   return 0.55;
 }
 
-function budgetPolicyMultiplier(location, parsedQuery) {
+function budgetPolicyMultiplier(location, parsedQuery = {}) {
   if (parsedQuery.intent !== "budget_stop") return 1.0;
 
   const overnight = location.access?.overnight_allowed;
@@ -191,7 +191,7 @@ function budgetPolicyMultiplier(location, parsedQuery) {
   return 0.75;
 }
 
-function pricingScore(location, parsedQuery) {
+function pricingScore(location, parsedQuery = {}) {
   if (parsedQuery.intent !== "budget_stop") return 0.5;
 
   const pricing = location.pricing?.standard;
@@ -217,7 +217,7 @@ function pricingScore(location, parsedQuery) {
   return 0.45;
 }
 
-function budgetTypeBoost(location, parsedQuery) {
+function budgetTypeBoost(location, parsedQuery = {}) {
   if (parsedQuery.intent !== "budget_stop") return 1.0;
 
   if (location.type === "free_dock") return 1.18;
@@ -227,7 +227,7 @@ function budgetTypeBoost(location, parsedQuery) {
   return 1.0;
 }
 
-function policyConfidencePenalty(location, parsedQuery) {
+function policyConfidencePenalty(location, parsedQuery = {}) {
   if (
     parsedQuery.intent !== "budget_stop" &&
     parsedQuery.intent !== "overnight_stop"
@@ -240,20 +240,20 @@ function policyConfidencePenalty(location, parsedQuery) {
   return 1.0;
 }
 
-function serviceBoost(location, flags) {
+function serviceBoost(location, flags = {}) {
   let boost = 1.0;
 
-  if (flags?.wantsFuel && location.access?.fuel) boost += 0.06;
-  if (flags?.wantsPumpout && location.access?.pumpout) boost += 0.05;
-  if (flags?.wantsLaundry && location.access?.laundry) boost += 0.04;
-  if (flags?.wantsShowers && location.access?.showers) boost += 0.04;
-  if (flags?.wantsWater && location.access?.water) boost += 0.03;
-  if (flags?.wantsShorePower && location.access?.shore_power) boost += 0.03;
-  if (flags?.wantsRestaurant && (location.access?.restaurant || location.shore_access?.restaurants_nearby)) {
+  if (flags.wantsFuel && location.access?.fuel) boost += 0.06;
+  if (flags.wantsPumpout && location.access?.pumpout) boost += 0.05;
+  if (flags.wantsLaundry && location.access?.laundry) boost += 0.04;
+  if (flags.wantsShowers && location.access?.showers) boost += 0.04;
+  if (flags.wantsWater && location.access?.water) boost += 0.03;
+  if (flags.wantsShorePower && location.access?.shore_power) boost += 0.03;
+  if (flags.wantsRestaurant && (location.access?.restaurant || location.shore_access?.restaurants_nearby)) {
     boost += 0.03;
   }
 
-  if (flags?.wantsTown && (location.shore_access?.walkability_score ?? 0) >= 0.8) {
+  if (flags.wantsTown && (location.shore_access?.walkability_score ?? 0) >= 0.8) {
     boost += 0.07;
   }
 
@@ -300,16 +300,16 @@ function buildExplanation(location, parts) {
   return reasons;
 }
 
-function scoreOneLocation(location, userLat, userLon, parsedQuery) {
+function scoreOneLocation(location, userLat, userLon, parsedQuery = {}) {
   const refDistance = getReferenceDistance(location, userLat, userLon, parsedQuery);
   const distanceValue = refDistance.value;
 
   const distanceScore = scoreDistance(distanceValue);
   const draftScore = scoreDraftFit(location, parsedQuery.draftFt);
   const useCaseScore = scoreUseCase(location, parsedQuery.intent);
-  const convenienceScore = scoreConvenience(location, parsedQuery.flags);
-  const quietScore = scoreQuiet(location, parsedQuery.flags);
-  const protectionScore = scoreProtection(location, parsedQuery.flags);
+  const convenienceScore = scoreConvenience(location, parsedQuery.flags || {});
+  const quietScore = scoreQuiet(location, parsedQuery.flags || {});
+  const protectionScore = scoreProtection(location, parsedQuery.flags || {});
   const confidenceScore = scoreConfidence(location);
   const freshnessScore = scoreFreshness(location);
   const typeMatch = typePenalty(location, parsedQuery.preferredType);
@@ -318,7 +318,7 @@ function scoreOneLocation(location, userLat, userLon, parsedQuery) {
   const pricingScoreValue = pricingScore(location, parsedQuery);
   const budgetBoost = budgetTypeBoost(location, parsedQuery);
   const policyPenalty = policyConfidencePenalty(location, parsedQuery);
-  const serviceMatchBoost = serviceBoost(location, parsedQuery.flags);
+  const serviceMatchBoost = serviceBoost(location, parsedQuery.flags || {});
   const operationalPenalty = cautionPenalty(location);
 
   let finalScore =
@@ -375,23 +375,29 @@ function scoreOneLocation(location, userLat, userLon, parsedQuery) {
   };
 }
 
-function rankLocations(locations, userLatOrOptions, userLon, parsedQuery, options = {}) {
+function rankLocations(locations, userLatOrOptions, userLon, parsedQuery = {}, options = {}) {
   let userLat = userLatOrOptions;
   let localOptions = options || {};
+  let safeParsedQuery = parsedQuery || {};
 
   if (userLatOrOptions && typeof userLatOrOptions === "object" && !Array.isArray(userLatOrOptions)) {
     userLat = Number(userLatOrOptions.lat);
     userLon = Number(userLatOrOptions.lon);
-    parsedQuery = userLatOrOptions.parsedQuery || parsedQuery || {};
-    localOptions = userLatOrOptions.options || options || {};
+    safeParsedQuery = userLatOrOptions.parsedQuery || {};
+    localOptions = userLatOrOptions.options || {};
   }
 
-  const radiusNm = parsedQuery?.radiusNm;
+  if (!Number.isFinite(userLat) || !Number.isFinite(userLon)) {
+    userLat = 30.0;
+    userLon = -81.0;
+  }
+
+  const radiusNm = safeParsedQuery?.radiusNm;
   const maxDistance = radiusNm ?? localOptions.maxDistance ?? 15;
 
   return locations
     .filter((loc) => loc.status?.active)
-    .map((loc) => scoreOneLocation(loc, userLat, userLon, parsedQuery))
+    .map((loc) => scoreOneLocation(loc, userLat, userLon, safeParsedQuery))
     .filter((loc) => {
       if (loc.ranking.distance_unit === "icw_miles") {
         return loc.ranking.distance_icw_miles <= maxDistance;
