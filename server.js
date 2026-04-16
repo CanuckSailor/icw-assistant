@@ -1001,18 +1001,41 @@ function findBestDirectLocation(message, locations) {
   const normalizedMessage = normalizeText(message);
   if (!normalizedMessage) return null;
 
-  const exactNameMatches = locations
-    .filter((loc) => loc?.status?.active)
-    .filter((loc) => {
-      const fullName = normalizeText(loc.name || "");
-      return fullName && normalizedMessage.includes(fullName);
-    });
+  const activeLocations = locations.filter((loc) => loc?.status?.active);
 
-  if (exactNameMatches.length) {
-    exactNameMatches.sort(
+  const exactFullNameMatches = activeLocations.filter((loc) => {
+    const fullName = normalizeText(loc.name || "");
+    return fullName && normalizedMessage.includes(fullName);
+  });
+
+  if (exactFullNameMatches.length) {
+    exactFullNameMatches.sort(
       (a, b) => normalizeText(b.name || "").length - normalizeText(a.name || "").length
     );
-    return exactNameMatches[0];
+    return exactFullNameMatches[0];
+  }
+
+  const exactAliasMatches = activeLocations.filter((loc) => {
+    const aliases = Array.isArray(loc.aliases) ? loc.aliases : [];
+    return aliases.some((alias) => {
+      const normalizedAlias = normalizeText(alias);
+      return normalizedAlias && normalizedMessage.includes(normalizedAlias);
+    });
+  });
+
+  if (exactAliasMatches.length) {
+    exactAliasMatches.sort((a, b) => {
+      const aAliasLength = Math.max(
+        ...(Array.isArray(a.aliases) ? a.aliases : []).map((alias) => normalizeText(alias).length),
+        0
+      );
+      const bAliasLength = Math.max(
+        ...(Array.isArray(b.aliases) ? b.aliases : []).map((alias) => normalizeText(alias).length),
+        0
+      );
+      return bAliasLength - aAliasLength;
+    });
+    return exactAliasMatches[0];
   }
 
   const directMatches = findDirectNameMatches(message, locations);
@@ -1127,8 +1150,6 @@ function annapolisShortlistPrune(rankedLocations, message, parsed, searchCenter)
   if (!pruned.length) {
     return rankedLocations;
   }
-
-  console.log("ANNAPOLIS PRUNE ACTIVE:", pruned.map((loc) => loc.name));
 
   return pruned
     .sort((a, b) => {
