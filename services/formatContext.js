@@ -123,6 +123,35 @@ function formatCautions(location) {
   return lines;
 }
 
+function isBayLikeSegment(location) {
+  const segment = String(location.geo?.segment || "").toLowerCase();
+  const blob = [
+    segment,
+    String(location.region || "").toLowerCase(),
+    String(location.waterbody || "").toLowerCase(),
+    ...(Array.isArray(location.nearby_places) ? location.nearby_places.map((x) => String(x).toLowerCase()) : [])
+  ].join(" ");
+
+  return (
+    blob.includes("annapolis") ||
+    blob.includes("eastport") ||
+    blob.includes("back creek") ||
+    blob.includes("spa creek") ||
+    blob.includes("baltimore") ||
+    blob.includes("canton") ||
+    blob.includes("fells point") ||
+    blob.includes("inner harbor") ||
+    blob.includes("chesapeake") ||
+    blob.includes("solomons") ||
+    blob.includes("deltaville") ||
+    blob.includes("urbanna") ||
+    blob.includes("reedville") ||
+    blob.includes("norfolk") ||
+    blob.includes("portsmouth") ||
+    blob.includes("bay")
+  );
+}
+
 function formatDistance(location) {
   if (location.ranking?.distance_unit === "icw_miles") {
     return `Distance from requested stopping point: ${location.ranking.distance_icw_miles} ICW miles`;
@@ -204,6 +233,12 @@ function formatOneLocation(location) {
   if (location.vessel_fit) {
     lines.push(
       `Vessel fit: big boat friendly=${location.vessel_fit?.big_boat_friendly}, max LOA=${location.vessel_fit?.max_comfortable_loa_ft ?? "unknown"}, handling difficulty=${location.vessel_fit?.dock_handling_difficulty_score ?? "unknown"}`
+    );
+  }
+
+  if (isBayLikeSegment(location)) {
+    lines.push(
+      "Bay note: This is a Chesapeake/Bay-context candidate. Prefer nautical-mile distance and Bay cruising framing rather than generic ICW mile-marker framing unless the user explicitly asked an ICW MM question."
     );
   }
 
