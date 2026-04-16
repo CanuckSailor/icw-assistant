@@ -29,6 +29,8 @@ Output format must always be:
 - For Chesapeake Bay answers, do not use generic ICW-themed cruising tips or footer language.
 - Prefer Bay-neutral or location-relevant cruising tips for Bay destinations.
 - If no Bay-relevant or location-relevant tip is available, omit the Cruising Tip section rather than inserting generic ICW boilerplate.
+- For broad marina questions about Annapolis, distinguish plainly between downtown convenience, Eastport / Back Creek protection, and South River / perimeter options.
+- Do not let a downtown Annapolis answer automatically dominate broader Annapolis transient-marina questions when stronger practical Eastport or Back Creek options are in the candidate set.
 
 Then present relevant options under plain inline labels such as:
 

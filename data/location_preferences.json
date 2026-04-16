@@ -82,5 +82,111 @@
     ],
     "deprioritize_penalty": 0.4,
     "prompt_guidance": "For practical fuel questions in the Savannah / Thunderbolt / Skidaway stretch, treat Isle of Hope and the Thunderbolt marinas as the primary passing-cruiser answers before Delegal Creek Marina. Delegal Creek is off the ICW, runs through a shoaling approach, and should not be framed as the convenient default fuel stop."
+  },
+  {
+    "id": "annapolis-broad-transient-guidance",
+    "place_aliases": [
+      "annapolis",
+      "annapolis md",
+      "annapolis maryland",
+      "eastport",
+      "back creek",
+      "annapolis harbor",
+      "annapolis harbour",
+      "spa creek"
+    ],
+    "query_tags": [
+      "marina",
+      "marinas",
+      "transient",
+      "transient slips",
+      "dock",
+      "docks",
+      "overnight",
+      "best transient",
+      "best marina"
+    ],
+    "prefer_matches": [
+      "horn point harbor marina",
+      "the marina at nautilus point",
+      "annapolis landing marina",
+      "annapolis city marina"
+    ],
+    "prefer_bonus": 0.34,
+    "deprioritize_matches": [
+      "liberty marina",
+      "london towne marina",
+      "bert jabin yacht yard"
+    ],
+    "deprioritize_penalty": 0.28,
+    "prompt_guidance": "For broad marina and transient questions about Annapolis, lead with the core practical transient set. Treat Horn Point Harbor as the bigger-boat and better-protected Eastport answer, Nautilus Point as the balanced Back Creek transient answer, Annapolis Landing as the practical fuel and water-taxi answer, and Annapolis City Marina as the downtown convenience answer. Do not let Liberty Marina, London Towne Marina, or Bert Jabin Yacht Yard crowd out the main Annapolis transient set unless the user's wording clearly points toward outer or yard-oriented options."
+  },
+  {
+    "id": "annapolis-fuel-guidance",
+    "place_aliases": [
+      "annapolis",
+      "annapolis md",
+      "annapolis maryland",
+      "eastport",
+      "back creek",
+      "annapolis harbor",
+      "annapolis harbour",
+      "spa creek"
+    ],
+    "query_tags": [
+      "fuel",
+      "diesel",
+      "gas",
+      "marine gas",
+      "propane"
+    ],
+    "prefer_matches": [
+      "annapolis landing marina",
+      "annapolis city marina"
+    ],
+    "prefer_bonus": 0.42,
+    "deprioritize_matches": [
+      "liberty marina",
+      "london towne marina",
+      "bert jabin yacht yard"
+    ],
+    "deprioritize_penalty": 0.34,
+    "prompt_guidance": "For fuel-marina questions about Annapolis, lead with Annapolis Landing Marina and Annapolis City Marina as the core practical answers. Only bring in Liberty Marina as a secondary farther-out option if the user wants more choices or specifically values yard capability. Do not let non-core perimeter facilities dominate ordinary Annapolis fuel answers."
+  },
+  {
+    "id": "annapolis-quiet-guidance",
+    "place_aliases": [
+      "annapolis",
+      "annapolis md",
+      "annapolis maryland",
+      "eastport",
+      "back creek",
+      "annapolis harbor",
+      "annapolis harbour",
+      "spa creek"
+    ],
+    "query_tags": [
+      "quiet",
+      "quiet marina",
+      "quiet night",
+      "weather wait",
+      "protected",
+      "protection",
+      "calm"
+    ],
+    "prefer_matches": [
+      "horn point harbor marina",
+      "annapolis landing marina",
+      "the marina at nautilus point"
+    ],
+    "prefer_bonus": 0.4,
+    "deprioritize_matches": [
+      "annapolis city marina",
+      "liberty marina",
+      "london towne marina",
+      "bert jabin yacht yard"
+    ],
+    "deprioritize_penalty": 0.26,
+    "prompt_guidance": "For quiet-marina questions about Annapolis, lead with Horn Point Harbor, Annapolis Landing, and Nautilus Point. Annapolis City Marina may be mentioned as the downtown convenience choice but should not dominate quiet-stay answers. Do not let Bert Jabin Yacht Yard or outer perimeter facilities crowd out the core protected transient Annapolis options unless the user specifically asks for yard capability."
   }
 ]

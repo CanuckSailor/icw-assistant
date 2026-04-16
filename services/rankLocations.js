@@ -22,6 +22,108 @@ function clamp(value, min = 0, max = 1) {
   return Math.max(min, Math.min(max, value));
 }
 
+function normalizeText(text) {
+  return String(text || "")
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9\s]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function getLocationTextBlob(location) {
+  return normalizeText([
+    location.name || "",
+    location.region || "",
+    location.waterbody || "",
+    location.geo?.segment || "",
+    ...(Array.isArray(location.nearby_places) ? location.nearby_places : []),
+    ...(Array.isArray(location.aliases) ? location.aliases : []),
+    ...(Array.isArray(location.search_terms) ? location.search_terms : [])
+  ].join(" "));
+}
+
+function isAnnapolisContext(rawQuery = "", location = null) {
+  const q = normalizeText(rawQuery);
+  const locationBlob = location ? getLocationTextBlob(location) : "";
+
+  const annapolisTerms = [
+    "annapolis",
+    "eastport",
+    "back creek",
+    "spa creek",
+    "annapolis harbor",
+    "annapolis harbour"
+  ];
+
+  return annapolisTerms.some((term) => q.includes(term) || locationBlob.includes(term));
+}
+
+function isFuelQuery(parsedQuery = {}, rawQuery = "") {
+  const q = normalizeText(rawQuery);
+  return Boolean(
+    parsedQuery?.flags?.wantsFuel ||
+    /\bfuel\b|\bdiesel\b|\bgas\b|\bmarine gas\b|\bpropane\b/.test(q)
+  );
+}
+
+function isQuietQuery(parsedQuery = {}, rawQuery = "") {
+  const q = normalizeText(rawQuery);
+  return Boolean(
+    parsedQuery?.flags?.wantsQuiet ||
+    parsedQuery?.flags?.wantsProtection ||
+    parsedQuery?.intent === "quiet_night" ||
+    parsedQuery?.intent === "weather_wait" ||
+    /\bquiet\b|\bprotected\b|\bprotection\b|\bcalm\b|\bweather wait\b/.test(q)
+  );
+}
+
+function isBroadTransientQuery(parsedQuery = {}, rawQuery = "") {
+  const q = normalizeText(rawQuery);
+  return Boolean(
+    parsedQuery?.intent === "overnight_stop" ||
+    /\btransient\b|\btransient slips\b|\bbest transient\b|\bovernight\b|\bmarinas\b|\bmarina\b/.test(q)
+  );
+}
+
+function isWorkingYardLike(location) {
+  const blob = getLocationTextBlob(location);
+  return (
+    blob.includes("yacht yard") ||
+    blob.includes("boatyard") ||
+    blob.includes("shipyard") ||
+    blob.includes("yard")
+  );
+}
+
+function isPerimeterAnnapolisOption(location) {
+  const blob = getLocationTextBlob(location);
+  return (
+    blob.includes("liberty marina") ||
+    blob.includes("london towne marina") ||
+    blob.includes("bert jabin yacht yard")
+  );
+}
+
+function isCoreAnnapolisTransientOption(location) {
+  const blob = getLocationTextBlob(location);
+  return (
+    blob.includes("annapolis city marina") ||
+    blob.includes("horn point harbor marina") ||
+    blob.includes("annapolis landing marina") ||
+    blob.includes("marina at nautilus point") ||
+    blob.includes("the marina at nautilus point")
+  );
+}
+
+function hasFuelSignal(location) {
+  const access = location.access || {};
+  if (access.fuel === true) return true;
+
+  const blob = normalizeText(JSON.stringify(location));
+  return /\bfuel\b|\bdiesel\b|\bgas\b|\bmarine gas\b|\bpropane\b/.test(blob);
+}
+
 function getReferenceDistance(location, userLat, userLon, parsedQuery = {}) {
   const requestedMm = parsedQuery?.referenceMileMarker;
   const locationMm = location.geo?.icw_mile;
@@ -99,7 +201,7 @@ function scoreConvenience(location, flags = {}) {
   }
 
   if (flags.wantsFuel) {
-    score += location.access?.fuel ? 0.15 : -0.2;
+    score += hasFuelSignal(location) ? 0.18 : -0.24;
   }
 
   if (flags.wantsEasyShoreAccess) {
@@ -243,7 +345,7 @@ function policyConfidencePenalty(location, parsedQuery = {}) {
 function serviceBoost(location, flags = {}) {
   let boost = 1.0;
 
-  if (flags.wantsFuel && location.access?.fuel) boost += 0.06;
+  if (flags.wantsFuel && hasFuelSignal(location)) boost += 0.08;
   if (flags.wantsPumpout && location.access?.pumpout) boost += 0.05;
   if (flags.wantsLaundry && location.access?.laundry) boost += 0.04;
   if (flags.wantsShowers && location.access?.showers) boost += 0.04;
@@ -276,6 +378,66 @@ function cautionPenalty(location) {
   return clamp(penalty, 0.7, 1.0);
 }
 
+function specialContextMultiplier(location, parsedQuery = {}, rawQuery = "") {
+  let mult = 1.0;
+  const annapolis = isAnnapolisContext(rawQuery, location);
+  const fuelQuery = isFuelQuery(parsedQuery, rawQuery);
+  const quietQuery = isQuietQuery(parsedQuery, rawQuery);
+  const transientQuery = isBroadTransientQuery(parsedQuery, rawQuery);
+
+  if (annapolis) {
+    if (isCoreAnnapolisTransientOption(location)) {
+      mult *= 1.08;
+    }
+
+    if (fuelQuery) {
+      if (!hasFuelSignal(location)) {
+        mult *= 0.05;
+      }
+
+      const blob = getLocationTextBlob(location);
+      if (blob.includes("annapolis landing marina")) mult *= 1.18;
+      if (blob.includes("annapolis city marina")) mult *= 1.12;
+      if (blob.includes("liberty marina")) mult *= 0.55;
+      if (blob.includes("port annapolis marina")) mult *= 0.2;
+      if (blob.includes("bert jabin yacht yard")) mult *= 0.25;
+      if (blob.includes("london towne marina")) mult *= 0.35;
+    }
+
+    if (quietQuery) {
+      const blob = getLocationTextBlob(location);
+      if (blob.includes("horn point harbor marina")) mult *= 1.2;
+      if (blob.includes("annapolis landing marina")) mult *= 1.16;
+      if (blob.includes("marina at nautilus point")) mult *= 1.12;
+      if (blob.includes("annapolis city marina")) mult *= 0.72;
+      if (blob.includes("bert jabin yacht yard")) mult *= 0.4;
+      if (blob.includes("liberty marina")) mult *= 0.65;
+      if (blob.includes("london towne marina")) mult *= 0.55;
+    }
+
+    if (transientQuery && !fuelQuery && !quietQuery) {
+      const blob = getLocationTextBlob(location);
+      if (blob.includes("horn point harbor marina")) mult *= 1.18;
+      if (blob.includes("marina at nautilus point")) mult *= 1.14;
+      if (blob.includes("annapolis landing marina")) mult *= 1.12;
+      if (blob.includes("annapolis city marina")) mult *= 0.94;
+      if (blob.includes("bert jabin yacht yard")) mult *= 0.45;
+      if (blob.includes("liberty marina")) mult *= 0.6;
+      if (blob.includes("london towne marina")) mult *= 0.5;
+    }
+  }
+
+  if (isWorkingYardLike(location) && (quietQuery || transientQuery) && !fuelQuery) {
+    mult *= 0.82;
+  }
+
+  if (isPerimeterAnnapolisOption(location) && annapolis) {
+    mult *= 0.86;
+  }
+
+  return mult;
+}
+
 function buildExplanation(location, parts) {
   const reasons = [];
 
@@ -300,7 +462,7 @@ function buildExplanation(location, parts) {
   return reasons;
 }
 
-function scoreOneLocation(location, userLat, userLon, parsedQuery = {}) {
+function scoreOneLocation(location, userLat, userLon, parsedQuery = {}, rawQuery = "") {
   const refDistance = getReferenceDistance(location, userLat, userLon, parsedQuery);
   const distanceValue = refDistance.value;
 
@@ -320,6 +482,7 @@ function scoreOneLocation(location, userLat, userLon, parsedQuery = {}) {
   const policyPenalty = policyConfidencePenalty(location, parsedQuery);
   const serviceMatchBoost = serviceBoost(location, parsedQuery.flags || {});
   const operationalPenalty = cautionPenalty(location);
+  const contextMultiplier = specialContextMultiplier(location, parsedQuery, rawQuery);
 
   let finalScore =
     0.30 * distanceScore +
@@ -340,7 +503,8 @@ function scoreOneLocation(location, userLat, userLon, parsedQuery = {}) {
     budgetBoost *
     policyPenalty *
     serviceMatchBoost *
-    operationalPenalty;
+    operationalPenalty *
+    contextMultiplier;
 
   const parts = {
     distanceScore,
@@ -358,7 +522,8 @@ function scoreOneLocation(location, userLat, userLon, parsedQuery = {}) {
     budgetBoost,
     policyPenalty,
     serviceMatchBoost,
-    operationalPenalty
+    operationalPenalty,
+    contextMultiplier
   };
 
   return {
@@ -379,12 +544,14 @@ function rankLocations(locations, userLatOrOptions, userLon, parsedQuery = {}, o
   let userLat = userLatOrOptions;
   let localOptions = options || {};
   let safeParsedQuery = parsedQuery || {};
+  let rawQuery = "";
 
   if (userLatOrOptions && typeof userLatOrOptions === "object" && !Array.isArray(userLatOrOptions)) {
     userLat = Number(userLatOrOptions.lat);
     userLon = Number(userLatOrOptions.lon);
     safeParsedQuery = userLatOrOptions.parsedQuery || {};
     localOptions = userLatOrOptions.options || {};
+    rawQuery = userLatOrOptions.rawQuery || "";
   }
 
   if (!Number.isFinite(userLat) || !Number.isFinite(userLon)) {
@@ -395,9 +562,15 @@ function rankLocations(locations, userLatOrOptions, userLon, parsedQuery = {}, o
   const radiusNm = safeParsedQuery?.radiusNm;
   const maxDistance = radiusNm ?? localOptions.maxDistance ?? 15;
 
+  const fuelQuery = isFuelQuery(safeParsedQuery, rawQuery);
+
   return locations
     .filter((loc) => loc.status?.active)
-    .map((loc) => scoreOneLocation(loc, userLat, userLon, safeParsedQuery))
+    .filter((loc) => {
+      if (!fuelQuery) return true;
+      return hasFuelSignal(loc);
+    })
+    .map((loc) => scoreOneLocation(loc, userLat, userLon, safeParsedQuery, rawQuery))
     .filter((loc) => {
       if (loc.ranking.distance_unit === "icw_miles") {
         return loc.ranking.distance_icw_miles <= maxDistance;

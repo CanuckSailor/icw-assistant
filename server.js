@@ -411,7 +411,8 @@ function inferOperationalIntent(message) {
         q
       ),
     marina: /\bmarina\b|\bmarinas\b|\bdock\b|\bdocks\b|\bslip\b|\bslips\b|\btransient\b|\bdockage\b/.test(q),
-    town: /\btown\b|\bwalkable\b|\brestaurants\b|\bgroceries\b|\bashore\b/.test(q)
+    town: /\btown\b|\bwalkable\b|\brestaurants\b|\bgroceries\b|\bashore\b/.test(q),
+    repairs: /\brepair\b|\brepairs\b|\byard\b|\bboatyard\b|\byacht yard\b/.test(q)
   };
 }
 
@@ -1019,6 +1020,130 @@ function findBestDirectLocation(message, locations) {
   return directMatches[0];
 }
 
+function isAnnapolisQuery(message = "", searchCenter = null) {
+  const q = normalizeText(message);
+  const placeName = normalizeText(searchCenter?.placeName || "");
+  const sidebarRegion = normalizeText(searchCenter?.sidebarRegion || "");
+
+  return (
+    q.includes("annapolis") ||
+    q.includes("eastport") ||
+    q.includes("back creek") ||
+    q.includes("spa creek") ||
+    placeName.includes("annapolis") ||
+    sidebarRegion.includes("annapolis")
+  );
+}
+
+function isFuelQuery(message = "", parsed = {}) {
+  const q = normalizeText(message);
+  return Boolean(
+    parsed?.flags?.wantsFuel ||
+    /\bfuel\b|\bdiesel\b|\bgas\b|\bmarine gas\b|\bpropane\b/.test(q)
+  );
+}
+
+function isQuietQuery(message = "", parsed = {}) {
+  const q = normalizeText(message);
+  return Boolean(
+    parsed?.flags?.wantsQuiet ||
+    parsed?.flags?.wantsProtection ||
+    parsed?.intent === "quiet_night" ||
+    parsed?.intent === "weather_wait" ||
+    /\bquiet\b|\bprotected\b|\bprotection\b|\bcalm\b|\bweather wait\b/.test(q)
+  );
+}
+
+function isBroadTransientQuery(message = "", parsed = {}) {
+  const q = normalizeText(message);
+  return Boolean(
+    parsed?.intent === "overnight_stop" ||
+    /\btransient\b|\btransient slips\b|\bbest transient\b|\bbest marina\b|\bovernight\b|\bmarina\b|\bmarinas\b/.test(q)
+  );
+}
+
+function isRepairOrYardQuery(message = "", parsed = {}) {
+  const q = normalizeText(message);
+  return Boolean(
+    parsed?.flags?.wantsRepairs ||
+    /\brepair\b|\brepairs\b|\byard\b|\bboatyard\b|\byacht yard\b/.test(q)
+  );
+}
+
+function annapolisShortlistPrune(rankedLocations, message, parsed, searchCenter) {
+  if (!Array.isArray(rankedLocations) || rankedLocations.length === 0) return rankedLocations;
+  if (!isAnnapolisQuery(message, searchCenter)) return rankedLocations;
+
+  const fuelQuery = isFuelQuery(message, parsed);
+  const quietQuery = isQuietQuery(message, parsed);
+  const transientQuery = isBroadTransientQuery(message, parsed);
+  const yardQuery = isRepairOrYardQuery(message, parsed);
+
+  const normalizedById = rankedLocations.map((loc) => ({
+    ...loc,
+    _normName: normalizeText(loc.name || "")
+  }));
+
+  let allowedNames = null;
+
+  if (fuelQuery) {
+    allowedNames = [
+      "annapolis city marina",
+      "annapolis landing marina"
+    ];
+  } else if (quietQuery) {
+    allowedNames = [
+      "horn point harbor marina",
+      "annapolis landing marina",
+      "the marina at nautilus point"
+    ];
+
+    if (yardQuery) {
+      allowedNames.push("bert jabin yacht yard");
+    }
+  } else if (transientQuery) {
+    allowedNames = [
+      "horn point harbor marina",
+      "the marina at nautilus point",
+      "annapolis landing marina",
+      "annapolis city marina"
+    ];
+  } else {
+    allowedNames = [
+      "horn point harbor marina",
+      "the marina at nautilus point",
+      "annapolis landing marina",
+      "annapolis city marina"
+    ];
+  }
+
+  let pruned = normalizedById.filter((loc) => allowedNames.includes(loc._normName));
+
+  if (fuelQuery && pruned.length < 2) {
+    const liberty = normalizedById.find((loc) => loc._normName === "liberty marina");
+    if (liberty) pruned.push(liberty);
+  }
+
+  if (!pruned.length) {
+    return rankedLocations;
+  }
+
+  console.log("ANNAPOLIS PRUNE ACTIVE:", pruned.map((loc) => loc.name));
+
+  return pruned
+    .sort((a, b) => {
+      const aIndex = allowedNames.indexOf(a._normName);
+      const bIndex = allowedNames.indexOf(b._normName);
+
+      if (aIndex !== -1 && bIndex !== -1 && aIndex !== bIndex) {
+        return aIndex - bIndex;
+      }
+
+      return Number(b.ranking?.final_score || 0) - Number(a.ranking?.final_score || 0);
+    })
+    .map(({ _normName, ...loc }) => loc);
+}
+
 async function buildAnswerFromOpenAI({
   userMessage,
   candidateLocations,
@@ -1098,6 +1223,7 @@ app.post("/api/chat", async (req, res) => {
     });
 
     rankedLocations = applyQuerySpecificRankingBoosts(rankedLocations, userMessage, searchCenter);
+    rankedLocations = annapolisShortlistPrune(rankedLocations, userMessage, parsed, searchCenter);
 
     if (parsed?.requestedTypes?.length) {
       rankedLocations = filterByRequestedTypes(rankedLocations, parsed.requestedTypes);
