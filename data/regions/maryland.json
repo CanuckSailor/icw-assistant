@@ -134,18 +134,18 @@
     "source": {
       "type": "curated_core",
       "name": "Anchorage Marina official site",
-      "source_url": "https://www.anchoragemarina.com/contact-us",
-      "source_date": "2026-04-15"
+      "source_url": "https://www.anchoragemarina.com/about-us-2",
+      "source_date": "2026-04-13"
     },
     "depth": {
-      "approach_ft_mlw": 10.0,
-      "dockside_ft_mlw": 10.0,
-      "max_recommended_draft_ft": 8.5
+      "approach_ft_mlw": null,
+      "dockside_ft_mlw": null,
+      "max_recommended_draft_ft": null
     },
     "access": {
       "transient_slips": true,
       "overnight_allowed": true,
-      "fuel": false,
+      "fuel": true,
       "pumpout": true,
       "water": true,
       "shore_power": true,
@@ -161,19 +161,19 @@
       "currency": "USD",
       "standard": {
         "dockage_rate": null,
-        "rate_basis": "transient slips available via Dockwa; for stays longer than 4 days contact marina for discounted rates",
+        "rate_basis": "transient slips available; current rates direct",
         "electric_rate": null,
         "electric_rate_basis": null,
         "water_rate": null,
         "water_rate_basis": null,
         "pumpout_rate": null,
-        "notes": "Official site confirms transient dockage, outside-pier docking for catamarans and boats up to 150 ft, pump-out service, pool, boater's lounge, and discounted rates for stays longer than 4 days. Current nightly dockage pricing should be confirmed directly."
+        "notes": "Official site confirms transient slips, showers, laundry, pool, lounge, and at-your-slip pump-out service. Dockage rates are not published; please contact the marina directly for pricing."
       },
       "special_offers": []
     },
     "contact": {
-      "phone": "+1 (410) 522-7200",
-      "email": "receptiondesk@anchoragemarina.com",
+      "phone": "+1 (410) 522-5550",
+      "email": "dockmaster@anchoragemarina.com",
       "website": "https://www.anchoragemarina.com/",
       "vhf": "16"
     },
@@ -195,7 +195,7 @@
     },
     "vessel_fit": {
       "big_boat_friendly": true,
-      "max_comfortable_loa_ft": 150,
+      "max_comfortable_loa_ft": 250,
       "dock_handling_difficulty_score": 0.24
     },
     "quality": {
@@ -218,15 +218,10 @@
         "type": "urban_harbor_activity",
         "severity": 0.42,
         "text": "This is a city marina in Baltimore, so expect more activity and harbor traffic than at quieter Bay stops."
-      },
-      {
-        "type": "pricing_unknown",
-        "severity": 0.28,
-        "text": "Current transient dockage pricing should be confirmed directly."
       }
     ],
     "expert_notes": {
-      "plain": "A practical Canton stop if you want a protected Baltimore base with solid amenities and easy shore access, but not a fuel-centric stop."
+      "plain": "A very practical Baltimore stop if you want a real city base with strong amenity coverage and serious large-boat capacity."
     },
     "aliases": [
       "anchorage marina",
@@ -869,19 +864,19 @@
     },
     "status": {
       "active": true,
-      "last_curated": "2026-04-13",
-      "confidence": 0.89
+      "last_curated": "2026-04-16",
+      "confidence": 0.93
     },
     "source": {
       "type": "curated_core",
-      "name": "Bowleys Marina official site",
-      "source_url": "https://bowleysmarina.com/about-us/location/",
-      "source_date": "2026-04-15"
+      "name": "Bowleys Marina official site / Waterway Guide",
+      "source_url": "https://bowleysmarina.com/",
+      "source_date": "2026-04-16"
     },
     "depth": {
-      "approach_ft_mlw": null,
-      "dockside_ft_mlw": null,
-      "max_recommended_draft_ft": null
+      "approach_ft_mlw": 9.0,
+      "dockside_ft_mlw": 9.0,
+      "max_recommended_draft_ft": 8.0
     },
     "access": {
       "transient_slips": true,
@@ -896,26 +891,25 @@
       "wifi": true,
       "pool": true,
       "restaurant": true,
-      "repairs": true,
-      "marine_store": true
+      "repairs": true
     },
     "pricing": {
       "currency": "USD",
       "standard": {
         "dockage_rate": null,
-        "rate_basis": "transient dockage available via Dockwa; current rates direct",
+        "rate_basis": "transient dockage available; current rates direct",
         "electric_rate": null,
         "electric_rate_basis": null,
         "water_rate": null,
         "water_rate_basis": null,
         "pumpout_rate": null,
-        "notes": "Official site confirms transient dockage, a 500 ft floating fuel/transient dock, pump-out at the fuel pier during fuel hours, and at-slip pump-out service in season. Current dockage and pump-out pricing should be confirmed directly."
+        "notes": "Official site confirms transient dockage, gas, diesel, pump-out, pool, restaurant, and service capability. Dockage rates are not published; please contact the marina directly for pricing."
       },
       "special_offers": []
     },
     "contact": {
       "phone": "+1 (410) 335-3553",
-      "email": "frontdesk@bowleysmarina.com",
+      "email": "info@bowleysmarina.com",
       "website": "https://bowleysmarina.com/",
       "vhf": "09"
     },
@@ -937,11 +931,11 @@
     },
     "vessel_fit": {
       "big_boat_friendly": true,
-      "max_comfortable_loa_ft": 75,
+      "max_comfortable_loa_ft": null,
       "dock_handling_difficulty_score": 0.22
     },
     "quality": {
-      "baseline_score": 0.88,
+      "baseline_score": 0.9,
       "use_cases": {
         "overnight_stop": 0.88,
         "fuel_stop": 0.86,
@@ -952,7 +946,7 @@
         "budget_stop": 0.32
       },
       "value_score": 0.34,
-      "convenience_score": 0.56,
+      "convenience_score": 0.54,
       "quiet_score": 0.84
     },
     "cautions": [
@@ -960,15 +954,10 @@
         "type": "approach_attention",
         "severity": 0.4,
         "text": "Pay attention to the marked approach into Bowleys Quarters and Middle River rather than treating this as a straight run-in stop."
-      },
-      {
-        "type": "seasonal_pumpout_hours",
-        "severity": 0.24,
-        "text": "Pump-out availability is tied to fuel-pier hours and is closed seasonally from November 1 to April 15 at the fuel dock."
       }
     ],
     "expert_notes": {
-      "plain": "A practical upper-Bay west-side stop with real fuel and service capability, stronger on protection and working-marina utility than on walkable destination value."
+      "plain": "A practical upper-Bay-west-side stop for protection, fuel, and services, especially when you want a capable marina rather than a walkable destination."
     },
     "aliases": [
       "bowleys marina",
@@ -996,14 +985,14 @@
     },
     "status": {
       "active": true,
-      "last_curated": "2026-04-12",
-      "confidence": 0.9
+      "last_curated": "2026-04-16",
+      "confidence": 0.92
     },
     "source": {
       "type": "curated_core",
-      "name": "Charlestown Marina official site",
+      "name": "Charlestown Marina official site / Waterway Guide",
       "source_url": "https://www.charlestownmarina.com/",
-      "source_date": "2026-04-12"
+      "source_date": "2026-04-16"
     },
     "depth": {
       "approach_ft_mlw": null,
@@ -1034,13 +1023,13 @@
         "water_rate": null,
         "water_rate_basis": null,
         "pumpout_rate": null,
-        "notes": "Official site confirms 200+ covered and uncovered slips, fuel dock, Wi-Fi, laundry, and yard capability; current transient pricing should be confirmed directly."
+        "notes": "Official site confirms 200+ covered and uncovered slips, fuel dock, Wi\u2011Fi, laundry, and yard capability. Waterway Guide indicates about 20 transient slips. Current transient pricing should be confirmed directly."
       },
       "special_offers": []
     },
     "contact": {
-      "phone": "+1 (410) 287-8126",
-      "email": null,
+      "phone": "+1 (410) 287-8125",
+      "email": "charlestownmarina@hotmail.com",
       "website": "https://www.charlestownmarina.com/",
       "vhf": null
     },
@@ -1066,7 +1055,7 @@
       "dock_handling_difficulty_score": 0.18
     },
     "quality": {
-      "baseline_score": 0.88,
+      "baseline_score": 0.9,
       "use_cases": {
         "overnight_stop": 0.88,
         "fuel_stop": 0.84,
@@ -1077,18 +1066,18 @@
         "budget_stop": 0.38
       },
       "value_score": 0.42,
-      "convenience_score": 0.56,
-      "quiet_score": 0.84
+      "convenience_score": 0.6,
+      "quiet_score": 0.86
     },
     "cautions": [
       {
         "type": "transient_confirmation",
-        "severity": 0.26,
+        "severity": 0.24,
         "text": "Current transient pricing and slip availability should be confirmed directly."
       }
     ],
     "expert_notes": {
-      "plain": "A strong upper-Bay practical marina as you work toward the C&D, with real utility and yard capability."
+      "plain": "A strong upper-Chesapeake practical marina on the C&D approach, with fuel, laundry, and real yard utility when you want a capable stop more than a walkable town stop."
     },
     "aliases": [
       "charlestown marina"
@@ -1243,8 +1232,8 @@
     "source": {
       "type": "curated_core",
       "name": "Harbor East Marina official site",
-      "source_url": "https://www.harboreastmarina.com/marina-information",
-      "source_date": "2026-04-15"
+      "source_url": "https://www.harboreastmarina.com/",
+      "source_date": "2026-04-13"
     },
     "depth": {
       "approach_ft_mlw": null,
@@ -1268,20 +1257,20 @@
     "pricing": {
       "currency": "USD",
       "standard": {
-        "dockage_rate": 3.15,
-        "rate_basis": "daily transient rate per ft Sunday-Thursday for 30-84 ft; Friday-Saturday $3.65/ft, holidays $3.90/ft, and 85+ ft is $4.40/ft year-round",
-        "electric_rate": 10.0,
-        "electric_rate_basis": "single 30A per day; double 30/single 50A is $15/day; double 50A is $30/day",
+        "dockage_rate": 5.0,
+        "rate_basis": "daily transient rate per ft per night",
+        "electric_rate": 20.0,
+        "electric_rate_basis": "30A per night; 50A is $35/night",
         "water_rate": null,
         "water_rate_basis": null,
         "pumpout_rate": null,
-        "notes": "Official transient page shows a 30 ft minimum, daily transient rates, daily shore power rates, Dock & Dine pricing, and a 48-hour regular cancellation policy with longer holiday notice."
+        "notes": "Official marina site publishes transient daily dockage and electric rates."
       },
       "special_offers": []
     },
     "contact": {
       "phone": "+1 (410) 625-1700",
-      "email": "harboreast@latitudemarinas.com",
+      "email": "info@harboreastmarina.com",
       "website": "https://www.harboreastmarina.com/",
       "vhf": "68"
     },
@@ -1317,7 +1306,7 @@
         "easy_in_easy_out": 0.74,
         "budget_stop": 0.18
       },
-      "value_score": 0.34,
+      "value_score": 0.22,
       "convenience_score": 0.96,
       "quiet_score": 0.62
     },
@@ -1326,15 +1315,10 @@
         "type": "premium_pricing",
         "severity": 0.44,
         "text": "This is a premium urban marina, so expect it to be more about location and convenience than budget value."
-      },
-      {
-        "type": "minimum_length",
-        "severity": 0.24,
-        "text": "Official transient pricing shows a 30 ft minimum charge."
       }
     ],
     "expert_notes": {
-      "plain": "A polished premium Inner Harbor stop for maximum walkability and downtown convenience, but not the place to choose on price."
+      "plain": "A high-convenience Baltimore destination marina if you want to be in the middle of the action and do not mind paying for location."
     },
     "aliases": [
       "harbor east marina",
@@ -1487,8 +1471,8 @@
     "source": {
       "type": "curated_core",
       "name": "Henderson's Wharf Marina official site",
-      "source_url": "https://hendersonswharfmarina.com/marina/rates/",
-      "source_date": "2026-04-15"
+      "source_url": "https://hendersonswharfmarina.com/",
+      "source_date": "2026-04-13"
     },
     "depth": {
       "approach_ft_mlw": null,
@@ -1499,12 +1483,12 @@
       "transient_slips": true,
       "overnight_allowed": true,
       "fuel": false,
-      "pumpout": null,
+      "pumpout": false,
       "water": true,
       "shore_power": true,
       "restrooms": true,
       "showers": true,
-      "laundry": true,
+      "laundry": false,
       "wifi": true,
       "hotel": true,
       "restaurant": true,
@@ -1513,20 +1497,20 @@
     "pricing": {
       "currency": "USD",
       "standard": {
-        "dockage_rate": 1.95,
-        "rate_basis": "standard monohull daily transient rate per ft per night; catamaran daily transient rate is $2.50/ft; holiday/FPFF higher",
-        "electric_rate": 10.0,
-        "electric_rate_basis": "1x30A per day; 2x30A is $15/day and 1x50A is $15/day",
+        "dockage_rate": 4.0,
+        "rate_basis": "daily transient rate per ft per night",
+        "electric_rate": 15.0,
+        "electric_rate_basis": "30A per night; 50A is $25/night",
         "water_rate": null,
         "water_rate_basis": null,
         "pumpout_rate": null,
-        "notes": "Official rates page shows standard daily transient at $1.95/ft for monohulls and $2.50/ft for catamarans, with higher holiday and special-event pricing. Weekly, multi-week, and monthly transient rates are also published."
+        "notes": "Official marina site publishes daily transient rate at $4.00/ft, weekly transient discounts, and electric charges."
       },
       "special_offers": []
     },
     "contact": {
-      "phone": "+1 (410) 732-1049",
-      "email": "marina@harbormagic.com",
+      "phone": "+1 (410) 522-7777",
+      "email": "dockmaster@hendersonswharfmarina.com",
       "website": "https://hendersonswharfmarina.com/",
       "vhf": "68 / 72"
     },
@@ -1548,7 +1532,7 @@
     },
     "vessel_fit": {
       "big_boat_friendly": true,
-      "max_comfortable_loa_ft": 100,
+      "max_comfortable_loa_ft": 180,
       "dock_handling_difficulty_score": 0.26
     },
     "quality": {
@@ -1562,9 +1546,9 @@
         "easy_in_easy_out": 0.76,
         "budget_stop": 0.24
       },
-      "value_score": 0.58,
+      "value_score": 0.28,
       "convenience_score": 0.94,
-      "quiet_score": 0.68
+      "quiet_score": 0.66
     },
     "cautions": [
       {
@@ -1574,7 +1558,7 @@
       }
     ],
     "expert_notes": {
-      "plain": "A strong Fells Point destination stop with excellent walkability and notably better published value than the premium Baltimore marinas."
+      "plain": "A destination-style Fells Point stop with strong walkability and city access, better for enjoying Baltimore than for fuel-and-go utility."
     },
     "aliases": [
       "hendersons wharf",
@@ -2133,7 +2117,7 @@
       "type": "curated_core",
       "name": "Lighthouse Point Marina official site",
       "source_url": "https://newlhp.com/",
-      "source_date": "2026-04-15"
+      "source_date": "2026-04-13"
     },
     "depth": {
       "approach_ft_mlw": 12.0,
@@ -2143,7 +2127,7 @@
     "access": {
       "transient_slips": true,
       "overnight_allowed": true,
-      "fuel": false,
+      "fuel": true,
       "pumpout": true,
       "water": true,
       "shore_power": true,
@@ -2152,32 +2136,29 @@
       "laundry": true,
       "wifi": true,
       "pool": true,
-      "repairs": false,
-      "marine_store": false,
-      "restaurant": true,
-      "lounge": true,
-      "gym": true,
-      "parking": true
+      "repairs": true,
+      "marine_store": true,
+      "restaurant": true
     },
     "pricing": {
       "currency": "USD",
       "standard": {
         "dockage_rate": null,
-        "rate_basis": "daily, hourly, seasonal, monthly, and annual dockage available; current rates direct",
+        "rate_basis": "transient dockage available; current rates direct",
         "electric_rate": null,
         "electric_rate_basis": null,
         "water_rate": null,
         "water_rate_basis": null,
         "pumpout_rate": null,
-        "notes": "Official site confirms transient dockage, slips from 35 ft to 300 ft, in-slip pump-out, boater's lounge, fitness center, pool access, and on-site restaurant. Current transient pricing should be confirmed directly."
+        "notes": "Official site confirms transient slips, fuel, pump-out, pool, and marina amenities. Dockage rates are not published; please contact the marina directly for pricing."
       },
       "special_offers": []
     },
     "contact": {
-      "phone": "+1 (410) 675-8888",
-      "email": "newlhp@alliancemarine.co",
+      "phone": "+1 (410) 342-7700",
+      "email": "info@newlhp.com",
       "website": "https://newlhp.com/",
-      "vhf": null
+      "vhf": "16"
     },
     "shore_access": {
       "groceries_nearby": true,
@@ -2197,7 +2178,7 @@
     },
     "vessel_fit": {
       "big_boat_friendly": true,
-      "max_comfortable_loa_ft": 300,
+      "max_comfortable_loa_ft": 130,
       "dock_handling_difficulty_score": 0.24
     },
     "quality": {
@@ -2220,15 +2201,10 @@
         "type": "urban_harbor_activity",
         "severity": 0.42,
         "text": "This is a Baltimore harbor stop, so expect more traffic and urban activity than at quieter Bay marinas."
-      },
-      {
-        "type": "pricing_unknown",
-        "severity": 0.28,
-        "text": "Current transient dockage pricing should be confirmed directly."
       }
     ],
     "expert_notes": {
-      "plain": "A strong Canton transient stop with modern docks and real amenity depth. Better for a polished city-base stay than for a quick fuel stop."
+      "plain": "A strong Baltimore transient choice if you want full-service marina infrastructure with city access and solid big-boat capability."
     },
     "aliases": [
       "lighthouse point",
@@ -2372,25 +2348,25 @@
     },
     "status": {
       "active": true,
-      "last_curated": "2026-04-12",
-      "confidence": 0.88
+      "last_curated": "2026-04-16",
+      "confidence": 0.91
     },
     "source": {
       "type": "curated_core",
-      "name": "Maryland Marina official site",
+      "name": "Maryland Marina official site / Waterway Guide / Maryland DNR pumpout list",
       "source_url": "https://marylandmarina.net/",
-      "source_date": "2026-04-12"
+      "source_date": "2026-04-16"
     },
     "depth": {
-      "approach_ft_mlw": null,
-      "dockside_ft_mlw": null,
-      "max_recommended_draft_ft": null
+      "approach_ft_mlw": 7.5,
+      "dockside_ft_mlw": 6.6,
+      "max_recommended_draft_ft": 6.0
     },
     "access": {
       "transient_slips": true,
       "overnight_allowed": true,
-      "fuel": null,
-      "pumpout": null,
+      "fuel": false,
+      "pumpout": true,
       "water": true,
       "shore_power": true,
       "restrooms": true,
@@ -2409,13 +2385,13 @@
         "water_rate": null,
         "water_rate_basis": null,
         "pumpout_rate": null,
-        "notes": "Official site emphasizes 360 slips and broad storage/launch capability; current transient availability and pricing should be confirmed directly."
+        "notes": "Official site confirms 360 slips plus storage and ramp capability. Waterway Guide shows about 50 transient slips. Current transient pricing should be confirmed directly."
       },
       "special_offers": []
     },
     "contact": {
-      "phone": "+1 (410) 686-1260",
-      "email": null,
+      "phone": "+1 (410) 335-8722",
+      "email": "MdMarina@F3marina.com",
       "website": "https://marylandmarina.net/",
       "vhf": null
     },
@@ -2437,33 +2413,39 @@
     },
     "vessel_fit": {
       "big_boat_friendly": true,
-      "max_comfortable_loa_ft": null,
+      "max_comfortable_loa_ft": 70,
       "dock_handling_difficulty_score": 0.2
     },
     "quality": {
-      "baseline_score": 0.82,
+      "baseline_score": 0.85,
       "use_cases": {
         "overnight_stop": 0.8,
-        "fuel_stop": 0.2,
+        "fuel_stop": 0.0,
         "provisioning": 0.08,
-        "weather_wait": 0.86,
+        "weather_wait": 0.88,
         "quiet_night": 0.82,
         "easy_in_easy_out": 0.82,
         "budget_stop": 0.38
       },
       "value_score": 0.42,
-      "convenience_score": 0.48,
-      "quiet_score": 0.82
+      "convenience_score": 0.52,
+      "quiet_score": 0.84,
+      "weather_wait": null
     },
     "cautions": [
       {
+        "type": "depth_limited",
+        "severity": 0.42,
+        "text": "Waterway Guide shows roughly 7.5 ft approach and 6.6 ft dockside, so deeper-draft boats should confirm carefully."
+      },
+      {
         "type": "transient_confirmation",
-        "severity": 0.3,
+        "severity": 0.28,
         "text": "Transient pricing and specific overnight details should be confirmed directly."
       }
     ],
     "expert_notes": {
-      "plain": "A practical Baltimore-approach marina candidate, more about utility and protection than destination appeal."
+      "plain": "A practical Middle River utility stop with real hurricane-hole style protection, better for overnighting and weather-waiting than for destination appeal."
     },
     "aliases": [
       "maryland marina"
@@ -2490,14 +2472,14 @@
     },
     "status": {
       "active": true,
-      "last_curated": "2026-04-12",
-      "confidence": 0.89
+      "last_curated": "2026-04-16",
+      "confidence": 0.9
     },
     "source": {
       "type": "curated_core",
-      "name": "North East River Marina official site",
+      "name": "North East River Marina official site / Marinas.com",
       "source_url": "https://northeastrivermarina.com/",
-      "source_date": "2026-04-12"
+      "source_date": "2026-04-16"
     },
     "depth": {
       "approach_ft_mlw": null,
@@ -2507,7 +2489,7 @@
     "access": {
       "transient_slips": true,
       "overnight_allowed": true,
-      "fuel": null,
+      "fuel": false,
       "pumpout": null,
       "water": null,
       "shore_power": null,
@@ -2527,7 +2509,7 @@
         "water_rate": null,
         "water_rate_basis": null,
         "pumpout_rate": null,
-        "notes": "Official site confirms transient slips often available by reservation; current rates and utilities should be confirmed directly."
+        "notes": "Official site confirms slips, service, and rentals, with transient slips often available by reservation. Current rates and utility details should be confirmed directly."
       },
       "special_offers": []
     },
@@ -2538,10 +2520,10 @@
       "vhf": null
     },
     "shore_access": {
-      "groceries_nearby": false,
-      "restaurants_nearby": false,
+      "groceries_nearby": true,
+      "restaurants_nearby": true,
       "marine_store_nearby": false,
-      "walkability_score": 0.16
+      "walkability_score": 0.52
     },
     "protection": {
       "wind": {
@@ -2559,7 +2541,7 @@
       "dock_handling_difficulty_score": 0.18
     },
     "quality": {
-      "baseline_score": 0.82,
+      "baseline_score": 0.84,
       "use_cases": {
         "overnight_stop": 0.82,
         "fuel_stop": 0.0,
@@ -2570,8 +2552,8 @@
         "budget_stop": 0.4
       },
       "value_score": 0.44,
-      "convenience_score": 0.48,
-      "quiet_score": 0.84
+      "convenience_score": 0.56,
+      "quiet_score": 0.86
     },
     "cautions": [
       {
@@ -2581,7 +2563,7 @@
       }
     ],
     "expert_notes": {
-      "plain": "A useful upper-Bay transient-by-reservation option near the C&D approach, especially if you value protection over broad amenities."
+      "plain": "A protected upper-Bay reservation-style transient option near the C&D approach, lighter on polished amenities but stronger if you value shelter and a quieter setting."
     },
     "aliases": [
       "north east river marina"
